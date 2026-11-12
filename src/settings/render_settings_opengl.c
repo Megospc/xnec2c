@@ -56,7 +56,9 @@ CONFIG_FIELD_FLT_ASSERT(rc_config.transparency_axes);
 void
 hook_set_msaa(void)
 {
+#ifdef HAVE_OPENGL
   Set_MSAA_Samples(rc_config.opengl_msaa_samples);
+#endif /* HAVE_OPENGL */
   hook_render_redraw();
 }
 
