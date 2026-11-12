@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 16:15+0300\n"
+"POT-Creation-Date: 2026-11-12 17:09+0300\n"
 "PO-Revision-Date: 2025-12-27 16:01-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -3156,61 +3156,50 @@ msgstr "无法为 %s 捕获图像\n"
 msgid "failed to save image %s: %s\n"
 msgstr "保存图像 %s 失败：%s\n"
 
-#: src/callback_func.c:107
-msgid ""
-"The frequency loop is running\n"
-"Are you sure you wish to end the calculation?"
-msgstr ""
-"频率循环正在运行\n"
-"您确定要结束计算吗？"
+#: src/callback_func.c:112 src/callbacks.c:186 src/callbacks.c:520
+#: src/callbacks.c:1675 src/callbacks.c:1845
+msgid "Are you sure you wish to quit xnec2c?"
+msgstr "您确定要退出 xnec2c 吗？"
 
-#: src/callback_func.c:111
-msgid ""
-"The frequency loop is running\n"
-"Are you sure you wish to close this window?"
-msgstr ""
-"频率循环正在运行\n"
-"您确定要关闭此窗口吗？"
-
-#: src/callback_func.c:269
+#: src/callback_func.c:296
 #, c-format
 msgid ""
 "Excitation type %d has no feedpoint: VSWR and impedance plots are hidden.\n"
 msgstr "激励类型 %d 无馈电点：VSWR 与阻抗图已隐藏。\n"
 
-#: src/callback_func.c:333
+#: src/callback_func.c:360
 msgid "View Currents"
 msgstr "查看电流"
 
-#: src/callback_func.c:335
+#: src/callback_func.c:362
 msgid "View Charges"
 msgstr "查看电荷"
 
-#: src/callback_func.c:337
+#: src/callback_func.c:364
 msgid "View Geometry"
 msgstr "查看几何"
 
-#: src/callback_func.c:395
+#: src/callback_func.c:422
 msgid "PNG images (*.png)"
 msgstr "PNG 图像 (*.png)"
 
-#: src/callback_func.c:397
+#: src/callback_func.c:424
 msgid "GNUplot files (*.gplot)"
 msgstr "GNUplot 文件 (*.gplot)"
 
-#: src/callback_func.c:399
+#: src/callback_func.c:426
 msgid "NEC2 files (*.nec)"
 msgstr "NEC2 文件 (*.nec)"
 
-#: src/callback_func.c:401
+#: src/callback_func.c:428
 msgid "Touchstone 1-port files (*.s1p)"
 msgstr "Touchstone 单端口文件 (*.s1p)"
 
-#: src/callback_func.c:403
+#: src/callback_func.c:430
 msgid "Touchstone 2-port files (*.s2p)"
 msgstr "Touchstone 双端口文件 (*.s2p)"
 
-#: src/callback_func.c:405
+#: src/callback_func.c:432
 msgid "Comma-separated CSV files (*.csv)"
 msgstr "逗号分隔 CSV 文件 (*.csv)"
 
@@ -3234,11 +3223,6 @@ msgid ""
 msgstr ""
 "最大增益位于 θ=%.0f°（距 XY 平面 %.0f°）。约定假设波束在 XY 平面内，观测仰角"
 "由微调按钮设置。"
-
-#: src/callbacks.c:186 src/callbacks.c:520 src/callbacks.c:1675
-#: src/callbacks.c:1845
-msgid "Are you sure you wish to quit xnec2c?"
-msgstr "您确定要退出 xnec2c 吗？"
 
 #: src/callbacks.c:290
 msgid ""

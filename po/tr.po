@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 16:15+0300\n"
+"POT-Creation-Date: 2026-11-12 17:09+0300\n"
 "PO-Revision-Date: 2025-12-27 16:01-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -3264,23 +3264,12 @@ msgstr "%s için görüntü yakalanamadı\n"
 msgid "failed to save image %s: %s\n"
 msgstr "%s görüntüsü kaydedilemedi: %s\n"
 
-#: src/callback_func.c:107
-msgid ""
-"The frequency loop is running\n"
-"Are you sure you wish to end the calculation?"
-msgstr ""
-"Frekans döngüsü çalışıyor\n"
-"Hesaplamayı sonlandırmak istediğinizden emin misiniz?"
+#: src/callback_func.c:112 src/callbacks.c:186 src/callbacks.c:520
+#: src/callbacks.c:1675 src/callbacks.c:1845
+msgid "Are you sure you wish to quit xnec2c?"
+msgstr "xnec2c'den çıkmak istediğinizden emin misiniz?"
 
-#: src/callback_func.c:111
-msgid ""
-"The frequency loop is running\n"
-"Are you sure you wish to close this window?"
-msgstr ""
-"Frekans döngüsü çalışıyor\n"
-"Bu pencereyi kapatmak istediğinizden emin misiniz?"
-
-#: src/callback_func.c:269
+#: src/callback_func.c:296
 #, c-format
 msgid ""
 "Excitation type %d has no feedpoint: VSWR and impedance plots are hidden.\n"
@@ -3288,39 +3277,39 @@ msgstr ""
 "Uyarım türü %d besleme noktasına sahip değil: VSWR ve empedans grafikleri "
 "gizlendi.\n"
 
-#: src/callback_func.c:333
+#: src/callback_func.c:360
 msgid "View Currents"
 msgstr "Akımları Görüntüle"
 
-#: src/callback_func.c:335
+#: src/callback_func.c:362
 msgid "View Charges"
 msgstr "Yükleri Görüntüle"
 
-#: src/callback_func.c:337
+#: src/callback_func.c:364
 msgid "View Geometry"
 msgstr "Geometriyi Görüntüle"
 
-#: src/callback_func.c:395
+#: src/callback_func.c:422
 msgid "PNG images (*.png)"
 msgstr "PNG görüntüleri (*.png)"
 
-#: src/callback_func.c:397
+#: src/callback_func.c:424
 msgid "GNUplot files (*.gplot)"
 msgstr "GNUplot dosyaları (*.gplot)"
 
-#: src/callback_func.c:399
+#: src/callback_func.c:426
 msgid "NEC2 files (*.nec)"
 msgstr "NEC2 dosyaları (*.nec)"
 
-#: src/callback_func.c:401
+#: src/callback_func.c:428
 msgid "Touchstone 1-port files (*.s1p)"
 msgstr "Touchstone 1-port dosyaları (*.s1p)"
 
-#: src/callback_func.c:403
+#: src/callback_func.c:430
 msgid "Touchstone 2-port files (*.s2p)"
 msgstr "Touchstone 2-port dosyaları (*.s2p)"
 
-#: src/callback_func.c:405
+#: src/callback_func.c:432
 msgid "Comma-separated CSV files (*.csv)"
 msgstr "Virgülle ayrılmış CSV dosyaları (*.csv)"
 
@@ -3346,11 +3335,6 @@ msgstr ""
 "Maksimum kazanç θ=%.0f° konumunda (XY düzleminden %.0f°). Kural, ışını XY "
 "düzleminde ve gözlem yükseltisini döndürme düğmesiyle ayarlanmış olarak "
 "varsayar."
-
-#: src/callbacks.c:186 src/callbacks.c:520 src/callbacks.c:1675
-#: src/callbacks.c:1845
-msgid "Are you sure you wish to quit xnec2c?"
-msgstr "xnec2c'den çıkmak istediğinizden emin misiniz?"
 
 #: src/callbacks.c:290
 msgid ""

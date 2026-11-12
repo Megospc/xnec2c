@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 16:15+0300\n"
+"POT-Creation-Date: 2026-11-12 17:09+0300\n"
 "PO-Revision-Date: 2025-12-28 20:37-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -3311,23 +3311,12 @@ msgstr "capturarea imaginii pentru %s a eșuat\n"
 msgid "failed to save image %s: %s\n"
 msgstr "salvarea imaginii %s a eșuat: %s\n"
 
-#: src/callback_func.c:107
-msgid ""
-"The frequency loop is running\n"
-"Are you sure you wish to end the calculation?"
-msgstr ""
-"Bucla de frecvență rulează\n"
-"Sunteți sigur că doriți să încheiați calculul?"
+#: src/callback_func.c:112 src/callbacks.c:186 src/callbacks.c:520
+#: src/callbacks.c:1675 src/callbacks.c:1845
+msgid "Are you sure you wish to quit xnec2c?"
+msgstr "Sunteți sigur că doriți să ieșiți din xnec2c?"
 
-#: src/callback_func.c:111
-msgid ""
-"The frequency loop is running\n"
-"Are you sure you wish to close this window?"
-msgstr ""
-"Bucla de frecvență rulează\n"
-"Sunteți sigur că doriți să închideți această fereastră?"
-
-#: src/callback_func.c:269
+#: src/callback_func.c:296
 #, c-format
 msgid ""
 "Excitation type %d has no feedpoint: VSWR and impedance plots are hidden.\n"
@@ -3335,39 +3324,39 @@ msgstr ""
 "Tipul de excitație %d nu are punct de alimentare: graficele VSWR și "
 "impedanță sunt ascunse.\n"
 
-#: src/callback_func.c:333
+#: src/callback_func.c:360
 msgid "View Currents"
 msgstr "Vizualizare curenți"
 
-#: src/callback_func.c:335
+#: src/callback_func.c:362
 msgid "View Charges"
 msgstr "Vizualizare sarcini"
 
-#: src/callback_func.c:337
+#: src/callback_func.c:364
 msgid "View Geometry"
 msgstr "Vizualizare geometrie"
 
-#: src/callback_func.c:395
+#: src/callback_func.c:422
 msgid "PNG images (*.png)"
 msgstr "Imagini PNG (*.png)"
 
-#: src/callback_func.c:397
+#: src/callback_func.c:424
 msgid "GNUplot files (*.gplot)"
 msgstr "Fișiere GNUplot (*.gplot)"
 
-#: src/callback_func.c:399
+#: src/callback_func.c:426
 msgid "NEC2 files (*.nec)"
 msgstr "Fișiere NEC2 (*.nec)"
 
-#: src/callback_func.c:401
+#: src/callback_func.c:428
 msgid "Touchstone 1-port files (*.s1p)"
 msgstr "Fișiere Touchstone 1-port (*.s1p)"
 
-#: src/callback_func.c:403
+#: src/callback_func.c:430
 msgid "Touchstone 2-port files (*.s2p)"
 msgstr "Fișiere Touchstone 2-port (*.s2p)"
 
-#: src/callback_func.c:405
+#: src/callback_func.c:432
 msgid "Comma-separated CSV files (*.csv)"
 msgstr "Fișiere CSV separate prin virgulă (*.csv)"
 
@@ -3392,11 +3381,6 @@ msgid ""
 msgstr ""
 "Câștig maxim la θ=%.0f° (%.0f° de la planul XY). Convenția presupune "
 "fasciculul în planul XY cu elevația de observare setată prin butonul rotativ."
-
-#: src/callbacks.c:186 src/callbacks.c:520 src/callbacks.c:1675
-#: src/callbacks.c:1845
-msgid "Are you sure you wish to quit xnec2c?"
-msgstr "Sunteți sigur că doriți să ieșiți din xnec2c?"
 
 #: src/callbacks.c:290
 msgid ""

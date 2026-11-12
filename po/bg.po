@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 16:15+0300\n"
+"POT-Creation-Date: 2026-11-12 17:09+0300\n"
 "PO-Revision-Date: 2025-12-28 20:37-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -3280,23 +3280,12 @@ msgstr "Неуспешно заснемане на изображение за %
 msgid "failed to save image %s: %s\n"
 msgstr "Неуспешно записване на изображението %s: %s\n"
 
-#: src/callback_func.c:107
-msgid ""
-"The frequency loop is running\n"
-"Are you sure you wish to end the calculation?"
-msgstr ""
-"Честотният цикъл се изпълнява\n"
-"Сигурни ли сте, че искате да прекратите изчислението?"
+#: src/callback_func.c:112 src/callbacks.c:186 src/callbacks.c:520
+#: src/callbacks.c:1675 src/callbacks.c:1845
+msgid "Are you sure you wish to quit xnec2c?"
+msgstr "Сигурни ли сте, че искате да излезете от xnec2c?"
 
-#: src/callback_func.c:111
-msgid ""
-"The frequency loop is running\n"
-"Are you sure you wish to close this window?"
-msgstr ""
-"Честотният цикъл се изпълнява\n"
-"Сигурни ли сте, че искате да затворите този прозорец?"
-
-#: src/callback_func.c:269
+#: src/callback_func.c:296
 #, c-format
 msgid ""
 "Excitation type %d has no feedpoint: VSWR and impedance plots are hidden.\n"
@@ -3304,39 +3293,39 @@ msgstr ""
 "Тип на възбуждане %d няма точка на захранване: графиките на VSWR и импеданс "
 "са скрити.\n"
 
-#: src/callback_func.c:333
+#: src/callback_func.c:360
 msgid "View Currents"
 msgstr "Преглед на токовете"
 
-#: src/callback_func.c:335
+#: src/callback_func.c:362
 msgid "View Charges"
 msgstr "Преглед на зарядите"
 
-#: src/callback_func.c:337
+#: src/callback_func.c:364
 msgid "View Geometry"
 msgstr "Преглед на геометрията"
 
-#: src/callback_func.c:395
+#: src/callback_func.c:422
 msgid "PNG images (*.png)"
 msgstr "PNG изображения (*.png)"
 
-#: src/callback_func.c:397
+#: src/callback_func.c:424
 msgid "GNUplot files (*.gplot)"
 msgstr "GNUplot файлове (*.gplot)"
 
-#: src/callback_func.c:399
+#: src/callback_func.c:426
 msgid "NEC2 files (*.nec)"
 msgstr "NEC2 файлове (*.nec)"
 
-#: src/callback_func.c:401
+#: src/callback_func.c:428
 msgid "Touchstone 1-port files (*.s1p)"
 msgstr "Touchstone 1-портови файлове (*.s1p)"
 
-#: src/callback_func.c:403
+#: src/callback_func.c:430
 msgid "Touchstone 2-port files (*.s2p)"
 msgstr "Touchstone 2-портови файлове (*.s2p)"
 
-#: src/callback_func.c:405
+#: src/callback_func.c:432
 msgid "Comma-separated CSV files (*.csv)"
 msgstr "CSV файлове, разделени със запетая (*.csv)"
 
@@ -3361,11 +3350,6 @@ msgid ""
 msgstr ""
 "Макс. усилване при θ=%.0f° (%.0f° от равнината XY). Конвенцията предполага "
 "лъч в равнината XY с ъгъл на елевация за наблюдение, зададен от спинбутона."
-
-#: src/callbacks.c:186 src/callbacks.c:520 src/callbacks.c:1675
-#: src/callbacks.c:1845
-msgid "Are you sure you wish to quit xnec2c?"
-msgstr "Сигурни ли сте, че искате да излезете от xnec2c?"
 
 #: src/callbacks.c:290
 msgid ""

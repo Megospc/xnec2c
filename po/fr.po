@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 16:15+0300\n"
+"POT-Creation-Date: 2026-11-12 17:09+0300\n"
 "PO-Revision-Date: 2025-12-27 16:01-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -3326,23 +3326,12 @@ msgstr "échec de la capture d'image pour %s\n"
 msgid "failed to save image %s: %s\n"
 msgstr "échec de l'enregistrement de l'image %s : %s\n"
 
-#: src/callback_func.c:107
-msgid ""
-"The frequency loop is running\n"
-"Are you sure you wish to end the calculation?"
-msgstr ""
-"La boucle de fréquence est en cours d'exécution\n"
-"Êtes-vous sûr de vouloir arrêter le calcul ?"
+#: src/callback_func.c:112 src/callbacks.c:186 src/callbacks.c:520
+#: src/callbacks.c:1675 src/callbacks.c:1845
+msgid "Are you sure you wish to quit xnec2c?"
+msgstr "Êtes-vous sûr de vouloir quitter xnec2c ?"
 
-#: src/callback_func.c:111
-msgid ""
-"The frequency loop is running\n"
-"Are you sure you wish to close this window?"
-msgstr ""
-"La boucle de fréquence est en cours d'exécution\n"
-"Êtes-vous sûr de vouloir fermer cette fenêtre ?"
-
-#: src/callback_func.c:269
+#: src/callback_func.c:296
 #, c-format
 msgid ""
 "Excitation type %d has no feedpoint: VSWR and impedance plots are hidden.\n"
@@ -3350,39 +3339,39 @@ msgstr ""
 "Le type d'excitation %d n'a pas de point d'alimentation : les graphiques "
 "VSWR et d'impédance sont masqués.\n"
 
-#: src/callback_func.c:333
+#: src/callback_func.c:360
 msgid "View Currents"
 msgstr "Afficher les courants"
 
-#: src/callback_func.c:335
+#: src/callback_func.c:362
 msgid "View Charges"
 msgstr "Afficher les charges"
 
-#: src/callback_func.c:337
+#: src/callback_func.c:364
 msgid "View Geometry"
 msgstr "Afficher la géométrie"
 
-#: src/callback_func.c:395
+#: src/callback_func.c:422
 msgid "PNG images (*.png)"
 msgstr "Images PNG (*.png)"
 
-#: src/callback_func.c:397
+#: src/callback_func.c:424
 msgid "GNUplot files (*.gplot)"
 msgstr "Fichiers GNUplot (*.gplot)"
 
-#: src/callback_func.c:399
+#: src/callback_func.c:426
 msgid "NEC2 files (*.nec)"
 msgstr "Fichiers NEC2 (*.nec)"
 
-#: src/callback_func.c:401
+#: src/callback_func.c:428
 msgid "Touchstone 1-port files (*.s1p)"
 msgstr "Fichiers Touchstone 1 port (*.s1p)"
 
-#: src/callback_func.c:403
+#: src/callback_func.c:430
 msgid "Touchstone 2-port files (*.s2p)"
 msgstr "Fichiers Touchstone 2 ports (*.s2p)"
 
-#: src/callback_func.c:405
+#: src/callback_func.c:432
 msgid "Comma-separated CSV files (*.csv)"
 msgstr "Fichiers CSV séparés par des virgules (*.csv)"
 
@@ -3408,11 +3397,6 @@ msgstr ""
 "Gain maximum à θ=%.0f° (%.0f° du plan XY). La convention suppose le faisceau "
 "dans le plan XY avec l'angle d'élévation d'observation défini par le bouton "
 "rotatif."
-
-#: src/callbacks.c:186 src/callbacks.c:520 src/callbacks.c:1675
-#: src/callbacks.c:1845
-msgid "Are you sure you wish to quit xnec2c?"
-msgstr "Êtes-vous sûr de vouloir quitter xnec2c ?"
 
 #: src/callbacks.c:290
 msgid ""

@@ -96,23 +96,50 @@ Nec2_Edit_Save( void )
   void
 Delete_Event( gchar *mesg )
 {
-  quit_dialog = create_quit_dialog( &quit_dialog_builder );
-  gtk_widget_show( quit_dialog );
+  if( opt_is_running() )
+  {
+    xnec2c_request_quit();
+    return;
+  }
 
   if(freq_sweep_active())
   {
     if( isFlagSet(MAIN_QUIT) )
+    {
+      Stop_Frequency_Loop();
       gtk_label_set_text( GTK_LABEL(
             Builder_Get_Object(quit_dialog_builder, "quit_label")),
-          _("The frequency loop is running\n"
-            "Are you sure you wish to end the calculation?") );
-    else gtk_label_set_text( GTK_LABEL(
-          Builder_Get_Object(quit_dialog_builder, "quit_label")),
-        _("The frequency loop is running\n"
-          "Are you sure you wish to close this window?") );
-  }
-  else gtk_label_set_text( GTK_LABEL(
-        Builder_Get_Object(quit_dialog_builder, "quit_label")), mesg );
+          _("Are you sure you wish to quit xnec2c?") );
+      ClearFlag( MAIN_QUIT );
+      return;
+    }
+
+    /* The plots and rad-pattern windows are the sweep's consumers; stop it
+     * when the window being closed is the only one open */
+    if( window_is_open(RDPATTERN_WINDOW) != window_is_open(FREQPLOTS_WINDOW) )
+      Stop_Frequency_Loop();
+
+  } /* if( freq_sweep_active() ) */
+
+  Gtk_Widget_Destroy( &kill_window );
+
+  // quit_dialog = create_quit_dialog( &quit_dialog_builder );
+  // gtk_widget_show( quit_dialog );
+
+  // if(freq_sweep_active())
+  // {
+  //   if( isFlagSet(MAIN_QUIT) )
+  //     gtk_label_set_text( GTK_LABEL(
+  //           Builder_Get_Object(quit_dialog_builder, "quit_label")),
+  //         _("The frequency loop is running\n"
+  //           "Are you sure you wish to end the calculation?") );
+  //   else gtk_label_set_text( GTK_LABEL(
+  //         Builder_Get_Object(quit_dialog_builder, "quit_label")),
+  //       _("The frequency loop is running\n"
+  //         "Are you sure you wish to close this window?") );
+  // }
+  // else gtk_label_set_text( GTK_LABEL(
+  //       Builder_Get_Object(quit_dialog_builder, "quit_label")), mesg );
 
 } /* Delete_Event() */
 

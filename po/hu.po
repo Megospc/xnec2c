@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 16:15+0300\n"
+"POT-Creation-Date: 2026-11-12 17:09+0300\n"
 "PO-Revision-Date: 2025-12-28 20:37-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -3297,23 +3297,12 @@ msgstr "nem sikerült képet rögzíteni ehhez: %s\n"
 msgid "failed to save image %s: %s\n"
 msgstr "nem sikerült elmenteni a képet: %s: %s\n"
 
-#: src/callback_func.c:107
-msgid ""
-"The frequency loop is running\n"
-"Are you sure you wish to end the calculation?"
-msgstr ""
-"A frekvenciahurok fut\n"
-"Biztos benne, hogy befejezi a számítást?"
+#: src/callback_func.c:112 src/callbacks.c:186 src/callbacks.c:520
+#: src/callbacks.c:1675 src/callbacks.c:1845
+msgid "Are you sure you wish to quit xnec2c?"
+msgstr "Biztos benne, hogy kilép az xnec2c-ből?"
 
-#: src/callback_func.c:111
-msgid ""
-"The frequency loop is running\n"
-"Are you sure you wish to close this window?"
-msgstr ""
-"A frekvenciahurok fut\n"
-"Biztos benne, hogy bezárja ezt az ablakot?"
-
-#: src/callback_func.c:269
+#: src/callback_func.c:296
 #, c-format
 msgid ""
 "Excitation type %d has no feedpoint: VSWR and impedance plots are hidden.\n"
@@ -3321,39 +3310,39 @@ msgstr ""
 "A(z) %d gerjesztéstípusnak nincs táppontja: a VSWR és impedancia grafikonok "
 "el vannak rejtve.\n"
 
-#: src/callback_func.c:333
+#: src/callback_func.c:360
 msgid "View Currents"
 msgstr "Áramok megtekintése"
 
-#: src/callback_func.c:335
+#: src/callback_func.c:362
 msgid "View Charges"
 msgstr "Töltések megtekintése"
 
-#: src/callback_func.c:337
+#: src/callback_func.c:364
 msgid "View Geometry"
 msgstr "Geometria megtekintése"
 
-#: src/callback_func.c:395
+#: src/callback_func.c:422
 msgid "PNG images (*.png)"
 msgstr "PNG képek (*.png)"
 
-#: src/callback_func.c:397
+#: src/callback_func.c:424
 msgid "GNUplot files (*.gplot)"
 msgstr "GNUplot fájlok (*.gplot)"
 
-#: src/callback_func.c:399
+#: src/callback_func.c:426
 msgid "NEC2 files (*.nec)"
 msgstr "NEC2 fájlok (*.nec)"
 
-#: src/callback_func.c:401
+#: src/callback_func.c:428
 msgid "Touchstone 1-port files (*.s1p)"
 msgstr "Touchstone 1-portos fájlok (*.s1p)"
 
-#: src/callback_func.c:403
+#: src/callback_func.c:430
 msgid "Touchstone 2-port files (*.s2p)"
 msgstr "Touchstone 2-portos fájlok (*.s2p)"
 
-#: src/callback_func.c:405
+#: src/callback_func.c:432
 msgid "Comma-separated CSV files (*.csv)"
 msgstr "Vesszővel elválasztott CSV fájlok (*.csv)"
 
@@ -3378,11 +3367,6 @@ msgstr ""
 "Maximális nyereség θ=%.0f°-nál (%.0f° az XY síktól). A konvenció az XY "
 "síkban lévő nyalábot feltételezi, a megfigyelési emelkedési szöget a "
 "léptetőgomb állítja."
-
-#: src/callbacks.c:186 src/callbacks.c:520 src/callbacks.c:1675
-#: src/callbacks.c:1845
-msgid "Are you sure you wish to quit xnec2c?"
-msgstr "Biztos benne, hogy kilép az xnec2c-ből?"
 
 #: src/callbacks.c:290
 msgid ""
