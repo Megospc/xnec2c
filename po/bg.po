@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 17:09+0300\n"
+"POT-Creation-Date: 2026-11-12 18:20+0300\n"
 "PO-Revision-Date: 2025-12-28 20:37-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -831,11 +831,11 @@ msgstr "_Автоматично прилагане"
 msgid "Automatically apply changes and reload model after 300ms delay"
 msgstr "Автоматично прилагане на промените и презареждане на модела след 300ms"
 
-#: resources/sy_overrides.glade:714 src/geom_edit.c:2866
+#: resources/sy_overrides.glade:714 src/geom_edit.c:2851
 msgid "_Apply"
 msgstr "_Приложи"
 
-#: resources/sy_overrides.glade:729 src/geom_edit.c:2865
+#: resources/sy_overrides.glade:729 src/geom_edit.c:2850
 msgid "_Cancel"
 msgstr "_Отказ"
 
@@ -1684,27 +1684,27 @@ msgstr "Подразделяне на ъгли 2-3 (NY)"
 msgid "Surface Sub-division"
 msgstr "Подразделяне на повърхност"
 
-#: resources/xnec2c.glade:7533 src/geom_edit.c:1157
+#: resources/xnec2c.glade:7533 src/geom_edit.c:1152
 msgid "Center - X"
 msgstr "Център - X"
 
-#: resources/xnec2c.glade:7565 src/geom_edit.c:1163
+#: resources/xnec2c.glade:7565 src/geom_edit.c:1158
 msgid "Normal - Elev."
 msgstr "Нормала - Елев."
 
-#: resources/xnec2c.glade:7597 src/geom_edit.c:1159
+#: resources/xnec2c.glade:7597 src/geom_edit.c:1154
 msgid "Center - Y"
 msgstr "Център - Y"
 
-#: resources/xnec2c.glade:7629 src/geom_edit.c:1165
+#: resources/xnec2c.glade:7629 src/geom_edit.c:1160
 msgid "Normal - Azim."
 msgstr "Нормала - Азим."
 
-#: resources/xnec2c.glade:7661 src/geom_edit.c:1161
+#: resources/xnec2c.glade:7661 src/geom_edit.c:1156
 msgid "Center - Z"
 msgstr "Център - Z"
 
-#: resources/xnec2c.glade:7693 src/geom_edit.c:1167
+#: resources/xnec2c.glade:7693 src/geom_edit.c:1162
 msgid "Patch Area"
 msgstr "Площ на патч"
 
@@ -3417,15 +3417,6 @@ msgstr ""
 msgid "untitled.nec"
 msgstr "неозаглавен.nec"
 
-#: src/callbacks.c:2401 src/callbacks.c:2421 src/callbacks.c:2441
-#: src/geom_edit.c:455 src/geom_edit.c:1327 src/geom_edit.c:1582
-msgid ""
-"Frequency (FR) cards not yet processed.\n"
-"You may need to save the NEC2 Editor data first."
-msgstr ""
-"Честотните (FR) карти все още не са обработени.\n"
-"Може да е необходимо първо да запазите данните на NEC2 редактора."
-
 #: src/chroma/chroma.c:315
 #, c-format
 msgid "invalid color projection %d, using instant\n"
@@ -4002,8 +3993,8 @@ msgstr ""
 msgid "VSWR vs Frequency"
 msgstr "VSWR спрямо честота"
 
-#: src/geom_edit.c:108 src/geom_edit.c:2000 src/geom_edit.c:2272
-#: src/geom_edit.c:2703
+#: src/geom_edit.c:108 src/geom_edit.c:1985 src/geom_edit.c:2257
+#: src/geom_edit.c:2688
 msgid ""
 "Error reading row data\n"
 "Invalid list iterator"
@@ -4019,7 +4010,7 @@ msgstr ""
 "Грешка при записване на данни от ред\n"
 "Моля, изберете отново реда"
 
-#: src/geom_edit.c:583
+#: src/geom_edit.c:578
 msgid ""
 "GC card preceded by GW card\n"
 "with non-zero wire radius"
@@ -4027,11 +4018,11 @@ msgstr ""
 "GC карта, предшествана от GW карта\n"
 "с ненулев радиус на проводника"
 
-#: src/geom_edit.c:587
+#: src/geom_edit.c:582
 msgid "No GW card before GC card"
 msgstr "Няма GW карта преди GC карта"
 
-#: src/geom_edit.c:611
+#: src/geom_edit.c:606
 msgid ""
 "No GC card after a GW card\n"
 "with a zero wire radius"
@@ -4039,7 +4030,7 @@ msgstr ""
 "Няма GC карта след GW карта\n"
 "с нулев радиус на проводника"
 
-#: src/geom_edit.c:620
+#: src/geom_edit.c:615
 msgid ""
 "GC card follows a GW card\n"
 "with non-zero wire radius"
@@ -4047,7 +4038,7 @@ msgstr ""
 "GC карта следва GW карта\n"
 "с ненулев радиус на проводника"
 
-#: src/geom_edit.c:1025
+#: src/geom_edit.c:1020
 msgid ""
 "SC card preceded by SP card\n"
 "with arbitrary patch type"
@@ -4055,11 +4046,11 @@ msgstr ""
 "SC карта, предшествана от SP карта\n"
 "с произволен тип на патч"
 
-#: src/geom_edit.c:1037
+#: src/geom_edit.c:1032
 msgid "No SP or SM card before SC card"
 msgstr "Няма SP или SM карта преди SC карта"
 
-#: src/geom_edit.c:1057
+#: src/geom_edit.c:1052
 msgid ""
 "No SC card after an SP card\n"
 "with non-arbitrary patch type"
@@ -4067,7 +4058,7 @@ msgstr ""
 "Няма SC карта след SP карта\n"
 "с непроизволен тип на патч"
 
-#: src/geom_edit.c:1064
+#: src/geom_edit.c:1059
 msgid ""
 "SC card follows an SP card\n"
 "with arbitrary patch type"
@@ -4075,43 +4066,43 @@ msgstr ""
 "SC карта следва SP карта\n"
 "с произволен тип на патч"
 
-#: src/geom_edit.c:1077
+#: src/geom_edit.c:1072
 msgid "No SC card after an SM card"
 msgstr "Няма SC карта след SM карта"
 
-#: src/geom_edit.c:1172
+#: src/geom_edit.c:1167
 msgid "Corner 1 - X"
 msgstr "Ъгъл 1 - X"
 
-#: src/geom_edit.c:1174
+#: src/geom_edit.c:1169
 msgid "Corner 1 - Y"
 msgstr "Ъгъл 1 - Y"
 
-#: src/geom_edit.c:1176
+#: src/geom_edit.c:1171
 msgid "Corner 1 - Z"
 msgstr "Ъгъл 1 - Z"
 
-#: src/geom_edit.c:1178
+#: src/geom_edit.c:1173
 msgid "Corner 2 - X"
 msgstr "Ъгъл 2 - X"
 
-#: src/geom_edit.c:1180
+#: src/geom_edit.c:1175
 msgid "Corner 2 - Y"
 msgstr "Ъгъл 2 - Y"
 
-#: src/geom_edit.c:1182
+#: src/geom_edit.c:1177
 msgid "Corner 2 - Z"
 msgstr "Ъгъл 2 - Z"
 
-#: src/geom_edit.c:2861
+#: src/geom_edit.c:2846
 msgid "SY Card Editor"
 msgstr "Редактор на SY карта"
 
-#: src/geom_edit.c:2871
+#: src/geom_edit.c:2856
 msgid "SY definition (e.g. FREQ=146, LAMBDA=300/FREQ):"
 msgstr "Дефиниция на SY (напр. FREQ=146, LAMBDA=300/FREQ):"
 
-#: src/geom_edit.c:2970
+#: src/geom_edit.c:2955
 msgid "NEC2 editor window not open"
 msgstr "Прозорецът на NEC2 редактора не е отворен"
 
@@ -4716,7 +4707,7 @@ msgstr "Грешка в карта с геометрични данни GR"
 
 #: src/input.c:752
 msgid "No geometry data cards"
-msgstr "Няма карти с геометрични данни"
+msgstr "Грешка в карта с геометрични данни GC"
 
 #: src/input.c:763
 msgid "Probable invalid segment geometry.\n"

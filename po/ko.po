@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 17:09+0300\n"
+"POT-Creation-Date: 2026-11-12 18:20+0300\n"
 "PO-Revision-Date: 2025-12-27 16:01-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -807,11 +807,11 @@ msgstr "자동 적용(_A)"
 msgid "Automatically apply changes and reload model after 300ms delay"
 msgstr "변경 사항을 자동으로 적용하고 300ms 지연 후 모델을 다시 로드합니다"
 
-#: resources/sy_overrides.glade:714 src/geom_edit.c:2866
+#: resources/sy_overrides.glade:714 src/geom_edit.c:2851
 msgid "_Apply"
 msgstr "적용(_A)"
 
-#: resources/sy_overrides.glade:729 src/geom_edit.c:2865
+#: resources/sy_overrides.glade:729 src/geom_edit.c:2850
 msgid "_Cancel"
 msgstr "취소(_C)"
 
@@ -1660,27 +1660,27 @@ msgstr "모서리 2-3 세분화 (NY)"
 msgid "Surface Sub-division"
 msgstr "표면 세분화"
 
-#: resources/xnec2c.glade:7533 src/geom_edit.c:1157
+#: resources/xnec2c.glade:7533 src/geom_edit.c:1152
 msgid "Center - X"
 msgstr "중심 - X"
 
-#: resources/xnec2c.glade:7565 src/geom_edit.c:1163
+#: resources/xnec2c.glade:7565 src/geom_edit.c:1158
 msgid "Normal - Elev."
 msgstr "법선 - 앙각"
 
-#: resources/xnec2c.glade:7597 src/geom_edit.c:1159
+#: resources/xnec2c.glade:7597 src/geom_edit.c:1154
 msgid "Center - Y"
 msgstr "중심 - Y"
 
-#: resources/xnec2c.glade:7629 src/geom_edit.c:1165
+#: resources/xnec2c.glade:7629 src/geom_edit.c:1160
 msgid "Normal - Azim."
 msgstr "법선 - 방위각"
 
-#: resources/xnec2c.glade:7661 src/geom_edit.c:1161
+#: resources/xnec2c.glade:7661 src/geom_edit.c:1156
 msgid "Center - Z"
 msgstr "중심 - Z"
 
-#: resources/xnec2c.glade:7693 src/geom_edit.c:1167
+#: resources/xnec2c.glade:7693 src/geom_edit.c:1162
 msgid "Patch Area"
 msgstr "패치 면적"
 
@@ -3355,15 +3355,6 @@ msgstr ""
 msgid "untitled.nec"
 msgstr "제목없음.nec"
 
-#: src/callbacks.c:2401 src/callbacks.c:2421 src/callbacks.c:2441
-#: src/geom_edit.c:455 src/geom_edit.c:1327 src/geom_edit.c:1582
-msgid ""
-"Frequency (FR) cards not yet processed.\n"
-"You may need to save the NEC2 Editor data first."
-msgstr ""
-"주파수(FR) 카드가 아직 처리되지 않았습니다.\n"
-"먼저 NEC2 편집기 데이터를 저장해야 할 수 있습니다."
-
 #: src/chroma/chroma.c:315
 #, c-format
 msgid "invalid color projection %d, using instant\n"
@@ -3934,8 +3925,8 @@ msgstr ""
 msgid "VSWR vs Frequency"
 msgstr "VSWR vs 주파수"
 
-#: src/geom_edit.c:108 src/geom_edit.c:2000 src/geom_edit.c:2272
-#: src/geom_edit.c:2703
+#: src/geom_edit.c:108 src/geom_edit.c:1985 src/geom_edit.c:2257
+#: src/geom_edit.c:2688
 msgid ""
 "Error reading row data\n"
 "Invalid list iterator"
@@ -3951,7 +3942,7 @@ msgstr ""
 "행 데이터 쓰기 오류\n"
 "행을 다시 선택하십시오"
 
-#: src/geom_edit.c:583
+#: src/geom_edit.c:578
 msgid ""
 "GC card preceded by GW card\n"
 "with non-zero wire radius"
@@ -3959,11 +3950,11 @@ msgstr ""
 "GC 카드 앞에 0이 아닌 도선 반경을 가진\n"
 "GW 카드가 있습니다"
 
-#: src/geom_edit.c:587
+#: src/geom_edit.c:582
 msgid "No GW card before GC card"
 msgstr "GC 카드 앞에 GW 카드가 없습니다"
 
-#: src/geom_edit.c:611
+#: src/geom_edit.c:606
 msgid ""
 "No GC card after a GW card\n"
 "with a zero wire radius"
@@ -3971,7 +3962,7 @@ msgstr ""
 "도선 반경이 0인 GW 카드 뒤에\n"
 "GC 카드가 없습니다"
 
-#: src/geom_edit.c:620
+#: src/geom_edit.c:615
 msgid ""
 "GC card follows a GW card\n"
 "with non-zero wire radius"
@@ -3979,7 +3970,7 @@ msgstr ""
 "GC 카드가 0이 아닌 도선 반경을 가진\n"
 "GW 카드 뒤에 있습니다"
 
-#: src/geom_edit.c:1025
+#: src/geom_edit.c:1020
 msgid ""
 "SC card preceded by SP card\n"
 "with arbitrary patch type"
@@ -3987,11 +3978,11 @@ msgstr ""
 "SC 카드 앞에 임의 패치 유형의\n"
 "SP 카드가 있습니다"
 
-#: src/geom_edit.c:1037
+#: src/geom_edit.c:1032
 msgid "No SP or SM card before SC card"
 msgstr "SC 카드 앞에 SP 또는 SM 카드가 없습니다"
 
-#: src/geom_edit.c:1057
+#: src/geom_edit.c:1052
 msgid ""
 "No SC card after an SP card\n"
 "with non-arbitrary patch type"
@@ -3999,7 +3990,7 @@ msgstr ""
 "비임의 패치 유형의 SP 카드 뒤에\n"
 "SC 카드가 없습니다"
 
-#: src/geom_edit.c:1064
+#: src/geom_edit.c:1059
 msgid ""
 "SC card follows an SP card\n"
 "with arbitrary patch type"
@@ -4007,43 +3998,43 @@ msgstr ""
 "SC 카드가 임의 패치 유형의\n"
 "SP 카드 뒤에 있습니다"
 
-#: src/geom_edit.c:1077
+#: src/geom_edit.c:1072
 msgid "No SC card after an SM card"
 msgstr "SM 카드 뒤에 SC 카드가 없습니다"
 
-#: src/geom_edit.c:1172
+#: src/geom_edit.c:1167
 msgid "Corner 1 - X"
 msgstr "모서리 1 - X"
 
-#: src/geom_edit.c:1174
+#: src/geom_edit.c:1169
 msgid "Corner 1 - Y"
 msgstr "모서리 1 - Y"
 
-#: src/geom_edit.c:1176
+#: src/geom_edit.c:1171
 msgid "Corner 1 - Z"
 msgstr "모서리 1 - Z"
 
-#: src/geom_edit.c:1178
+#: src/geom_edit.c:1173
 msgid "Corner 2 - X"
 msgstr "모서리 2 - X"
 
-#: src/geom_edit.c:1180
+#: src/geom_edit.c:1175
 msgid "Corner 2 - Y"
 msgstr "모서리 2 - Y"
 
-#: src/geom_edit.c:1182
+#: src/geom_edit.c:1177
 msgid "Corner 2 - Z"
 msgstr "모서리 2 - Z"
 
-#: src/geom_edit.c:2861
+#: src/geom_edit.c:2846
 msgid "SY Card Editor"
 msgstr "SY 카드 편집기"
 
-#: src/geom_edit.c:2871
+#: src/geom_edit.c:2856
 msgid "SY definition (e.g. FREQ=146, LAMBDA=300/FREQ):"
 msgstr "SY 정의 (예: FREQ=146, LAMBDA=300/FREQ):"
 
-#: src/geom_edit.c:2970
+#: src/geom_edit.c:2955
 msgid "NEC2 editor window not open"
 msgstr "NEC2 편집기 창이 열려 있지 않습니다"
 
@@ -4614,7 +4605,7 @@ msgstr "기하 GR 데이터 카드 오류"
 
 #: src/input.c:752
 msgid "No geometry data cards"
-msgstr "기하 데이터 카드가 없습니다"
+msgstr "기하 GC 데이터 카드 오류"
 
 #: src/input.c:763
 msgid "Probable invalid segment geometry.\n"

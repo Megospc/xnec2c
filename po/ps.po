@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 17:09+0300\n"
+"POT-Creation-Date: 2026-11-12 18:20+0300\n"
 "PO-Revision-Date: 2026-05-25 01:51-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -813,11 +813,11 @@ msgstr "_اوتوماتیک پلي کول"
 msgid "Automatically apply changes and reload model after 300ms delay"
 msgstr "بدلونونه اوتوماتیک پلي کړئ او د 300ms وقفې وروسته ماډل بیا لوډ کړئ"
 
-#: resources/sy_overrides.glade:714 src/geom_edit.c:2866
+#: resources/sy_overrides.glade:714 src/geom_edit.c:2851
 msgid "_Apply"
 msgstr "_پلي کول"
 
-#: resources/sy_overrides.glade:729 src/geom_edit.c:2865
+#: resources/sy_overrides.glade:729 src/geom_edit.c:2850
 msgid "_Cancel"
 msgstr "_لغوه"
 
@@ -1667,27 +1667,27 @@ msgstr "۲-۳ کونجونه فرعي ویش (NY)"
 msgid "Surface Sub-division"
 msgstr "د سطح فرعي ویش"
 
-#: resources/xnec2c.glade:7533 src/geom_edit.c:1157
+#: resources/xnec2c.glade:7533 src/geom_edit.c:1152
 msgid "Center - X"
 msgstr "مرکز - X"
 
-#: resources/xnec2c.glade:7565 src/geom_edit.c:1163
+#: resources/xnec2c.glade:7565 src/geom_edit.c:1158
 msgid "Normal - Elev."
 msgstr "نورمال - لوړوالی"
 
-#: resources/xnec2c.glade:7597 src/geom_edit.c:1159
+#: resources/xnec2c.glade:7597 src/geom_edit.c:1154
 msgid "Center - Y"
 msgstr "مرکز - Y"
 
-#: resources/xnec2c.glade:7629 src/geom_edit.c:1165
+#: resources/xnec2c.glade:7629 src/geom_edit.c:1160
 msgid "Normal - Azim."
 msgstr "نورمال - سمت"
 
-#: resources/xnec2c.glade:7661 src/geom_edit.c:1161
+#: resources/xnec2c.glade:7661 src/geom_edit.c:1156
 msgid "Center - Z"
 msgstr "مرکز - Z"
 
-#: resources/xnec2c.glade:7693 src/geom_edit.c:1167
+#: resources/xnec2c.glade:7693 src/geom_edit.c:1162
 msgid "Patch Area"
 msgstr "د پیچ مساحت"
 
@@ -3363,15 +3363,6 @@ msgstr ""
 msgid "untitled.nec"
 msgstr "بې‌نومه.nec"
 
-#: src/callbacks.c:2401 src/callbacks.c:2421 src/callbacks.c:2441
-#: src/geom_edit.c:455 src/geom_edit.c:1327 src/geom_edit.c:1582
-msgid ""
-"Frequency (FR) cards not yet processed.\n"
-"You may need to save the NEC2 Editor data first."
-msgstr ""
-"د فریکونسۍ (FR) کارډونه لا نه دي پروسس شوي.\n"
-"تاسو ته اړتیا وي چې لومړی NEC2 ایډیتر ډاټا خوندي کړئ."
-
 #: src/chroma/chroma.c:315
 #, c-format
 msgid "invalid color projection %d, using instant\n"
@@ -3943,8 +3934,8 @@ msgstr ""
 msgid "VSWR vs Frequency"
 msgstr "VSWR vs فریکونسي"
 
-#: src/geom_edit.c:108 src/geom_edit.c:2000 src/geom_edit.c:2272
-#: src/geom_edit.c:2703
+#: src/geom_edit.c:108 src/geom_edit.c:1985 src/geom_edit.c:2257
+#: src/geom_edit.c:2688
 msgid ""
 "Error reading row data\n"
 "Invalid list iterator"
@@ -3960,7 +3951,7 @@ msgstr ""
 "د قطار ډاټا لیکلو کې تېروتنه\n"
 "مهرباني وکړئ قطار بیا وټاکئ"
 
-#: src/geom_edit.c:583
+#: src/geom_edit.c:578
 msgid ""
 "GC card preceded by GW card\n"
 "with non-zero wire radius"
@@ -3968,11 +3959,11 @@ msgstr ""
 "GC کارډ د GW کارډ لخوا مخکې دی\n"
 "غیر صفر سیم رادیوس سره"
 
-#: src/geom_edit.c:587
+#: src/geom_edit.c:582
 msgid "No GW card before GC card"
 msgstr "د GC کارډ مخکې GW کارډ نشته"
 
-#: src/geom_edit.c:611
+#: src/geom_edit.c:606
 msgid ""
 "No GC card after a GW card\n"
 "with a zero wire radius"
@@ -3980,7 +3971,7 @@ msgstr ""
 "د صفر سیم رادیوس سره\n"
 "د GW کارډ وروسته GC کارډ نشته"
 
-#: src/geom_edit.c:620
+#: src/geom_edit.c:615
 msgid ""
 "GC card follows a GW card\n"
 "with non-zero wire radius"
@@ -3988,7 +3979,7 @@ msgstr ""
 "GC کارډ د GW کارډ لاندې دی\n"
 "غیر صفر سیم رادیوس سره"
 
-#: src/geom_edit.c:1025
+#: src/geom_edit.c:1020
 msgid ""
 "SC card preceded by SP card\n"
 "with arbitrary patch type"
@@ -3996,11 +3987,11 @@ msgstr ""
 "SC کارډ د SP کارډ لخوا مخکې دی\n"
 "خپلسري پیچ ډول سره"
 
-#: src/geom_edit.c:1037
+#: src/geom_edit.c:1032
 msgid "No SP or SM card before SC card"
 msgstr "د SC کارډ مخکې SP یا SM کارډ نشته"
 
-#: src/geom_edit.c:1057
+#: src/geom_edit.c:1052
 msgid ""
 "No SC card after an SP card\n"
 "with non-arbitrary patch type"
@@ -4008,7 +3999,7 @@ msgstr ""
 "د غیر خپلسري پیچ ډول سره\n"
 "د SP کارډ وروسته SC کارډ نشته"
 
-#: src/geom_edit.c:1064
+#: src/geom_edit.c:1059
 msgid ""
 "SC card follows an SP card\n"
 "with arbitrary patch type"
@@ -4016,43 +4007,43 @@ msgstr ""
 "SC کارډ د SP کارډ لاندې دی\n"
 "خپلسري پیچ ډول سره"
 
-#: src/geom_edit.c:1077
+#: src/geom_edit.c:1072
 msgid "No SC card after an SM card"
 msgstr "د SM کارډ وروسته SC کارډ نشته"
 
-#: src/geom_edit.c:1172
+#: src/geom_edit.c:1167
 msgid "Corner 1 - X"
 msgstr "کنج ۱ - X"
 
-#: src/geom_edit.c:1174
+#: src/geom_edit.c:1169
 msgid "Corner 1 - Y"
 msgstr "کنج ۱ - Y"
 
-#: src/geom_edit.c:1176
+#: src/geom_edit.c:1171
 msgid "Corner 1 - Z"
 msgstr "کنج ۱ - Z"
 
-#: src/geom_edit.c:1178
+#: src/geom_edit.c:1173
 msgid "Corner 2 - X"
 msgstr "کنج ۲ - X"
 
-#: src/geom_edit.c:1180
+#: src/geom_edit.c:1175
 msgid "Corner 2 - Y"
 msgstr "کنج ۲ - Y"
 
-#: src/geom_edit.c:1182
+#: src/geom_edit.c:1177
 msgid "Corner 2 - Z"
 msgstr "کنج ۲ - Z"
 
-#: src/geom_edit.c:2861
+#: src/geom_edit.c:2846
 msgid "SY Card Editor"
 msgstr "SY کارډ ایډیتر"
 
-#: src/geom_edit.c:2871
+#: src/geom_edit.c:2856
 msgid "SY definition (e.g. FREQ=146, LAMBDA=300/FREQ):"
 msgstr "SY تعریف (لکه FREQ=146, LAMBDA=300/FREQ):"
 
-#: src/geom_edit.c:2970
+#: src/geom_edit.c:2955
 msgid "NEC2 editor window not open"
 msgstr "NEC2 ایډیتر کړکۍ خلاصه نه ده"
 
@@ -4627,7 +4618,7 @@ msgstr "د جیومیتري GR ډاټا کارډ تېروتنه"
 
 #: src/input.c:752
 msgid "No geometry data cards"
-msgstr "هیڅ د جیومیتري ډاټا کارډونه نشته"
+msgstr "د جیومیتري GC ډاټا کارډ تېروتنه"
 
 #: src/input.c:763
 msgid "Probable invalid segment geometry.\n"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 17:09+0300\n"
+"POT-Creation-Date: 2026-11-12 18:20+0300\n"
 "PO-Revision-Date: 2025-12-27 16:01-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -837,11 +837,11 @@ msgstr "_Applica Auto"
 msgid "Automatically apply changes and reload model after 300ms delay"
 msgstr "Applica automaticamente le modifiche e ricarica il modello dopo 300 ms"
 
-#: resources/sy_overrides.glade:714 src/geom_edit.c:2866
+#: resources/sy_overrides.glade:714 src/geom_edit.c:2851
 msgid "_Apply"
 msgstr "_Applica"
 
-#: resources/sy_overrides.glade:729 src/geom_edit.c:2865
+#: resources/sy_overrides.glade:729 src/geom_edit.c:2850
 msgid "_Cancel"
 msgstr "_Annulla"
 
@@ -1696,27 +1696,27 @@ msgstr "Suddivisione Angoli 2-3 (NY)"
 msgid "Surface Sub-division"
 msgstr "Suddivisione Superficie"
 
-#: resources/xnec2c.glade:7533 src/geom_edit.c:1157
+#: resources/xnec2c.glade:7533 src/geom_edit.c:1152
 msgid "Center - X"
 msgstr "Centro - X"
 
-#: resources/xnec2c.glade:7565 src/geom_edit.c:1163
+#: resources/xnec2c.glade:7565 src/geom_edit.c:1158
 msgid "Normal - Elev."
 msgstr "Normale - Elev."
 
-#: resources/xnec2c.glade:7597 src/geom_edit.c:1159
+#: resources/xnec2c.glade:7597 src/geom_edit.c:1154
 msgid "Center - Y"
 msgstr "Centro - Y"
 
-#: resources/xnec2c.glade:7629 src/geom_edit.c:1165
+#: resources/xnec2c.glade:7629 src/geom_edit.c:1160
 msgid "Normal - Azim."
 msgstr "Normale - Azim."
 
-#: resources/xnec2c.glade:7661 src/geom_edit.c:1161
+#: resources/xnec2c.glade:7661 src/geom_edit.c:1156
 msgid "Center - Z"
 msgstr "Centro - Z"
 
-#: resources/xnec2c.glade:7693 src/geom_edit.c:1167
+#: resources/xnec2c.glade:7693 src/geom_edit.c:1162
 msgid "Patch Area"
 msgstr "Area del patch"
 
@@ -3450,15 +3450,6 @@ msgstr ""
 msgid "untitled.nec"
 msgstr "senza_titolo.nec"
 
-#: src/callbacks.c:2401 src/callbacks.c:2421 src/callbacks.c:2441
-#: src/geom_edit.c:455 src/geom_edit.c:1327 src/geom_edit.c:1582
-msgid ""
-"Frequency (FR) cards not yet processed.\n"
-"You may need to save the NEC2 Editor data first."
-msgstr ""
-"Schede Frequenza (FR) non ancora elaborate.\n"
-"Potrebbe essere necessario salvare prima i dati dell'Editor NEC2."
-
 #: src/chroma/chroma.c:315
 #, c-format
 msgid "invalid color projection %d, using instant\n"
@@ -4036,8 +4027,8 @@ msgstr ""
 msgid "VSWR vs Frequency"
 msgstr "VSWR vs Frequenza"
 
-#: src/geom_edit.c:108 src/geom_edit.c:2000 src/geom_edit.c:2272
-#: src/geom_edit.c:2703
+#: src/geom_edit.c:108 src/geom_edit.c:1985 src/geom_edit.c:2257
+#: src/geom_edit.c:2688
 msgid ""
 "Error reading row data\n"
 "Invalid list iterator"
@@ -4053,7 +4044,7 @@ msgstr ""
 "Errore nella scrittura dei dati riga\n"
 "Selezionare nuovamente la riga"
 
-#: src/geom_edit.c:583
+#: src/geom_edit.c:578
 msgid ""
 "GC card preceded by GW card\n"
 "with non-zero wire radius"
@@ -4061,11 +4052,11 @@ msgstr ""
 "Scheda GC preceduta da scheda GW\n"
 "con raggio del filo non nullo"
 
-#: src/geom_edit.c:587
+#: src/geom_edit.c:582
 msgid "No GW card before GC card"
 msgstr "Nessuna scheda GW prima della scheda GC"
 
-#: src/geom_edit.c:611
+#: src/geom_edit.c:606
 msgid ""
 "No GC card after a GW card\n"
 "with a zero wire radius"
@@ -4073,7 +4064,7 @@ msgstr ""
 "Nessuna scheda GC dopo una scheda GW\n"
 "con raggio del filo nullo"
 
-#: src/geom_edit.c:620
+#: src/geom_edit.c:615
 msgid ""
 "GC card follows a GW card\n"
 "with non-zero wire radius"
@@ -4081,7 +4072,7 @@ msgstr ""
 "La scheda GC segue una scheda GW\n"
 "con raggio del filo non nullo"
 
-#: src/geom_edit.c:1025
+#: src/geom_edit.c:1020
 msgid ""
 "SC card preceded by SP card\n"
 "with arbitrary patch type"
@@ -4089,11 +4080,11 @@ msgstr ""
 "Scheda SC preceduta da scheda SP\n"
 "con tipo di patch arbitrario"
 
-#: src/geom_edit.c:1037
+#: src/geom_edit.c:1032
 msgid "No SP or SM card before SC card"
 msgstr "Nessuna scheda SP o SM prima della scheda SC"
 
-#: src/geom_edit.c:1057
+#: src/geom_edit.c:1052
 msgid ""
 "No SC card after an SP card\n"
 "with non-arbitrary patch type"
@@ -4101,7 +4092,7 @@ msgstr ""
 "Nessuna scheda SC dopo una scheda SP\n"
 "con tipo di patch non arbitrario"
 
-#: src/geom_edit.c:1064
+#: src/geom_edit.c:1059
 msgid ""
 "SC card follows an SP card\n"
 "with arbitrary patch type"
@@ -4109,43 +4100,43 @@ msgstr ""
 "La scheda SC segue una scheda SP\n"
 "con tipo di patch arbitrario"
 
-#: src/geom_edit.c:1077
+#: src/geom_edit.c:1072
 msgid "No SC card after an SM card"
 msgstr "Nessuna scheda SC dopo una scheda SM"
 
-#: src/geom_edit.c:1172
+#: src/geom_edit.c:1167
 msgid "Corner 1 - X"
 msgstr "Angolo 1 - X"
 
-#: src/geom_edit.c:1174
+#: src/geom_edit.c:1169
 msgid "Corner 1 - Y"
 msgstr "Angolo 1 - Y"
 
-#: src/geom_edit.c:1176
+#: src/geom_edit.c:1171
 msgid "Corner 1 - Z"
 msgstr "Angolo 1 - Z"
 
-#: src/geom_edit.c:1178
+#: src/geom_edit.c:1173
 msgid "Corner 2 - X"
 msgstr "Angolo 2 - X"
 
-#: src/geom_edit.c:1180
+#: src/geom_edit.c:1175
 msgid "Corner 2 - Y"
 msgstr "Angolo 2 - Y"
 
-#: src/geom_edit.c:1182
+#: src/geom_edit.c:1177
 msgid "Corner 2 - Z"
 msgstr "Angolo 2 - Z"
 
-#: src/geom_edit.c:2861
+#: src/geom_edit.c:2846
 msgid "SY Card Editor"
 msgstr "Editor scheda SY"
 
-#: src/geom_edit.c:2871
+#: src/geom_edit.c:2856
 msgid "SY definition (e.g. FREQ=146, LAMBDA=300/FREQ):"
 msgstr "Definizione SY (es. FREQ=146, LAMBDA=300/FREQ):"
 
-#: src/geom_edit.c:2970
+#: src/geom_edit.c:2955
 msgid "NEC2 editor window not open"
 msgstr "Finestra editor NEC2 non aperta"
 
@@ -4747,7 +4738,7 @@ msgstr "Errore scheda dati geometria GR"
 
 #: src/input.c:752
 msgid "No geometry data cards"
-msgstr "Nessuna scheda dati geometria"
+msgstr "Errore scheda dati geometria GC"
 
 #: src/input.c:763
 msgid "Probable invalid segment geometry.\n"

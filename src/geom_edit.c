@@ -448,15 +448,6 @@ Wire_Editor( int action )
     "wire_res_spinbutton"
   };
 
-  /* Abort if FR cards have not been processed */
-  if( calc_data.FR_cards < 1 )
-  {
-    Stop( ERR_OK,
-        "Frequency (FR) cards not yet processed.\n"
-        "You may need to save the NEC2 Editor data first." );
-    return;
-  }
-
   /* Block callbacks. (Should be a better way to do this) */
   if( Give_Up( &busy, wire_editor) ) return;
 
@@ -526,7 +517,11 @@ Wire_Editor( int action )
   fv[WIRE_DIAN] /= 2.0;
 
   /* Respond to user action */
-  double max_freq = calc_data.freq_loop_data[calc_data.FR_cards-1].max_freq;
+  double max_freq = 0.0;
+  if (calc_data.FR_cards > 0)
+  {
+    max_freq = calc_data.freq_loop_data[calc_data.FR_cards-1].max_freq;
+  }
   switch( action )
   {
     case EDITOR_NEW: /* New wire row(s) to create */
@@ -1320,15 +1315,6 @@ Arc_Editor( int action )
     "arc_res_spinbutton"
   };
 
-  /* Abort if FR cards have not been processed */
-  if( calc_data.FR_cards < 1 )
-  {
-    Stop( ERR_OK,
-        "Frequency (FR) cards not yet processed.\n"
-        "You may need to save the NEC2 Editor data first." );
-    return;
-  }
-
   /* Block callbacks. (Should be a better way to do this) */
   if( Give_Up( &busy, arc_editor) ) return;
 
@@ -1384,7 +1370,11 @@ Arc_Editor( int action )
   s = gtk_spin_button_get_value( spin );
 
   /* Respond to user action */
-  double max_freq = calc_data.freq_loop_data[calc_data.FR_cards-1].max_freq;
+  double max_freq = 0.0;
+  if (calc_data.FR_cards > 0)
+  {
+    max_freq = calc_data.freq_loop_data[calc_data.FR_cards-1].max_freq;
+  }
   switch( action )
   {
     case EDITOR_NEW: /* New arc row to create */
@@ -1575,15 +1565,6 @@ Helix_Editor( int action )
     "helix_res_spinbutton"
   };
 
-  /* Abort if FR cards have not been processed */
-  if( calc_data.FR_cards < 1 )
-  {
-    Stop( ERR_OK,
-        "Frequency (FR) cards not yet processed.\n"
-        "You may need to save the NEC2 Editor data first." );
-    return;
-  }
-
   /* File names to link and unlink icons */
   gchar link[FILENAME_LEN], unlink[FILENAME_LEN];
   strncpy( link,   "/link.svg", sizeof(link));
@@ -1678,7 +1659,11 @@ Helix_Editor( int action )
     fv[HELIX_RYZHL] = fv[HELIX_RXZHL];
 
   /*** Respond to user action ***/
-  double max_freq = calc_data.freq_loop_data[calc_data.FR_cards-1].max_freq;
+  double max_freq = 0.0;
+  if (calc_data.FR_cards > 0)
+  {
+    max_freq = calc_data.freq_loop_data[calc_data.FR_cards-1].max_freq;
+  }
   switch( action )
   {
     case EDITOR_NEW: /* New helix row to create */

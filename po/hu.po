@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 17:09+0300\n"
+"POT-Creation-Date: 2026-11-12 18:20+0300\n"
 "PO-Revision-Date: 2025-12-28 20:37-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -839,11 +839,11 @@ msgstr ""
 "Változások automatikus alkalmazása és a modell újratöltése 300 ms "
 "késleltetés után"
 
-#: resources/sy_overrides.glade:714 src/geom_edit.c:2866
+#: resources/sy_overrides.glade:714 src/geom_edit.c:2851
 msgid "_Apply"
 msgstr "_Alkalmaz"
 
-#: resources/sy_overrides.glade:729 src/geom_edit.c:2865
+#: resources/sy_overrides.glade:729 src/geom_edit.c:2850
 msgid "_Cancel"
 msgstr "_Mégse"
 
@@ -1696,27 +1696,27 @@ msgstr "2-3. sarkok felosztása (NY)"
 msgid "Surface Sub-division"
 msgstr "Felületfelosztás"
 
-#: resources/xnec2c.glade:7533 src/geom_edit.c:1157
+#: resources/xnec2c.glade:7533 src/geom_edit.c:1152
 msgid "Center - X"
 msgstr "Középpont - X"
 
-#: resources/xnec2c.glade:7565 src/geom_edit.c:1163
+#: resources/xnec2c.glade:7565 src/geom_edit.c:1158
 msgid "Normal - Elev."
 msgstr "Normál - Elev."
 
-#: resources/xnec2c.glade:7597 src/geom_edit.c:1159
+#: resources/xnec2c.glade:7597 src/geom_edit.c:1154
 msgid "Center - Y"
 msgstr "Középpont - Y"
 
-#: resources/xnec2c.glade:7629 src/geom_edit.c:1165
+#: resources/xnec2c.glade:7629 src/geom_edit.c:1160
 msgid "Normal - Azim."
 msgstr "Normál - Azim."
 
-#: resources/xnec2c.glade:7661 src/geom_edit.c:1161
+#: resources/xnec2c.glade:7661 src/geom_edit.c:1156
 msgid "Center - Z"
 msgstr "Középpont - Z"
 
-#: resources/xnec2c.glade:7693 src/geom_edit.c:1167
+#: resources/xnec2c.glade:7693 src/geom_edit.c:1162
 msgid "Patch Area"
 msgstr "Patch terület"
 
@@ -3434,15 +3434,6 @@ msgstr ""
 msgid "untitled.nec"
 msgstr "névtelen.nec"
 
-#: src/callbacks.c:2401 src/callbacks.c:2421 src/callbacks.c:2441
-#: src/geom_edit.c:455 src/geom_edit.c:1327 src/geom_edit.c:1582
-msgid ""
-"Frequency (FR) cards not yet processed.\n"
-"You may need to save the NEC2 Editor data first."
-msgstr ""
-"A frekvencia (FR) kártyák még nincsenek feldolgozva.\n"
-"Először lehet, hogy mentenie kell a NEC2 szerkesztő adatait."
-
 #: src/chroma/chroma.c:315
 #, c-format
 msgid "invalid color projection %d, using instant\n"
@@ -4018,8 +4009,8 @@ msgstr ""
 msgid "VSWR vs Frequency"
 msgstr "VSWR a frekvencia függvényében"
 
-#: src/geom_edit.c:108 src/geom_edit.c:2000 src/geom_edit.c:2272
-#: src/geom_edit.c:2703
+#: src/geom_edit.c:108 src/geom_edit.c:1985 src/geom_edit.c:2257
+#: src/geom_edit.c:2688
 msgid ""
 "Error reading row data\n"
 "Invalid list iterator"
@@ -4035,7 +4026,7 @@ msgstr ""
 "Hiba a soradatok írásakor\n"
 "Kérjük, válassza ki újra a sort"
 
-#: src/geom_edit.c:583
+#: src/geom_edit.c:578
 msgid ""
 "GC card preceded by GW card\n"
 "with non-zero wire radius"
@@ -4043,11 +4034,11 @@ msgstr ""
 "GC kártyát GW kártya előzi meg\n"
 "nem nulla huzalsugárral"
 
-#: src/geom_edit.c:587
+#: src/geom_edit.c:582
 msgid "No GW card before GC card"
 msgstr "Nincs GW kártya a GC kártya előtt"
 
-#: src/geom_edit.c:611
+#: src/geom_edit.c:606
 msgid ""
 "No GC card after a GW card\n"
 "with a zero wire radius"
@@ -4055,7 +4046,7 @@ msgstr ""
 "Nincs GC kártya a GW kártya után\n"
 "nulla huzalsugárral"
 
-#: src/geom_edit.c:620
+#: src/geom_edit.c:615
 msgid ""
 "GC card follows a GW card\n"
 "with non-zero wire radius"
@@ -4063,7 +4054,7 @@ msgstr ""
 "GC kártya követ egy GW kártyát\n"
 "nem nulla huzalsugárral"
 
-#: src/geom_edit.c:1025
+#: src/geom_edit.c:1020
 msgid ""
 "SC card preceded by SP card\n"
 "with arbitrary patch type"
@@ -4071,11 +4062,11 @@ msgstr ""
 "SC kártyát SP kártya előzi meg\n"
 "tetszőleges patch típussal"
 
-#: src/geom_edit.c:1037
+#: src/geom_edit.c:1032
 msgid "No SP or SM card before SC card"
 msgstr "Nincs SP vagy SM kártya az SC kártya előtt"
 
-#: src/geom_edit.c:1057
+#: src/geom_edit.c:1052
 msgid ""
 "No SC card after an SP card\n"
 "with non-arbitrary patch type"
@@ -4083,7 +4074,7 @@ msgstr ""
 "Nincs SC kártya az SP kártya után\n"
 "nem tetszőleges patch típussal"
 
-#: src/geom_edit.c:1064
+#: src/geom_edit.c:1059
 msgid ""
 "SC card follows an SP card\n"
 "with arbitrary patch type"
@@ -4091,43 +4082,43 @@ msgstr ""
 "SC kártya követ egy SP kártyát\n"
 "tetszőleges patch típussal"
 
-#: src/geom_edit.c:1077
+#: src/geom_edit.c:1072
 msgid "No SC card after an SM card"
 msgstr "Nincs SC kártya az SM kártya után"
 
-#: src/geom_edit.c:1172
+#: src/geom_edit.c:1167
 msgid "Corner 1 - X"
 msgstr "Sarok 1 - X"
 
-#: src/geom_edit.c:1174
+#: src/geom_edit.c:1169
 msgid "Corner 1 - Y"
 msgstr "Sarok 1 - Y"
 
-#: src/geom_edit.c:1176
+#: src/geom_edit.c:1171
 msgid "Corner 1 - Z"
 msgstr "Sarok 1 - Z"
 
-#: src/geom_edit.c:1178
+#: src/geom_edit.c:1173
 msgid "Corner 2 - X"
 msgstr "Sarok 2 - X"
 
-#: src/geom_edit.c:1180
+#: src/geom_edit.c:1175
 msgid "Corner 2 - Y"
 msgstr "Sarok 2 - Y"
 
-#: src/geom_edit.c:1182
+#: src/geom_edit.c:1177
 msgid "Corner 2 - Z"
 msgstr "Sarok 2 - Z"
 
-#: src/geom_edit.c:2861
+#: src/geom_edit.c:2846
 msgid "SY Card Editor"
 msgstr "SY kártya szerkesztő"
 
-#: src/geom_edit.c:2871
+#: src/geom_edit.c:2856
 msgid "SY definition (e.g. FREQ=146, LAMBDA=300/FREQ):"
 msgstr "SY definíció (pl. FREQ=146, LAMBDA=300/FREQ):"
 
-#: src/geom_edit.c:2970
+#: src/geom_edit.c:2955
 msgid "NEC2 editor window not open"
 msgstr "NEC2 szerkesztőablak nincs megnyitva"
 
@@ -4713,7 +4704,7 @@ msgstr "Geometriai GR adatkártya hiba"
 
 #: src/input.c:752
 msgid "No geometry data cards"
-msgstr "Nincsenek geometriai adatkártyák"
+msgstr "Geometriai GC adatkártya hiba"
 
 #: src/input.c:763
 msgid "Probable invalid segment geometry.\n"
