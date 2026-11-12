@@ -1,5 +1,8 @@
 Xnec2c: Fast Multi-Threaded EM Simulator based on NEC2
 ------------------------------------------------------
+**0. About this fork.**
+This fork fixes a few things that personally bothered me. I am NOT sure if I have not broken anything. Use at your own risk.
+
 **1\. Introduction:**  
 
 [Xnec2c](https://www.xnec2c.org/) is a GTK3-based Graphical version of nec2c, my translation to the C language of NEC2, the FORTRAN Numerical Electromagnetics Code commonly used for antenna simulation and analysis. The original nec2c is a non-interactive command-line application that reads standard NEC2 input files and produces an output file with data requested by "commands" in the input file. In contrast xnec2c is a GUI interactive application that (in its current form) reads NEC2 input files but presents output data in graphical form, e.g. as wire frame drawings of the radiation pattern or near E/H field, graphs of maximum gain, input impedance, VSWR etc against frequency and simple rendering of the antenna structure, including color code representation of currents or charge densities. These results are only calculated and drawn on user demand via menu items or buttons, e.g. xnec2c is interactive and does not execute NEC2 "commands" in batch style as the original does. Printing of results to an output file has been removed starting from version 1.0, since xnec2c works in a way that does not allow printing compatible with the NEC2 format. If printing to file is needed then it is better to use the original NEC2 program, to avoid bugs that may still be lurking in the C translation.
