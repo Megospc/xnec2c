@@ -513,7 +513,6 @@ Nec2_Save_Warn( const gchar *mesg )
       error_dialog = create_error_dialog( &builder );
       gtk_label_set_text( GTK_LABEL(
             Builder_Get_Object(builder, "error_label")), mesg );
-      gtk_widget_hide( Builder_Get_Object(builder, "error_stopbutton") );
       gtk_widget_show( error_dialog );
       g_object_unref( builder );
     }

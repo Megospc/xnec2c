@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 18:20+0300\n"
+"POT-Creation-Date: 2026-11-12 19:31+0300\n"
 "PO-Revision-Date: 2026-07-11 10:31-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 # xnec2c-exempt: name
-#: files/xnec2c.desktop.in:2 resources/xnec2c.glade:1784
+#: files/xnec2c.desktop.in:2 resources/xnec2c.glade:1766
 msgid "xnec2c"
 msgstr ""
 
@@ -59,16 +59,16 @@ msgstr "Tangan Kiri"
 msgid "Animated"
 msgstr "A_nimasi"
 
-#: resources/animate.glade:114 resources/xnec2c.glade:11114
+#: resources/animate.glade:114 resources/xnec2c.glade:11096
 msgid "_Reference Phase"
 msgstr "Fasa _Rujukan"
 
-#: resources/animate.glade:125 resources/xnec2c.glade:11125
+#: resources/animate.glade:125 resources/xnec2c.glade:11107
 msgid "_LIC Texture"
 msgstr "Tekstur _LIC"
 
-#: resources/animate.glade:136 resources/xnec2c.glade:11136
-#: resources/xnec2c.glade:12328
+#: resources/animate.glade:136 resources/xnec2c.glade:11118
+#: resources/xnec2c.glade:12310
 msgid "_Wireframe"
 msgstr "Rangka _Wayar"
 
@@ -77,11 +77,11 @@ msgstr "Rangka _Wayar"
 msgid "Static"
 msgstr "Statik"
 
-#: resources/animate.glade:161 resources/xnec2c.glade:11161
+#: resources/animate.glade:161 resources/xnec2c.glade:11143
 msgid "Polarization _Axis"
 msgstr "Paksi _Polarisasi"
 
-#: resources/animate.glade:172 resources/xnec2c.glade:11172
+#: resources/animate.glade:172 resources/xnec2c.glade:11154
 msgid "Peak _Magnitude"
 msgstr "_Magnitud Puncak"
 
@@ -132,7 +132,7 @@ msgstr "Tiada (geometri)"
 msgid "Show the bare structure geometry with no quantity coloring."
 msgstr "Papar geometri struktur telanjang tanpa pewarnaan kuantiti."
 
-#: resources/animate.glade:498 resources/xnec2c.glade:11279
+#: resources/animate.glade:498 resources/xnec2c.glade:11261
 msgid "Currents"
 msgstr "Arus"
 
@@ -140,7 +140,7 @@ msgstr "Arus"
 msgid "Animate current magnitude and direction along the wires."
 msgstr "Animasikan magnitud dan arah arus di sepanjang wayar."
 
-#: resources/animate.glade:515 resources/xnec2c.glade:11294
+#: resources/animate.glade:515 resources/xnec2c.glade:11276
 msgid "Charges"
 msgstr "Cas"
 
@@ -290,7 +290,7 @@ msgid "Off"
 msgstr "Mati"
 
 # xnec2c-exempt: symbol
-#: resources/settings/cairo_settings.glade:84 resources/xnec2c.glade:3690
+#: resources/settings/cairo_settings.glade:84 resources/xnec2c.glade:3672
 msgid "8"
 msgstr ""
 
@@ -526,8 +526,8 @@ msgstr ""
 "20) dipotong ke warna dasar."
 
 # xnec2c-exempt: notation
-#: resources/settings/color_settings.glade:285 resources/xnec2c.glade:11752
-#: resources/xnec2c.glade:13109
+#: resources/settings/color_settings.glade:285 resources/xnec2c.glade:11734
+#: resources/xnec2c.glade:13091
 msgid "dB"
 msgstr ""
 
@@ -884,22 +884,22 @@ msgstr "Dijana secara automatik"
 msgid "Arc Element (GA card)"
 msgstr "Unsur Lengkok (kad GA)"
 
-#: resources/xnec2c.glade:134 resources/xnec2c.glade:1169
-#: resources/xnec2c.glade:3596 resources/xnec2c.glade:14826 src/cmnd_edit.c:489
+#: resources/xnec2c.glade:134 resources/xnec2c.glade:1151
+#: resources/xnec2c.glade:3578 resources/xnec2c.glade:14808 src/cmnd_edit.c:489
 msgid "Tag Number"
 msgstr "Nombor Tag"
 
-#: resources/xnec2c.glade:147 resources/xnec2c.glade:14921
+#: resources/xnec2c.glade:147 resources/xnec2c.glade:14903
 msgid "No. Segments"
 msgstr "Bil. Segmen"
 
-#: resources/xnec2c.glade:160 resources/xnec2c.glade:3622
-#: resources/xnec2c.glade:15017
+#: resources/xnec2c.glade:160 resources/xnec2c.glade:3604
+#: resources/xnec2c.glade:14999
 msgid "Segs % lambda"
 msgstr "Segmen % lambda"
 
-#: resources/xnec2c.glade:173 resources/xnec2c.glade:3635
-#: resources/xnec2c.glade:15113
+#: resources/xnec2c.glade:173 resources/xnec2c.glade:3617
+#: resources/xnec2c.glade:15095
 msgid "Wire Diameter"
 msgstr "Diameter Wayar"
 
@@ -915,8 +915,8 @@ msgstr "Sudut Hujung 1"
 msgid "End 2 Angle"
 msgstr "Sudut Hujung 2"
 
-#: resources/xnec2c.glade:300 resources/xnec2c.glade:3832
-#: resources/xnec2c.glade:15178 src/cmnd_edit.c:2025
+#: resources/xnec2c.glade:300 resources/xnec2c.glade:3814
+#: resources/xnec2c.glade:15160 src/cmnd_edit.c:2025
 msgid "Conductivity S/m"
 msgstr "Kekonduksian S/m"
 
@@ -925,16 +925,16 @@ msgid "Wire Arc Data"
 msgstr "Data Lengkok Wayar"
 
 #: resources/xnec2c.glade:460 resources/xnec2c.glade:696
-#: resources/xnec2c.glade:1496 resources/xnec2c.glade:1719
-#: resources/xnec2c.glade:2177 resources/xnec2c.glade:2369
-#: resources/xnec2c.glade:2680 resources/xnec2c.glade:3366
-#: resources/xnec2c.glade:4166 resources/xnec2c.glade:4365
-#: resources/xnec2c.glade:4526 resources/xnec2c.glade:5058
-#: resources/xnec2c.glade:5694 resources/xnec2c.glade:7138
-#: resources/xnec2c.glade:8045 resources/xnec2c.glade:9051
-#: resources/xnec2c.glade:9331 resources/xnec2c.glade:13519
-#: resources/xnec2c.glade:14032 resources/xnec2c.glade:14631
-#: resources/xnec2c.glade:15467 resources/xnec2c.glade:15667
+#: resources/xnec2c.glade:1478 resources/xnec2c.glade:1701
+#: resources/xnec2c.glade:2159 resources/xnec2c.glade:2351
+#: resources/xnec2c.glade:2662 resources/xnec2c.glade:3348
+#: resources/xnec2c.glade:4148 resources/xnec2c.glade:4347
+#: resources/xnec2c.glade:4508 resources/xnec2c.glade:5040
+#: resources/xnec2c.glade:5676 resources/xnec2c.glade:7120
+#: resources/xnec2c.glade:8027 resources/xnec2c.glade:9033
+#: resources/xnec2c.glade:9313 resources/xnec2c.glade:13501
+#: resources/xnec2c.glade:14014 resources/xnec2c.glade:14613
+#: resources/xnec2c.glade:15449 resources/xnec2c.glade:15649
 msgid "Delete Card"
 msgstr "Padam Kad"
 
@@ -942,7 +942,7 @@ msgstr "Padam Kad"
 msgid "Cylindrical Structure (GR card)"
 msgstr "Struktur Silinder (kad GR)"
 
-#: resources/xnec2c.glade:568 resources/xnec2c.glade:9231
+#: resources/xnec2c.glade:568 resources/xnec2c.glade:9213
 msgid "Tag Number Increment"
 msgstr "Tokokan Nombor Tag"
 
@@ -958,634 +958,634 @@ msgstr "Struktur Silinder"
 msgid "Xnec2c Error"
 msgstr "Ralat Xnec2c"
 
-#: resources/xnec2c.glade:869
+#: resources/xnec2c.glade:852
 msgid "Error"
 msgstr "Ralat"
 
-#: resources/xnec2c.glade:948
+#: resources/xnec2c.glade:930
 msgid "Excitation Command (EX Card)"
 msgstr "Arahan Pengujaan (Kad EX)"
 
-#: resources/xnec2c.glade:974
+#: resources/xnec2c.glade:956
 msgid "Incident LH Wave"
 msgstr "Gelombang Datang LH"
 
-#: resources/xnec2c.glade:990
+#: resources/xnec2c.glade:972
 msgid "Incident Linear Wave "
 msgstr "Gelombang Datang Linear "
 
-#: resources/xnec2c.glade:1006
+#: resources/xnec2c.glade:988
 msgid "Current Source"
 msgstr "Sumber Arus"
 
-#: resources/xnec2c.glade:1022
+#: resources/xnec2c.glade:1004
 msgid "Incident RH Wave"
 msgstr "Gelombang Datang RH"
 
-#: resources/xnec2c.glade:1038
+#: resources/xnec2c.glade:1020
 msgid "Current Slope Discontinuity"
 msgstr "Ketakselanjaran Cerun Arus"
 
-#: resources/xnec2c.glade:1054
+#: resources/xnec2c.glade:1036
 msgid "Voltage Source"
 msgstr "Sumber Voltan"
 
-#: resources/xnec2c.glade:1076
+#: resources/xnec2c.glade:1058
 msgid "Excitation Type"
 msgstr "Jenis Pengujaan"
 
-#: resources/xnec2c.glade:1101
+#: resources/xnec2c.glade:1083
 msgid "Maximum Admittance Matrix Asymmetry"
 msgstr "Asimetri Matriks Admitans Maksimum"
 
-#: resources/xnec2c.glade:1117
+#: resources/xnec2c.glade:1099
 msgid "Impedance of Source Segment"
 msgstr "Galangan Segmen Sumber"
 
-#: resources/xnec2c.glade:1139
+#: resources/xnec2c.glade:1121
 msgid "Print Control"
 msgstr "Kawalan Cetakan"
 
-#: resources/xnec2c.glade:1182 src/cmnd_edit.c:490
+#: resources/xnec2c.glade:1164 src/cmnd_edit.c:490
 msgid "Segment Number"
 msgstr "Nombor Segmen"
 
-#: resources/xnec2c.glade:1231
+#: resources/xnec2c.glade:1213
 msgid "Voltage - Real Part"
 msgstr "Voltan - Bahagian Nyata"
 
-#: resources/xnec2c.glade:1244
+#: resources/xnec2c.glade:1226
 msgid "Voltage - Imaginary Part"
 msgstr "Voltan - Bahagian Khayalan"
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:1257
+#: resources/xnec2c.glade:1239
 msgid "Eta"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:1327
+#: resources/xnec2c.glade:1309
 msgid "Theta"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:1340
+#: resources/xnec2c.glade:1322
 msgid "Phi"
 msgstr ""
 
-#: resources/xnec2c.glade:1353
+#: resources/xnec2c.glade:1335
 msgid "Ratio"
 msgstr "Nisbah"
 
-#: resources/xnec2c.glade:1434
+#: resources/xnec2c.glade:1416
 msgid "Excitation Parameters"
 msgstr "Parameter Pengujaan"
 
-#: resources/xnec2c.glade:1561
+#: resources/xnec2c.glade:1543
 msgid "Execute Command (XQ Card)"
 msgstr "Arahan Laksana (Kad XQ)"
 
-#: resources/xnec2c.glade:1588
+#: resources/xnec2c.glade:1570
 msgid "No Pattern Cuts"
 msgstr "Tiada Potongan Corak"
 
-#: resources/xnec2c.glade:1604
+#: resources/xnec2c.glade:1586
 msgid "Pattern in XZ Plane"
 msgstr "Corak dalam Satah XZ"
 
-#: resources/xnec2c.glade:1620
+#: resources/xnec2c.glade:1602
 msgid "Pattern in YZ Plane"
 msgstr "Corak dalam Satah YZ"
 
-#: resources/xnec2c.glade:1636
+#: resources/xnec2c.glade:1618
 msgid "Both XZ/YZ Patterns"
 msgstr "Kedua-dua Corak XZ/YZ"
 
-#: resources/xnec2c.glade:1658
+#: resources/xnec2c.glade:1640
 msgid "Execute Command"
 msgstr "Laksanakan Arahan"
 
-#: resources/xnec2c.glade:1889
+#: resources/xnec2c.glade:1871
 msgid "Frequency Command (FR Card)"
 msgstr "Arahan Frekuensi (Kad FR)"
 
-#: resources/xnec2c.glade:1914
+#: resources/xnec2c.glade:1896
 msgid "Additive Stepping"
 msgstr "Pelangkahan Tambahan"
 
-#: resources/xnec2c.glade:1931
+#: resources/xnec2c.glade:1913
 msgid "Multiplicative Stepping"
 msgstr "Pelangkahan Pendaraban"
 
-#: resources/xnec2c.glade:1954
+#: resources/xnec2c.glade:1936
 msgid "Frequency Stepping"
 msgstr "Pelangkahan Frekuensi"
 
-#: resources/xnec2c.glade:1984
+#: resources/xnec2c.glade:1966
 msgid "No. Frequency Points"
 msgstr "Bil. Titik Frekuensi"
 
-#: resources/xnec2c.glade:2015
+#: resources/xnec2c.glade:1997
 msgid "Start Frequency (MHz)"
 msgstr "Frekuensi Mula (MHz)"
 
-#: resources/xnec2c.glade:2047
+#: resources/xnec2c.glade:2029
 msgid "Frequency Step (MHz)"
 msgstr "Langkah Frekuensi (MHz)"
 
-#: resources/xnec2c.glade:2080
+#: resources/xnec2c.glade:2062
 msgid "End Frequency (MHz)"
 msgstr "Frekuensi Akhir (MHz)"
 
-#: resources/xnec2c.glade:2116
+#: resources/xnec2c.glade:2098
 msgid "Frequency Stepping Parameters"
 msgstr "Parameter Pelangkahan Frekuensi"
 
-#: resources/xnec2c.glade:2242
+#: resources/xnec2c.glade:2224
 msgid "Geometry End (GE Card)"
 msgstr "Penghujung Geometri (Kad GE)"
 
-#: resources/xnec2c.glade:2267
+#: resources/xnec2c.glade:2249
 msgid "No Ground, Free Space condition"
 msgstr "Tiada Bumi, keadaan Ruang Bebas"
 
-#: resources/xnec2c.glade:2284
+#: resources/xnec2c.glade:2266
 msgid "Ground present, Structure reflection"
 msgstr "Bumi hadir, pantulan Struktur"
 
-#: resources/xnec2c.glade:2301
+#: resources/xnec2c.glade:2283
 msgid "Ground present, no Structure reflection"
 msgstr "Bumi hadir, tiada pantulan Struktur"
 
-#: resources/xnec2c.glade:2324
+#: resources/xnec2c.glade:2306
 msgid "Ground Plane type"
 msgstr "Jenis Satah Bumi"
 
-#: resources/xnec2c.glade:2458
+#: resources/xnec2c.glade:2440
 msgid "Ground Parameters (GD Card)"
 msgstr "Parameter Bumi (Kad GD)"
 
-#: resources/xnec2c.glade:2487 resources/xnec2c.glade:2956
-#: resources/xnec2c.glade:3042
+#: resources/xnec2c.glade:2469 resources/xnec2c.glade:2938
+#: resources/xnec2c.glade:3024
 msgid "Relative Dielectric Const."
 msgstr "Pemalar Dielektrik Relatif"
 
-#: resources/xnec2c.glade:2519 resources/xnec2c.glade:3075
+#: resources/xnec2c.glade:2501 resources/xnec2c.glade:3057
 msgid "Distance to 2nd Medium"
 msgstr "Jarak ke Medium ke-2"
 
-#: resources/xnec2c.glade:2551 resources/xnec2c.glade:2988
-#: resources/xnec2c.glade:3107
+#: resources/xnec2c.glade:2533 resources/xnec2c.glade:2970
+#: resources/xnec2c.glade:3089
 msgid "Ground Conductivity S/m"
 msgstr "Kekonduksian Bumi S/m"
 
-#: resources/xnec2c.glade:2583 resources/xnec2c.glade:3139
+#: resources/xnec2c.glade:2565 resources/xnec2c.glade:3121
 msgid "Dist. below 1st Medium"
 msgstr "Jarak di bawah Medium ke-1"
 
-#: resources/xnec2c.glade:2619 resources/xnec2c.glade:3175
+#: resources/xnec2c.glade:2601 resources/xnec2c.glade:3157
 msgid "2nd Medium Parameters"
 msgstr "Parameter Medium ke-2"
 
-#: resources/xnec2c.glade:2800
+#: resources/xnec2c.glade:2782
 msgid "Ground Parameters (GN & GD Cards)"
 msgstr "Parameter Bumi (Kad GN & GD)"
 
-#: resources/xnec2c.glade:2827
+#: resources/xnec2c.glade:2809
 msgid "Perfect Ground"
 msgstr "Bumi Sempurna"
 
 # xnec2c-exempt: name
-#: resources/xnec2c.glade:2843
+#: resources/xnec2c.glade:2825
 msgid "Sommerfeld/Norton"
 msgstr ""
 
-#: resources/xnec2c.glade:2859
+#: resources/xnec2c.glade:2841
 msgid "Radial Ground Screen"
 msgstr "Skrin Bumi Jejari"
 
-#: resources/xnec2c.glade:2874
+#: resources/xnec2c.glade:2856
 msgid "Reflection Coeff. Approx"
 msgstr "Anggaran Pekali Pantulan"
 
-#: resources/xnec2c.glade:2890
+#: resources/xnec2c.glade:2872
 msgid "Nullify Previous Params"
 msgstr "Batalkan Parameter Terdahulu"
 
-#: resources/xnec2c.glade:2906
+#: resources/xnec2c.glade:2888
 msgid "Second Medium (Cliff)"
 msgstr "Medium Kedua (Tebing)"
 
-#: resources/xnec2c.glade:2927
+#: resources/xnec2c.glade:2909
 msgid "Ground Type"
 msgstr "Jenis Bumi"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3055
+#: resources/xnec2c.glade:3037
 msgid "0.00000"
 msgstr ""
 
-#: resources/xnec2c.glade:3206
+#: resources/xnec2c.glade:3188
 msgid "Number of Radials"
 msgstr "Bilangan Jejari"
 
-#: resources/xnec2c.glade:3219
+#: resources/xnec2c.glade:3201
 msgid "Radial Screen Radius"
 msgstr "Jejari Skrin Bumi"
 
-#: resources/xnec2c.glade:3269
+#: resources/xnec2c.glade:3251
 msgid "Radial Wire Diameter"
 msgstr "Diameter Wayar Jejari"
 
-#: resources/xnec2c.glade:3305
+#: resources/xnec2c.glade:3287
 msgid "Radial Screen Parameters"
 msgstr "Parameter Skrin Bumi"
 
-#: resources/xnec2c.glade:3505
+#: resources/xnec2c.glade:3487
 msgid "Helical Element (GA card)"
 msgstr "Unsur Heliks (kad GA)"
 
-#: resources/xnec2c.glade:3530
+#: resources/xnec2c.glade:3512
 msgid "Right Hand Helix"
 msgstr "Heliks Tangan Kanan"
 
-#: resources/xnec2c.glade:3546
+#: resources/xnec2c.glade:3528
 msgid "Left Hand Helix"
 msgstr "Heliks Tangan Kiri"
 
-#: resources/xnec2c.glade:3562
+#: resources/xnec2c.glade:3544
 msgid "Right Hand Spiral"
 msgstr "Spiral Tangan Kanan"
 
-#: resources/xnec2c.glade:3578
+#: resources/xnec2c.glade:3560
 msgid "Left Hand Spiral"
 msgstr "Spiral Tangan Kiri"
 
-#: resources/xnec2c.glade:3609
+#: resources/xnec2c.glade:3591
 msgid "Segments/Turn"
 msgstr "Segmen/Pusingan"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3648
+#: resources/xnec2c.glade:3630
 msgid "0.0100"
 msgstr ""
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3669
+#: resources/xnec2c.glade:3651
 msgid "5.00"
 msgstr ""
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3710 resources/xnec2c.glade:11785
-#: resources/xnec2c.glade:12985
+#: resources/xnec2c.glade:3692 resources/xnec2c.glade:11767
+#: resources/xnec2c.glade:12967
 msgid "1"
 msgstr ""
 
-#: resources/xnec2c.glade:3730
+#: resources/xnec2c.glade:3712
 msgid "Number of Turns"
 msgstr "Bilangan Pusingan"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3743
+#: resources/xnec2c.glade:3725
 msgid "8.0000"
 msgstr ""
 
-#: resources/xnec2c.glade:3764
+#: resources/xnec2c.glade:3746
 msgid "Helix Length (HL)"
 msgstr "Panjang Heliks (HL)"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3777
+#: resources/xnec2c.glade:3759
 msgid "5.0000"
 msgstr ""
 
-#: resources/xnec2c.glade:3798
+#: resources/xnec2c.glade:3780
 msgid "Turns Spacing"
 msgstr "Jarak Pusingan"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3811 resources/xnec2c.glade:3923
-#: resources/xnec2c.glade:3976 resources/xnec2c.glade:4029
-#: resources/xnec2c.glade:4077
+#: resources/xnec2c.glade:3793 resources/xnec2c.glade:3905
+#: resources/xnec2c.glade:3958 resources/xnec2c.glade:4011
+#: resources/xnec2c.glade:4059
 msgid "1.0000"
 msgstr ""
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3845
+#: resources/xnec2c.glade:3827
 msgid "0.0000"
 msgstr ""
 
-#: resources/xnec2c.glade:3865
+#: resources/xnec2c.glade:3847
 msgid "Radius in X (A1)"
 msgstr "Jejari dalam X (A1)"
 
-#: resources/xnec2c.glade:3878
+#: resources/xnec2c.glade:3860
 msgid "Radius in Y (B1)"
 msgstr "Jejari dalam Y (B1)"
 
-#: resources/xnec2c.glade:3891
+#: resources/xnec2c.glade:3873
 msgid "Radius in X (A2)"
 msgstr "Jejari dalam X (A2)"
 
-#: resources/xnec2c.glade:3904
+#: resources/xnec2c.glade:3886
 msgid "Radius in Y (B2)"
 msgstr "Jejari dalam Y (B2)"
 
-#: resources/xnec2c.glade:4102
+#: resources/xnec2c.glade:4084
 msgid "GH Card"
 msgstr "Kad GH"
 
-#: resources/xnec2c.glade:4239 resources/xnec2c.glade:15541
+#: resources/xnec2c.glade:4221 resources/xnec2c.glade:15523
 msgid "Interaction Approx Range (KH Card)"
 msgstr "Julat Anggaran Interaksi (Kad KH)"
 
-#: resources/xnec2c.glade:4266
+#: resources/xnec2c.glade:4248
 msgid "Approximation Range (W/lengths)"
 msgstr "Julat Anggaran (panjang gelombang)"
 
-#: resources/xnec2c.glade:4304
+#: resources/xnec2c.glade:4286
 msgid "Interaction Approximation Range"
 msgstr "Julat Anggaran Interaksi"
 
-#: resources/xnec2c.glade:4430
+#: resources/xnec2c.glade:4412
 msgid "Thin Wire Kernel (EK Card)"
 msgstr "Kernel Wayar Nipis (Kad EK)"
 
-#: resources/xnec2c.glade:4448
+#: resources/xnec2c.glade:4430
 msgid "Extended Thin Wire Kernel"
 msgstr "Kernel Wayar Nipis Lanjutan"
 
-#: resources/xnec2c.glade:4465
+#: resources/xnec2c.glade:4447
 msgid "Thin Wire Kernel"
 msgstr "Kernel Wayar Nipis"
 
-#: resources/xnec2c.glade:4628
+#: resources/xnec2c.glade:4610
 msgid "Loading Command (LD Card)"
 msgstr "Arahan Beban (Kad LD)"
 
-#: resources/xnec2c.glade:4654
+#: resources/xnec2c.glade:4636
 msgid "Short all Loads (Nulls previous Loading Cards)"
 msgstr "Pintas semua Beban (Membatalkan Kad Beban terdahulu)"
 
-#: resources/xnec2c.glade:4671
+#: resources/xnec2c.glade:4653
 msgid "Series, Lumped"
 msgstr "Sesiri, Terkumpul"
 
-#: resources/xnec2c.glade:4687
+#: resources/xnec2c.glade:4669
 msgid "Parallel, Distributed"
 msgstr "Selari, Teragih"
 
-#: resources/xnec2c.glade:4703
+#: resources/xnec2c.glade:4685
 msgid "Parallel, Lumped"
 msgstr "Selari, Terkumpul"
 
-#: resources/xnec2c.glade:4719
+#: resources/xnec2c.glade:4701
 msgid "Resistance & Reactance"
 msgstr "Rintangan & Reaktans"
 
-#: resources/xnec2c.glade:4735
+#: resources/xnec2c.glade:4717
 msgid "Series, Distributed"
 msgstr "Sesiri, Teragih"
 
-#: resources/xnec2c.glade:4751
+#: resources/xnec2c.glade:4733
 msgid "Wire Conductivity"
 msgstr "Kekonduksian Wayar"
 
-#: resources/xnec2c.glade:4773
+#: resources/xnec2c.glade:4755
 msgid "Loading Type"
 msgstr "Jenis Beban"
 
-#: resources/xnec2c.glade:4803
+#: resources/xnec2c.glade:4785
 msgid "Load Tag Number"
 msgstr "Nombor Tag Beban"
 
-#: resources/xnec2c.glade:4834
+#: resources/xnec2c.glade:4816
 msgid "Resistance"
 msgstr "Rintangan"
 
-#: resources/xnec2c.glade:4866
+#: resources/xnec2c.glade:4848
 msgid "From Segment #"
 msgstr "Dari Segmen #"
 
-#: resources/xnec2c.glade:4897
+#: resources/xnec2c.glade:4879
 msgid "Inductance"
 msgstr "Induktans"
 
-#: resources/xnec2c.glade:4929
+#: resources/xnec2c.glade:4911
 msgid "To Segment #"
 msgstr "Ke Segmen #"
 
-#: resources/xnec2c.glade:4960
+#: resources/xnec2c.glade:4942
 msgid "Capacitance"
 msgstr "Kapasitans"
 
-#: resources/xnec2c.glade:4996
+#: resources/xnec2c.glade:4978
 msgid "Loading Parameters"
 msgstr "Parameter Beban"
 
-#: resources/xnec2c.glade:5211
+#: resources/xnec2c.glade:5193
 msgid "Near Fields Command (NE/NH Cards)"
 msgstr "Arahan Medan Dekat (Kad NE/NH)"
 
-#: resources/xnec2c.glade:5238
+#: resources/xnec2c.glade:5220
 msgid "Near Electric Field"
 msgstr "Medan Elektrik Dekat"
 
-#: resources/xnec2c.glade:5254
+#: resources/xnec2c.glade:5236
 msgid "Rectangular Co-ordinates"
 msgstr "Koordinat Segi Empat Tepat"
 
-#: resources/xnec2c.glade:5270
+#: resources/xnec2c.glade:5252
 msgid "Near Magnetic Field"
 msgstr "Medan Magnet Dekat"
 
-#: resources/xnec2c.glade:5285
+#: resources/xnec2c.glade:5267
 msgid "Spherical Co-ordinates"
 msgstr "Koordinat Sfera"
 
-#: resources/xnec2c.glade:5313
+#: resources/xnec2c.glade:5295
 msgid "Field Type & Co-ordinates"
 msgstr "Jenis Medan & Koordinat"
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5343
+#: resources/xnec2c.glade:5325
 msgid "NX"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5374 resources/xnec2c.glade:11309
-#: resources/xnec2c.glade:12520
+#: resources/xnec2c.glade:5356 resources/xnec2c.glade:11291
+#: resources/xnec2c.glade:12502
 msgid "X"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5406
+#: resources/xnec2c.glade:5388
 msgid "DX"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5438
+#: resources/xnec2c.glade:5420
 msgid "NY"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5469 resources/xnec2c.glade:11324
-#: resources/xnec2c.glade:12535
+#: resources/xnec2c.glade:5451 resources/xnec2c.glade:11306
+#: resources/xnec2c.glade:12517
 msgid "Y"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5501
+#: resources/xnec2c.glade:5483
 msgid "DY"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5533
+#: resources/xnec2c.glade:5515
 msgid "NZ"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5564 resources/xnec2c.glade:11339
-#: resources/xnec2c.glade:12550
+#: resources/xnec2c.glade:5546 resources/xnec2c.glade:11321
+#: resources/xnec2c.glade:12532
 msgid "Z"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5596
+#: resources/xnec2c.glade:5578
 msgid "DZ"
 msgstr ""
 
-#: resources/xnec2c.glade:5632
+#: resources/xnec2c.glade:5614
 msgid "Field Pattern Parameters"
 msgstr "Parameter Corak Medan"
 
-#: resources/xnec2c.glade:5759
+#: resources/xnec2c.glade:5741
 msgid "Xnec2c: NEC2 Input File Editor"
 msgstr "Xnec2c: Editor Fail Masukan NEC2"
 
-#: resources/xnec2c.glade:5846
+#: resources/xnec2c.glade:5828
 msgid "Manage Cards"
 msgstr "Urus Kad"
 
-#: resources/xnec2c.glade:5943
+#: resources/xnec2c.glade:5925
 msgid "File Save"
 msgstr "Simpan Fail"
 
-#: resources/xnec2c.glade:6003 src/nec2_model.c:279
+#: resources/xnec2c.glade:5985 src/nec2_model.c:279
 msgid "Comments"
 msgstr "Komen"
 
-#: resources/xnec2c.glade:6030
+#: resources/xnec2c.glade:6012
 msgid "Wire"
 msgstr "Wayar"
 
-#: resources/xnec2c.glade:6044
+#: resources/xnec2c.glade:6026
 msgid "Arc"
 msgstr "Lengkok"
 
-#: resources/xnec2c.glade:6058
+#: resources/xnec2c.glade:6040
 msgid "Helix"
 msgstr "Heliks"
 
-#: resources/xnec2c.glade:6072
+#: resources/xnec2c.glade:6054
 msgid "Patch"
 msgstr "Tampalan"
 
-#: resources/xnec2c.glade:6086
+#: resources/xnec2c.glade:6068
 msgid "Cylinder"
 msgstr "Silinder"
 
-#: resources/xnec2c.glade:6100
+#: resources/xnec2c.glade:6082
 msgid "Move"
 msgstr "Alih"
 
-#: resources/xnec2c.glade:6114
+#: resources/xnec2c.glade:6096
 msgid "Reflect"
 msgstr "Pantul"
 
-#: resources/xnec2c.glade:6128
+#: resources/xnec2c.glade:6110
 msgid "Scale"
 msgstr "Skala"
 
-#: resources/xnec2c.glade:6142 resources/xnec2c.glade:6426
+#: resources/xnec2c.glade:6124 resources/xnec2c.glade:6408
 msgid "Add Var (SY)"
 msgstr "Tambah Pemboleh Ubah (SY)"
 
-#: resources/xnec2c.glade:6162
+#: resources/xnec2c.glade:6144
 msgid "Edit Geometry Data"
 msgstr "Sunting Data Geometri"
 
-#: resources/xnec2c.glade:6216
+#: resources/xnec2c.glade:6198
 msgid "Geometry"
 msgstr "Geometri"
 
-#: resources/xnec2c.glade:6243
+#: resources/xnec2c.glade:6225
 msgid "Excitation"
 msgstr "Pengujaan"
 
-#: resources/xnec2c.glade:6257
+#: resources/xnec2c.glade:6239
 msgid "Radiation"
 msgstr "Sinaran"
 
-#: resources/xnec2c.glade:6271
+#: resources/xnec2c.glade:6253
 msgid "Frequency"
 msgstr "Frekuensi"
 
-#: resources/xnec2c.glade:6285
+#: resources/xnec2c.glade:6267
 msgid "Near Fields"
 msgstr "Medan Dekat"
 
-#: resources/xnec2c.glade:6299
+#: resources/xnec2c.glade:6281
 msgid "Ground (GN)"
 msgstr "Bumi (GN)"
 
-#: resources/xnec2c.glade:6313
+#: resources/xnec2c.glade:6295
 msgid "Ground (GD)"
 msgstr "Bumi (GD)"
 
-#: resources/xnec2c.glade:6327
+#: resources/xnec2c.glade:6309
 msgid "Loading"
 msgstr "Beban"
 
 # xnec2c-exempt: loanword
-#: resources/xnec2c.glade:6341
+#: resources/xnec2c.glade:6323
 msgid "Kernel"
 msgstr ""
 
-#: resources/xnec2c.glade:6355
+#: resources/xnec2c.glade:6337
 msgid "Network"
 msgstr "Rangkaian"
 
-#: resources/xnec2c.glade:6369
+#: resources/xnec2c.glade:6351
 msgid "Interaction"
 msgstr "Interaksi"
 
-#: resources/xnec2c.glade:6383
+#: resources/xnec2c.glade:6365
 msgid "Transm. Line"
 msgstr "Talian Penghantaran"
 
-#: resources/xnec2c.glade:6398
+#: resources/xnec2c.glade:6380
 msgid "Execute"
 msgstr "Laksana"
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:6412
+#: resources/xnec2c.glade:6394
 msgid "Z₀"
 msgstr ""
 
-#: resources/xnec2c.glade:6446
+#: resources/xnec2c.glade:6428
 msgid "Edit Control Commands"
 msgstr "Sunting Arahan Kawalan"
 
-#: resources/xnec2c.glade:6500
+#: resources/xnec2c.glade:6482
 msgid "Commands"
 msgstr "Arahan"
 
-#: resources/xnec2c.glade:6519
+#: resources/xnec2c.glade:6501
 msgid "Unsaved Data"
 msgstr "Data Belum Disimpan"
 
-#: resources/xnec2c.glade:6595
+#: resources/xnec2c.glade:6577
 msgid ""
 "Unsaved data in NEC2 Editor.\n"
 "Save NEC2 Editor data first?\n"
@@ -1593,388 +1593,388 @@ msgstr ""
 "Data belum disimpan dalam Editor NEC2.\n"
 "Simpan data Editor NEC2 dahulu?\n"
 
-#: resources/xnec2c.glade:6694
+#: resources/xnec2c.glade:6676
 msgid "Network Command (NT Card)"
 msgstr "Arahan Rangkaian (Kad NT)"
 
-#: resources/xnec2c.glade:6723
+#: resources/xnec2c.glade:6705
 msgid "Tag Number, Port 1  "
 msgstr "Nombor Tag, Port 1  "
 
-#: resources/xnec2c.glade:6754
+#: resources/xnec2c.glade:6736
 msgid "Tag Number, Port 2  "
 msgstr "Nombor Tag, Port 2  "
 
-#: resources/xnec2c.glade:6785
+#: resources/xnec2c.glade:6767
 msgid "Segment Num, Port 1"
 msgstr "Nombor Segmen, Port 1"
 
-#: resources/xnec2c.glade:6816
+#: resources/xnec2c.glade:6798
 msgid "Segment Num, Port 2"
 msgstr "Nombor Segmen, Port 2"
 
-#: resources/xnec2c.glade:6851 resources/xnec2c.glade:14327
+#: resources/xnec2c.glade:6833 resources/xnec2c.glade:14309
 msgid "Segment Identity"
 msgstr "Identiti Segmen"
 
-#: resources/xnec2c.glade:6881
+#: resources/xnec2c.glade:6863
 msgid "Element 1,1 Real Part"
 msgstr "Unsur 1,1 Bahagian Nyata"
 
-#: resources/xnec2c.glade:6913
+#: resources/xnec2c.glade:6895
 msgid "Element 1,2 Real Part"
 msgstr "Unsur 1,2 Bahagian Nyata"
 
-#: resources/xnec2c.glade:6945
+#: resources/xnec2c.glade:6927
 msgid "Element 2,2 Real Part"
 msgstr "Unsur 2,2 Bahagian Nyata"
 
-#: resources/xnec2c.glade:6977
+#: resources/xnec2c.glade:6959
 msgid "Element 1,1 Imag Part"
 msgstr "Unsur 1,1 Bahagian Khayalan"
 
-#: resources/xnec2c.glade:7009
+#: resources/xnec2c.glade:6991
 msgid "Element 1,2 Imag Part"
 msgstr "Unsur 1,2 Bahagian Khayalan"
 
-#: resources/xnec2c.glade:7041
+#: resources/xnec2c.glade:7023
 msgid "Element 2,2 Imag Part"
 msgstr "Unsur 2,2 Bahagian Khayalan"
 
-#: resources/xnec2c.glade:7077
+#: resources/xnec2c.glade:7059
 msgid "Admittance Matrix Elements"
 msgstr "Unsur Matriks Admitans"
 
-#: resources/xnec2c.glade:7292
+#: resources/xnec2c.glade:7274
 msgid "Patch Element (SP & SC Cards)"
 msgstr "Unsur Tampalan (Kad SP & SC)"
 
-#: resources/xnec2c.glade:7316
+#: resources/xnec2c.glade:7298
 msgid "Arbitrary"
 msgstr "Bebas"
 
-#: resources/xnec2c.glade:7333
+#: resources/xnec2c.glade:7315
 msgid "Rectangle"
 msgstr "Segi Empat Tepat"
 
-#: resources/xnec2c.glade:7350
+#: resources/xnec2c.glade:7332
 msgid "Triangle"
 msgstr "Segi Tiga"
 
-#: resources/xnec2c.glade:7367
+#: resources/xnec2c.glade:7349
 msgid "Quadrilateral"
 msgstr "Sisi Empat"
 
-#: resources/xnec2c.glade:7384
+#: resources/xnec2c.glade:7366
 msgid "Surface"
 msgstr "Permukaan"
 
-#: resources/xnec2c.glade:7407
+#: resources/xnec2c.glade:7389
 msgid "Patch Type"
 msgstr "Jenis Tampalan"
 
-#: resources/xnec2c.glade:7437
+#: resources/xnec2c.glade:7419
 msgid "Corners 1-2 sub-division (NX)"
 msgstr "Sub-bahagian Bucu 1-2 (NX)"
 
-#: resources/xnec2c.glade:7468
+#: resources/xnec2c.glade:7450
 msgid "Corners 2-3 sub-division (NY)"
 msgstr "Sub-bahagian Bucu 2-3 (NY)"
 
-#: resources/xnec2c.glade:7503
+#: resources/xnec2c.glade:7485
 msgid "Surface Sub-division"
 msgstr "Sub-bahagian Permukaan"
 
-#: resources/xnec2c.glade:7533 src/geom_edit.c:1152
+#: resources/xnec2c.glade:7515 src/geom_edit.c:1152
 msgid "Center - X"
 msgstr "Pusat - X"
 
-#: resources/xnec2c.glade:7565 src/geom_edit.c:1158
+#: resources/xnec2c.glade:7547 src/geom_edit.c:1158
 msgid "Normal - Elev."
 msgstr "Biasa - Elev."
 
-#: resources/xnec2c.glade:7597 src/geom_edit.c:1154
+#: resources/xnec2c.glade:7579 src/geom_edit.c:1154
 msgid "Center - Y"
 msgstr "Pusat - Y"
 
-#: resources/xnec2c.glade:7629 src/geom_edit.c:1160
+#: resources/xnec2c.glade:7611 src/geom_edit.c:1160
 msgid "Normal - Azim."
 msgstr "Biasa - Azim."
 
-#: resources/xnec2c.glade:7661 src/geom_edit.c:1156
+#: resources/xnec2c.glade:7643 src/geom_edit.c:1156
 msgid "Center - Z"
 msgstr "Pusat - Z"
 
-#: resources/xnec2c.glade:7693 src/geom_edit.c:1162
+#: resources/xnec2c.glade:7675 src/geom_edit.c:1162
 msgid "Patch Area"
 msgstr "Luas Tampalan"
 
-#: resources/xnec2c.glade:7729
+#: resources/xnec2c.glade:7711
 msgid "SP/SM Cards"
 msgstr "Kad SP/SM"
 
-#: resources/xnec2c.glade:7765
+#: resources/xnec2c.glade:7747
 msgid "Corner 3 - X"
 msgstr "Bucu 3 - X"
 
-#: resources/xnec2c.glade:7797
+#: resources/xnec2c.glade:7779
 msgid "Corner 3 - Y"
 msgstr "Bucu 3 - Y"
 
-#: resources/xnec2c.glade:7829
+#: resources/xnec2c.glade:7811
 msgid "Corner 3 - Z"
 msgstr "Bucu 3 - Z"
 
-#: resources/xnec2c.glade:7877
+#: resources/xnec2c.glade:7859
 msgid "Corner 4 - X"
 msgstr "Bucu 4 - X"
 
-#: resources/xnec2c.glade:7909
+#: resources/xnec2c.glade:7891
 msgid "Corner 4 - Y"
 msgstr "Bucu 4 - Y"
 
-#: resources/xnec2c.glade:7941
+#: resources/xnec2c.glade:7923
 msgid "Corner 4 - Z"
 msgstr "Bucu 4 - Z"
 
-#: resources/xnec2c.glade:7984
+#: resources/xnec2c.glade:7966
 msgid "SC Card"
 msgstr "Kad SC"
 
-#: resources/xnec2c.glade:8200
+#: resources/xnec2c.glade:8182
 msgid "Quit xnec2c?"
 msgstr "Keluar xnec2c?"
 
-#: resources/xnec2c.glade:8279
+#: resources/xnec2c.glade:8261
 msgid "Radiation Pattern (RP Card)"
 msgstr "Corak Sinaran (Kad RP)"
 
-#: resources/xnec2c.glade:8306
+#: resources/xnec2c.glade:8288
 msgid "Normal (Space) Wave"
 msgstr "Gelombang Normal (Ruang)"
 
-#: resources/xnec2c.glade:8322
+#: resources/xnec2c.glade:8304
 msgid "Space + Ground Wave"
 msgstr "Gelombang Ruang + Bumi"
 
-#: resources/xnec2c.glade:8338
+#: resources/xnec2c.glade:8320
 msgid "Linear Cliff"
 msgstr "Tebing Linear"
 
-#: resources/xnec2c.glade:8354
+#: resources/xnec2c.glade:8336
 msgid "Radial wire screen"
 msgstr "Skrin wayar jejari"
 
-#: resources/xnec2c.glade:8370
+#: resources/xnec2c.glade:8352
 msgid "Circular Cliff + Radials"
 msgstr "Tebing Bulat + Jejari"
 
-#: resources/xnec2c.glade:8386
+#: resources/xnec2c.glade:8368
 msgid "Circular Cliff"
 msgstr "Tebing Bulat"
 
-#: resources/xnec2c.glade:8402
+#: resources/xnec2c.glade:8384
 msgid "Linear Cliff + Radials"
 msgstr "Tebing Linear + Jejari"
 
-#: resources/xnec2c.glade:8420
+#: resources/xnec2c.glade:8402
 msgid "<b>See GN/GD Card Documentation</b>"
 msgstr "<b>Lihat Dokumentasi Kad GN/GD</b>"
 
-#: resources/xnec2c.glade:8438
+#: resources/xnec2c.glade:8420
 msgid "Wave Type and Ground (I1)"
 msgstr "Jenis Gelombang dan Bumi (I1)"
 
-#: resources/xnec2c.glade:8466
+#: resources/xnec2c.glade:8448
 msgid "Major & Minor Axis & Total Gain"
 msgstr "Paksi Utama & Kecil & Jumlah Gandaan"
 
-#: resources/xnec2c.glade:8482
+#: resources/xnec2c.glade:8464
 msgid "Vertical, Horizontal & Total Gain"
 msgstr "Menegak, Mengufuk & Jumlah Gandaan"
 
-#: resources/xnec2c.glade:8498
+#: resources/xnec2c.glade:8480
 msgid "Major Axis Gain Normalized"
 msgstr "Gandaan Paksi Utama Ternormal"
 
-#: resources/xnec2c.glade:8514
+#: resources/xnec2c.glade:8496
 msgid "Vertical Axis Gain Normalized"
 msgstr "Gandaan Paksi Menegak Ternormal"
 
-#: resources/xnec2c.glade:8530
+#: resources/xnec2c.glade:8512
 msgid "Total Gain Normalized"
 msgstr "Jumlah Gandaan Ternormal"
 
-#: resources/xnec2c.glade:8546
+#: resources/xnec2c.glade:8528
 msgid "Print/Normalize Directive Gain"
 msgstr "Cetak/Normalkan Gandaan Direktif"
 
-#: resources/xnec2c.glade:8562
+#: resources/xnec2c.glade:8544
 msgid "No Normalized Gain"
 msgstr "Tiada Gandaan Ternormal"
 
-#: resources/xnec2c.glade:8578
+#: resources/xnec2c.glade:8560
 msgid "Minor Axis Gain Normalized"
 msgstr "Gandaan Paksi Kecil Ternormal"
 
-#: resources/xnec2c.glade:8594
+#: resources/xnec2c.glade:8576
 msgid "Horizontal Axis Gain Normalized"
 msgstr "Gandaan Paksi Mengufuk Ternormal"
 
-#: resources/xnec2c.glade:8610
+#: resources/xnec2c.glade:8592
 msgid "Print/Normalize Power Gain"
 msgstr "Cetak/Normalkan Gandaan Kuasa"
 
-#: resources/xnec2c.glade:8626
+#: resources/xnec2c.glade:8608
 msgid "No Gain Averaging"
 msgstr "Tiada Purata Gandaan"
 
-#: resources/xnec2c.glade:8642
+#: resources/xnec2c.glade:8624
 msgid "Points in Average Not Printed"
 msgstr "Titik dalam Purata Tidak Dicetak"
 
-#: resources/xnec2c.glade:8658
+#: resources/xnec2c.glade:8640
 msgid "Average Gain Computed"
 msgstr "Purata Gandaan Dikira"
 
-#: resources/xnec2c.glade:8676
+#: resources/xnec2c.glade:8658
 msgid "<b>See RP Card Documentation</b>"
 msgstr "<b>Lihat Dokumentasi Kad RP</b>"
 
-#: resources/xnec2c.glade:8694
+#: resources/xnec2c.glade:8676
 msgid "Data Output Control (XNDA)"
 msgstr "Kawalan Output Data (XNDA)"
 
-#: resources/xnec2c.glade:8724
+#: resources/xnec2c.glade:8706
 msgid "Points in Theta"
 msgstr "Titik dalam Theta"
 
-#: resources/xnec2c.glade:8738 src/cmnd_edit.c:1764
+#: resources/xnec2c.glade:8720 src/cmnd_edit.c:1764
 msgid "Initial Theta (deg)"
 msgstr "Theta Awal (darjah)"
 
-#: resources/xnec2c.glade:8751 src/cmnd_edit.c:1765 src/cmnd_edit.c:2710
+#: resources/xnec2c.glade:8733 src/cmnd_edit.c:1765 src/cmnd_edit.c:2710
 msgid "Increment in Theta"
 msgstr "Tokokan dalam Theta"
 
-#: resources/xnec2c.glade:8820 src/cmnd_edit.c:1763
+#: resources/xnec2c.glade:8802 src/cmnd_edit.c:1763
 msgid "Points in Phi"
 msgstr "Titik dalam Phi"
 
-#: resources/xnec2c.glade:8833
+#: resources/xnec2c.glade:8815
 msgid "Initial Phi (deg)"
 msgstr "Phi Awal (darjah)"
 
-#: resources/xnec2c.glade:8846 src/cmnd_edit.c:2709
+#: resources/xnec2c.glade:8828 src/cmnd_edit.c:2709
 msgid "Increment in Phi"
 msgstr "Tokokan dalam Phi"
 
-#: resources/xnec2c.glade:8915
+#: resources/xnec2c.glade:8897
 msgid "Field Point Distance"
 msgstr "Jarak Titik Medan"
 
-#: resources/xnec2c.glade:8947
+#: resources/xnec2c.glade:8929
 msgid "Gain Normalization"
 msgstr "Normalisasi Gandaan"
 
-#: resources/xnec2c.glade:8989
+#: resources/xnec2c.glade:8971
 msgid "Radiation Pattern Parameters"
 msgstr "Parameter Corak Sinaran"
 
-#: resources/xnec2c.glade:9156
+#: resources/xnec2c.glade:9138
 msgid "Reflect Structure (GX card)"
 msgstr "Pantul Struktur (kad GX)"
 
-#: resources/xnec2c.glade:9184
+#: resources/xnec2c.glade:9166
 msgid "Reflect in YZ plane"
 msgstr "Pantul dalam satah YZ"
 
-#: resources/xnec2c.glade:9199
+#: resources/xnec2c.glade:9181
 msgid "Reflect in XY plane"
 msgstr "Pantul dalam satah XY"
 
-#: resources/xnec2c.glade:9214
+#: resources/xnec2c.glade:9196
 msgid "Reflect in XZ plane"
 msgstr "Pantul dalam satah XZ"
 
-#: resources/xnec2c.glade:9270
+#: resources/xnec2c.glade:9252
 msgid "Reflect Options"
 msgstr "Pilihan Pantulan"
 
-#: resources/xnec2c.glade:9401
+#: resources/xnec2c.glade:9383
 msgid "Xnec2c: Frequency Data Plots"
 msgstr "Xnec2c: Plot Data Frekuensi"
 
-#: resources/xnec2c.glade:9427 resources/xnec2c.glade:10455
-#: resources/xnec2c.glade:12009
+#: resources/xnec2c.glade:9409 resources/xnec2c.glade:10437
+#: resources/xnec2c.glade:11991
 msgid "_File"
 msgstr "_Fail"
 
-#: resources/xnec2c.glade:9489 resources/xnec2c.glade:10517
-#: resources/xnec2c.glade:12071
+#: resources/xnec2c.glade:9471 resources/xnec2c.glade:10499
+#: resources/xnec2c.glade:12053
 msgid "Save as _gnuplot"
 msgstr "Simpan sebagai _gnuplot"
 
-#: resources/xnec2c.glade:9500 resources/xnec2c.glade:12081
+#: resources/xnec2c.glade:9482 resources/xnec2c.glade:12063
 msgid "Save as _CSV"
 msgstr "Simpan sebagai _CSV"
 
-#: resources/xnec2c.glade:9512
+#: resources/xnec2c.glade:9494
 msgid "Save as _Touchstone (.SnP)"
 msgstr "Simpan sebagai _Touchstone (.SnP)"
 
-#: resources/xnec2c.glade:9519
+#: resources/xnec2c.glade:9501
 msgid "Save as S_1P: Reflection Only"
 msgstr "Simpan sebagai S_1P: Pantulan Sahaja"
 
-#: resources/xnec2c.glade:9529
+#: resources/xnec2c.glade:9511
 msgid "Save as S2P: _Max Gain (S21)"
 msgstr "Simpan sebagai S2P: Gandaan _Maks (S21)"
 
-#: resources/xnec2c.glade:9539
+#: resources/xnec2c.glade:9521
 msgid "Save as S2P: _Viewer Gain (S21)"
 msgstr "Simpan sebagai S2P: Gandaan _Pemerhati (S21)"
 
-#: resources/xnec2c.glade:9576 resources/xnec2c.glade:10892
-#: resources/xnec2c.glade:12115
+#: resources/xnec2c.glade:9558 resources/xnec2c.glade:10874
+#: resources/xnec2c.glade:12097
 msgid "_View"
 msgstr "_Lihat"
 
-#: resources/xnec2c.glade:9585 resources/xnec2c.glade:10920
-#: resources/xnec2c.glade:12123
+#: resources/xnec2c.glade:9567 resources/xnec2c.glade:10902
+#: resources/xnec2c.glade:12105
 msgid "_Polarization"
 msgstr "_Polarisasi"
 
-#: resources/xnec2c.glade:9599 resources/xnec2c.glade:10934
-#: resources/xnec2c.glade:12137
+#: resources/xnec2c.glade:9581 resources/xnec2c.glade:10916
+#: resources/xnec2c.glade:12119
 msgid "_Total"
 msgstr "_Jumlah"
 
-#: resources/xnec2c.glade:9610 resources/xnec2c.glade:10945
-#: resources/xnec2c.glade:12148
+#: resources/xnec2c.glade:9592 resources/xnec2c.glade:10927
+#: resources/xnec2c.glade:12130
 msgid "_Horizontal"
 msgstr "Meng_ufuk"
 
-#: resources/xnec2c.glade:9621 resources/xnec2c.glade:10956
-#: resources/xnec2c.glade:12159
+#: resources/xnec2c.glade:9603 resources/xnec2c.glade:10938
+#: resources/xnec2c.glade:12141
 msgid "_Vertical"
 msgstr "_Menegak"
 
-#: resources/xnec2c.glade:9632 resources/xnec2c.glade:10967
-#: resources/xnec2c.glade:12170
+#: resources/xnec2c.glade:9614 resources/xnec2c.glade:10949
+#: resources/xnec2c.glade:12152
 msgid "_Right Hand"
 msgstr "_Tangan Kanan"
 
-#: resources/xnec2c.glade:9643 resources/xnec2c.glade:10978
-#: resources/xnec2c.glade:12181
+#: resources/xnec2c.glade:9625 resources/xnec2c.glade:10960
+#: resources/xnec2c.glade:12163
 msgid "_Left Hand"
 msgstr "Tangan _Kiri"
 
-#: resources/xnec2c.glade:9658
+#: resources/xnec2c.glade:9640
 msgid "Max Gain _Second Trace"
 msgstr "Gandaan maksimum _jejak kedua"
 
-#: resources/xnec2c.glade:9667
+#: resources/xnec2c.glade:9649
 msgid ""
 "Plot the front-to-back ratio beside Max Gain: peak gain over the gain in the "
 "opposite direction."
@@ -1982,11 +1982,11 @@ msgstr ""
 "Plotkan nisbah depan-ke-belakang di sebelah Gandaan maksimum: gandaan puncak "
 "berbanding gandaan pada arah bertentangan."
 
-#: resources/xnec2c.glade:9668
+#: resources/xnec2c.glade:9650
 msgid "F/_B Ratio"
 msgstr "Nisbah F/_B"
 
-#: resources/xnec2c.glade:9678
+#: resources/xnec2c.glade:9660
 msgid ""
 "Plot the front-to-rear ratio beside Max Gain: peak gain over the strongest "
 "gain at the same elevation more than 90° away in azimuth."
@@ -1995,82 +1995,82 @@ msgstr ""
 "puncak berbanding gandaan terkuat pada dongakan yang sama lebih daripada 90° "
 "jauhnya dalam azimut."
 
-#: resources/xnec2c.glade:9679
+#: resources/xnec2c.glade:9661
 msgid "F/_R Ratio"
 msgstr "Nisbah F/_R"
 
-#: resources/xnec2c.glade:9690
+#: resources/xnec2c.glade:9672
 msgid "_Net Gain"
 msgstr "Gandaan _Bersih"
 
-#: resources/xnec2c.glade:9705
+#: resources/xnec2c.glade:9687
 msgid "Show _Min/Max Values"
 msgstr "Papar Nilai _Min/Maks"
 
-#: resources/xnec2c.glade:9714
+#: resources/xnec2c.glade:9696
 msgid "Show _S11 (dB) Values"
 msgstr "Papar Nilai _S11 (dB)"
 
-#: resources/xnec2c.glade:9723
+#: resources/xnec2c.glade:9705
 msgid "Clamp _VSWR Graph to 10"
 msgstr "Kunci Graf _VSWR kepada 10"
 
-#: resources/xnec2c.glade:9732
+#: resources/xnec2c.glade:9714
 msgid "Show Ta instead of TA"
 msgstr "Papar Ta dan bukan TA"
 
-#: resources/xnec2c.glade:9741
+#: resources/xnec2c.glade:9723
 msgid "Round _X Axis Frequency Values"
 msgstr "Bundarkan Nilai Frekuensi Paksi _X"
 
-#: resources/xnec2c.glade:9750
+#: resources/xnec2c.glade:9732
 msgid "S_wap Left/Right Click Frequency Selection"
 msgstr "T_ukar Pemilihan Frekuensi Klik Kiri/Kanan"
 
-#: resources/xnec2c.glade:9774 resources/xnec2c.glade:9976
+#: resources/xnec2c.glade:9756 resources/xnec2c.glade:9958
 msgid "Max Gain"
 msgstr "Gandaan Maksimum"
 
-#: resources/xnec2c.glade:9789
+#: resources/xnec2c.glade:9771
 msgid "Direction"
 msgstr "Arah"
 
-#: resources/xnec2c.glade:9804
+#: resources/xnec2c.glade:9786
 msgid "Viewer"
 msgstr "Pemerhati"
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:9819 resources/xnec2c.glade:10081
+#: resources/xnec2c.glade:9801 resources/xnec2c.glade:10063
 #: src/freqplots/freqplots_core.c:65 src/freqplots/graphs/vswr_graph.c:55
 msgid "VSWR"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:9834
+#: resources/xnec2c.glade:9816
 msgid "Zr/Zi"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:9849
+#: resources/xnec2c.glade:9831
 msgid "Zm/Zph"
 msgstr ""
 
 # xnec2c-exempt: name
-#: resources/xnec2c.glade:9864
+#: resources/xnec2c.glade:9846
 msgid "Smith"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:9879
+#: resources/xnec2c.glade:9861
 msgid "G/Ta"
 msgstr ""
 
 # xnec2c-exempt: name
-#: resources/xnec2c.glade:9893
+#: resources/xnec2c.glade:9875
 msgid "AGT"
 msgstr ""
 
-#: resources/xnec2c.glade:9897
+#: resources/xnec2c.glade:9879
 msgid ""
 "Plots the average power gain over the directions the radiation pattern "
 "samples, at each frequency.\n"
@@ -2100,11 +2100,11 @@ msgstr ""
 "Lihat bahagian \"Validating a Model\" dalam manual untuk cara menjalankan "
 "dan membaca ujian itu."
 
-#: resources/xnec2c.glade:9912
+#: resources/xnec2c.glade:9894
 msgid "Cond"
 msgstr "Kond"
 
-#: resources/xnec2c.glade:9916
+#: resources/xnec2c.glade:9898
 msgid ""
 "Plots the precision lost solving the antenna at each frequency, in decimal "
 "digits.\n"
@@ -2134,188 +2134,188 @@ msgstr ""
 "sebelah jejak AGT."
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:9960 resources/xnec2c.glade:9995
-#: resources/xnec2c.glade:10030 resources/xnec2c.glade:10065
-#: resources/xnec2c.glade:10287 resources/xnec2c.glade:10322
-#: resources/xnec2c.glade:10357 resources/xnec2c.glade:13244
+#: resources/xnec2c.glade:9942 resources/xnec2c.glade:9977
+#: resources/xnec2c.glade:10012 resources/xnec2c.glade:10047
+#: resources/xnec2c.glade:10269 resources/xnec2c.glade:10304
+#: resources/xnec2c.glade:10339 resources/xnec2c.glade:13226
 msgid " - - -"
 msgstr ""
 
-#: resources/xnec2c.glade:10011 src/freqplots/graphs/impedance_graph.c:76
+#: resources/xnec2c.glade:9993 src/freqplots/graphs/impedance_graph.c:76
 msgid "Z-imag"
 msgstr "Z-khayalan"
 
-#: resources/xnec2c.glade:10046 src/freqplots/graphs/impedance_graph.c:74
+#: resources/xnec2c.glade:10028 src/freqplots/graphs/impedance_graph.c:74
 msgid "Z-real"
 msgstr "Z-nyata"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:10101
+#: resources/xnec2c.glade:10083
 msgid " - - - - "
 msgstr ""
 
-#: resources/xnec2c.glade:10117
+#: resources/xnec2c.glade:10099
 msgid "Freq MHz"
 msgstr "Frekuensi MHz"
 
 # xnec2c-exempt: loanword
-#: resources/xnec2c.glade:10156 resources/xnec2c.glade:10169
+#: resources/xnec2c.glade:10138 resources/xnec2c.glade:10151
 msgid "Port"
 msgstr ""
 
-#: resources/xnec2c.glade:10181
+#: resources/xnec2c.glade:10163
 msgid "Tx Line Z<sub>0</sub>"
 msgstr "Z<sub>0</sub> Talian Tx"
 
-#: resources/xnec2c.glade:10196 resources/xnec2c.glade:11800
-#: resources/xnec2c.glade:13016
+#: resources/xnec2c.glade:10178 resources/xnec2c.glade:11782
+#: resources/xnec2c.glade:12998
 msgid "Freq Loop"
 msgstr "Gelung Frekuensi"
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:10268 resources/xnec2c.glade:13122
+#: resources/xnec2c.glade:10250 resources/xnec2c.glade:13104
 msgid "T<sub>A</sub>(Elev.°)"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:10303
+#: resources/xnec2c.glade:10285
 msgid "T<sub>a</sub>"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:10338
+#: resources/xnec2c.glade:10320
 msgid "G/T<sub>a</sub>"
 msgstr ""
 
-#: resources/xnec2c.glade:10410
+#: resources/xnec2c.glade:10392
 msgid "Frequency Data Plots"
 msgstr "Plot Data Frekuensi"
 
-#: resources/xnec2c.glade:10528
+#: resources/xnec2c.glade:10510
 msgid "Save _Currents/Charges as CSV"
 msgstr "Simpan _Arus/Cas sebagai CSV"
 
-#: resources/xnec2c.glade:10547
+#: resources/xnec2c.glade:10529
 msgid "Optimization Settings"
 msgstr "Tetapan Pengoptimuman"
 
-#: resources/xnec2c.glade:10562
+#: resources/xnec2c.glade:10544
 msgid "Reload and write data on .NEC file changes"
 msgstr "Muat semula dan tulis data apabila fail .NEC berubah"
 
-#: resources/xnec2c.glade:10569
+#: resources/xnec2c.glade:10551
 msgid "_Write files selected below, now."
 msgstr "T_ulis fail yang dipilih di bawah, sekarang."
 
-#: resources/xnec2c.glade:10584
+#: resources/xnec2c.glade:10566
 msgid "After calculation, write <file>.csv"
 msgstr "Selepas pengiraan, tulis <file>.csv"
 
-#: resources/xnec2c.glade:10593
+#: resources/xnec2c.glade:10575
 msgid "After calculation, write <file>.s_1p"
 msgstr "Selepas pengiraan, tulis <file>.s_1p"
 
-#: resources/xnec2c.glade:10602
+#: resources/xnec2c.glade:10584
 msgid "After calculation, write <file>-_maxgain.s2p"
 msgstr "Selepas pengiraan, tulis <file>-_maxgain.s2p"
 
-#: resources/xnec2c.glade:10611
+#: resources/xnec2c.glade:10593
 msgid "After calculation, write <file>-_viewergain.s2p"
 msgstr "Selepas pengiraan, tulis <file>-_viewergain.s2p"
 
-#: resources/xnec2c.glade:10620
+#: resources/xnec2c.glade:10602
 msgid "After calculation, write <file>-_radpattern.csv"
 msgstr "Selepas pengiraan, tulis <file>-_radpattern.csv"
 
-#: resources/xnec2c.glade:10629
+#: resources/xnec2c.glade:10611
 msgid "After calculation, write <file>-_currents.csv"
 msgstr "Selepas pengiraan, tulis <file>-_currents.csv"
 
-#: resources/xnec2c.glade:10638
+#: resources/xnec2c.glade:10620
 msgid "After calculation, write <file>-_structure.gplot"
 msgstr "Selepas pengiraan, tulis <file>-_structure.gplot"
 
-#: resources/xnec2c.glade:10647
+#: resources/xnec2c.glade:10629
 msgid "After calculation, write <file>-_patch-currents.csv"
 msgstr "Selepas pengiraan, tulis <file>-_patch-currents.csv"
 
-#: resources/xnec2c.glade:10662
+#: resources/xnec2c.glade:10644
 msgid "_Math Libraries"
 msgstr "_Pustaka Matematik"
 
-#: resources/xnec2c.glade:10671
+#: resources/xnec2c.glade:10653
 msgid "_Interactive"
 msgstr "_Interaktif"
 
-#: resources/xnec2c.glade:10691
+#: resources/xnec2c.glade:10673
 msgid "_Batch"
 msgstr "_Kelompok"
 
-#: resources/xnec2c.glade:10717
+#: resources/xnec2c.glade:10699
 msgid "Mathlib _Help"
 msgstr "_Bantuan Mathlib"
 
-#: resources/xnec2c.glade:10730
+#: resources/xnec2c.glade:10712
 msgid "Mathlib _Benchmarks"
 msgstr "Pe_nanda Aras Mathlib"
 
-#: resources/xnec2c.glade:10741
+#: resources/xnec2c.glade:10723
 msgid "_Selected Mathlibs"
 msgstr "Mathlib _Terpilih"
 
-#: resources/xnec2c.glade:10755
+#: resources/xnec2c.glade:10737
 msgid "Select All/None"
 msgstr "Pilih Semua/Tiada"
 
-#: resources/xnec2c.glade:10780
+#: resources/xnec2c.glade:10762
 msgid "_Parallel (-j N):\t\tO(N/J)"
 msgstr "_Selari (-j N):\t\tO(N/J)"
 
-#: resources/xnec2c.glade:10789
+#: resources/xnec2c.glade:10771
 msgid "_Single Job (-j 1):\tO(N)"
 msgstr "_Tugas Tunggal (-j 1):\tO(N)"
 
-#: resources/xnec2c.glade:10798
+#: resources/xnec2c.glade:10780
 msgid "_Iterate -j N/=2:\tO(N*log2(J))"
 msgstr "_Ulang -j N/=2:\tO(N*log2(J))"
 
-#: resources/xnec2c.glade:10807
+#: resources/xnec2c.glade:10789
 msgid "_Iterate -j N-=1:\tO(N*J)"
 msgstr "Ula_ng -j N-=1:\tO(N*J)"
 
-#: resources/xnec2c.glade:10816
+#: resources/xnec2c.glade:10798
 msgid "_Threads (-j 1, --threads N/=2):\tO(N*log2(T))"
 msgstr "_Benang (-j 1, --threads N/=2):\\\tO(N*log2(T))"
 
-#: resources/xnec2c.glade:10831
+#: resources/xnec2c.glade:10813
 msgid "Benchmark _Help"
 msgstr "_Bantuan Penanda Aras"
 
-#: resources/xnec2c.glade:10850
+#: resources/xnec2c.glade:10832
 msgid "Begin Frequency Loop at Startup"
 msgstr "Mula Gelung Frekuensi semasa Permulaan"
 
-#: resources/xnec2c.glade:10861
+#: resources/xnec2c.glade:10843
 msgid "Confirm Quit"
 msgstr "Sahkan Keluar"
 
-#: resources/xnec2c.glade:10900
+#: resources/xnec2c.glade:10882
 msgid "_Radiation Pattern"
 msgstr "_Corak Sinaran"
 
-#: resources/xnec2c.glade:10910
+#: resources/xnec2c.glade:10892
 msgid "_Frequency Plots"
 msgstr "_Plot Frekuensi"
 
-#: resources/xnec2c.glade:10993
+#: resources/xnec2c.glade:10975
 msgid "_Visualization"
 msgstr "_Visualisasi"
 
-#: resources/xnec2c.glade:11009
+#: resources/xnec2c.glade:10991
 msgid "Color Scale"
 msgstr "Skala Warna"
 
-#: resources/xnec2c.glade:11016
+#: resources/xnec2c.glade:10998
 msgid ""
 "Power transfer n^γ relative to this frequency step's peak.\n"
 "γ = 0.5 expands weak regions, γ = 1 is linear amplitude, γ = 2 shows the "
@@ -2331,11 +2331,11 @@ msgstr ""
 "² dengan tenaga elektrostatik tersimpan.\n"
 "Laraskan γ dalam dialog animasi."
 
-#: resources/xnec2c.glade:11017
+#: resources/xnec2c.glade:10999
 msgid "_Power"
 msgstr "_Kuasa"
 
-#: resources/xnec2c.glade:11028
+#: resources/xnec2c.glade:11010
 msgid ""
 "Logarithmic scale over a user-set range R below the peak.\n"
 "Reveals weak detail that linear display hides; adjust R in the animate "
@@ -2346,11 +2346,11 @@ msgstr ""
 "dalam dialog animasi."
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:11029
+#: resources/xnec2c.glade:11011
 msgid "_dB"
 msgstr ""
 
-#: resources/xnec2c.glade:11040
+#: resources/xnec2c.glade:11022
 msgid ""
 "Inverse hyperbolic sine transfer: linear below the softening knee k, "
 "logarithmic above.\n"
@@ -2361,11 +2361,11 @@ msgstr ""
 "Laraskan k dalam dialog animasi."
 
 # xnec2c-exempt: name
-#: resources/xnec2c.glade:11041
+#: resources/xnec2c.glade:11023
 msgid "_Asinh"
 msgstr ""
 
-#: resources/xnec2c.glade:11052
+#: resources/xnec2c.glade:11034
 msgid ""
 "μ-law companding transfer: lifts weak detail with bounded compression.\n"
 "Adjust the compression in the animate dialog."
@@ -2375,11 +2375,11 @@ msgstr ""
 "Laraskan pemampatan dalam dialog animasi."
 
 # xnec2c-exempt: name
-#: resources/xnec2c.glade:11053
+#: resources/xnec2c.glade:11035
 msgid "μ-_law"
 msgstr ""
 
-#: resources/xnec2c.glade:11064
+#: resources/xnec2c.glade:11046
 msgid ""
 "Reinhard rational soft-compressor with knee k.\n"
 "Adjust k in the animate dialog."
@@ -2388,11 +2388,11 @@ msgstr ""
 "Laraskan k dalam dialog animasi."
 
 # xnec2c-exempt: name
-#: resources/xnec2c.glade:11065
+#: resources/xnec2c.glade:11047
 msgid "_Reinhard"
 msgstr ""
 
-#: resources/xnec2c.glade:11076
+#: resources/xnec2c.glade:11058
 msgid ""
 "Hyperbolic tangent transfer with contrast steepness a.\n"
 "Adjust a in the animate dialog."
@@ -2401,11 +2401,11 @@ msgstr ""
 "Laraskan a dalam dialog animasi."
 
 # xnec2c-exempt: name
-#: resources/xnec2c.glade:11077
+#: resources/xnec2c.glade:11059
 msgid "_Sigmoid"
 msgstr ""
 
-#: resources/xnec2c.glade:11088
+#: resources/xnec2c.glade:11070
 msgid ""
 "Full brightness for every magnitude; the color projection alone sets the "
 "rendering."
@@ -2413,408 +2413,408 @@ msgstr ""
 "Kecerahan penuh bagi setiap magnitud; unjuran warna sahaja menetapkan "
 "pemaparan."
 
-#: resources/xnec2c.glade:11089
+#: resources/xnec2c.glade:11071
 msgid "_None"
 msgstr "_Tiada"
 
-#: resources/xnec2c.glade:11107
+#: resources/xnec2c.glade:11089
 msgid "Patch Flow — Animated"
 msgstr "Aliran Tampalan — Animasi"
 
-#: resources/xnec2c.glade:11154
+#: resources/xnec2c.glade:11136
 msgid "Patch Flow — Static"
 msgstr "Aliran Tampalan — Statik"
 
-#: resources/xnec2c.glade:11187
+#: resources/xnec2c.glade:11169
 msgid "A_nimate"
 msgstr "A_nimasi"
 
-#: resources/xnec2c.glade:11196 resources/xnec2c.glade:12445
+#: resources/xnec2c.glade:11178 resources/xnec2c.glade:12427
 msgid "Common _Projection"
 msgstr "Unjuran _Sepunya"
 
-#: resources/xnec2c.glade:11206 resources/xnec2c.glade:12455
+#: resources/xnec2c.glade:11188 resources/xnec2c.glade:12437
 msgid "Common _Pan"
 msgstr "Umum _Pan"
 
-#: resources/xnec2c.glade:11223
+#: resources/xnec2c.glade:11205
 msgid "_Symbol Overrides"
 msgstr "Pengatasan _Simbol"
 
-#: resources/xnec2c.glade:11232
+#: resources/xnec2c.glade:11214
 msgid "Rendering _Settings..."
 msgstr "_Tetapan Pemaparan..."
 
-#: resources/xnec2c.glade:11243
+#: resources/xnec2c.glade:11225
 msgid "_Help"
 msgstr "_Bantuan"
 
-#: resources/xnec2c.glade:11252
+#: resources/xnec2c.glade:11234
 msgid "_About"
 msgstr "_Tentang"
 
-#: resources/xnec2c.glade:11475
+#: resources/xnec2c.glade:11457
 msgid " Zoom"
 msgstr " Zum"
 
-#: resources/xnec2c.glade:11642 resources/xnec2c.glade:11703
-#: resources/xnec2c.glade:11751
+#: resources/xnec2c.glade:11624 resources/xnec2c.glade:11685
+#: resources/xnec2c.glade:11733
 msgid ""
 "Gain in the direction of the structure viewer, for the current view angles."
 msgstr "Gandaan pada arah pemapar struktur, untuk sudut pandangan semasa."
 
-#: resources/xnec2c.glade:11643 resources/xnec2c.glade:12952
+#: resources/xnec2c.glade:11625 resources/xnec2c.glade:12934
 #: src/freqplots/freqplots_core.c:62
 msgid "Gain"
 msgstr "Gandaan"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:11658 resources/xnec2c.glade:11674
-#: resources/xnec2c.glade:12965 resources/xnec2c.glade:13226
+#: resources/xnec2c.glade:11640 resources/xnec2c.glade:11656
+#: resources/xnec2c.glade:12947 resources/xnec2c.glade:13208
 msgid "0.0"
 msgstr ""
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:11709
+#: resources/xnec2c.glade:11691
 msgid "- - - "
 msgstr ""
 
-#: resources/xnec2c.glade:11766 resources/xnec2c.glade:13001
+#: resources/xnec2c.glade:11748 resources/xnec2c.glade:12983
 msgid "Step"
 msgstr "Langkah"
 
-#: resources/xnec2c.glade:11890 resources/xnec2c.glade:13049
+#: resources/xnec2c.glade:11872 resources/xnec2c.glade:13031
 msgid "Apply Freq"
 msgstr "Guna Frekuensi"
 
-#: resources/xnec2c.glade:11910
+#: resources/xnec2c.glade:11892
 msgid "Frequency Mhz"
 msgstr "Frekuensi MHz"
 
-#: resources/xnec2c.glade:11963
+#: resources/xnec2c.glade:11945
 msgid "Structure Geometry"
 msgstr "Geometri Struktur"
 
-#: resources/xnec2c.glade:11982
+#: resources/xnec2c.glade:11964
 msgid "Xnec2c: Radiation Patterns"
 msgstr "Xnec2c: Corak Sinaran"
 
-#: resources/xnec2c.glade:12196
+#: resources/xnec2c.glade:12178
 msgid "_Gain Scaling"
 msgstr "Skala _Gandaan"
 
-#: resources/xnec2c.glade:12211
+#: resources/xnec2c.glade:12193
 msgid "Linear _Power"
 msgstr "_Kuasa Linear"
 
-#: resources/xnec2c.glade:12222
+#: resources/xnec2c.glade:12204
 msgid "Linear _Voltage"
 msgstr "_Voltan Linear"
 
-#: resources/xnec2c.glade:12233
+#: resources/xnec2c.glade:12215
 msgid "_ARRL Style"
 msgstr "Gaya _ARRL"
 
-#: resources/xnec2c.glade:12244
+#: resources/xnec2c.glade:12226
 msgid "_Logarithmic"
 msgstr "_Logaritma"
 
-#: resources/xnec2c.glade:12255
+#: resources/xnec2c.glade:12237
 msgid "_Noise Temperature"
 msgstr "Suhu _Hingar"
 
-#: resources/xnec2c.glade:12266
+#: resources/xnec2c.glade:12248
 msgid "Noise Temp (_log scale)"
 msgstr "Suhu Hingar (skala lo_g)"
 
-#: resources/xnec2c.glade:12281
+#: resources/xnec2c.glade:12263
 msgid "Noise _Models"
 msgstr "_Model Hingar"
 
-#: resources/xnec2c.glade:12300
+#: resources/xnec2c.glade:12282
 msgid "_Gradient Key"
 msgstr "_Kekunci Kecerunan"
 
-#: resources/xnec2c.glade:12310
+#: resources/xnec2c.glade:12292
 msgid "Draw St_yle"
 msgstr "Gaya _Lukisan"
 
-#: resources/xnec2c.glade:12319
+#: resources/xnec2c.glade:12301
 msgid "S_urface"
 msgstr "Pe_rmukaan"
 
-#: resources/xnec2c.glade:12338
+#: resources/xnec2c.glade:12320
 msgid "_Both"
 msgstr "_Kedua-dua"
 
-#: resources/xnec2c.glade:12353
+#: resources/xnec2c.glade:12335
 msgid "_Near Field"
 msgstr "Medan _Dekat"
 
-#: resources/xnec2c.glade:12368
+#: resources/xnec2c.glade:12350
 msgid "Near _E Field"
 msgstr "Medan _E Dekat"
 
-#: resources/xnec2c.glade:12378
+#: resources/xnec2c.glade:12360
 msgid "Near _H Field"
 msgstr "Medan _H Dekat"
 
-#: resources/xnec2c.glade:12388
+#: resources/xnec2c.glade:12370
 msgid "_Poynting Vector"
 msgstr "Vektor _Poynting"
 
-#: resources/xnec2c.glade:12397
+#: resources/xnec2c.glade:12379
 msgid "_Animate Dialog"
 msgstr "Dialog _Animasi"
 
-#: resources/xnec2c.glade:12406
+#: resources/xnec2c.glade:12388
 msgid "_Total Field"
 msgstr "_Jumlah Medan"
 
-#: resources/xnec2c.glade:12415
+#: resources/xnec2c.glade:12397
 msgid "_Peak Value"
 msgstr "Nilai Pun_cak"
 
-#: resources/xnec2c.glade:12426
+#: resources/xnec2c.glade:12408
 msgid "_Instantaneous (φ=0)"
 msgstr "_Seketika (φ=0)"
 
-#: resources/xnec2c.glade:12466
+#: resources/xnec2c.glade:12448
 msgid "_Overlay Structure"
 msgstr "_Tindanan Struktur"
 
-#: resources/xnec2c.glade:12490
+#: resources/xnec2c.glade:12472
 msgid "Gain Pattern"
 msgstr "Corak Gandaan"
 
-#: resources/xnec2c.glade:12505
+#: resources/xnec2c.glade:12487
 msgid "E/H Fields"
 msgstr "Medan E/H"
 
-#: resources/xnec2c.glade:12688
+#: resources/xnec2c.glade:12670
 msgid "Zoom % "
 msgstr "Zum % "
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:12727
+#: resources/xnec2c.glade:12709
 msgid "Elev.°"
 msgstr ""
 
-#: resources/xnec2c.glade:13069
+#: resources/xnec2c.glade:13051
 msgid "Frequency MHz"
 msgstr "Frekuensi MHz"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:13086
+#: resources/xnec2c.glade:13068
 msgid "0.010"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:13140 resources/xnec2c.glade:13173
-#: resources/xnec2c.glade:13208
+#: resources/xnec2c.glade:13122 resources/xnec2c.glade:13155
+#: resources/xnec2c.glade:13190
 msgid "— K"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:13155
+#: resources/xnec2c.glade:13137
 msgid "T<sub>earth</sub>"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:13190
+#: resources/xnec2c.glade:13172
 msgid "T<sub>sky</sub>"
 msgstr ""
 
-#: resources/xnec2c.glade:13310 src/rdpattern_ui.c:939
+#: resources/xnec2c.glade:13292 src/rdpattern_ui.c:939
 msgid "Radiation Patterns"
 msgstr "Corak Sinaran"
 
-#: resources/xnec2c.glade:13345
+#: resources/xnec2c.glade:13327
 msgid "Scale Structure (GS card)"
 msgstr "Skala Struktur (kad GS)"
 
-#: resources/xnec2c.glade:13376
+#: resources/xnec2c.glade:13358
 msgid "Structure Scale Factor"
 msgstr "Faktor Skala Struktur"
 
-#: resources/xnec2c.glade:13389
+#: resources/xnec2c.glade:13371
 msgid "From Tag No."
 msgstr "Dari No. Tag"
 
-#: resources/xnec2c.glade:13439
+#: resources/xnec2c.glade:13421
 msgid "To Tag No."
 msgstr "Ke No. Tag"
 
-#: resources/xnec2c.glade:13474
+#: resources/xnec2c.glade:13456
 msgid "Scale Structure"
 msgstr "Skala Struktur"
 
-#: resources/xnec2c.glade:13651
+#: resources/xnec2c.glade:13633
 msgid "Co-ordinate Transformation (GM card)"
 msgstr "Transformasi Koordinat (kad GM)"
 
-#: resources/xnec2c.glade:13681
+#: resources/xnec2c.glade:13663
 msgid "Tag Increment"
 msgstr "Tokokan Tag"
 
-#: resources/xnec2c.glade:13712
+#: resources/xnec2c.glade:13694
 msgid "Rotate about X"
 msgstr "Putar mengelilingi X"
 
-#: resources/xnec2c.glade:13744
+#: resources/xnec2c.glade:13726
 msgid "Move along X"
 msgstr "Alih sepanjang X"
 
-#: resources/xnec2c.glade:13776
+#: resources/xnec2c.glade:13758
 msgid "New Structures"
 msgstr "Struktur Baharu"
 
-#: resources/xnec2c.glade:13807
+#: resources/xnec2c.glade:13789
 msgid "Rotate about Y"
 msgstr "Putar mengelilingi Y"
 
-#: resources/xnec2c.glade:13839
+#: resources/xnec2c.glade:13821
 msgid "Move along Y"
 msgstr "Alih sepanjang Y"
 
-#: resources/xnec2c.glade:13871
+#: resources/xnec2c.glade:13853
 msgid "Start From Tag"
 msgstr "Mula Dari Tag"
 
-#: resources/xnec2c.glade:13903
+#: resources/xnec2c.glade:13885
 msgid "Rotate about Z"
 msgstr "Putar mengelilingi Z"
 
-#: resources/xnec2c.glade:13935
+#: resources/xnec2c.glade:13917
 msgid "Move along Z"
 msgstr "Alih sepanjang Z"
 
-#: resources/xnec2c.glade:13971
+#: resources/xnec2c.glade:13953
 msgid "Co-ordinate Transformation Data"
 msgstr "Data Transformasi Koordinat"
 
-#: resources/xnec2c.glade:14167
+#: resources/xnec2c.glade:14149
 msgid "Trans. Line Command (TL Card)"
 msgstr "Arahan Talian Penghantaran (Kad TL)"
 
-#: resources/xnec2c.glade:14197
+#: resources/xnec2c.glade:14179
 msgid "Tag Number, End 1  "
 msgstr "Nombor Tag, Hujung 1  "
 
-#: resources/xnec2c.glade:14229
+#: resources/xnec2c.glade:14211
 msgid "Tag Number, End 2  "
 msgstr "Nombor Tag, Hujung 2  "
 
-#: resources/xnec2c.glade:14260
+#: resources/xnec2c.glade:14242
 msgid "Segment Num, End 1"
 msgstr "Nombor Segmen, Hujung 1"
 
-#: resources/xnec2c.glade:14292
+#: resources/xnec2c.glade:14274
 msgid "Segment Num, End 2"
 msgstr "Nombor Segmen, Hujung 2"
 
-#: resources/xnec2c.glade:14356
+#: resources/xnec2c.glade:14338
 msgid "Crossed Transmission Line"
 msgstr "Talian Penghantaran Bersilang"
 
-#: resources/xnec2c.glade:14374
+#: resources/xnec2c.glade:14356
 msgid "Characteristic Impedance"
 msgstr "Galangan Ciri"
 
-#: resources/xnec2c.glade:14406
+#: resources/xnec2c.glade:14388
 msgid "End 1 Y Real Part (S)"
 msgstr "Hujung 1 Bahagian Nyata Y (S)"
 
-#: resources/xnec2c.glade:14438
+#: resources/xnec2c.glade:14420
 msgid "End 2 Y Real Part (S)"
 msgstr "Hujung 2 Bahagian Nyata Y (S)"
 
-#: resources/xnec2c.glade:14470
+#: resources/xnec2c.glade:14452
 msgid "Length of Tx Line (m)"
 msgstr "Panjang Talian Tx (m)"
 
-#: resources/xnec2c.glade:14502
+#: resources/xnec2c.glade:14484
 msgid "End 1 Y Imag Part (S)"
 msgstr "Hujung 1 Bahagian Khayalan Y (S)"
 
-#: resources/xnec2c.glade:14534
+#: resources/xnec2c.glade:14516
 msgid "End 2 Y Imag Part (S)"
 msgstr "Hujung 2 Bahagian Khayalan Y (S)"
 
-#: resources/xnec2c.glade:14570
+#: resources/xnec2c.glade:14552
 msgid "Transmission Line"
 msgstr "Talian Penghantaran"
 
-#: resources/xnec2c.glade:14797
+#: resources/xnec2c.glade:14779
 msgid "Wire Element (GW & GC cards)"
 msgstr "Unsur Wayar (kad GW & GC)"
 
-#: resources/xnec2c.glade:14857
+#: resources/xnec2c.glade:14839
 msgid "Wire X1"
 msgstr "Wayar X1"
 
-#: resources/xnec2c.glade:14889
+#: resources/xnec2c.glade:14871
 msgid "Wire X2"
 msgstr "Wayar X2"
 
-#: resources/xnec2c.glade:14952
+#: resources/xnec2c.glade:14934
 msgid "Wire Y1"
 msgstr "Wayar Y1"
 
-#: resources/xnec2c.glade:14985
+#: resources/xnec2c.glade:14967
 msgid "Wire Y2"
 msgstr "Wayar Y2"
 
-#: resources/xnec2c.glade:15049
+#: resources/xnec2c.glade:15031
 msgid "Wire Z1"
 msgstr "Wayar Z1"
 
-#: resources/xnec2c.glade:15081
+#: resources/xnec2c.glade:15063
 msgid "Wire Z2"
 msgstr "Wayar Z2"
 
-#: resources/xnec2c.glade:15146
+#: resources/xnec2c.glade:15128
 msgid "Wire Length"
 msgstr "Panjang Wayar"
 
-#: resources/xnec2c.glade:15217
+#: resources/xnec2c.glade:15199
 msgid "Wire Data"
 msgstr "Data Wayar"
 
-#: resources/xnec2c.glade:15229
+#: resources/xnec2c.glade:15211
 msgid "Tapered Wire"
 msgstr "Wayar Tirus"
 
-#: resources/xnec2c.glade:15271
+#: resources/xnec2c.glade:15253
 msgid "Length Taper"
 msgstr "Tirus Panjang"
 
-#: resources/xnec2c.glade:15303
+#: resources/xnec2c.glade:15285
 msgid "Diameter Seg 1"
 msgstr "Diameter Segmen 1"
 
-#: resources/xnec2c.glade:15335
+#: resources/xnec2c.glade:15317
 msgid "Diameter Seg N"
 msgstr "Diameter Segmen N"
 
-#: resources/xnec2c.glade:15367
+#: resources/xnec2c.glade:15349
 msgid "Diam. Taper"
 msgstr "Tirus Diameter"
 
-#: resources/xnec2c.glade:15403
+#: resources/xnec2c.glade:15385
 msgid "Wire Taper Data"
 msgstr "Data Tirus Wayar"
 
-#: resources/xnec2c.glade:15568
+#: resources/xnec2c.glade:15550
 msgid "Impedance (Zo) Ohm"
 msgstr "Galangan (Zo) Ohm"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:15583
+#: resources/xnec2c.glade:15565
 msgid "50.00"
 msgstr ""
 
-#: resources/xnec2c.glade:15606
+#: resources/xnec2c.glade:15588
 msgid "Transmission Line Impedance (Zo)"
 msgstr "Galangan Talian Penghantaran (Zo)"
 
@@ -3189,10 +3189,10 @@ msgid "config file does not exist or is not readable: %s\n"
 msgstr "fail konfigurasi tidak wujud atau tidak boleh dibaca: %s\n"
 
 # xnec2c-exempt: symbol
-#: src/args.c:898 src/geometry.c:792 src/input.c:1835 src/input.c:1836
+#: src/args.c:898 src/geometry.c:780 src/input.c:1829 src/input.c:1830
 #: src/mathlib.c:830 src/mathlib.c:1135 src/rdpattern_ui.c:404
 #: src/rdpattern_ui.c:412 src/rdpattern_ui.c:419 src/sy_expr.c:142
-#: src/sy_expr.c:172 src/utils.c:365 src/utils.c:725
+#: src/sy_expr.c:172 src/utils.c:365 src/utils.c:724
 #, c-format
 msgid "%s"
 msgstr ""
@@ -4137,16 +4137,7 @@ msgstr ""
 "Ralat data geometri\n"
 "Segmen terletak pada satah bumi"
 
-# xnec2c-exempt: name
-#: src/geometry.c:474
-msgid "ipsym = 0\n"
-msgstr ""
-
-#: src/geometry.c:475
-msgid "Error: ipsym = 0"
-msgstr "Ralat: ipsym = 0"
-
-#: src/geometry.c:528
+#: src/geometry.c:516
 #, c-format
 msgid ""
 "Segment connection count exceeds a full mesh, which is unlikely: data.n=%ld "
@@ -4155,7 +4146,7 @@ msgstr ""
 "Bilangan sambungan segmen melebihi jaringan penuh, yang tidak mungkin: "
 "data.n=%ld segj.maxcon=%lu\n"
 
-#: src/geometry.c:530
+#: src/geometry.c:518
 msgid ""
 "Segment connection count exceeds a full mesh, which is unlikely!\n"
 "Check for overlapping or nearly-connected segments\n"
@@ -4163,7 +4154,7 @@ msgstr ""
 "Bilangan sambungan segmen melebihi jaringan penuh, ini tidak dijangka!\n"
 "Semak segmen yang bertindih atau hampir bersambung\n"
 
-#: src/geometry.c:744
+#: src/geometry.c:732
 msgid ""
 "check data, parameter specifying segment: position in a group of equal tags "
 "must not be zero\n"
@@ -4171,7 +4162,7 @@ msgstr ""
 "semak data, parameter yang menentukan segmen: kedudukan dalam kumpulan tag "
 "yang sama tidak boleh sifar\n"
 
-#: src/geometry.c:745
+#: src/geometry.c:733
 msgid ""
 "Parameter specifying segment\n"
 "position in a group of equal tags is zero"
@@ -4179,12 +4170,12 @@ msgstr ""
 "Parameter yang menentukan segmen\n"
 "kedudukan dalam kumpulan tag yang sama adalah sifar"
 
-#: src/geometry.c:777
+#: src/geometry.c:765
 #, c-format
 msgid "no segment has an itag of %d\n"
 msgstr "tiada segmen mempunyai itag %d\n"
 
-#: src/geometry.c:781
+#: src/geometry.c:769
 msgid ""
 "Segment tag number error: Tag 0 is reserved and cannot be used.\n"
 "Check your geometry cards (especially GM cards) to ensure tag values are "
@@ -4197,7 +4188,7 @@ msgstr ""
 "Untuk kad GM: sahkan 'Mula Dari Tag' dan 'Tokokan Tag' tidak menghasilkan "
 "tag 0."
 
-#: src/geometry.c:789
+#: src/geometry.c:777
 #, c-format
 msgid ""
 "Segment tag number error: No segment found with tag %d.\n"
@@ -4208,11 +4199,11 @@ msgstr ""
 "Anda merujuk tag atau segmen yang tidak diketahui dalam kad kawalan.\n"
 "Tag sah dalam geometri anda ialah yang diberikan kepada kad GW/GA/GH/SP."
 
-#: src/geometry.c:1064
+#: src/geometry.c:1052
 msgid "corners of quadrilateral: patch do not lie in a plane\n"
 msgstr "penjuru sisi empat: tampalan tidak terletak pada satah\n"
 
-#: src/geometry.c:1065
+#: src/geometry.c:1053
 msgid ""
 "Corners of quadrilateral\n"
 "patch do not lie in a plane"
@@ -4220,12 +4211,12 @@ msgstr ""
 "Bucu sisi empat\n"
 "tampalan tidak terletak pada satu satah"
 
-#: src/geometry.c:1170 src/geometry.c:1247 src/geometry.c:1325
+#: src/geometry.c:1158 src/geometry.c:1235 src/geometry.c:1313
 #, c-format
 msgid "geometry data error: segment %d lies in plane of symmetry\n"
 msgstr "ralat data geometri: segmen %d terletak pada satah simetri\n"
 
-#: src/geometry.c:1171 src/geometry.c:1248 src/geometry.c:1326
+#: src/geometry.c:1159 src/geometry.c:1236 src/geometry.c:1314
 msgid ""
 "Geometry data error\n"
 "Segment lies in plane of symmetry"
@@ -4233,12 +4224,12 @@ msgstr ""
 "Ralat data geometri\n"
 "Segmen terletak pada satah simetri"
 
-#: src/geometry.c:1207 src/geometry.c:1284 src/geometry.c:1359
+#: src/geometry.c:1195 src/geometry.c:1272 src/geometry.c:1347
 #, c-format
 msgid "geometry data error: patch %d lies in plane of symmetry\n"
 msgstr "ralat data geometri: tampalan %d terletak pada satah simetri\n"
 
-#: src/geometry.c:1208 src/geometry.c:1285 src/geometry.c:1360
+#: src/geometry.c:1196 src/geometry.c:1273 src/geometry.c:1348
 msgid ""
 "Geometry data error\n"
 "Patch lies in plane of symmetry"
@@ -4246,7 +4237,7 @@ msgstr ""
 "Ralat data geometri\n"
 "Tampalan terletak pada satah simetri"
 
-#: src/geometry.c:1480
+#: src/geometry.c:1468
 #, c-format
 msgid ""
 "tag=%d/seg=%d: endpoint distance=%.3e is too close (below connection "
@@ -4255,12 +4246,12 @@ msgstr ""
 "tag=%d/seg=%d: jarak titik hujung=%.3e terlalu dekat (di bawah ambang "
 "sambungan=%.3e); segmen akan bersambung dengan dirinya sendiri\n"
 
-#: src/geometry.c:1485
+#: src/geometry.c:1473
 #, c-format
 msgid "tag=%d: suppressing additional self-connection warnings\n"
 msgstr "tag=%d: menyekat amaran sambungan-kendiri tambahan\n"
 
-#: src/geometry.c:1530
+#: src/geometry.c:1518
 #, c-format
 msgid ""
 "tag=%d/seg=%d: coincides with tag=%d/seg=%d; NEC2 cannot separate the "
@@ -4269,12 +4260,12 @@ msgstr ""
 "tag=%d/seg=%d: bertepatan dengan tag=%d/seg=%d; NEC2 tidak dapat memisahkan "
 "arus segmen yang bertepatan\n"
 
-#: src/geometry.c:1535
+#: src/geometry.c:1523
 #, c-format
 msgid "tag=%d: suppressing additional coincident segment warnings\n"
 msgstr "tag=%d: menyekat amaran segmen bertepatan tambahan\n"
 
-#: src/geometry.c:1580
+#: src/geometry.c:1568
 #, c-format
 msgid ""
 "tag=%d/seg=%d: end gap=%.3e to tag=%d/seg=%d lies beyond connection "
@@ -4284,12 +4275,12 @@ msgstr ""
 "sambungan threshold=%.3e tetapi dalam lingkungan %gx daripadanya; NEC2 "
 "membiarkan hujung ini tidak bersambung\n"
 
-#: src/geometry.c:1586
+#: src/geometry.c:1574
 #, c-format
 msgid "tag=%d: suppressing additional near-miss junction warnings\n"
 msgstr "tag=%d: menyekat amaran simpang hampir bersambung tambahan\n"
 
-#: src/geometry.c:1639
+#: src/geometry.c:1627
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length=%.3e is too short (and close enough) to tag=%d/seg=%d "
@@ -4299,7 +4290,7 @@ msgstr ""
 "seg=%d panjang=%.3e sehingga pengesanan sambungan mungkin gagal atau litar "
 "pintas\n"
 
-#: src/geometry.c:1645
+#: src/geometry.c:1633
 #, c-format
 msgid ""
 "tag=%d: suppressing additional connection detection may fail or short "
@@ -4308,7 +4299,7 @@ msgstr ""
 "tag=%d: menyekat amaran pengesanan sambungan mungkin gagal atau litar pintas "
 "tambahan\n"
 
-#: src/geometry.c:1678
+#: src/geometry.c:1666
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length/wavelength ratio of %.3f < 0.001; similarity of "
@@ -4319,12 +4310,12 @@ msgstr ""
 "komponen arus membawa kepada ketidaktepatan berangka (min=0.001, baik=0.05, "
 "disyorkan <= 0.1)\n"
 
-#: src/geometry.c:1683
+#: src/geometry.c:1671
 #, c-format
 msgid "tag=%d: suppressing additional short wavelength ratio errors\n"
 msgstr "tag=%d: menyekat ralat nisbah panjang gelombang pendek tambahan\n"
 
-#: src/geometry.c:1697
+#: src/geometry.c:1685
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length/wavelength ratio of %.3f > 0.1; current sampling "
@@ -4335,12 +4326,12 @@ msgstr ""
 "persampelan arus dihadkan oleh jarak segmen (min=0.001, baik=0.05, disyorkan "
 "<= 0.1)\n"
 
-#: src/geometry.c:1702
+#: src/geometry.c:1690
 #, c-format
 msgid "tag=%d: suppressing additional long wavelength ratio warnings\n"
 msgstr "tag=%d: menyekat amaran nisbah panjang gelombang panjang tambahan\n"
 
-#: src/geometry.c:1716
+#: src/geometry.c:1704
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length/wavelength ratio of %.3f > 0.05; shorter segments "
@@ -4351,12 +4342,12 @@ msgstr ""
 "pendek meningkatkan ketepatan di kawasan perubahan arus yang pantas "
 "(min=0.001, baik=0.05, disyorkan <=0.1)\n"
 
-#: src/geometry.c:1721
+#: src/geometry.c:1709
 #, c-format
 msgid "tag=%d: suppressing additional accuracy improvement suggestions\n"
 msgstr "tag=%d: menyekat cadangan peningkatan ketepatan tambahan\n"
 
-#: src/geometry.c:1752
+#: src/geometry.c:1740
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length/radius ratio of %.1f < 2.0; standard thin-wire kernel "
@@ -4365,12 +4356,12 @@ msgstr ""
 "tag=%d/seg=%d: nisbah panjang/jejari %.1f < 2.0; ralat medan kernel wayar "
 "nipis piawai melebihi 1%% dengan margin besar (min=2.0, tepat 1%%=8.0)\n"
 
-#: src/geometry.c:1757
+#: src/geometry.c:1745
 #, c-format
 msgid "tag=%d: suppressing additional standard kernel ratio errors\n"
 msgstr "tag=%d: menyekat ralat nisbah kernel piawai tambahan\n"
 
-#: src/geometry.c:1771
+#: src/geometry.c:1759
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length/radius ratio of %.1f < 8.0; standard thin-wire kernel "
@@ -4379,12 +4370,12 @@ msgstr ""
 "tag=%d/seg=%d: nisbah panjang/jejari %.1f < 8.0; ralat medan kernel wayar "
 "nipis piawai melebihi 1%% (min=2.0, tepat 1%%=8.0)\n"
 
-#: src/geometry.c:1776
+#: src/geometry.c:1764
 #, c-format
 msgid "tag=%d: suppressing additional standard kernel ratio warnings\n"
 msgstr "tag=%d: menyekat amaran nisbah kernel piawai tambahan\n"
 
-#: src/geometry.c:1792
+#: src/geometry.c:1780
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length/radius ratio of %.1f < 0.5; extended thin-wire kernel "
@@ -4393,12 +4384,12 @@ msgstr ""
 "tag=%d/seg=%d: nisbah panjang/jejari %.1f < 0.5; ralat medan kernel wayar "
 "nipis lanjutan melebihi 1%% dengan margin besar (min=0.5, tepat 1%%=2.0)\n"
 
-#: src/geometry.c:1797
+#: src/geometry.c:1785
 #, c-format
 msgid "tag=%d: suppressing additional extended kernel ratio errors\n"
 msgstr "tag=%d: menyekat ralat nisbah kernel lanjutan tambahan\n"
 
-#: src/geometry.c:1811
+#: src/geometry.c:1799
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length/radius ratio of %.1f < 2.0; extended thin-wire kernel "
@@ -4407,24 +4398,24 @@ msgstr ""
 "tag=%d/seg=%d: nisbah panjang/jejari %.1f < 2.0; ralat medan kernel wayar "
 "nipis lanjutan melebihi 1%% (min=0.5, tepat 1%%=2.0)\n"
 
-#: src/geometry.c:1816
+#: src/geometry.c:1804
 #, c-format
 msgid "tag=%d: suppressing additional extended kernel ratio warnings\n"
 msgstr "tag=%d: menyekat amaran nisbah kernel lanjutan tambahan\n"
 
-#: src/geometry.c:1833
+#: src/geometry.c:1821
 #, c-format
 msgid "Skipping overlap check for %d segments (use --force-verify to enable)\n"
 msgstr ""
 "Melangkau semakan pertindihan untuk %d segmen (guna --force-verify untuk "
 "membolehkan)\n"
 
-#: src/geometry.c:1837
+#: src/geometry.c:1825
 #, c-format
 msgid "Forcing overlap check for %d segments\n"
 msgstr "Memaksa semakan pertindihan untuk %d segmen\n"
 
-#: src/geometry.c:1849
+#: src/geometry.c:1837
 msgid ""
 "verify_segments() skipping frequency-dependent checks - no frequency data\n"
 msgstr ""
@@ -4674,15 +4665,11 @@ msgstr "Ralat kad data geometri GX"
 msgid "Geometry GR data card error"
 msgstr "Ralat kad data geometri GR"
 
-#: src/input.c:752
-msgid "No geometry data cards"
-msgstr "Ralat kad data geometri GC"
-
-#: src/input.c:763
+#: src/input.c:757
 msgid "Probable invalid segment geometry.\n"
 msgstr "Kemungkinan geometri segmen tidak sah.\n"
 
-#: src/input.c:764
+#: src/input.c:758
 msgid ""
 "Invalid segment geometry.\n"
 "See warnings in the console for detail.\n"
@@ -4692,36 +4679,36 @@ msgstr ""
 "Lihat amaran dalam konsol untuk perincian.\n"
 "Cuba untuk terus..."
 
-#: src/input.c:770
+#: src/input.c:764
 msgid "Probable invalid segment geometry (see above)\n"
 msgstr "Kemungkinan geometri segmen tidak sah (lihat di atas)\n"
 
-#: src/input.c:774
+#: src/input.c:768
 msgid "Read_Geometry: verify_segments() passed\n"
 msgstr "Read_Geometry: verify_segments() lulus\n"
 
-#: src/input.c:811
+#: src/input.c:805
 msgid "segment data error: tag=%d si=%lf, bi=%lf\n"
 msgstr "ralat data segmen: tag=%d si=%lf, bi=%lf\n"
 
-#: src/input.c:813
+#: src/input.c:807
 msgid "Segment data error, zero-length line?  See console."
 msgstr "Ralat data segmen, baris panjang sifar?  Lihat konsol."
 
-#: src/input.c:853
+#: src/input.c:847
 msgid "Move GM data card error"
 msgstr "Ralat kad data alih GM"
 
-#: src/input.c:869 src/input.c:910 src/input.c:927 src/input.c:945
-#: src/input.c:953
+#: src/input.c:863 src/input.c:904 src/input.c:921 src/input.c:939
+#: src/input.c:947
 msgid "Patch data card error"
 msgstr "Ralat kad data tampalan"
 
-#: src/input.c:891
+#: src/input.c:885
 msgid "Patch data error"
 msgstr "Ralat data tampalan"
 
-#: src/input.c:1000
+#: src/input.c:994
 msgid ""
 "\"GF\" card (NGF solution)\n"
 "is not supported"
@@ -4729,64 +4716,64 @@ msgstr ""
 "Kad \"GF\" (penyelesaian NGF)\n"
 "tidak disokong"
 
-#: src/input.c:1005
+#: src/input.c:999
 msgid "Ignoring CM card in geometry"
 msgstr "Mengabaikan kad CM dalam geometri"
 
-#: src/input.c:1018
+#: src/input.c:1012
 #, c-format
 msgid "geometry data card error (nwire=%d)\n"
 msgstr "ralat kad data geometri (nwire=%d)\n"
 
 # xnec2c-exempt: symbol
-#: src/input.c:1019
+#: src/input.c:1013
 #, c-format
 msgid "%2s %3d %5d %10.5f %10.5f %10.5f %10.5f %10.5f %10.5f %10.5f\n"
 msgstr ""
 
-#: src/input.c:1025
+#: src/input.c:1019
 msgid "Command card in geometry section"
 msgstr "Kad arahan dalam bahagian geometri"
 
-#: src/input.c:1027
+#: src/input.c:1021
 msgid "Unrecognized geometry card"
 msgstr "Kad geometri tidak dikenali"
 
-#: src/input.c:1051
+#: src/input.c:1045
 msgid "Failed to initialize symbol table\n"
 msgstr "Gagal memulakan jadual simbol\n"
 
-#: src/input.c:1052
+#: src/input.c:1046
 msgid "Failed to initialize symbol table"
 msgstr "Gagal memulakan jadual simbol"
 
-#: src/input.c:1192
+#: src/input.c:1186
 #, c-format
 msgid "No FR card: computing one step at the NEC-2 default %g MHz\n"
 msgstr "Tiada kad FR: mengira satu langkah pada %g MHz lalai NEC-2\n"
 
-#: src/input.c:1283
+#: src/input.c:1277
 msgid "ignoring CM card in commands\n"
 msgstr "mengabaikan kad CM dalam arahan\n"
 
-#: src/input.c:1284
+#: src/input.c:1278
 msgid "Ignoring CM card in commands"
 msgstr "Mengabaikan kad CM dalam arahan"
 
-#: src/input.c:1296
+#: src/input.c:1290
 msgid "CP card is ignored: coupling calculation not implemented\n"
 msgstr "Kad CP diabaikan: pengiraan gandingan belum dilaksanakan\n"
 
-#: src/input.c:1392
+#: src/input.c:1386
 #, c-format
 msgid "Skipping duplicate FR card at %g MHz\n"
 msgstr "Melangkau kad FR pendua pada %g MHz\n"
 
-#: src/input.c:1457
+#: src/input.c:1451
 msgid "Max frequency <= Min frequency in FR card\n"
 msgstr "Frekuensi maksimum <= frekuensi minimum dalam kad FR\n"
 
-#: src/input.c:1458
+#: src/input.c:1452
 msgid ""
 "Max frequency <= Min frequency in FR card\n"
 "Please check FR card data and correct"
@@ -4794,7 +4781,7 @@ msgstr ""
 "Frekuensi maksimum <= frekuensi minimum dalam kad FR\n"
 "Sila semak data kad FR dan betulkan"
 
-#: src/input.c:1481
+#: src/input.c:1475
 msgid ""
 "Fix the GE/GN cards:\n"
 "The GE card specifies that a ground is present, but the GN indicates "
@@ -4803,11 +4790,11 @@ msgstr ""
 "Betulkan kad GE/GN:\n"
 "Kad GE menyatakan bumi hadir, tetapi GN menunjukkan sebaliknya."
 
-#: src/input.c:1495
+#: src/input.c:1489
 msgid "theta > 90 deg. with ground specified\n"
 msgstr "theta > 90 darjah dengan bumi ditentukan\n"
 
-#: src/input.c:1496 src/radiation.c:911
+#: src/input.c:1490 src/radiation.c:911
 msgid ""
 "Theta > 90 deg with ground specified\n"
 "Please check RP card data and correct"
@@ -4815,7 +4802,7 @@ msgstr ""
 "Theta > 90 darjah dengan bumi ditentukan\n"
 "Sila semak data kad RP dan betulkan"
 
-#: src/input.c:1505
+#: src/input.c:1499
 msgid ""
 "radial wire g.s. approximation: may not be used with Sommerfeld ground "
 "option\n"
@@ -4823,7 +4810,7 @@ msgstr ""
 "penghampiran g.s. wayar jejari: tidak boleh digunakan dengan pilihan bumi "
 "Sommerfeld\n"
 
-#: src/input.c:1506
+#: src/input.c:1500
 msgid ""
 "radial wire g.s. approximation\n"
 "may not be used with Sommerfeld ground option"
@@ -4831,7 +4818,7 @@ msgstr ""
 "Penghampiran g.s. wayar jejari\n"
 "tidak boleh digunakan dengan pilihan bumi Sommerfeld"
 
-#: src/input.c:1554
+#: src/input.c:1548
 #, c-format
 msgid ""
 "data fault on loading card no %d: itag step1 %d is greater than itag step2 "
@@ -4840,7 +4827,7 @@ msgstr ""
 "kegagalan data semasa memuatkan kad no %d: itag step1 %d lebih besar "
 "daripada itag step2 %d\n"
 
-#: src/input.c:1556
+#: src/input.c:1550
 msgid ""
 "Data fault on loading card\n"
 "itag step1 is greater than itag step2"
@@ -4848,13 +4835,13 @@ msgstr ""
 "Kegagalan data semasa memuatkan kad\n"
 "itag step1 lebih besar daripada itag step2"
 
-#: src/input.c:1685
+#: src/input.c:1679
 msgid ""
 "Transmission Line impedance = 0: is not valid. Please correct NT or TL card\n"
 msgstr ""
 "Galangan Talian Penghantaran = 0: tidak sah. Sila betulkan kad NT atau TL\n"
 
-#: src/input.c:1686
+#: src/input.c:1680
 msgid ""
 "Transmission Line impedance = 0\n"
 "is not valid. Please correct NT or TL card"
@@ -4862,11 +4849,11 @@ msgstr ""
 "Galangan Talian Penghantaran = 0\n"
 "tidak sah. Sila betulkan kad NT atau TL"
 
-#: src/input.c:1697
+#: src/input.c:1691
 msgid "Segment number error in TL or NT card\n"
 msgstr "Ralat nombor segmen dalam kad TL atau NT\n"
 
-#: src/input.c:1698
+#: src/input.c:1692
 msgid ""
 "Segment number\n"
 "error in NT or TL card"
@@ -4874,20 +4861,20 @@ msgstr ""
 "Nombor segmen\n"
 "ralat dalam kad NT atau TL"
 
-#: src/input.c:1720
+#: src/input.c:1714
 msgid "PQ and PT cards are ignored: printing to file not implemented\n"
 msgstr "Kad PQ dan PT diabaikan: pencetakan ke fail belum dilaksanakan\n"
 
-#: src/input.c:1724
+#: src/input.c:1718
 msgid "PL card is ignored: plotting to file not supported\n"
 msgstr "Kad PL diabaikan: pemplotan ke fail tidak disokong\n"
 
-#: src/input.c:1730
+#: src/input.c:1724
 msgid "Surface wave option (I1=1): of RP command not implemented\n"
 msgstr ""
 "Pilihan gelombang permukaan (I1=1): bagi arahan RP tidak dilaksanakan\n"
 
-#: src/input.c:1731
+#: src/input.c:1725
 msgid ""
 "Surface wave option (I1=1)\n"
 "of RP command not implemented"
@@ -4895,7 +4882,7 @@ msgstr ""
 "Pilihan gelombang permukaan (I1=1)\n"
 "bagi arahan RP tidak dilaksanakan"
 
-#: src/input.c:1763
+#: src/input.c:1757
 msgid ""
 "Theta > 90 deg. with ground specified: Please check RP card data and "
 "correct\n"
@@ -4903,7 +4890,7 @@ msgstr ""
 "Theta > 90 darjah dengan bumi ditentukan: Sila semak data kad RP dan "
 "betulkan\n"
 
-#: src/input.c:1764
+#: src/input.c:1758
 msgid ""
 "Theta > 90 deg. with ground specified\n"
 "Please check RP card data and correct"
@@ -4911,15 +4898,15 @@ msgstr ""
 "Theta > 90 darjah dengan bumi ditentukan\n"
 "Sila semak data kad RP dan betulkan"
 
-#: src/input.c:1831
+#: src/input.c:1825
 msgid "Geometry card in command section"
 msgstr "Kad geometri dalam bahagian arahan"
 
-#: src/input.c:1834
+#: src/input.c:1828
 msgid "Unrecognized command card"
 msgstr "Kad arahan tidak dikenali"
 
-#: src/input.c:1879
+#: src/input.c:1873
 msgid ""
 "Missing or surface-wave RP card: Radiation pattern and gain calculations "
 "disabled\n"
@@ -4927,11 +4914,11 @@ msgstr ""
 "Kad RP tiada atau gelombang permukaan: Pengiraan corak sinaran dan gandaan "
 "dilumpuhkan\n"
 
-#: src/input.c:1906
+#: src/input.c:1900
 msgid "Unexpected exit from while loop"
 msgstr "Keluar tidak dijangka daripada gelung while"
 
-#: src/input.c:1997
+#: src/input.c:1991
 msgid ""
 "command data card error: Unexpected EOF while reading input file - appending "
 "EN card\n"
@@ -4939,7 +4926,7 @@ msgstr ""
 "ralat kad data arahan: EOF Tidak Dijangka semasa membaca fail input - "
 "menambah kad EN\n"
 
-#: src/input.c:1998
+#: src/input.c:1992
 msgid ""
 "Command data card error\n"
 "Unexpected EOF while reading input file\n"
@@ -4949,11 +4936,11 @@ msgstr ""
 "EOF Tidak Dijangka semasa membaca fail input\n"
 "Menambah kad EN lalai"
 
-#: src/input.c:2015
+#: src/input.c:2009
 msgid "command data card error: card's mnemonic code too short or missing\n"
 msgstr "ralat kad data arahan: kod mnemonik kad terlalu pendek atau tiada\n"
 
-#: src/input.c:2016
+#: src/input.c:2010
 msgid ""
 "Command data card error\n"
 "Mnemonic code too short or missing"
@@ -4961,7 +4948,7 @@ msgstr ""
 "Ralat kad data arahan\n"
 "Kod mnemonik terlalu pendek atau tiada"
 
-#: src/input.c:2217
+#: src/input.c:2211
 msgid ""
 "geometry data card error: Unexpected EOF while reading input file - "
 "appending GE card\n"
@@ -4969,7 +4956,7 @@ msgstr ""
 "ralat kad data geometri: EOF Tidak Dijangka semasa membaca fail input - "
 "menambah kad GE\n"
 
-#: src/input.c:2218
+#: src/input.c:2212
 msgid ""
 "Geometry data card error\n"
 "Unexpected EOF while reading input file\n"
@@ -4979,11 +4966,11 @@ msgstr ""
 "EOF Tidak Dijangka semasa membaca fail input\n"
 "Menambah kad GE lalai"
 
-#: src/input.c:2235
+#: src/input.c:2229
 msgid "geometry data card error: card's mnemonic code too short or missing\n"
 msgstr "ralat kad data geometri: kod mnemonik kad terlalu pendek atau tiada\n"
 
-#: src/input.c:2236
+#: src/input.c:2230
 msgid ""
 "Geometry data card error\n"
 "Card's mnemonic code too short or missing"
@@ -5098,37 +5085,37 @@ msgstr "keluar selepas ralat maut: pipe() gagal"
 msgid "exiting after fatal error: fork() failed"
 msgstr "keluar selepas ralat maut: fork() gagal"
 
-#: src/main.c:840
+#: src/main.c:835
 msgid "exiting via user interrupt\n"
 msgstr "keluar melalui gangguan pengguna\n"
 
-#: src/main.c:844
+#: src/main.c:839
 msgid "segmentation fault, exiting\n"
 msgstr "segmentation fault, keluar\n"
 
-#: src/main.c:848
+#: src/main.c:843
 msgid "floating point exception, exiting\n"
 msgstr "floating point exception, keluar\n"
 
-#: src/main.c:852
+#: src/main.c:847
 msgid "abort signal received, exiting\n"
 msgstr "isyarat abort diterima, keluar\n"
 
-#: src/main.c:856
+#: src/main.c:851
 msgid "termination request received, exiting\n"
 msgstr "permintaan penamatan diterima, keluar\n"
 
-#: src/main.c:866
+#: src/main.c:861
 #, c-format
 msgid "not forked, ignoring SIGCHLD from pid %d\n"
 msgstr "tidak forked, mengabaikan SIGCHLD daripada pid %d\n"
 
-#: src/main.c:874
+#: src/main.c:869
 #, c-format
 msgid "child process pid %d exited\n"
 msgstr "proses anak pid %d keluar\n"
 
-#: src/main.c:883
+#: src/main.c:878
 #, c-format
 msgid "default exit with signal: %d\n"
 msgstr "keluar lalai dengan isyarat: %d\n"
@@ -5142,7 +5129,7 @@ msgstr ""
 "Mulakan semula untuk menukar pustaka bebenang MKL."
 
 # xnec2c-exempt: symbol
-#: src/mathlib.c:368 src/utils.c:729
+#: src/mathlib.c:368 src/utils.c:728
 #, c-format
 msgid "%s: %s\n"
 msgstr ""
@@ -6395,43 +6382,43 @@ msgstr "render_fit_solve: tiada geometri untuk dipadankan\n"
 msgid "File ▸ Open to load an NEC file"
 msgstr "Fail ▸ Buka untuk memuatkan fail NEC"
 
-#: src/render/render_message.h:30
+#: src/render/render_message.h:31
 msgid "Gain pattern requires an RP card in the NEC file"
 msgstr "Corak gandaan memerlukan kad RP dalam fail NEC"
 
-#: src/render/render_message.h:31
+#: src/render/render_message.h:32
 msgid "Near field requires NE or NH cards in the NEC file"
 msgstr "Medan dekat memerlukan kad NE atau NH dalam fail NEC"
 
-#: src/render/render_message.h:32
+#: src/render/render_message.h:33
 msgid "No RP or NE/NH cards in the NEC file"
 msgstr "Tiada kad RP atau NE/NH dalam fail NEC"
 
-#: src/render/render_message.h:33
+#: src/render/render_message.h:34
 msgid "Select Near Field (no RP card for gain pattern)"
 msgstr "Pilih medan dekat (tiada kad RP untuk corak gandaan)"
 
-#: src/render/render_message.h:34
+#: src/render/render_message.h:35
 msgid "Select Gain Pattern (no NE/NH cards for near field)"
 msgstr "Pilih corak gandaan (tiada kad NE/NH untuk medan dekat)"
 
-#: src/render/render_message.h:35
+#: src/render/render_message.h:36
 msgid "Select Gain Pattern or Near Field"
 msgstr "Pilih corak gandaan atau medan dekat"
 
-#: src/render/render_message.h:36
+#: src/render/render_message.h:37
 msgid "Enable E field, H field, or Poynting vector"
 msgstr "Dayakan medan E, medan H, atau vektor Poynting"
 
-#: src/render/render_message.h:37
+#: src/render/render_message.h:38
 msgid "Press ▶ to start the frequency loop"
 msgstr "Tekan ▶ untuk memulakan gelung frekuensi"
 
-#: src/render/render_message.h:38
+#: src/render/render_message.h:39
 msgid "Radiation pattern data not ready"
 msgstr "Data corak sinaran belum sedia"
 
-#: src/render/render_message.h:39
+#: src/render/render_message.h:40
 msgid "Waiting for frequency data"
 msgstr "Menunggu data frekuensi"
 
@@ -6626,33 +6613,33 @@ msgstr "Berhenti: %s\n"
 msgid "Stop during freq loop, deadlock prevented: %s\n"
 msgstr "Berhenti semasa gelung frekuensi, kebuntuan dicegah: %s\n"
 
-#: src/utils.c:684
+#: src/utils.c:683
 #, c-format
 msgid "applying an OpenMP budget of %d threads\n"
 msgstr "menggunakan belanjawan OpenMP sebanyak %d benang\n"
 
-#: src/utils.c:699
+#: src/utils.c:698
 #, c-format
 msgid "%s[%d]: %f seconds\n"
 msgstr "%s[%d]: %f saat\n"
 
-#: src/utils.c:724
+#: src/utils.c:723
 #, c-format
 msgid "xnec2c[%d]: %s: Failed to open file: %s\n"
 msgstr "xnec2c[%d]: %s: Gagal membuka fail: %s\n"
 
-#: src/utils.c:1090
+#: src/utils.c:1089
 msgid "  Backtrace:\n"
 msgstr "  Jejak balik:\n"
 
 # xnec2c-exempt: symbol
-#: src/utils.c:1092
+#: src/utils.c:1091
 #, c-format
 msgid "    %d. %s\n"
 msgstr ""
 
 # xnec2c-exempt: symbol
-#: src/utils.c:1119
+#: src/utils.c:1118
 #, c-format
 msgid "%s:\n"
 msgstr ""

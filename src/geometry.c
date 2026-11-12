@@ -465,18 +465,6 @@ conect( int ignd )
 
   } /* if( data.n != 0) */
 
-  iseg=( data.n+ data.m)/( data.np+ data.mp);
-  if( iseg != 1)
-  {
-    /*** may be error condition?? ***/
-    if( data.ipsym == 0 )
-    {
-      pr_err("ipsym = 0\n");
-      Stop( ERR_OK, _("Error: ipsym = 0") );
-      return( FALSE );
-    }
-  } /* if( iseg != 1) */
-
   /* No wire segments */
   if( data.n <= 0) return( TRUE );
   mem_array_realloc(&segj.jco, segj.maxcon);

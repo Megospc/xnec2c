@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 18:20+0300\n"
+"POT-Creation-Date: 2026-11-12 19:31+0300\n"
 "PO-Revision-Date: 2025-12-28 20:37-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # xnec2c-exempt: name
-#: files/xnec2c.desktop.in:2 resources/xnec2c.glade:1784
+#: files/xnec2c.desktop.in:2 resources/xnec2c.glade:1766
 msgid "xnec2c"
 msgstr ""
 
@@ -59,16 +59,16 @@ msgstr "Vasakpidine"
 msgid "Animated"
 msgstr "Animeeritud"
 
-#: resources/animate.glade:114 resources/xnec2c.glade:11114
+#: resources/animate.glade:114 resources/xnec2c.glade:11096
 msgid "_Reference Phase"
 msgstr "_Referentsfaas"
 
-#: resources/animate.glade:125 resources/xnec2c.glade:11125
+#: resources/animate.glade:125 resources/xnec2c.glade:11107
 msgid "_LIC Texture"
 msgstr "_LIC tekstuur"
 
-#: resources/animate.glade:136 resources/xnec2c.glade:11136
-#: resources/xnec2c.glade:12328
+#: resources/animate.glade:136 resources/xnec2c.glade:11118
+#: resources/xnec2c.glade:12310
 msgid "_Wireframe"
 msgstr "_Traatraam"
 
@@ -77,11 +77,11 @@ msgstr "_Traatraam"
 msgid "Static"
 msgstr "Staatiline"
 
-#: resources/animate.glade:161 resources/xnec2c.glade:11161
+#: resources/animate.glade:161 resources/xnec2c.glade:11143
 msgid "Polarization _Axis"
 msgstr "Polarisatsiooni _telg"
 
-#: resources/animate.glade:172 resources/xnec2c.glade:11172
+#: resources/animate.glade:172 resources/xnec2c.glade:11154
 msgid "Peak _Magnitude"
 msgstr "Tipu _amplituud"
 
@@ -133,7 +133,7 @@ msgstr "Puudub (geomeetria)"
 msgid "Show the bare structure geometry with no quantity coloring."
 msgstr "Näitab paljast struktuuri geomeetriat ilma suuruse värvimiseta."
 
-#: resources/animate.glade:498 resources/xnec2c.glade:11279
+#: resources/animate.glade:498 resources/xnec2c.glade:11261
 msgid "Currents"
 msgstr "Voolud"
 
@@ -141,7 +141,7 @@ msgstr "Voolud"
 msgid "Animate current magnitude and direction along the wires."
 msgstr "Animeerib voolu tugevust ja suunda piki traate."
 
-#: resources/animate.glade:515 resources/xnec2c.glade:11294
+#: resources/animate.glade:515 resources/xnec2c.glade:11276
 msgid "Charges"
 msgstr "Laengud"
 
@@ -290,7 +290,7 @@ msgid "Off"
 msgstr "Väljas"
 
 # xnec2c-exempt: symbol
-#: resources/settings/cairo_settings.glade:84 resources/xnec2c.glade:3690
+#: resources/settings/cairo_settings.glade:84 resources/xnec2c.glade:3672
 msgid "8"
 msgstr ""
 
@@ -526,8 +526,8 @@ msgstr ""
 "lõigatakse alumise värvini."
 
 # xnec2c-exempt: notation
-#: resources/settings/color_settings.glade:285 resources/xnec2c.glade:11752
-#: resources/xnec2c.glade:13109
+#: resources/settings/color_settings.glade:285 resources/xnec2c.glade:11734
+#: resources/xnec2c.glade:13091
 msgid "dB"
 msgstr ""
 
@@ -889,22 +889,22 @@ msgstr ""
 msgid "Arc Element (GA card)"
 msgstr "Kaareelement (GA kaart)"
 
-#: resources/xnec2c.glade:134 resources/xnec2c.glade:1169
-#: resources/xnec2c.glade:3596 resources/xnec2c.glade:14826 src/cmnd_edit.c:489
+#: resources/xnec2c.glade:134 resources/xnec2c.glade:1151
+#: resources/xnec2c.glade:3578 resources/xnec2c.glade:14808 src/cmnd_edit.c:489
 msgid "Tag Number"
 msgstr "Märgendi number"
 
-#: resources/xnec2c.glade:147 resources/xnec2c.glade:14921
+#: resources/xnec2c.glade:147 resources/xnec2c.glade:14903
 msgid "No. Segments"
 msgstr "Segmentide arv"
 
-#: resources/xnec2c.glade:160 resources/xnec2c.glade:3622
-#: resources/xnec2c.glade:15017
+#: resources/xnec2c.glade:160 resources/xnec2c.glade:3604
+#: resources/xnec2c.glade:14999
 msgid "Segs % lambda"
 msgstr "Segm % lambda"
 
-#: resources/xnec2c.glade:173 resources/xnec2c.glade:3635
-#: resources/xnec2c.glade:15113
+#: resources/xnec2c.glade:173 resources/xnec2c.glade:3617
+#: resources/xnec2c.glade:15095
 msgid "Wire Diameter"
 msgstr "Juhtme läbimõõt"
 
@@ -920,8 +920,8 @@ msgstr "Otsa 1 nurk"
 msgid "End 2 Angle"
 msgstr "Otsa 2 nurk"
 
-#: resources/xnec2c.glade:300 resources/xnec2c.glade:3832
-#: resources/xnec2c.glade:15178 src/cmnd_edit.c:2025
+#: resources/xnec2c.glade:300 resources/xnec2c.glade:3814
+#: resources/xnec2c.glade:15160 src/cmnd_edit.c:2025
 msgid "Conductivity S/m"
 msgstr "Juhtivus S/m"
 
@@ -930,16 +930,16 @@ msgid "Wire Arc Data"
 msgstr "Juhtmekaare andmed"
 
 #: resources/xnec2c.glade:460 resources/xnec2c.glade:696
-#: resources/xnec2c.glade:1496 resources/xnec2c.glade:1719
-#: resources/xnec2c.glade:2177 resources/xnec2c.glade:2369
-#: resources/xnec2c.glade:2680 resources/xnec2c.glade:3366
-#: resources/xnec2c.glade:4166 resources/xnec2c.glade:4365
-#: resources/xnec2c.glade:4526 resources/xnec2c.glade:5058
-#: resources/xnec2c.glade:5694 resources/xnec2c.glade:7138
-#: resources/xnec2c.glade:8045 resources/xnec2c.glade:9051
-#: resources/xnec2c.glade:9331 resources/xnec2c.glade:13519
-#: resources/xnec2c.glade:14032 resources/xnec2c.glade:14631
-#: resources/xnec2c.glade:15467 resources/xnec2c.glade:15667
+#: resources/xnec2c.glade:1478 resources/xnec2c.glade:1701
+#: resources/xnec2c.glade:2159 resources/xnec2c.glade:2351
+#: resources/xnec2c.glade:2662 resources/xnec2c.glade:3348
+#: resources/xnec2c.glade:4148 resources/xnec2c.glade:4347
+#: resources/xnec2c.glade:4508 resources/xnec2c.glade:5040
+#: resources/xnec2c.glade:5676 resources/xnec2c.glade:7120
+#: resources/xnec2c.glade:8027 resources/xnec2c.glade:9033
+#: resources/xnec2c.glade:9313 resources/xnec2c.glade:13501
+#: resources/xnec2c.glade:14014 resources/xnec2c.glade:14613
+#: resources/xnec2c.glade:15449 resources/xnec2c.glade:15649
 msgid "Delete Card"
 msgstr "Kustuta kaart"
 
@@ -947,7 +947,7 @@ msgstr "Kustuta kaart"
 msgid "Cylindrical Structure (GR card)"
 msgstr "Silindriline struktuur (GR kaart)"
 
-#: resources/xnec2c.glade:568 resources/xnec2c.glade:9231
+#: resources/xnec2c.glade:568 resources/xnec2c.glade:9213
 msgid "Tag Number Increment"
 msgstr "Märgendi numbri kasv"
 
@@ -963,630 +963,630 @@ msgstr "Silindriline struktuur"
 msgid "Xnec2c Error"
 msgstr "Xnec2c viga"
 
-#: resources/xnec2c.glade:869
+#: resources/xnec2c.glade:852
 msgid "Error"
 msgstr "Viga"
 
-#: resources/xnec2c.glade:948
+#: resources/xnec2c.glade:930
 msgid "Excitation Command (EX Card)"
 msgstr "Ergastuskäsk (EX kaart)"
 
-#: resources/xnec2c.glade:974
+#: resources/xnec2c.glade:956
 msgid "Incident LH Wave"
 msgstr "Langev vasakukäeline laine"
 
-#: resources/xnec2c.glade:990
+#: resources/xnec2c.glade:972
 msgid "Incident Linear Wave "
 msgstr "Langev lineaarne laine "
 
-#: resources/xnec2c.glade:1006
+#: resources/xnec2c.glade:988
 msgid "Current Source"
 msgstr "Vooluallikas"
 
-#: resources/xnec2c.glade:1022
+#: resources/xnec2c.glade:1004
 msgid "Incident RH Wave"
 msgstr "Langev paremakäeline laine"
 
-#: resources/xnec2c.glade:1038
+#: resources/xnec2c.glade:1020
 msgid "Current Slope Discontinuity"
 msgstr "Voolu kalde katkestus"
 
-#: resources/xnec2c.glade:1054
+#: resources/xnec2c.glade:1036
 msgid "Voltage Source"
 msgstr "Pingeallikas"
 
-#: resources/xnec2c.glade:1076
+#: resources/xnec2c.glade:1058
 msgid "Excitation Type"
 msgstr "Ergastuse tüüp"
 
-#: resources/xnec2c.glade:1101
+#: resources/xnec2c.glade:1083
 msgid "Maximum Admittance Matrix Asymmetry"
 msgstr "Maksimaalne admitantsmaatriksi asümmeetria"
 
-#: resources/xnec2c.glade:1117
+#: resources/xnec2c.glade:1099
 msgid "Impedance of Source Segment"
 msgstr "Allika segmendi impedants"
 
-#: resources/xnec2c.glade:1139
+#: resources/xnec2c.glade:1121
 msgid "Print Control"
 msgstr "Printimise juhtimine"
 
-#: resources/xnec2c.glade:1182 src/cmnd_edit.c:490
+#: resources/xnec2c.glade:1164 src/cmnd_edit.c:490
 msgid "Segment Number"
 msgstr "Segmendi number"
 
-#: resources/xnec2c.glade:1231
+#: resources/xnec2c.glade:1213
 msgid "Voltage - Real Part"
 msgstr "Pinge - reaalne osa"
 
-#: resources/xnec2c.glade:1244
+#: resources/xnec2c.glade:1226
 msgid "Voltage - Imaginary Part"
 msgstr "Pinge - imaginaarne osa"
 
-#: resources/xnec2c.glade:1257
+#: resources/xnec2c.glade:1239
 msgid "Eta"
 msgstr "Eeta"
 
-#: resources/xnec2c.glade:1327
+#: resources/xnec2c.glade:1309
 msgid "Theta"
 msgstr "Teeta"
 
-#: resources/xnec2c.glade:1340
+#: resources/xnec2c.glade:1322
 msgid "Phi"
 msgstr "Fii"
 
-#: resources/xnec2c.glade:1353
+#: resources/xnec2c.glade:1335
 msgid "Ratio"
 msgstr "Suhe"
 
-#: resources/xnec2c.glade:1434
+#: resources/xnec2c.glade:1416
 msgid "Excitation Parameters"
 msgstr "Ergastuse parameetrid"
 
-#: resources/xnec2c.glade:1561
+#: resources/xnec2c.glade:1543
 msgid "Execute Command (XQ Card)"
 msgstr "Täitmiskäsk (XQ kaart)"
 
-#: resources/xnec2c.glade:1588
+#: resources/xnec2c.glade:1570
 msgid "No Pattern Cuts"
 msgstr "Kiirgusdiagrammi lõikeid pole"
 
-#: resources/xnec2c.glade:1604
+#: resources/xnec2c.glade:1586
 msgid "Pattern in XZ Plane"
 msgstr "Kiirgusdiagramm XZ-tasandil"
 
-#: resources/xnec2c.glade:1620
+#: resources/xnec2c.glade:1602
 msgid "Pattern in YZ Plane"
 msgstr "Kiirgusdiagramm YZ-tasandil"
 
-#: resources/xnec2c.glade:1636
+#: resources/xnec2c.glade:1618
 msgid "Both XZ/YZ Patterns"
 msgstr "Mõlemad XZ/YZ kiirgusdiagrammid"
 
-#: resources/xnec2c.glade:1658
+#: resources/xnec2c.glade:1640
 msgid "Execute Command"
 msgstr "Täitmiskäsk"
 
-#: resources/xnec2c.glade:1889
+#: resources/xnec2c.glade:1871
 msgid "Frequency Command (FR Card)"
 msgstr "Sageduse käsk (FR kaart)"
 
-#: resources/xnec2c.glade:1914
+#: resources/xnec2c.glade:1896
 msgid "Additive Stepping"
 msgstr "Liitev sammumine"
 
-#: resources/xnec2c.glade:1931
+#: resources/xnec2c.glade:1913
 msgid "Multiplicative Stepping"
 msgstr "Korrutav sammumine"
 
-#: resources/xnec2c.glade:1954
+#: resources/xnec2c.glade:1936
 msgid "Frequency Stepping"
 msgstr "Sageduse sammumine"
 
-#: resources/xnec2c.glade:1984
+#: resources/xnec2c.glade:1966
 msgid "No. Frequency Points"
 msgstr "Sageduspunktide arv"
 
-#: resources/xnec2c.glade:2015
+#: resources/xnec2c.glade:1997
 msgid "Start Frequency (MHz)"
 msgstr "Algussagedus (MHz)"
 
-#: resources/xnec2c.glade:2047
+#: resources/xnec2c.glade:2029
 msgid "Frequency Step (MHz)"
 msgstr "Sageduse samm (MHz)"
 
-#: resources/xnec2c.glade:2080
+#: resources/xnec2c.glade:2062
 msgid "End Frequency (MHz)"
 msgstr "Lõppsagedus (MHz)"
 
-#: resources/xnec2c.glade:2116
+#: resources/xnec2c.glade:2098
 msgid "Frequency Stepping Parameters"
 msgstr "Sageduse sammumise parameetrid"
 
-#: resources/xnec2c.glade:2242
+#: resources/xnec2c.glade:2224
 msgid "Geometry End (GE Card)"
 msgstr "Geomeetria lõpp (GE kaart)"
 
-#: resources/xnec2c.glade:2267
+#: resources/xnec2c.glade:2249
 msgid "No Ground, Free Space condition"
 msgstr "Maandust pole, vaba ruumi tingimus"
 
-#: resources/xnec2c.glade:2284
+#: resources/xnec2c.glade:2266
 msgid "Ground present, Structure reflection"
 msgstr "Maandus olemas, struktuuri peegeldus"
 
-#: resources/xnec2c.glade:2301
+#: resources/xnec2c.glade:2283
 msgid "Ground present, no Structure reflection"
 msgstr "Maandus olemas, struktuuri peegeldust pole"
 
-#: resources/xnec2c.glade:2324
+#: resources/xnec2c.glade:2306
 msgid "Ground Plane type"
 msgstr "Maandustasandi tüüp"
 
-#: resources/xnec2c.glade:2458
+#: resources/xnec2c.glade:2440
 msgid "Ground Parameters (GD Card)"
 msgstr "Maanduse parameetrid (GD kaart)"
 
-#: resources/xnec2c.glade:2487 resources/xnec2c.glade:2956
-#: resources/xnec2c.glade:3042
+#: resources/xnec2c.glade:2469 resources/xnec2c.glade:2938
+#: resources/xnec2c.glade:3024
 msgid "Relative Dielectric Const."
 msgstr "Suhteline dielektriline konst."
 
-#: resources/xnec2c.glade:2519 resources/xnec2c.glade:3075
+#: resources/xnec2c.glade:2501 resources/xnec2c.glade:3057
 msgid "Distance to 2nd Medium"
 msgstr "Kaugus 2. keskkonnani"
 
-#: resources/xnec2c.glade:2551 resources/xnec2c.glade:2988
-#: resources/xnec2c.glade:3107
+#: resources/xnec2c.glade:2533 resources/xnec2c.glade:2970
+#: resources/xnec2c.glade:3089
 msgid "Ground Conductivity S/m"
 msgstr "Maanduse juhtivus S/m"
 
-#: resources/xnec2c.glade:2583 resources/xnec2c.glade:3139
+#: resources/xnec2c.glade:2565 resources/xnec2c.glade:3121
 msgid "Dist. below 1st Medium"
 msgstr "Kaugus 1. keskkonna all"
 
-#: resources/xnec2c.glade:2619 resources/xnec2c.glade:3175
+#: resources/xnec2c.glade:2601 resources/xnec2c.glade:3157
 msgid "2nd Medium Parameters"
 msgstr "2. keskkonna parameetrid"
 
-#: resources/xnec2c.glade:2800
+#: resources/xnec2c.glade:2782
 msgid "Ground Parameters (GN & GD Cards)"
 msgstr "Maanduse parameetrid (GN & GD kaardid)"
 
-#: resources/xnec2c.glade:2827
+#: resources/xnec2c.glade:2809
 msgid "Perfect Ground"
 msgstr "Ideaalne maandus"
 
 # xnec2c-exempt: name
-#: resources/xnec2c.glade:2843
+#: resources/xnec2c.glade:2825
 msgid "Sommerfeld/Norton"
 msgstr ""
 
-#: resources/xnec2c.glade:2859
+#: resources/xnec2c.glade:2841
 msgid "Radial Ground Screen"
 msgstr "Radiaalne maandusekraan"
 
-#: resources/xnec2c.glade:2874
+#: resources/xnec2c.glade:2856
 msgid "Reflection Coeff. Approx"
 msgstr "Peegelduskoef. lähend"
 
-#: resources/xnec2c.glade:2890
+#: resources/xnec2c.glade:2872
 msgid "Nullify Previous Params"
 msgstr "Tühista eelmised parameetrid"
 
-#: resources/xnec2c.glade:2906
+#: resources/xnec2c.glade:2888
 msgid "Second Medium (Cliff)"
 msgstr "Teine keskkond (järsak)"
 
-#: resources/xnec2c.glade:2927
+#: resources/xnec2c.glade:2909
 msgid "Ground Type"
 msgstr "Maanduse tüüp"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3055
+#: resources/xnec2c.glade:3037
 msgid "0.00000"
 msgstr ""
 
-#: resources/xnec2c.glade:3206
+#: resources/xnec2c.glade:3188
 msgid "Number of Radials"
 msgstr "Radiaalide arv"
 
-#: resources/xnec2c.glade:3219
+#: resources/xnec2c.glade:3201
 msgid "Radial Screen Radius"
 msgstr "Radiaalekraani raadius"
 
-#: resources/xnec2c.glade:3269
+#: resources/xnec2c.glade:3251
 msgid "Radial Wire Diameter"
 msgstr "Radiaaltraadi läbimõõt"
 
-#: resources/xnec2c.glade:3305
+#: resources/xnec2c.glade:3287
 msgid "Radial Screen Parameters"
 msgstr "Radiaalekraani parameetrid"
 
-#: resources/xnec2c.glade:3505
+#: resources/xnec2c.glade:3487
 msgid "Helical Element (GA card)"
 msgstr "Heelikselement (GA kaart)"
 
-#: resources/xnec2c.glade:3530
+#: resources/xnec2c.glade:3512
 msgid "Right Hand Helix"
 msgstr "Parema käe heelikas"
 
-#: resources/xnec2c.glade:3546
+#: resources/xnec2c.glade:3528
 msgid "Left Hand Helix"
 msgstr "Vasaku käe heelikas"
 
-#: resources/xnec2c.glade:3562
+#: resources/xnec2c.glade:3544
 msgid "Right Hand Spiral"
 msgstr "Parema käe spiraal"
 
-#: resources/xnec2c.glade:3578
+#: resources/xnec2c.glade:3560
 msgid "Left Hand Spiral"
 msgstr "Vasaku käe spiraal"
 
-#: resources/xnec2c.glade:3609
+#: resources/xnec2c.glade:3591
 msgid "Segments/Turn"
 msgstr "Segmendid/keere"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3648
+#: resources/xnec2c.glade:3630
 msgid "0.0100"
 msgstr ""
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3669
+#: resources/xnec2c.glade:3651
 msgid "5.00"
 msgstr ""
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3710 resources/xnec2c.glade:11785
-#: resources/xnec2c.glade:12985
+#: resources/xnec2c.glade:3692 resources/xnec2c.glade:11767
+#: resources/xnec2c.glade:12967
 msgid "1"
 msgstr ""
 
-#: resources/xnec2c.glade:3730
+#: resources/xnec2c.glade:3712
 msgid "Number of Turns"
 msgstr "Keerdude arv"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3743
+#: resources/xnec2c.glade:3725
 msgid "8.0000"
 msgstr ""
 
-#: resources/xnec2c.glade:3764
+#: resources/xnec2c.glade:3746
 msgid "Helix Length (HL)"
 msgstr "Heeliks pikkus (HL)"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3777
+#: resources/xnec2c.glade:3759
 msgid "5.0000"
 msgstr ""
 
-#: resources/xnec2c.glade:3798
+#: resources/xnec2c.glade:3780
 msgid "Turns Spacing"
 msgstr "Keerdude vahe"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3811 resources/xnec2c.glade:3923
-#: resources/xnec2c.glade:3976 resources/xnec2c.glade:4029
-#: resources/xnec2c.glade:4077
+#: resources/xnec2c.glade:3793 resources/xnec2c.glade:3905
+#: resources/xnec2c.glade:3958 resources/xnec2c.glade:4011
+#: resources/xnec2c.glade:4059
 msgid "1.0000"
 msgstr ""
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:3845
+#: resources/xnec2c.glade:3827
 msgid "0.0000"
 msgstr ""
 
-#: resources/xnec2c.glade:3865
+#: resources/xnec2c.glade:3847
 msgid "Radius in X (A1)"
 msgstr "Raadius X-s (A1)"
 
-#: resources/xnec2c.glade:3878
+#: resources/xnec2c.glade:3860
 msgid "Radius in Y (B1)"
 msgstr "Raadius Y-s (B1)"
 
-#: resources/xnec2c.glade:3891
+#: resources/xnec2c.glade:3873
 msgid "Radius in X (A2)"
 msgstr "Raadius X-s (A2)"
 
-#: resources/xnec2c.glade:3904
+#: resources/xnec2c.glade:3886
 msgid "Radius in Y (B2)"
 msgstr "Raadius Y-s (B2)"
 
-#: resources/xnec2c.glade:4102
+#: resources/xnec2c.glade:4084
 msgid "GH Card"
 msgstr "GH kaart"
 
-#: resources/xnec2c.glade:4239 resources/xnec2c.glade:15541
+#: resources/xnec2c.glade:4221 resources/xnec2c.glade:15523
 msgid "Interaction Approx Range (KH Card)"
 msgstr "Interaktsiooni lähendi ulatus (KH kaart)"
 
-#: resources/xnec2c.glade:4266
+#: resources/xnec2c.glade:4248
 msgid "Approximation Range (W/lengths)"
 msgstr "Lähenduse ulatus (lainepikkused)"
 
-#: resources/xnec2c.glade:4304
+#: resources/xnec2c.glade:4286
 msgid "Interaction Approximation Range"
 msgstr "Interaktsiooni lähendi ulatus"
 
-#: resources/xnec2c.glade:4430
+#: resources/xnec2c.glade:4412
 msgid "Thin Wire Kernel (EK Card)"
 msgstr "Õhukese traadi tuum (EK kaart)"
 
-#: resources/xnec2c.glade:4448
+#: resources/xnec2c.glade:4430
 msgid "Extended Thin Wire Kernel"
 msgstr "Laiendatud õhukese traadi tuum"
 
-#: resources/xnec2c.glade:4465
+#: resources/xnec2c.glade:4447
 msgid "Thin Wire Kernel"
 msgstr "Õhukese traadi tuum"
 
-#: resources/xnec2c.glade:4628
+#: resources/xnec2c.glade:4610
 msgid "Loading Command (LD Card)"
 msgstr "Koormuse käsk (LD kaart)"
 
-#: resources/xnec2c.glade:4654
+#: resources/xnec2c.glade:4636
 msgid "Short all Loads (Nulls previous Loading Cards)"
 msgstr "Lühista kõik koormused (tühistab eelmised koormuse kaardid)"
 
-#: resources/xnec2c.glade:4671
+#: resources/xnec2c.glade:4653
 msgid "Series, Lumped"
 msgstr "Jada, koondatud"
 
-#: resources/xnec2c.glade:4687
+#: resources/xnec2c.glade:4669
 msgid "Parallel, Distributed"
 msgstr "Rööp, jaotatud"
 
-#: resources/xnec2c.glade:4703
+#: resources/xnec2c.glade:4685
 msgid "Parallel, Lumped"
 msgstr "Rööp, koondatud"
 
-#: resources/xnec2c.glade:4719
+#: resources/xnec2c.glade:4701
 msgid "Resistance & Reactance"
 msgstr "Takistus ja reaktants"
 
-#: resources/xnec2c.glade:4735
+#: resources/xnec2c.glade:4717
 msgid "Series, Distributed"
 msgstr "Jada, jaotatud"
 
-#: resources/xnec2c.glade:4751
+#: resources/xnec2c.glade:4733
 msgid "Wire Conductivity"
 msgstr "Traadi juhtivus"
 
-#: resources/xnec2c.glade:4773
+#: resources/xnec2c.glade:4755
 msgid "Loading Type"
 msgstr "Koormuse tüüp"
 
-#: resources/xnec2c.glade:4803
+#: resources/xnec2c.glade:4785
 msgid "Load Tag Number"
 msgstr "Koormuse märgendi number"
 
-#: resources/xnec2c.glade:4834
+#: resources/xnec2c.glade:4816
 msgid "Resistance"
 msgstr "Takistus"
 
-#: resources/xnec2c.glade:4866
+#: resources/xnec2c.glade:4848
 msgid "From Segment #"
 msgstr "Segmendist nr"
 
-#: resources/xnec2c.glade:4897
+#: resources/xnec2c.glade:4879
 msgid "Inductance"
 msgstr "Induktiivsus"
 
-#: resources/xnec2c.glade:4929
+#: resources/xnec2c.glade:4911
 msgid "To Segment #"
 msgstr "Segmendini nr"
 
-#: resources/xnec2c.glade:4960
+#: resources/xnec2c.glade:4942
 msgid "Capacitance"
 msgstr "Mahtuvus"
 
-#: resources/xnec2c.glade:4996
+#: resources/xnec2c.glade:4978
 msgid "Loading Parameters"
 msgstr "Koormuse parameetrid"
 
-#: resources/xnec2c.glade:5211
+#: resources/xnec2c.glade:5193
 msgid "Near Fields Command (NE/NH Cards)"
 msgstr "Lähivälja käsk (NE/NH kaardid)"
 
-#: resources/xnec2c.glade:5238
+#: resources/xnec2c.glade:5220
 msgid "Near Electric Field"
 msgstr "Lähi-elektriväli"
 
-#: resources/xnec2c.glade:5254
+#: resources/xnec2c.glade:5236
 msgid "Rectangular Co-ordinates"
 msgstr "Ristkoordinaadid"
 
-#: resources/xnec2c.glade:5270
+#: resources/xnec2c.glade:5252
 msgid "Near Magnetic Field"
 msgstr "Lähi-magnetväli"
 
-#: resources/xnec2c.glade:5285
+#: resources/xnec2c.glade:5267
 msgid "Spherical Co-ordinates"
 msgstr "Sfäärilised koordinaadid"
 
-#: resources/xnec2c.glade:5313
+#: resources/xnec2c.glade:5295
 msgid "Field Type & Co-ordinates"
 msgstr "Välja tüüp ja koordinaadid"
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5343
+#: resources/xnec2c.glade:5325
 msgid "NX"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5374 resources/xnec2c.glade:11309
-#: resources/xnec2c.glade:12520
+#: resources/xnec2c.glade:5356 resources/xnec2c.glade:11291
+#: resources/xnec2c.glade:12502
 msgid "X"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5406
+#: resources/xnec2c.glade:5388
 msgid "DX"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5438
+#: resources/xnec2c.glade:5420
 msgid "NY"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5469 resources/xnec2c.glade:11324
-#: resources/xnec2c.glade:12535
+#: resources/xnec2c.glade:5451 resources/xnec2c.glade:11306
+#: resources/xnec2c.glade:12517
 msgid "Y"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5501
+#: resources/xnec2c.glade:5483
 msgid "DY"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5533
+#: resources/xnec2c.glade:5515
 msgid "NZ"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5564 resources/xnec2c.glade:11339
-#: resources/xnec2c.glade:12550
+#: resources/xnec2c.glade:5546 resources/xnec2c.glade:11321
+#: resources/xnec2c.glade:12532
 msgid "Z"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:5596
+#: resources/xnec2c.glade:5578
 msgid "DZ"
 msgstr ""
 
-#: resources/xnec2c.glade:5632
+#: resources/xnec2c.glade:5614
 msgid "Field Pattern Parameters"
 msgstr "Väljadiagrammi parameetrid"
 
-#: resources/xnec2c.glade:5759
+#: resources/xnec2c.glade:5741
 msgid "Xnec2c: NEC2 Input File Editor"
 msgstr "Xnec2c: NEC2 sisendfaili redaktor"
 
-#: resources/xnec2c.glade:5846
+#: resources/xnec2c.glade:5828
 msgid "Manage Cards"
 msgstr "Halda kaarte"
 
-#: resources/xnec2c.glade:5943
+#: resources/xnec2c.glade:5925
 msgid "File Save"
 msgstr "Faili salvestamine"
 
-#: resources/xnec2c.glade:6003 src/nec2_model.c:279
+#: resources/xnec2c.glade:5985 src/nec2_model.c:279
 msgid "Comments"
 msgstr "Kommentaarid"
 
-#: resources/xnec2c.glade:6030
+#: resources/xnec2c.glade:6012
 msgid "Wire"
 msgstr "Traat"
 
-#: resources/xnec2c.glade:6044
+#: resources/xnec2c.glade:6026
 msgid "Arc"
 msgstr "Kaar"
 
-#: resources/xnec2c.glade:6058
+#: resources/xnec2c.glade:6040
 msgid "Helix"
 msgstr "Heelikas"
 
-#: resources/xnec2c.glade:6072
+#: resources/xnec2c.glade:6054
 msgid "Patch"
 msgstr "Pind"
 
-#: resources/xnec2c.glade:6086
+#: resources/xnec2c.glade:6068
 msgid "Cylinder"
 msgstr "Silinder"
 
-#: resources/xnec2c.glade:6100
+#: resources/xnec2c.glade:6082
 msgid "Move"
 msgstr "Liiguta"
 
-#: resources/xnec2c.glade:6114
+#: resources/xnec2c.glade:6096
 msgid "Reflect"
 msgstr "Peegelda"
 
-#: resources/xnec2c.glade:6128
+#: resources/xnec2c.glade:6110
 msgid "Scale"
 msgstr "Skaleeri"
 
-#: resources/xnec2c.glade:6142 resources/xnec2c.glade:6426
+#: resources/xnec2c.glade:6124 resources/xnec2c.glade:6408
 msgid "Add Var (SY)"
 msgstr "Lisa muutuja (SY)"
 
-#: resources/xnec2c.glade:6162
+#: resources/xnec2c.glade:6144
 msgid "Edit Geometry Data"
 msgstr "Muuda geomeetria andmeid"
 
-#: resources/xnec2c.glade:6216
+#: resources/xnec2c.glade:6198
 msgid "Geometry"
 msgstr "Geomeetria"
 
-#: resources/xnec2c.glade:6243
+#: resources/xnec2c.glade:6225
 msgid "Excitation"
 msgstr "Ergastus"
 
-#: resources/xnec2c.glade:6257
+#: resources/xnec2c.glade:6239
 msgid "Radiation"
 msgstr "Kiirgus"
 
-#: resources/xnec2c.glade:6271
+#: resources/xnec2c.glade:6253
 msgid "Frequency"
 msgstr "Sagedus"
 
-#: resources/xnec2c.glade:6285
+#: resources/xnec2c.glade:6267
 msgid "Near Fields"
 msgstr "Lähiväljad"
 
-#: resources/xnec2c.glade:6299
+#: resources/xnec2c.glade:6281
 msgid "Ground (GN)"
 msgstr "Maandus (GN)"
 
-#: resources/xnec2c.glade:6313
+#: resources/xnec2c.glade:6295
 msgid "Ground (GD)"
 msgstr "Maandus (GD)"
 
-#: resources/xnec2c.glade:6327
+#: resources/xnec2c.glade:6309
 msgid "Loading"
 msgstr "Koormus"
 
-#: resources/xnec2c.glade:6341
+#: resources/xnec2c.glade:6323
 msgid "Kernel"
 msgstr "Tuum"
 
-#: resources/xnec2c.glade:6355
+#: resources/xnec2c.glade:6337
 msgid "Network"
 msgstr "Võrk"
 
-#: resources/xnec2c.glade:6369
+#: resources/xnec2c.glade:6351
 msgid "Interaction"
 msgstr "Interaktsioon"
 
-#: resources/xnec2c.glade:6383
+#: resources/xnec2c.glade:6365
 msgid "Transm. Line"
 msgstr "Ülekandeliin"
 
-#: resources/xnec2c.glade:6398
+#: resources/xnec2c.glade:6380
 msgid "Execute"
 msgstr "Käivita"
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:6412
+#: resources/xnec2c.glade:6394
 msgid "Z₀"
 msgstr ""
 
-#: resources/xnec2c.glade:6446
+#: resources/xnec2c.glade:6428
 msgid "Edit Control Commands"
 msgstr "Muuda juhtimiskäske"
 
-#: resources/xnec2c.glade:6500
+#: resources/xnec2c.glade:6482
 msgid "Commands"
 msgstr "Käsud"
 
-#: resources/xnec2c.glade:6519
+#: resources/xnec2c.glade:6501
 msgid "Unsaved Data"
 msgstr "Salvestamata andmed"
 
-#: resources/xnec2c.glade:6595
+#: resources/xnec2c.glade:6577
 msgid ""
 "Unsaved data in NEC2 Editor.\n"
 "Save NEC2 Editor data first?\n"
@@ -1594,388 +1594,388 @@ msgstr ""
 "Salvestamata andmed NEC2 redaktoris.\n"
 "Kas salvestada NEC2 redaktori andmed esmalt?\n"
 
-#: resources/xnec2c.glade:6694
+#: resources/xnec2c.glade:6676
 msgid "Network Command (NT Card)"
 msgstr "Võrgukäsk (NT kaart)"
 
-#: resources/xnec2c.glade:6723
+#: resources/xnec2c.glade:6705
 msgid "Tag Number, Port 1  "
 msgstr "Märgendi number, port 1  "
 
-#: resources/xnec2c.glade:6754
+#: resources/xnec2c.glade:6736
 msgid "Tag Number, Port 2  "
 msgstr "Märgendi number, port 2  "
 
-#: resources/xnec2c.glade:6785
+#: resources/xnec2c.glade:6767
 msgid "Segment Num, Port 1"
 msgstr "Segmendi nr, port 1"
 
-#: resources/xnec2c.glade:6816
+#: resources/xnec2c.glade:6798
 msgid "Segment Num, Port 2"
 msgstr "Segmendi nr, port 2"
 
-#: resources/xnec2c.glade:6851 resources/xnec2c.glade:14327
+#: resources/xnec2c.glade:6833 resources/xnec2c.glade:14309
 msgid "Segment Identity"
 msgstr "Segmendi identiteet"
 
-#: resources/xnec2c.glade:6881
+#: resources/xnec2c.glade:6863
 msgid "Element 1,1 Real Part"
 msgstr "Element 1,1 reaalosa"
 
-#: resources/xnec2c.glade:6913
+#: resources/xnec2c.glade:6895
 msgid "Element 1,2 Real Part"
 msgstr "Element 1,2 reaalosa"
 
-#: resources/xnec2c.glade:6945
+#: resources/xnec2c.glade:6927
 msgid "Element 2,2 Real Part"
 msgstr "Element 2,2 reaalosa"
 
-#: resources/xnec2c.glade:6977
+#: resources/xnec2c.glade:6959
 msgid "Element 1,1 Imag Part"
 msgstr "Element 1,1 imaginaarosa"
 
-#: resources/xnec2c.glade:7009
+#: resources/xnec2c.glade:6991
 msgid "Element 1,2 Imag Part"
 msgstr "Element 1,2 imaginaarosa"
 
-#: resources/xnec2c.glade:7041
+#: resources/xnec2c.glade:7023
 msgid "Element 2,2 Imag Part"
 msgstr "Element 2,2 imaginaarosa"
 
-#: resources/xnec2c.glade:7077
+#: resources/xnec2c.glade:7059
 msgid "Admittance Matrix Elements"
 msgstr "Admitantsmaatriksi elemendid"
 
-#: resources/xnec2c.glade:7292
+#: resources/xnec2c.glade:7274
 msgid "Patch Element (SP & SC Cards)"
 msgstr "Pinnaelement (SP ja SC kaardid)"
 
-#: resources/xnec2c.glade:7316
+#: resources/xnec2c.glade:7298
 msgid "Arbitrary"
 msgstr "Suvaline"
 
-#: resources/xnec2c.glade:7333
+#: resources/xnec2c.glade:7315
 msgid "Rectangle"
 msgstr "Ristkülik"
 
-#: resources/xnec2c.glade:7350
+#: resources/xnec2c.glade:7332
 msgid "Triangle"
 msgstr "Kolmnurk"
 
-#: resources/xnec2c.glade:7367
+#: resources/xnec2c.glade:7349
 msgid "Quadrilateral"
 msgstr "Nelinurk"
 
-#: resources/xnec2c.glade:7384
+#: resources/xnec2c.glade:7366
 msgid "Surface"
 msgstr "Pind"
 
-#: resources/xnec2c.glade:7407
+#: resources/xnec2c.glade:7389
 msgid "Patch Type"
 msgstr "Pinna tüüp"
 
-#: resources/xnec2c.glade:7437
+#: resources/xnec2c.glade:7419
 msgid "Corners 1-2 sub-division (NX)"
 msgstr "Nurkade 1-2 alajaotus (NX)"
 
-#: resources/xnec2c.glade:7468
+#: resources/xnec2c.glade:7450
 msgid "Corners 2-3 sub-division (NY)"
 msgstr "Nurkade 2-3 alajaotus (NY)"
 
-#: resources/xnec2c.glade:7503
+#: resources/xnec2c.glade:7485
 msgid "Surface Sub-division"
 msgstr "Pinna alajaotus"
 
-#: resources/xnec2c.glade:7533 src/geom_edit.c:1152
+#: resources/xnec2c.glade:7515 src/geom_edit.c:1152
 msgid "Center - X"
 msgstr "Keskpunkt - X"
 
-#: resources/xnec2c.glade:7565 src/geom_edit.c:1158
+#: resources/xnec2c.glade:7547 src/geom_edit.c:1158
 msgid "Normal - Elev."
 msgstr "Normaal - Elev."
 
-#: resources/xnec2c.glade:7597 src/geom_edit.c:1154
+#: resources/xnec2c.glade:7579 src/geom_edit.c:1154
 msgid "Center - Y"
 msgstr "Keskpunkt - Y"
 
-#: resources/xnec2c.glade:7629 src/geom_edit.c:1160
+#: resources/xnec2c.glade:7611 src/geom_edit.c:1160
 msgid "Normal - Azim."
 msgstr "Normaal - Asim."
 
-#: resources/xnec2c.glade:7661 src/geom_edit.c:1156
+#: resources/xnec2c.glade:7643 src/geom_edit.c:1156
 msgid "Center - Z"
 msgstr "Keskpunkt - Z"
 
-#: resources/xnec2c.glade:7693 src/geom_edit.c:1162
+#: resources/xnec2c.glade:7675 src/geom_edit.c:1162
 msgid "Patch Area"
 msgstr "Pinna pindala"
 
-#: resources/xnec2c.glade:7729
+#: resources/xnec2c.glade:7711
 msgid "SP/SM Cards"
 msgstr "SP/SM kaardid"
 
-#: resources/xnec2c.glade:7765
+#: resources/xnec2c.glade:7747
 msgid "Corner 3 - X"
 msgstr "Nurk 3 - X"
 
-#: resources/xnec2c.glade:7797
+#: resources/xnec2c.glade:7779
 msgid "Corner 3 - Y"
 msgstr "Nurk 3 - Y"
 
-#: resources/xnec2c.glade:7829
+#: resources/xnec2c.glade:7811
 msgid "Corner 3 - Z"
 msgstr "Nurk 3 - Z"
 
-#: resources/xnec2c.glade:7877
+#: resources/xnec2c.glade:7859
 msgid "Corner 4 - X"
 msgstr "Nurk 4 - X"
 
-#: resources/xnec2c.glade:7909
+#: resources/xnec2c.glade:7891
 msgid "Corner 4 - Y"
 msgstr "Nurk 4 - Y"
 
-#: resources/xnec2c.glade:7941
+#: resources/xnec2c.glade:7923
 msgid "Corner 4 - Z"
 msgstr "Nurk 4 - Z"
 
-#: resources/xnec2c.glade:7984
+#: resources/xnec2c.glade:7966
 msgid "SC Card"
 msgstr "SC kaart"
 
-#: resources/xnec2c.glade:8200
+#: resources/xnec2c.glade:8182
 msgid "Quit xnec2c?"
 msgstr "Väljuda xnec2c-st?"
 
-#: resources/xnec2c.glade:8279
+#: resources/xnec2c.glade:8261
 msgid "Radiation Pattern (RP Card)"
 msgstr "Kiirgusdiagramm (RP kaart)"
 
-#: resources/xnec2c.glade:8306
+#: resources/xnec2c.glade:8288
 msgid "Normal (Space) Wave"
 msgstr "Tavaline (ruumi)laine"
 
-#: resources/xnec2c.glade:8322
+#: resources/xnec2c.glade:8304
 msgid "Space + Ground Wave"
 msgstr "Ruumi- + pinnalaine"
 
-#: resources/xnec2c.glade:8338
+#: resources/xnec2c.glade:8320
 msgid "Linear Cliff"
 msgstr "Lineaarne järsak"
 
-#: resources/xnec2c.glade:8354
+#: resources/xnec2c.glade:8336
 msgid "Radial wire screen"
 msgstr "Radiaalne traatekraan"
 
-#: resources/xnec2c.glade:8370
+#: resources/xnec2c.glade:8352
 msgid "Circular Cliff + Radials"
 msgstr "Ringjas järsak + radiaalid"
 
-#: resources/xnec2c.glade:8386
+#: resources/xnec2c.glade:8368
 msgid "Circular Cliff"
 msgstr "Ringjas järsak"
 
-#: resources/xnec2c.glade:8402
+#: resources/xnec2c.glade:8384
 msgid "Linear Cliff + Radials"
 msgstr "Lineaarne järsak + radiaalid"
 
-#: resources/xnec2c.glade:8420
+#: resources/xnec2c.glade:8402
 msgid "<b>See GN/GD Card Documentation</b>"
 msgstr "<b>Vaata GN/GD kaardi dokumentatsiooni</b>"
 
-#: resources/xnec2c.glade:8438
+#: resources/xnec2c.glade:8420
 msgid "Wave Type and Ground (I1)"
 msgstr "Laine tüüp ja maandus (I1)"
 
-#: resources/xnec2c.glade:8466
+#: resources/xnec2c.glade:8448
 msgid "Major & Minor Axis & Total Gain"
 msgstr "Pea- ja kõrvaltelg ning koguvõimendus"
 
-#: resources/xnec2c.glade:8482
+#: resources/xnec2c.glade:8464
 msgid "Vertical, Horizontal & Total Gain"
 msgstr "Vertikaalne, horisontaalne ja koguvõimendus"
 
-#: resources/xnec2c.glade:8498
+#: resources/xnec2c.glade:8480
 msgid "Major Axis Gain Normalized"
 msgstr "Peatelje võimendus normaliseeritud"
 
-#: resources/xnec2c.glade:8514
+#: resources/xnec2c.glade:8496
 msgid "Vertical Axis Gain Normalized"
 msgstr "Vertikaaltelje võimendus normaliseeritud"
 
-#: resources/xnec2c.glade:8530
+#: resources/xnec2c.glade:8512
 msgid "Total Gain Normalized"
 msgstr "Koguvõimendus normaliseeritud"
 
-#: resources/xnec2c.glade:8546
+#: resources/xnec2c.glade:8528
 msgid "Print/Normalize Directive Gain"
 msgstr "Prindi/normaliseeri suunavõimendus"
 
-#: resources/xnec2c.glade:8562
+#: resources/xnec2c.glade:8544
 msgid "No Normalized Gain"
 msgstr "Normaliseeritud võimendus puudub"
 
-#: resources/xnec2c.glade:8578
+#: resources/xnec2c.glade:8560
 msgid "Minor Axis Gain Normalized"
 msgstr "Lühitelje normaliseeritud võimendus"
 
-#: resources/xnec2c.glade:8594
+#: resources/xnec2c.glade:8576
 msgid "Horizontal Axis Gain Normalized"
 msgstr "Horisontaaltelje normaliseeritud võimendus"
 
-#: resources/xnec2c.glade:8610
+#: resources/xnec2c.glade:8592
 msgid "Print/Normalize Power Gain"
 msgstr "Prindi/Normaliseeri võimsusvõimendus"
 
-#: resources/xnec2c.glade:8626
+#: resources/xnec2c.glade:8608
 msgid "No Gain Averaging"
 msgstr "Võimenduse keskmistamine puudub"
 
-#: resources/xnec2c.glade:8642
+#: resources/xnec2c.glade:8624
 msgid "Points in Average Not Printed"
 msgstr "Keskmise punkte ei prindita"
 
-#: resources/xnec2c.glade:8658
+#: resources/xnec2c.glade:8640
 msgid "Average Gain Computed"
 msgstr "Keskmine võimendus arvutatud"
 
-#: resources/xnec2c.glade:8676
+#: resources/xnec2c.glade:8658
 msgid "<b>See RP Card Documentation</b>"
 msgstr "<b>Vaata RP kaardi dokumentatsiooni</b>"
 
-#: resources/xnec2c.glade:8694
+#: resources/xnec2c.glade:8676
 msgid "Data Output Control (XNDA)"
 msgstr "Andmeväljundi juhtimine (XNDA)"
 
-#: resources/xnec2c.glade:8724
+#: resources/xnec2c.glade:8706
 msgid "Points in Theta"
 msgstr "Punkte Teeta suunas"
 
-#: resources/xnec2c.glade:8738 src/cmnd_edit.c:1764
+#: resources/xnec2c.glade:8720 src/cmnd_edit.c:1764
 msgid "Initial Theta (deg)"
 msgstr "Algne Teeta (kraadi)"
 
-#: resources/xnec2c.glade:8751 src/cmnd_edit.c:1765 src/cmnd_edit.c:2710
+#: resources/xnec2c.glade:8733 src/cmnd_edit.c:1765 src/cmnd_edit.c:2710
 msgid "Increment in Theta"
 msgstr "Teeta samm"
 
-#: resources/xnec2c.glade:8820 src/cmnd_edit.c:1763
+#: resources/xnec2c.glade:8802 src/cmnd_edit.c:1763
 msgid "Points in Phi"
 msgstr "Punktide arv Fii-s"
 
-#: resources/xnec2c.glade:8833
+#: resources/xnec2c.glade:8815
 msgid "Initial Phi (deg)"
 msgstr "Algne Fii (kraadi)"
 
-#: resources/xnec2c.glade:8846 src/cmnd_edit.c:2709
+#: resources/xnec2c.glade:8828 src/cmnd_edit.c:2709
 msgid "Increment in Phi"
 msgstr "Samm Fii-s"
 
-#: resources/xnec2c.glade:8915
+#: resources/xnec2c.glade:8897
 msgid "Field Point Distance"
 msgstr "Väljapunkti kaugus"
 
-#: resources/xnec2c.glade:8947
+#: resources/xnec2c.glade:8929
 msgid "Gain Normalization"
 msgstr "Võimenduse normaliseerimine"
 
-#: resources/xnec2c.glade:8989
+#: resources/xnec2c.glade:8971
 msgid "Radiation Pattern Parameters"
 msgstr "Kiirgusdiagrammi parameetrid"
 
-#: resources/xnec2c.glade:9156
+#: resources/xnec2c.glade:9138
 msgid "Reflect Structure (GX card)"
 msgstr "Peegelda struktuuri (GX kaart)"
 
-#: resources/xnec2c.glade:9184
+#: resources/xnec2c.glade:9166
 msgid "Reflect in YZ plane"
 msgstr "Peegelda YZ tasapinnas"
 
-#: resources/xnec2c.glade:9199
+#: resources/xnec2c.glade:9181
 msgid "Reflect in XY plane"
 msgstr "Peegelda XY tasapinnas"
 
-#: resources/xnec2c.glade:9214
+#: resources/xnec2c.glade:9196
 msgid "Reflect in XZ plane"
 msgstr "Peegelda XZ tasapinnas"
 
-#: resources/xnec2c.glade:9270
+#: resources/xnec2c.glade:9252
 msgid "Reflect Options"
 msgstr "Peegeldamise valikud"
 
-#: resources/xnec2c.glade:9401
+#: resources/xnec2c.glade:9383
 msgid "Xnec2c: Frequency Data Plots"
 msgstr "Xnec2c: Sagedusandmete graafikud"
 
-#: resources/xnec2c.glade:9427 resources/xnec2c.glade:10455
-#: resources/xnec2c.glade:12009
+#: resources/xnec2c.glade:9409 resources/xnec2c.glade:10437
+#: resources/xnec2c.glade:11991
 msgid "_File"
 msgstr "_Fail"
 
-#: resources/xnec2c.glade:9489 resources/xnec2c.glade:10517
-#: resources/xnec2c.glade:12071
+#: resources/xnec2c.glade:9471 resources/xnec2c.glade:10499
+#: resources/xnec2c.glade:12053
 msgid "Save as _gnuplot"
 msgstr "Salvesta kui _gnuplot"
 
-#: resources/xnec2c.glade:9500 resources/xnec2c.glade:12081
+#: resources/xnec2c.glade:9482 resources/xnec2c.glade:12063
 msgid "Save as _CSV"
 msgstr "Salvesta kui _CSV"
 
-#: resources/xnec2c.glade:9512
+#: resources/xnec2c.glade:9494
 msgid "Save as _Touchstone (.SnP)"
 msgstr "Salvesta kui _Touchstone (.SnP)"
 
-#: resources/xnec2c.glade:9519
+#: resources/xnec2c.glade:9501
 msgid "Save as S_1P: Reflection Only"
 msgstr "Salvesta kui S_1P: Ainult peegeldus"
 
-#: resources/xnec2c.glade:9529
+#: resources/xnec2c.glade:9511
 msgid "Save as S2P: _Max Gain (S21)"
 msgstr "Salvesta kui S2P: _Maks võimendus (S21)"
 
-#: resources/xnec2c.glade:9539
+#: resources/xnec2c.glade:9521
 msgid "Save as S2P: _Viewer Gain (S21)"
 msgstr "Salvesta kui S2P: _Vaataja võimendus (S21)"
 
-#: resources/xnec2c.glade:9576 resources/xnec2c.glade:10892
-#: resources/xnec2c.glade:12115
+#: resources/xnec2c.glade:9558 resources/xnec2c.glade:10874
+#: resources/xnec2c.glade:12097
 msgid "_View"
 msgstr "_Vaade"
 
-#: resources/xnec2c.glade:9585 resources/xnec2c.glade:10920
-#: resources/xnec2c.glade:12123
+#: resources/xnec2c.glade:9567 resources/xnec2c.glade:10902
+#: resources/xnec2c.glade:12105
 msgid "_Polarization"
 msgstr "_Polarisatsioon"
 
-#: resources/xnec2c.glade:9599 resources/xnec2c.glade:10934
-#: resources/xnec2c.glade:12137
+#: resources/xnec2c.glade:9581 resources/xnec2c.glade:10916
+#: resources/xnec2c.glade:12119
 msgid "_Total"
 msgstr "_Kokku"
 
-#: resources/xnec2c.glade:9610 resources/xnec2c.glade:10945
-#: resources/xnec2c.glade:12148
+#: resources/xnec2c.glade:9592 resources/xnec2c.glade:10927
+#: resources/xnec2c.glade:12130
 msgid "_Horizontal"
 msgstr "_Horisontaalne"
 
-#: resources/xnec2c.glade:9621 resources/xnec2c.glade:10956
-#: resources/xnec2c.glade:12159
+#: resources/xnec2c.glade:9603 resources/xnec2c.glade:10938
+#: resources/xnec2c.glade:12141
 msgid "_Vertical"
 msgstr "_Vertikaalne"
 
-#: resources/xnec2c.glade:9632 resources/xnec2c.glade:10967
-#: resources/xnec2c.glade:12170
+#: resources/xnec2c.glade:9614 resources/xnec2c.glade:10949
+#: resources/xnec2c.glade:12152
 msgid "_Right Hand"
 msgstr "_Parempoolne"
 
-#: resources/xnec2c.glade:9643 resources/xnec2c.glade:10978
-#: resources/xnec2c.glade:12181
+#: resources/xnec2c.glade:9625 resources/xnec2c.glade:10960
+#: resources/xnec2c.glade:12163
 msgid "_Left Hand"
 msgstr "_Vasakpoolne"
 
-#: resources/xnec2c.glade:9658
+#: resources/xnec2c.glade:9640
 msgid "Max Gain _Second Trace"
 msgstr "Maksimaalne võimendus, _teine kõver"
 
-#: resources/xnec2c.glade:9667
+#: resources/xnec2c.glade:9649
 msgid ""
 "Plot the front-to-back ratio beside Max Gain: peak gain over the gain in the "
 "opposite direction."
@@ -1983,11 +1983,11 @@ msgstr ""
 "Joonista esi-tagasuhe maksimaalse võimenduse kõrvale: tippvõimendus jagatuna "
 "võimendusega vastassuunas."
 
-#: resources/xnec2c.glade:9668
+#: resources/xnec2c.glade:9650
 msgid "F/_B Ratio"
 msgstr "F/_B suhe"
 
-#: resources/xnec2c.glade:9678
+#: resources/xnec2c.glade:9660
 msgid ""
 "Plot the front-to-rear ratio beside Max Gain: peak gain over the strongest "
 "gain at the same elevation more than 90° away in azimuth."
@@ -1996,82 +1996,82 @@ msgstr ""
 "jagatuna tugevaima võimendusega samal tõusunurgal, mis asub asimuudis rohkem "
 "kui 90° kaugusel."
 
-#: resources/xnec2c.glade:9679
+#: resources/xnec2c.glade:9661
 msgid "F/_R Ratio"
 msgstr "F/_R suhe"
 
-#: resources/xnec2c.glade:9690
+#: resources/xnec2c.glade:9672
 msgid "_Net Gain"
 msgstr "_Netovõimendus"
 
-#: resources/xnec2c.glade:9705
+#: resources/xnec2c.glade:9687
 msgid "Show _Min/Max Values"
 msgstr "Näita _Min/Maks väärtusi"
 
-#: resources/xnec2c.glade:9714
+#: resources/xnec2c.glade:9696
 msgid "Show _S11 (dB) Values"
 msgstr "Näita _S11 (dB) väärtusi"
 
-#: resources/xnec2c.glade:9723
+#: resources/xnec2c.glade:9705
 msgid "Clamp _VSWR Graph to 10"
 msgstr "Piira _VSWR graafik 10-ga"
 
-#: resources/xnec2c.glade:9732
+#: resources/xnec2c.glade:9714
 msgid "Show Ta instead of TA"
 msgstr "Näita Ta asemel TA"
 
-#: resources/xnec2c.glade:9741
+#: resources/xnec2c.glade:9723
 msgid "Round _X Axis Frequency Values"
 msgstr "Ümarda _X-telje sagedusväärtused"
 
-#: resources/xnec2c.glade:9750
+#: resources/xnec2c.glade:9732
 msgid "S_wap Left/Right Click Frequency Selection"
 msgstr "_Vaheta vasak/parem klõps sagedusvali"
 
-#: resources/xnec2c.glade:9774 resources/xnec2c.glade:9976
+#: resources/xnec2c.glade:9756 resources/xnec2c.glade:9958
 msgid "Max Gain"
 msgstr "Maks võimendus"
 
-#: resources/xnec2c.glade:9789
+#: resources/xnec2c.glade:9771
 msgid "Direction"
 msgstr "Suund"
 
-#: resources/xnec2c.glade:9804
+#: resources/xnec2c.glade:9786
 msgid "Viewer"
 msgstr "Vaataja"
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:9819 resources/xnec2c.glade:10081
+#: resources/xnec2c.glade:9801 resources/xnec2c.glade:10063
 #: src/freqplots/freqplots_core.c:65 src/freqplots/graphs/vswr_graph.c:55
 msgid "VSWR"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:9834
+#: resources/xnec2c.glade:9816
 msgid "Zr/Zi"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:9849
+#: resources/xnec2c.glade:9831
 msgid "Zm/Zph"
 msgstr ""
 
 # xnec2c-exempt: name
-#: resources/xnec2c.glade:9864
+#: resources/xnec2c.glade:9846
 msgid "Smith"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:9879
+#: resources/xnec2c.glade:9861
 msgid "G/Ta"
 msgstr ""
 
 # xnec2c-exempt: name
-#: resources/xnec2c.glade:9893
+#: resources/xnec2c.glade:9875
 msgid "AGT"
 msgstr ""
 
-#: resources/xnec2c.glade:9897
+#: resources/xnec2c.glade:9879
 msgid ""
 "Plots the average power gain over the directions the radiation pattern "
 "samples, at each frequency.\n"
@@ -2101,11 +2101,11 @@ msgstr ""
 "Testi käivitamise ja lugemise kohta vaadake juhendi jaotist \"Validating a "
 "Model\"."
 
-#: resources/xnec2c.glade:9912
+#: resources/xnec2c.glade:9894
 msgid "Cond"
 msgstr "Tingl."
 
-#: resources/xnec2c.glade:9916
+#: resources/xnec2c.glade:9898
 msgid ""
 "Plots the precision lost solving the antenna at each frequency, in decimal "
 "digits.\n"
@@ -2134,187 +2134,187 @@ msgstr ""
 "Model\"."
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:9960 resources/xnec2c.glade:9995
-#: resources/xnec2c.glade:10030 resources/xnec2c.glade:10065
-#: resources/xnec2c.glade:10287 resources/xnec2c.glade:10322
-#: resources/xnec2c.glade:10357 resources/xnec2c.glade:13244
+#: resources/xnec2c.glade:9942 resources/xnec2c.glade:9977
+#: resources/xnec2c.glade:10012 resources/xnec2c.glade:10047
+#: resources/xnec2c.glade:10269 resources/xnec2c.glade:10304
+#: resources/xnec2c.glade:10339 resources/xnec2c.glade:13226
 msgid " - - -"
 msgstr ""
 
-#: resources/xnec2c.glade:10011 src/freqplots/graphs/impedance_graph.c:76
+#: resources/xnec2c.glade:9993 src/freqplots/graphs/impedance_graph.c:76
 msgid "Z-imag"
 msgstr "Z-imaginaarne"
 
-#: resources/xnec2c.glade:10046 src/freqplots/graphs/impedance_graph.c:74
+#: resources/xnec2c.glade:10028 src/freqplots/graphs/impedance_graph.c:74
 msgid "Z-real"
 msgstr "Z-reaalne"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:10101
+#: resources/xnec2c.glade:10083
 msgid " - - - - "
 msgstr ""
 
-#: resources/xnec2c.glade:10117
+#: resources/xnec2c.glade:10099
 msgid "Freq MHz"
 msgstr "Sagedus MHz"
 
 # xnec2c-exempt: loanword
-#: resources/xnec2c.glade:10156 resources/xnec2c.glade:10169
+#: resources/xnec2c.glade:10138 resources/xnec2c.glade:10151
 msgid "Port"
 msgstr ""
 
-#: resources/xnec2c.glade:10181
+#: resources/xnec2c.glade:10163
 msgid "Tx Line Z<sub>0</sub>"
 msgstr "Tx liini Z<sub>0</sub>"
 
-#: resources/xnec2c.glade:10196 resources/xnec2c.glade:11800
-#: resources/xnec2c.glade:13016
+#: resources/xnec2c.glade:10178 resources/xnec2c.glade:11782
+#: resources/xnec2c.glade:12998
 msgid "Freq Loop"
 msgstr "Sagedustsükkel"
 
-#: resources/xnec2c.glade:10268 resources/xnec2c.glade:13122
+#: resources/xnec2c.glade:10250 resources/xnec2c.glade:13104
 msgid "T<sub>A</sub>(Elev.°)"
 msgstr "T<sub>A</sub>(Kõrg.°)"
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:10303
+#: resources/xnec2c.glade:10285
 msgid "T<sub>a</sub>"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:10338
+#: resources/xnec2c.glade:10320
 msgid "G/T<sub>a</sub>"
 msgstr ""
 
-#: resources/xnec2c.glade:10410
+#: resources/xnec2c.glade:10392
 msgid "Frequency Data Plots"
 msgstr "Sagedusandmete graafikud"
 
-#: resources/xnec2c.glade:10528
+#: resources/xnec2c.glade:10510
 msgid "Save _Currents/Charges as CSV"
 msgstr "Salvesta _Voolud/Laengud CSV-na"
 
-#: resources/xnec2c.glade:10547
+#: resources/xnec2c.glade:10529
 msgid "Optimization Settings"
 msgstr "Optimeerimise seaded"
 
-#: resources/xnec2c.glade:10562
+#: resources/xnec2c.glade:10544
 msgid "Reload and write data on .NEC file changes"
 msgstr "Lae uuesti ja kirjuta andmed .NEC faili muutmisel"
 
-#: resources/xnec2c.glade:10569
+#: resources/xnec2c.glade:10551
 msgid "_Write files selected below, now."
 msgstr "_Kirjuta allpool valitud failid kohe."
 
-#: resources/xnec2c.glade:10584
+#: resources/xnec2c.glade:10566
 msgid "After calculation, write <file>.csv"
 msgstr "Pärast arvutust kirjuta <file>.csv"
 
-#: resources/xnec2c.glade:10593
+#: resources/xnec2c.glade:10575
 msgid "After calculation, write <file>.s_1p"
 msgstr "Pärast arvutust kirjuta <file>.s_1p"
 
-#: resources/xnec2c.glade:10602
+#: resources/xnec2c.glade:10584
 msgid "After calculation, write <file>-_maxgain.s2p"
 msgstr "Pärast arvutust kirjuta <file>-_maxgain.s2p"
 
-#: resources/xnec2c.glade:10611
+#: resources/xnec2c.glade:10593
 msgid "After calculation, write <file>-_viewergain.s2p"
 msgstr "Pärast arvutust kirjuta <file>-_viewergain.s2p"
 
-#: resources/xnec2c.glade:10620
+#: resources/xnec2c.glade:10602
 msgid "After calculation, write <file>-_radpattern.csv"
 msgstr "Pärast arvutust kirjuta <file>-_radpattern.csv"
 
-#: resources/xnec2c.glade:10629
+#: resources/xnec2c.glade:10611
 msgid "After calculation, write <file>-_currents.csv"
 msgstr "Pärast arvutust kirjuta <file>-_currents.csv"
 
-#: resources/xnec2c.glade:10638
+#: resources/xnec2c.glade:10620
 msgid "After calculation, write <file>-_structure.gplot"
 msgstr "Pärast arvutust kirjuta <file>-_structure.gplot"
 
-#: resources/xnec2c.glade:10647
+#: resources/xnec2c.glade:10629
 msgid "After calculation, write <file>-_patch-currents.csv"
 msgstr "Pärast arvutust kirjuta <file>-_patch-currents.csv"
 
-#: resources/xnec2c.glade:10662
+#: resources/xnec2c.glade:10644
 msgid "_Math Libraries"
 msgstr "_Matemaatikateegid"
 
-#: resources/xnec2c.glade:10671
+#: resources/xnec2c.glade:10653
 msgid "_Interactive"
 msgstr "_Interaktiivne"
 
-#: resources/xnec2c.glade:10691
+#: resources/xnec2c.glade:10673
 msgid "_Batch"
 msgstr "_Pakktöötlus"
 
-#: resources/xnec2c.glade:10717
+#: resources/xnec2c.glade:10699
 msgid "Mathlib _Help"
 msgstr "Matemaatikateegi _Abi"
 
-#: resources/xnec2c.glade:10730
+#: resources/xnec2c.glade:10712
 msgid "Mathlib _Benchmarks"
 msgstr "Matemaatikateegi _Jõudlustestid"
 
-#: resources/xnec2c.glade:10741
+#: resources/xnec2c.glade:10723
 msgid "_Selected Mathlibs"
 msgstr "_Valitud matemaatikateegid"
 
-#: resources/xnec2c.glade:10755
+#: resources/xnec2c.glade:10737
 msgid "Select All/None"
 msgstr "Vali kõik/Mitte ühtegi"
 
-#: resources/xnec2c.glade:10780
+#: resources/xnec2c.glade:10762
 msgid "_Parallel (-j N):\t\tO(N/J)"
 msgstr "_Paralleelne (-j N):\t\tO(N/J)"
 
-#: resources/xnec2c.glade:10789
+#: resources/xnec2c.glade:10771
 msgid "_Single Job (-j 1):\tO(N)"
 msgstr "_Üksiktöö (-j 1):\tO(N)"
 
-#: resources/xnec2c.glade:10798
+#: resources/xnec2c.glade:10780
 msgid "_Iterate -j N/=2:\tO(N*log2(J))"
 msgstr "_Itereeri -j N/=2:\tO(N*log2(J))"
 
-#: resources/xnec2c.glade:10807
+#: resources/xnec2c.glade:10789
 msgid "_Iterate -j N-=1:\tO(N*J)"
 msgstr "_Itereeri -j N-=1:\tO(N*J)"
 
-#: resources/xnec2c.glade:10816
+#: resources/xnec2c.glade:10798
 msgid "_Threads (-j 1, --threads N/=2):\tO(N*log2(T))"
 msgstr "_Lõimed (-j 1, --threads N/=2):\\\tO(N*log2(T))"
 
-#: resources/xnec2c.glade:10831
+#: resources/xnec2c.glade:10813
 msgid "Benchmark _Help"
 msgstr "Jõudlustesti _Abi"
 
-#: resources/xnec2c.glade:10850
+#: resources/xnec2c.glade:10832
 msgid "Begin Frequency Loop at Startup"
 msgstr "Alusta sagedustsüklit käivitamisel"
 
-#: resources/xnec2c.glade:10861
+#: resources/xnec2c.glade:10843
 msgid "Confirm Quit"
 msgstr "Kinnita väljumine"
 
-#: resources/xnec2c.glade:10900
+#: resources/xnec2c.glade:10882
 msgid "_Radiation Pattern"
 msgstr "_Kiirgusdiagramm"
 
-#: resources/xnec2c.glade:10910
+#: resources/xnec2c.glade:10892
 msgid "_Frequency Plots"
 msgstr "_Sagedusgraafikud"
 
-#: resources/xnec2c.glade:10993
+#: resources/xnec2c.glade:10975
 msgid "_Visualization"
 msgstr "_Visualiseerimine"
 
-#: resources/xnec2c.glade:11009
+#: resources/xnec2c.glade:10991
 msgid "Color Scale"
 msgstr "Värviskaala"
 
-#: resources/xnec2c.glade:11016
+#: resources/xnec2c.glade:10998
 msgid ""
 "Power transfer n^γ relative to this frequency step's peak.\n"
 "γ = 0.5 expands weak regions, γ = 1 is linear amplitude, γ = 2 shows the "
@@ -2330,11 +2330,11 @@ msgstr ""
 "elektrostaatilise energiaga.\n"
 "Kohanda γ animatsiooni dialoogis."
 
-#: resources/xnec2c.glade:11017
+#: resources/xnec2c.glade:10999
 msgid "_Power"
 msgstr "As_te"
 
-#: resources/xnec2c.glade:11028
+#: resources/xnec2c.glade:11010
 msgid ""
 "Logarithmic scale over a user-set range R below the peak.\n"
 "Reveals weak detail that linear display hides; adjust R in the animate "
@@ -2345,11 +2345,11 @@ msgstr ""
 "dialoogis."
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:11029
+#: resources/xnec2c.glade:11011
 msgid "_dB"
 msgstr ""
 
-#: resources/xnec2c.glade:11040
+#: resources/xnec2c.glade:11022
 msgid ""
 "Inverse hyperbolic sine transfer: linear below the softening knee k, "
 "logarithmic above.\n"
@@ -2360,11 +2360,11 @@ msgstr ""
 "Kohanda k animatsiooni dialoogis."
 
 # xnec2c-exempt: name
-#: resources/xnec2c.glade:11041
+#: resources/xnec2c.glade:11023
 msgid "_Asinh"
 msgstr ""
 
-#: resources/xnec2c.glade:11052
+#: resources/xnec2c.glade:11034
 msgid ""
 "μ-law companding transfer: lifts weak detail with bounded compression.\n"
 "Adjust the compression in the animate dialog."
@@ -2374,11 +2374,11 @@ msgstr ""
 "Kohanda kompressiooni animatsiooni dialoogis."
 
 # xnec2c-exempt: name
-#: resources/xnec2c.glade:11053
+#: resources/xnec2c.glade:11035
 msgid "μ-_law"
 msgstr ""
 
-#: resources/xnec2c.glade:11064
+#: resources/xnec2c.glade:11046
 msgid ""
 "Reinhard rational soft-compressor with knee k.\n"
 "Adjust k in the animate dialog."
@@ -2387,11 +2387,11 @@ msgstr ""
 "Kohanda k animatsiooni dialoogis."
 
 # xnec2c-exempt: name
-#: resources/xnec2c.glade:11065
+#: resources/xnec2c.glade:11047
 msgid "_Reinhard"
 msgstr ""
 
-#: resources/xnec2c.glade:11076
+#: resources/xnec2c.glade:11058
 msgid ""
 "Hyperbolic tangent transfer with contrast steepness a.\n"
 "Adjust a in the animate dialog."
@@ -2400,418 +2400,418 @@ msgstr ""
 "Kohanda a animatsiooni dialoogis."
 
 # xnec2c-exempt: name
-#: resources/xnec2c.glade:11077
+#: resources/xnec2c.glade:11059
 msgid "_Sigmoid"
 msgstr ""
 
-#: resources/xnec2c.glade:11088
+#: resources/xnec2c.glade:11070
 msgid ""
 "Full brightness for every magnitude; the color projection alone sets the "
 "rendering."
 msgstr ""
 "Täisheledus iga suuruse jaoks; ainult värviprojektsioon määrab renderduse."
 
-#: resources/xnec2c.glade:11089
+#: resources/xnec2c.glade:11071
 msgid "_None"
 msgstr "_Puudub"
 
-#: resources/xnec2c.glade:11107
+#: resources/xnec2c.glade:11089
 msgid "Patch Flow — Animated"
 msgstr "Plaadivoog — animeeritud"
 
-#: resources/xnec2c.glade:11154
+#: resources/xnec2c.glade:11136
 msgid "Patch Flow — Static"
 msgstr "Plaadivoog — staatiline"
 
-#: resources/xnec2c.glade:11187
+#: resources/xnec2c.glade:11169
 msgid "A_nimate"
 msgstr "A_nimeeri"
 
-#: resources/xnec2c.glade:11196 resources/xnec2c.glade:12445
+#: resources/xnec2c.glade:11178 resources/xnec2c.glade:12427
 msgid "Common _Projection"
 msgstr "Ühine _Projektsioon"
 
-#: resources/xnec2c.glade:11206 resources/xnec2c.glade:12455
+#: resources/xnec2c.glade:11188 resources/xnec2c.glade:12437
 msgid "Common _Pan"
 msgstr "Üldine _P"
 
-#: resources/xnec2c.glade:11223
+#: resources/xnec2c.glade:11205
 msgid "_Symbol Overrides"
 msgstr "_Sümbolite alistused"
 
-#: resources/xnec2c.glade:11232
+#: resources/xnec2c.glade:11214
 msgid "Rendering _Settings..."
 msgstr "Renderdamise _Seaded..."
 
-#: resources/xnec2c.glade:11243
+#: resources/xnec2c.glade:11225
 msgid "_Help"
 msgstr "_Abi"
 
-#: resources/xnec2c.glade:11252
+#: resources/xnec2c.glade:11234
 msgid "_About"
 msgstr "_Teave"
 
-#: resources/xnec2c.glade:11475
+#: resources/xnec2c.glade:11457
 msgid " Zoom"
 msgstr " Suurendus"
 
-#: resources/xnec2c.glade:11642 resources/xnec2c.glade:11703
-#: resources/xnec2c.glade:11751
+#: resources/xnec2c.glade:11624 resources/xnec2c.glade:11685
+#: resources/xnec2c.glade:11733
 msgid ""
 "Gain in the direction of the structure viewer, for the current view angles."
 msgstr "Võimendus struktuurivaataja suunas praeguste vaatenurkade korral."
 
-#: resources/xnec2c.glade:11643 resources/xnec2c.glade:12952
+#: resources/xnec2c.glade:11625 resources/xnec2c.glade:12934
 #: src/freqplots/freqplots_core.c:62
 msgid "Gain"
 msgstr "Võimendus"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:11658 resources/xnec2c.glade:11674
-#: resources/xnec2c.glade:12965 resources/xnec2c.glade:13226
+#: resources/xnec2c.glade:11640 resources/xnec2c.glade:11656
+#: resources/xnec2c.glade:12947 resources/xnec2c.glade:13208
 msgid "0.0"
 msgstr ""
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:11709
+#: resources/xnec2c.glade:11691
 msgid "- - - "
 msgstr ""
 
-#: resources/xnec2c.glade:11766 resources/xnec2c.glade:13001
+#: resources/xnec2c.glade:11748 resources/xnec2c.glade:12983
 msgid "Step"
 msgstr "Samm"
 
-#: resources/xnec2c.glade:11890 resources/xnec2c.glade:13049
+#: resources/xnec2c.glade:11872 resources/xnec2c.glade:13031
 msgid "Apply Freq"
 msgstr "Rakenda sagedus"
 
-#: resources/xnec2c.glade:11910
+#: resources/xnec2c.glade:11892
 msgid "Frequency Mhz"
 msgstr "Sagedus MHz"
 
-#: resources/xnec2c.glade:11963
+#: resources/xnec2c.glade:11945
 msgid "Structure Geometry"
 msgstr "Struktuuri geomeetria"
 
-#: resources/xnec2c.glade:11982
+#: resources/xnec2c.glade:11964
 msgid "Xnec2c: Radiation Patterns"
 msgstr "Xnec2c: Kiirgusdiagrammid"
 
-#: resources/xnec2c.glade:12196
+#: resources/xnec2c.glade:12178
 msgid "_Gain Scaling"
 msgstr "_Võimenduse skaleerimine"
 
-#: resources/xnec2c.glade:12211
+#: resources/xnec2c.glade:12193
 msgid "Linear _Power"
 msgstr "Lineaarne _Võimsus"
 
-#: resources/xnec2c.glade:12222
+#: resources/xnec2c.glade:12204
 msgid "Linear _Voltage"
 msgstr "Lineaarne _Pinge"
 
-#: resources/xnec2c.glade:12233
+#: resources/xnec2c.glade:12215
 msgid "_ARRL Style"
 msgstr "_ARRL stiil"
 
-#: resources/xnec2c.glade:12244
+#: resources/xnec2c.glade:12226
 msgid "_Logarithmic"
 msgstr "_Logaritmiline"
 
-#: resources/xnec2c.glade:12255
+#: resources/xnec2c.glade:12237
 msgid "_Noise Temperature"
 msgstr "_Müratemperatuur"
 
-#: resources/xnec2c.glade:12266
+#: resources/xnec2c.glade:12248
 msgid "Noise Temp (_log scale)"
 msgstr "Müratemp (_log skaala)"
 
-#: resources/xnec2c.glade:12281
+#: resources/xnec2c.glade:12263
 msgid "Noise _Models"
 msgstr "Müra_mudelid"
 
-#: resources/xnec2c.glade:12300
+#: resources/xnec2c.glade:12282
 msgid "_Gradient Key"
 msgstr "_Gradiendi võti"
 
-#: resources/xnec2c.glade:12310
+#: resources/xnec2c.glade:12292
 msgid "Draw St_yle"
 msgstr "Joonistus_stiil"
 
-#: resources/xnec2c.glade:12319
+#: resources/xnec2c.glade:12301
 msgid "S_urface"
 msgstr "_Pind"
 
-#: resources/xnec2c.glade:12338
+#: resources/xnec2c.glade:12320
 msgid "_Both"
 msgstr "_Mõlemad"
 
-#: resources/xnec2c.glade:12353
+#: resources/xnec2c.glade:12335
 msgid "_Near Field"
 msgstr "_Lähiväli"
 
-#: resources/xnec2c.glade:12368
+#: resources/xnec2c.glade:12350
 msgid "Near _E Field"
 msgstr "Lähi _E väli"
 
-#: resources/xnec2c.glade:12378
+#: resources/xnec2c.glade:12360
 msgid "Near _H Field"
 msgstr "Lähi _H väli"
 
-#: resources/xnec2c.glade:12388
+#: resources/xnec2c.glade:12370
 msgid "_Poynting Vector"
 msgstr "_Poyntingi vektor"
 
-#: resources/xnec2c.glade:12397
+#: resources/xnec2c.glade:12379
 msgid "_Animate Dialog"
 msgstr "_Animatsioonidialoog"
 
-#: resources/xnec2c.glade:12406
+#: resources/xnec2c.glade:12388
 msgid "_Total Field"
 msgstr "_Koguväli"
 
-#: resources/xnec2c.glade:12415
+#: resources/xnec2c.glade:12397
 msgid "_Peak Value"
 msgstr "_Tippväärtus"
 
-#: resources/xnec2c.glade:12426
+#: resources/xnec2c.glade:12408
 msgid "_Instantaneous (φ=0)"
 msgstr "_Hetkeline (φ=0)"
 
-#: resources/xnec2c.glade:12466
+#: resources/xnec2c.glade:12448
 msgid "_Overlay Structure"
 msgstr "_Kata struktuur"
 
-#: resources/xnec2c.glade:12490
+#: resources/xnec2c.glade:12472
 msgid "Gain Pattern"
 msgstr "Võimendusdiagramm"
 
-#: resources/xnec2c.glade:12505
+#: resources/xnec2c.glade:12487
 msgid "E/H Fields"
 msgstr "E/H väljad"
 
-#: resources/xnec2c.glade:12688
+#: resources/xnec2c.glade:12670
 msgid "Zoom % "
 msgstr "Suurendus % "
 
-#: resources/xnec2c.glade:12727
+#: resources/xnec2c.glade:12709
 msgid "Elev.°"
 msgstr "Kõrg.°"
 
-#: resources/xnec2c.glade:13069
+#: resources/xnec2c.glade:13051
 msgid "Frequency MHz"
 msgstr "Sagedus MHz"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:13086
+#: resources/xnec2c.glade:13068
 msgid "0.010"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:13140 resources/xnec2c.glade:13173
-#: resources/xnec2c.glade:13208
+#: resources/xnec2c.glade:13122 resources/xnec2c.glade:13155
+#: resources/xnec2c.glade:13190
 msgid "— K"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:13155
+#: resources/xnec2c.glade:13137
 msgid "T<sub>earth</sub>"
 msgstr ""
 
 # xnec2c-exempt: notation
-#: resources/xnec2c.glade:13190
+#: resources/xnec2c.glade:13172
 msgid "T<sub>sky</sub>"
 msgstr ""
 
-#: resources/xnec2c.glade:13310 src/rdpattern_ui.c:939
+#: resources/xnec2c.glade:13292 src/rdpattern_ui.c:939
 msgid "Radiation Patterns"
 msgstr "Kiirgusdiagrammid"
 
-#: resources/xnec2c.glade:13345
+#: resources/xnec2c.glade:13327
 msgid "Scale Structure (GS card)"
 msgstr "Struktuuri skaleerimine (GS kaart)"
 
-#: resources/xnec2c.glade:13376
+#: resources/xnec2c.glade:13358
 msgid "Structure Scale Factor"
 msgstr "Struktuuri skaleerimistegur"
 
-#: resources/xnec2c.glade:13389
+#: resources/xnec2c.glade:13371
 msgid "From Tag No."
 msgstr "Alates märgendi nr"
 
-#: resources/xnec2c.glade:13439
+#: resources/xnec2c.glade:13421
 msgid "To Tag No."
 msgstr "Kuni märgendi nr"
 
-#: resources/xnec2c.glade:13474
+#: resources/xnec2c.glade:13456
 msgid "Scale Structure"
 msgstr "Skaleeri struktuur"
 
-#: resources/xnec2c.glade:13651
+#: resources/xnec2c.glade:13633
 msgid "Co-ordinate Transformation (GM card)"
 msgstr "Koordinaatide teisendus (GM kaart)"
 
-#: resources/xnec2c.glade:13681
+#: resources/xnec2c.glade:13663
 msgid "Tag Increment"
 msgstr "Märgendi samm"
 
-#: resources/xnec2c.glade:13712
+#: resources/xnec2c.glade:13694
 msgid "Rotate about X"
 msgstr "Pööra ümber X"
 
-#: resources/xnec2c.glade:13744
+#: resources/xnec2c.glade:13726
 msgid "Move along X"
 msgstr "Liiguta mööda X"
 
-#: resources/xnec2c.glade:13776
+#: resources/xnec2c.glade:13758
 msgid "New Structures"
 msgstr "Uued struktuurid"
 
-#: resources/xnec2c.glade:13807
+#: resources/xnec2c.glade:13789
 msgid "Rotate about Y"
 msgstr "Pööra ümber Y"
 
-#: resources/xnec2c.glade:13839
+#: resources/xnec2c.glade:13821
 msgid "Move along Y"
 msgstr "Liiguta mööda Y"
 
-#: resources/xnec2c.glade:13871
+#: resources/xnec2c.glade:13853
 msgid "Start From Tag"
 msgstr "Alusta märgendist"
 
-#: resources/xnec2c.glade:13903
+#: resources/xnec2c.glade:13885
 msgid "Rotate about Z"
 msgstr "Pööra ümber Z"
 
-#: resources/xnec2c.glade:13935
+#: resources/xnec2c.glade:13917
 msgid "Move along Z"
 msgstr "Liiguta mööda Z"
 
-#: resources/xnec2c.glade:13971
+#: resources/xnec2c.glade:13953
 msgid "Co-ordinate Transformation Data"
 msgstr "Koordinaatide teisenduse andmed"
 
-#: resources/xnec2c.glade:14167
+#: resources/xnec2c.glade:14149
 msgid "Trans. Line Command (TL Card)"
 msgstr "Ülekandeliini käsk (TL kaart)"
 
-#: resources/xnec2c.glade:14197
+#: resources/xnec2c.glade:14179
 msgid "Tag Number, End 1  "
 msgstr "Märgendi number, ots 1  "
 
-#: resources/xnec2c.glade:14229
+#: resources/xnec2c.glade:14211
 msgid "Tag Number, End 2  "
 msgstr "Märgendi number, ots 2  "
 
-#: resources/xnec2c.glade:14260
+#: resources/xnec2c.glade:14242
 msgid "Segment Num, End 1"
 msgstr "Segmendi nr, ots 1"
 
-#: resources/xnec2c.glade:14292
+#: resources/xnec2c.glade:14274
 msgid "Segment Num, End 2"
 msgstr "Segmendi nr, ots 2"
 
-#: resources/xnec2c.glade:14356
+#: resources/xnec2c.glade:14338
 msgid "Crossed Transmission Line"
 msgstr "Ristatud ülekandeliin"
 
-#: resources/xnec2c.glade:14374
+#: resources/xnec2c.glade:14356
 msgid "Characteristic Impedance"
 msgstr "Karakteristlik impedants"
 
-#: resources/xnec2c.glade:14406
+#: resources/xnec2c.glade:14388
 msgid "End 1 Y Real Part (S)"
 msgstr "Ots 1 Y reaalosa (S)"
 
-#: resources/xnec2c.glade:14438
+#: resources/xnec2c.glade:14420
 msgid "End 2 Y Real Part (S)"
 msgstr "Ots 2 Y reaalosa (S)"
 
-#: resources/xnec2c.glade:14470
+#: resources/xnec2c.glade:14452
 msgid "Length of Tx Line (m)"
 msgstr "Ülekandeliini pikkus (m)"
 
-#: resources/xnec2c.glade:14502
+#: resources/xnec2c.glade:14484
 msgid "End 1 Y Imag Part (S)"
 msgstr "Ots 1 Y imaginaarosa (S)"
 
-#: resources/xnec2c.glade:14534
+#: resources/xnec2c.glade:14516
 msgid "End 2 Y Imag Part (S)"
 msgstr "Ots 2 Y imaginaarosa (S)"
 
-#: resources/xnec2c.glade:14570
+#: resources/xnec2c.glade:14552
 msgid "Transmission Line"
 msgstr "Ülekandeliin"
 
-#: resources/xnec2c.glade:14797
+#: resources/xnec2c.glade:14779
 msgid "Wire Element (GW & GC cards)"
 msgstr "Traadielement (GW ja GC kaardid)"
 
-#: resources/xnec2c.glade:14857
+#: resources/xnec2c.glade:14839
 msgid "Wire X1"
 msgstr "Traat X1"
 
-#: resources/xnec2c.glade:14889
+#: resources/xnec2c.glade:14871
 msgid "Wire X2"
 msgstr "Traat X2"
 
-#: resources/xnec2c.glade:14952
+#: resources/xnec2c.glade:14934
 msgid "Wire Y1"
 msgstr "Traat Y1"
 
-#: resources/xnec2c.glade:14985
+#: resources/xnec2c.glade:14967
 msgid "Wire Y2"
 msgstr "Traat Y2"
 
-#: resources/xnec2c.glade:15049
+#: resources/xnec2c.glade:15031
 msgid "Wire Z1"
 msgstr "Traat Z1"
 
-#: resources/xnec2c.glade:15081
+#: resources/xnec2c.glade:15063
 msgid "Wire Z2"
 msgstr "Traat Z2"
 
-#: resources/xnec2c.glade:15146
+#: resources/xnec2c.glade:15128
 msgid "Wire Length"
 msgstr "Traadi pikkus"
 
-#: resources/xnec2c.glade:15217
+#: resources/xnec2c.glade:15199
 msgid "Wire Data"
 msgstr "Traadi andmed"
 
-#: resources/xnec2c.glade:15229
+#: resources/xnec2c.glade:15211
 msgid "Tapered Wire"
 msgstr "Koonusjas traat"
 
-#: resources/xnec2c.glade:15271
+#: resources/xnec2c.glade:15253
 msgid "Length Taper"
 msgstr "Pikkuse kooniline muutus"
 
-#: resources/xnec2c.glade:15303
+#: resources/xnec2c.glade:15285
 msgid "Diameter Seg 1"
 msgstr "Läbimõõt seg 1"
 
-#: resources/xnec2c.glade:15335
+#: resources/xnec2c.glade:15317
 msgid "Diameter Seg N"
 msgstr "Läbimõõt seg N"
 
-#: resources/xnec2c.glade:15367
+#: resources/xnec2c.glade:15349
 msgid "Diam. Taper"
 msgstr "Läbim. kooniline muutus"
 
-#: resources/xnec2c.glade:15403
+#: resources/xnec2c.glade:15385
 msgid "Wire Taper Data"
 msgstr "Traadi koonilisuse andmed"
 
-#: resources/xnec2c.glade:15568
+#: resources/xnec2c.glade:15550
 msgid "Impedance (Zo) Ohm"
 msgstr "Impedants (Zo) Ohm"
 
 # xnec2c-exempt: symbol
-#: resources/xnec2c.glade:15583
+#: resources/xnec2c.glade:15565
 msgid "50.00"
 msgstr ""
 
-#: resources/xnec2c.glade:15606
+#: resources/xnec2c.glade:15588
 msgid "Transmission Line Impedance (Zo)"
 msgstr "Ülekandeliini impedants (Zo)"
 
@@ -3183,10 +3183,10 @@ msgid "config file does not exist or is not readable: %s\n"
 msgstr "konfiguratsioonifail ei eksisteeri või ei ole loetav: %s\n"
 
 # xnec2c-exempt: symbol
-#: src/args.c:898 src/geometry.c:792 src/input.c:1835 src/input.c:1836
+#: src/args.c:898 src/geometry.c:780 src/input.c:1829 src/input.c:1830
 #: src/mathlib.c:830 src/mathlib.c:1135 src/rdpattern_ui.c:404
 #: src/rdpattern_ui.c:412 src/rdpattern_ui.c:419 src/sy_expr.c:142
-#: src/sy_expr.c:172 src/utils.c:365 src/utils.c:725
+#: src/sy_expr.c:172 src/utils.c:365 src/utils.c:724
 #, c-format
 msgid "%s"
 msgstr ""
@@ -4126,16 +4126,7 @@ msgstr ""
 "Geomeetriaandmete viga\n"
 "Segment asub maatasandil"
 
-# xnec2c-exempt: name
-#: src/geometry.c:474
-msgid "ipsym = 0\n"
-msgstr ""
-
-#: src/geometry.c:475
-msgid "Error: ipsym = 0"
-msgstr "Viga: ipsym = 0"
-
-#: src/geometry.c:528
+#: src/geometry.c:516
 #, c-format
 msgid ""
 "Segment connection count exceeds a full mesh, which is unlikely: data.n=%ld "
@@ -4144,7 +4135,7 @@ msgstr ""
 "Segmendi ühenduste arv ületab täisvõrku, mis on ebatõenäoline: data.n=%ld "
 "segj.maxcon=%lu\n"
 
-#: src/geometry.c:530
+#: src/geometry.c:518
 msgid ""
 "Segment connection count exceeds a full mesh, which is unlikely!\n"
 "Check for overlapping or nearly-connected segments\n"
@@ -4152,7 +4143,7 @@ msgstr ""
 "Segmendi ühenduste arv ületab täisvõrku, mis on ebatõenäoline!\n"
 "Kontrollige kattuvaid või peaaegu ühendatud segmente\n"
 
-#: src/geometry.c:744
+#: src/geometry.c:732
 msgid ""
 "check data, parameter specifying segment: position in a group of equal tags "
 "must not be zero\n"
@@ -4160,7 +4151,7 @@ msgstr ""
 "kontrollige andmeid, segmenti määrav parameeter: positsioon võrdsete "
 "märgendite grupis ei tohi olla null\n"
 
-#: src/geometry.c:745
+#: src/geometry.c:733
 msgid ""
 "Parameter specifying segment\n"
 "position in a group of equal tags is zero"
@@ -4168,12 +4159,12 @@ msgstr ""
 "Segmendi positsiooni määrav parameeter\n"
 "võrdsete märgendite grupis on null"
 
-#: src/geometry.c:777
+#: src/geometry.c:765
 #, c-format
 msgid "no segment has an itag of %d\n"
 msgstr "ühelgi segmendil pole itag väärtust %d\n"
 
-#: src/geometry.c:781
+#: src/geometry.c:769
 msgid ""
 "Segment tag number error: Tag 0 is reserved and cannot be used.\n"
 "Check your geometry cards (especially GM cards) to ensure tag values are "
@@ -4187,7 +4178,7 @@ msgstr ""
 "GM-kaartide puhul: veenduge, et 'alusta märgendist' ja 'märgendi juurdekasv' "
 "ei loo märgendit 0."
 
-#: src/geometry.c:789
+#: src/geometry.c:777
 #, c-format
 msgid ""
 "Segment tag number error: No segment found with tag %d.\n"
@@ -4199,11 +4190,11 @@ msgstr ""
 "Kehtivad märgendid teie geomeetrias on need, mis on määratud GW/GA/GH/SP-"
 "kaartidele."
 
-#: src/geometry.c:1064
+#: src/geometry.c:1052
 msgid "corners of quadrilateral: patch do not lie in a plane\n"
 msgstr "nelinurga nurgad: pind ei asu ühel tasandil\n"
 
-#: src/geometry.c:1065
+#: src/geometry.c:1053
 msgid ""
 "Corners of quadrilateral\n"
 "patch do not lie in a plane"
@@ -4211,12 +4202,12 @@ msgstr ""
 "Nelinurga pinna nurgad\n"
 "ei asu ühel tasandil"
 
-#: src/geometry.c:1170 src/geometry.c:1247 src/geometry.c:1325
+#: src/geometry.c:1158 src/geometry.c:1235 src/geometry.c:1313
 #, c-format
 msgid "geometry data error: segment %d lies in plane of symmetry\n"
 msgstr "geomeetriaandmete viga: segment %d asub sümmeetriatasandil\n"
 
-#: src/geometry.c:1171 src/geometry.c:1248 src/geometry.c:1326
+#: src/geometry.c:1159 src/geometry.c:1236 src/geometry.c:1314
 msgid ""
 "Geometry data error\n"
 "Segment lies in plane of symmetry"
@@ -4224,12 +4215,12 @@ msgstr ""
 "Geomeetriaandmete viga\n"
 "Segment asub sümmeetriatasandil"
 
-#: src/geometry.c:1207 src/geometry.c:1284 src/geometry.c:1359
+#: src/geometry.c:1195 src/geometry.c:1272 src/geometry.c:1347
 #, c-format
 msgid "geometry data error: patch %d lies in plane of symmetry\n"
 msgstr "geomeetriaandmete viga: pind %d asub sümmeetriatasandil\n"
 
-#: src/geometry.c:1208 src/geometry.c:1285 src/geometry.c:1360
+#: src/geometry.c:1196 src/geometry.c:1273 src/geometry.c:1348
 msgid ""
 "Geometry data error\n"
 "Patch lies in plane of symmetry"
@@ -4237,7 +4228,7 @@ msgstr ""
 "Geomeetriaandmete viga\n"
 "Pind asub sümmeetriatasandil"
 
-#: src/geometry.c:1480
+#: src/geometry.c:1468
 #, c-format
 msgid ""
 "tag=%d/seg=%d: endpoint distance=%.3e is too close (below connection "
@@ -4246,12 +4237,12 @@ msgstr ""
 "tag=%d/seg=%d: otspunkti kaugus=%.3e on liiga lähedal (alla "
 "ühendusläve=%.3e); segment ühendub iseendaga\n"
 
-#: src/geometry.c:1485
+#: src/geometry.c:1473
 #, c-format
 msgid "tag=%d: suppressing additional self-connection warnings\n"
 msgstr "tag=%d: täiendavate iseühenduse hoiatuste mahasurumine\n"
 
-#: src/geometry.c:1530
+#: src/geometry.c:1518
 #, c-format
 msgid ""
 "tag=%d/seg=%d: coincides with tag=%d/seg=%d; NEC2 cannot separate the "
@@ -4260,12 +4251,12 @@ msgstr ""
 "tag=%d/seg=%d: kattub segmendiga tag=%d/seg=%d; NEC2 ei suuda kattuvate "
 "segmentide voolusid eraldada\n"
 
-#: src/geometry.c:1535
+#: src/geometry.c:1523
 #, c-format
 msgid "tag=%d: suppressing additional coincident segment warnings\n"
 msgstr "tag=%d: täiendavad kattuvate segmentide hoiatused summutatakse\n"
 
-#: src/geometry.c:1580
+#: src/geometry.c:1568
 #, c-format
 msgid ""
 "tag=%d/seg=%d: end gap=%.3e to tag=%d/seg=%d lies beyond connection "
@@ -4275,13 +4266,13 @@ msgstr ""
 "threshold=%.3e taga, kuid %gx piires sellest; NEC2 jätab need otsad "
 "ühendamata\n"
 
-#: src/geometry.c:1586
+#: src/geometry.c:1574
 #, c-format
 msgid "tag=%d: suppressing additional near-miss junction warnings\n"
 msgstr ""
 "tag=%d: täiendavate peaaegu ühenduvate liitekohtade hoiatuste summutamine\n"
 
-#: src/geometry.c:1639
+#: src/geometry.c:1627
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length=%.3e is too short (and close enough) to tag=%d/seg=%d "
@@ -4291,7 +4282,7 @@ msgstr ""
 "seg=%d pikkusele=%.3e, et ühenduse tuvastamine võib ebaõnnestuda või "
 "lühistuda\n"
 
-#: src/geometry.c:1645
+#: src/geometry.c:1633
 #, c-format
 msgid ""
 "tag=%d: suppressing additional connection detection may fail or short "
@@ -4300,7 +4291,7 @@ msgstr ""
 "tag=%d: täiendavate ühenduse tuvastamise ebaõnnestumise või lühistumise "
 "hoiatuste mahasurumine\n"
 
-#: src/geometry.c:1678
+#: src/geometry.c:1666
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length/wavelength ratio of %.3f < 0.001; similarity of "
@@ -4311,12 +4302,12 @@ msgstr ""
 "sarnasus põhjustab numbrilisi ebatäpsusi (min=0.001, hea=0.05, soovitatav <= "
 "0.1)\n"
 
-#: src/geometry.c:1683
+#: src/geometry.c:1671
 #, c-format
 msgid "tag=%d: suppressing additional short wavelength ratio errors\n"
 msgstr "tag=%d: täiendavate lühikese lainepikkuse suhte vigade mahasurumine\n"
 
-#: src/geometry.c:1697
+#: src/geometry.c:1685
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length/wavelength ratio of %.3f > 0.1; current sampling "
@@ -4327,12 +4318,12 @@ msgstr ""
 "lahutusvõime on piiratud segmentide vahekaugusega (min=0.001, hea=0.05, "
 "soovitatav <= 0.1)\n"
 
-#: src/geometry.c:1702
+#: src/geometry.c:1690
 #, c-format
 msgid "tag=%d: suppressing additional long wavelength ratio warnings\n"
 msgstr "tag=%d: täiendavate pika lainepikkuse suhte hoiatuste mahasurumine\n"
 
-#: src/geometry.c:1716
+#: src/geometry.c:1704
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length/wavelength ratio of %.3f > 0.05; shorter segments "
@@ -4343,12 +4334,12 @@ msgstr ""
 "suurendavad täpsust kiire voolumuutuse piirkondades (min=0.001, hea=0.05, "
 "soovitatav <=0.1)\n"
 
-#: src/geometry.c:1721
+#: src/geometry.c:1709
 #, c-format
 msgid "tag=%d: suppressing additional accuracy improvement suggestions\n"
 msgstr "tag=%d: täiendavate täpsuse parandamise soovituste mahasurumine\n"
 
-#: src/geometry.c:1752
+#: src/geometry.c:1740
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length/radius ratio of %.1f < 2.0; standard thin-wire kernel "
@@ -4357,12 +4348,12 @@ msgstr ""
 "tag=%d/seg=%d: pikkuse/raadiuse suhe %.1f < 2.0; standardse peenikese traadi "
 "tuuma välja viga ületab 1%% suure marginaaliga (min=2.0, 1%%-täpsus=8.0)\n"
 
-#: src/geometry.c:1757
+#: src/geometry.c:1745
 #, c-format
 msgid "tag=%d: suppressing additional standard kernel ratio errors\n"
 msgstr "tag=%d: täiendavate standardse tuuma suhte vigade mahasurumine\n"
 
-#: src/geometry.c:1771
+#: src/geometry.c:1759
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length/radius ratio of %.1f < 8.0; standard thin-wire kernel "
@@ -4371,12 +4362,12 @@ msgstr ""
 "tag=%d/seg=%d: pikkuse/raadiuse suhe %.1f < 8.0; standardse peenikese traadi "
 "tuuma välja viga ületab 1%% (min=2.0, 1%%-täpsus=8.0)\n"
 
-#: src/geometry.c:1776
+#: src/geometry.c:1764
 #, c-format
 msgid "tag=%d: suppressing additional standard kernel ratio warnings\n"
 msgstr "tag=%d: täiendavate standardse tuuma suhte hoiatuste mahasurumine\n"
 
-#: src/geometry.c:1792
+#: src/geometry.c:1780
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length/radius ratio of %.1f < 0.5; extended thin-wire kernel "
@@ -4385,12 +4376,12 @@ msgstr ""
 "tag=%d/seg=%d: pikkuse/raadiuse suhe %.1f < 0.5; laiendatud peenikese traadi "
 "tuuma välja viga ületab 1%% suure marginaaliga (min=0.5, 1%%-täpsus=2.0)\n"
 
-#: src/geometry.c:1797
+#: src/geometry.c:1785
 #, c-format
 msgid "tag=%d: suppressing additional extended kernel ratio errors\n"
 msgstr "tag=%d: täiendavate laiendatud tuuma suhte vigade mahasurumine\n"
 
-#: src/geometry.c:1811
+#: src/geometry.c:1799
 #, c-format
 msgid ""
 "tag=%d/seg=%d: length/radius ratio of %.1f < 2.0; extended thin-wire kernel "
@@ -4399,24 +4390,24 @@ msgstr ""
 "tag=%d/seg=%d: pikkuse/raadiuse suhe %.1f < 2.0; laiendatud peenikese traadi "
 "tuuma välja viga ületab 1%% (min=0.5, 1%%-täpsus=2.0)\n"
 
-#: src/geometry.c:1816
+#: src/geometry.c:1804
 #, c-format
 msgid "tag=%d: suppressing additional extended kernel ratio warnings\n"
 msgstr "tag=%d: täiendavate laiendatud tuuma suhte hoiatuste mahasurumine\n"
 
-#: src/geometry.c:1833
+#: src/geometry.c:1821
 #, c-format
 msgid "Skipping overlap check for %d segments (use --force-verify to enable)\n"
 msgstr ""
 "Kattumise kontrolli vahelejätmine %d segmendi puhul (kasutage lubamiseks --"
 "force-verify)\n"
 
-#: src/geometry.c:1837
+#: src/geometry.c:1825
 #, c-format
 msgid "Forcing overlap check for %d segments\n"
 msgstr "Kattumise kontrolli sundimine %d segmendi puhul\n"
 
-#: src/geometry.c:1849
+#: src/geometry.c:1837
 msgid ""
 "verify_segments() skipping frequency-dependent checks - no frequency data\n"
 msgstr ""
@@ -4667,15 +4658,11 @@ msgstr "Geomeetria GX andmekaardi viga"
 msgid "Geometry GR data card error"
 msgstr "Geomeetria GR andmekaardi viga"
 
-#: src/input.c:752
-msgid "No geometry data cards"
-msgstr "Geomeetria GC andmekaardi viga"
-
-#: src/input.c:763
+#: src/input.c:757
 msgid "Probable invalid segment geometry.\n"
 msgstr "Tõenäoliselt vigane segmendi geomeetria.\n"
 
-#: src/input.c:764
+#: src/input.c:758
 msgid ""
 "Invalid segment geometry.\n"
 "See warnings in the console for detail.\n"
@@ -4685,36 +4672,36 @@ msgstr ""
 "Üksikasjade kohta vaadake hoiatusi konsoolis.\n"
 "Proovitakse jätkata..."
 
-#: src/input.c:770
+#: src/input.c:764
 msgid "Probable invalid segment geometry (see above)\n"
 msgstr "Tõenäoliselt vigane segmendi geomeetria (vt eespool)\n"
 
-#: src/input.c:774
+#: src/input.c:768
 msgid "Read_Geometry: verify_segments() passed\n"
 msgstr "Read_Geometry: verify_segments() läbitud\n"
 
-#: src/input.c:811
+#: src/input.c:805
 msgid "segment data error: tag=%d si=%lf, bi=%lf\n"
 msgstr "segmendi andmete viga: tag=%d si=%lf, bi=%lf\n"
 
-#: src/input.c:813
+#: src/input.c:807
 msgid "Segment data error, zero-length line?  See console."
 msgstr "Segmendi andmete viga, nullpikkusega joon? Vaata konsooli."
 
-#: src/input.c:853
+#: src/input.c:847
 msgid "Move GM data card error"
 msgstr "Teisaldamise GM andmekaardi viga"
 
-#: src/input.c:869 src/input.c:910 src/input.c:927 src/input.c:945
-#: src/input.c:953
+#: src/input.c:863 src/input.c:904 src/input.c:921 src/input.c:939
+#: src/input.c:947
 msgid "Patch data card error"
 msgstr "Pinnaelemendi andmekaardi viga"
 
-#: src/input.c:891
+#: src/input.c:885
 msgid "Patch data error"
 msgstr "Pinnaelemendi andmete viga"
 
-#: src/input.c:1000
+#: src/input.c:994
 msgid ""
 "\"GF\" card (NGF solution)\n"
 "is not supported"
@@ -4722,64 +4709,64 @@ msgstr ""
 "\"GF\" kaart (NGF lahendus)\n"
 "ei ole toetatud"
 
-#: src/input.c:1005
+#: src/input.c:999
 msgid "Ignoring CM card in geometry"
 msgstr "CM kaart geomeetrias ignoreeritakse"
 
-#: src/input.c:1018
+#: src/input.c:1012
 #, c-format
 msgid "geometry data card error (nwire=%d)\n"
 msgstr "geomeetria andmekaardi viga (nwire=%d)\n"
 
 # xnec2c-exempt: symbol
-#: src/input.c:1019
+#: src/input.c:1013
 #, c-format
 msgid "%2s %3d %5d %10.5f %10.5f %10.5f %10.5f %10.5f %10.5f %10.5f\n"
 msgstr ""
 
-#: src/input.c:1025
+#: src/input.c:1019
 msgid "Command card in geometry section"
 msgstr "Käsukaart geomeetria sektsioonis"
 
-#: src/input.c:1027
+#: src/input.c:1021
 msgid "Unrecognized geometry card"
 msgstr "Tundmatu geomeetriakaart"
 
-#: src/input.c:1051
+#: src/input.c:1045
 msgid "Failed to initialize symbol table\n"
 msgstr "Sümbolite tabeli initsialiseerimine ebaõnnestus\n"
 
-#: src/input.c:1052
+#: src/input.c:1046
 msgid "Failed to initialize symbol table"
 msgstr "Sümbolite tabeli initsialiseerimine ebaõnnestus"
 
-#: src/input.c:1192
+#: src/input.c:1186
 #, c-format
 msgid "No FR card: computing one step at the NEC-2 default %g MHz\n"
 msgstr "FR-kaarti pole: NEC-2 vaikeväärtusel %g MHz arvutatakse üks samm\n"
 
-#: src/input.c:1283
+#: src/input.c:1277
 msgid "ignoring CM card in commands\n"
 msgstr "CM kaart käskudes ignoreeritakse\n"
 
-#: src/input.c:1284
+#: src/input.c:1278
 msgid "Ignoring CM card in commands"
 msgstr "CM kaart käskudes ignoreeritakse"
 
-#: src/input.c:1296
+#: src/input.c:1290
 msgid "CP card is ignored: coupling calculation not implemented\n"
 msgstr "CP kaart jäetakse arvestamata: sidestuse arvutus on teostamata\n"
 
-#: src/input.c:1392
+#: src/input.c:1386
 #, c-format
 msgid "Skipping duplicate FR card at %g MHz\n"
 msgstr "Duplikaat FR kaart %g MHz juures jäetakse vahele\n"
 
-#: src/input.c:1457
+#: src/input.c:1451
 msgid "Max frequency <= Min frequency in FR card\n"
 msgstr "Maksimaalne sagedus <= minimaalne sagedus FR kaardil\n"
 
-#: src/input.c:1458
+#: src/input.c:1452
 msgid ""
 "Max frequency <= Min frequency in FR card\n"
 "Please check FR card data and correct"
@@ -4787,7 +4774,7 @@ msgstr ""
 "Maksimaalne sagedus <= minimaalne sagedus FR kaardil\n"
 "Palun kontrollige FR kaardi andmeid ja parandage"
 
-#: src/input.c:1481
+#: src/input.c:1475
 msgid ""
 "Fix the GE/GN cards:\n"
 "The GE card specifies that a ground is present, but the GN indicates "
@@ -4796,11 +4783,11 @@ msgstr ""
 "Parandage GE/GN kaardid:\n"
 "GE kaart määrab, et maandus on olemas, kuid GN näitab vastupidist."
 
-#: src/input.c:1495
+#: src/input.c:1489
 msgid "theta > 90 deg. with ground specified\n"
 msgstr "theta > 90 kraadi määratud maandusega\n"
 
-#: src/input.c:1496 src/radiation.c:911
+#: src/input.c:1490 src/radiation.c:911
 msgid ""
 "Theta > 90 deg with ground specified\n"
 "Please check RP card data and correct"
@@ -4808,7 +4795,7 @@ msgstr ""
 "Theta > 90 kraadi määratud maandusega\n"
 "Palun kontrollige RP kaardi andmeid ja parandage"
 
-#: src/input.c:1505
+#: src/input.c:1499
 msgid ""
 "radial wire g.s. approximation: may not be used with Sommerfeld ground "
 "option\n"
@@ -4816,7 +4803,7 @@ msgstr ""
 "radiaaljuhtme maandussüsteemi lähendus: ei saa kasutada koos Sommerfeldi "
 "maanduse valikuga\n"
 
-#: src/input.c:1506
+#: src/input.c:1500
 msgid ""
 "radial wire g.s. approximation\n"
 "may not be used with Sommerfeld ground option"
@@ -4824,7 +4811,7 @@ msgstr ""
 "radiaaljuhtme maandussüsteemi lähendus\n"
 "ei saa kasutada koos Sommerfeldi maanduse valikuga"
 
-#: src/input.c:1554
+#: src/input.c:1548
 #, c-format
 msgid ""
 "data fault on loading card no %d: itag step1 %d is greater than itag step2 "
@@ -4833,7 +4820,7 @@ msgstr ""
 "andmete viga koormuse kaardil nr %d: itag step1 %d on suurem kui itag step2 "
 "%d\n"
 
-#: src/input.c:1556
+#: src/input.c:1550
 msgid ""
 "Data fault on loading card\n"
 "itag step1 is greater than itag step2"
@@ -4841,13 +4828,13 @@ msgstr ""
 "Andmete viga koormuse kaardil\n"
 "itag step1 on suurem kui itag step2"
 
-#: src/input.c:1685
+#: src/input.c:1679
 msgid ""
 "Transmission Line impedance = 0: is not valid. Please correct NT or TL card\n"
 msgstr ""
 "Ülekandeliini impedants = 0: ei ole kehtiv. Palun parandage NT või TL kaart\n"
 
-#: src/input.c:1686
+#: src/input.c:1680
 msgid ""
 "Transmission Line impedance = 0\n"
 "is not valid. Please correct NT or TL card"
@@ -4855,11 +4842,11 @@ msgstr ""
 "Ülekandeliini impedants = 0\n"
 "ei ole kehtiv. Palun parandage NT või TL kaart"
 
-#: src/input.c:1697
+#: src/input.c:1691
 msgid "Segment number error in TL or NT card\n"
 msgstr "Segmendi numbri viga TL või NT kaardil\n"
 
-#: src/input.c:1698
+#: src/input.c:1692
 msgid ""
 "Segment number\n"
 "error in NT or TL card"
@@ -4867,19 +4854,19 @@ msgstr ""
 "Segmendi numbri\n"
 "viga NT või TL kaardil"
 
-#: src/input.c:1720
+#: src/input.c:1714
 msgid "PQ and PT cards are ignored: printing to file not implemented\n"
 msgstr "PQ ja PT kaart jäetakse arvestamata: faili printimine on teostamata\n"
 
-#: src/input.c:1724
+#: src/input.c:1718
 msgid "PL card is ignored: plotting to file not supported\n"
 msgstr "PL kaart jäetakse arvestamata: faili joonistamine pole toetatud\n"
 
-#: src/input.c:1730
+#: src/input.c:1724
 msgid "Surface wave option (I1=1): of RP command not implemented\n"
 msgstr "Pinnalaine valik (I1=1): RP käsus ei ole realiseeritud\n"
 
-#: src/input.c:1731
+#: src/input.c:1725
 msgid ""
 "Surface wave option (I1=1)\n"
 "of RP command not implemented"
@@ -4887,7 +4874,7 @@ msgstr ""
 "Pinnalaine valik (I1=1)\n"
 "RP käsus ei ole realiseeritud"
 
-#: src/input.c:1763
+#: src/input.c:1757
 msgid ""
 "Theta > 90 deg. with ground specified: Please check RP card data and "
 "correct\n"
@@ -4895,7 +4882,7 @@ msgstr ""
 "Theta > 90 kraadi määratud maandusega: palun kontrollige RP kaardi andmeid "
 "ja parandage\n"
 
-#: src/input.c:1764
+#: src/input.c:1758
 msgid ""
 "Theta > 90 deg. with ground specified\n"
 "Please check RP card data and correct"
@@ -4903,15 +4890,15 @@ msgstr ""
 "Theta > 90 kraadi määratud maandusega\n"
 "Palun kontrollige RP kaardi andmeid ja parandage"
 
-#: src/input.c:1831
+#: src/input.c:1825
 msgid "Geometry card in command section"
 msgstr "Geomeetriakaart käskude sektsioonis"
 
-#: src/input.c:1834
+#: src/input.c:1828
 msgid "Unrecognized command card"
 msgstr "Tundmatu käsukaart"
 
-#: src/input.c:1879
+#: src/input.c:1873
 msgid ""
 "Missing or surface-wave RP card: Radiation pattern and gain calculations "
 "disabled\n"
@@ -4919,11 +4906,11 @@ msgstr ""
 "Puuduv või pinnalaine RP kaart: kiirgusdiagrammi ja võimenduse arvutused "
 "keelatud\n"
 
-#: src/input.c:1906
+#: src/input.c:1900
 msgid "Unexpected exit from while loop"
 msgstr "Ootamatu väljumine while-tsüklist"
 
-#: src/input.c:1997
+#: src/input.c:1991
 msgid ""
 "command data card error: Unexpected EOF while reading input file - appending "
 "EN card\n"
@@ -4931,7 +4918,7 @@ msgstr ""
 "käsu andmekaardi viga: ootamatu faili lõpp sisendfaili lugemisel - lisatakse "
 "EN kaart\n"
 
-#: src/input.c:1998
+#: src/input.c:1992
 msgid ""
 "Command data card error\n"
 "Unexpected EOF while reading input file\n"
@@ -4941,12 +4928,12 @@ msgstr ""
 "Ootamatu faili lõpp sisendfaili lugemisel\n"
 "Lisatakse vaikimisi EN kaart"
 
-#: src/input.c:2015
+#: src/input.c:2009
 msgid "command data card error: card's mnemonic code too short or missing\n"
 msgstr ""
 "käsu andmekaardi viga: kaardi mnemooniline kood on liiga lühike või puudub\n"
 
-#: src/input.c:2016
+#: src/input.c:2010
 msgid ""
 "Command data card error\n"
 "Mnemonic code too short or missing"
@@ -4954,7 +4941,7 @@ msgstr ""
 "Käsu andmekaardi viga\n"
 "Mnemooniline kood on liiga lühike või puudub"
 
-#: src/input.c:2217
+#: src/input.c:2211
 msgid ""
 "geometry data card error: Unexpected EOF while reading input file - "
 "appending GE card\n"
@@ -4962,7 +4949,7 @@ msgstr ""
 "geomeetria andmekaardi viga: ootamatu faili lõpp sisendfaili lugemisel - "
 "lisatakse GE kaart\n"
 
-#: src/input.c:2218
+#: src/input.c:2212
 msgid ""
 "Geometry data card error\n"
 "Unexpected EOF while reading input file\n"
@@ -4972,13 +4959,13 @@ msgstr ""
 "Ootamatu faili lõpp sisendfaili lugemisel\n"
 "Lisatakse vaikimisi GE kaart"
 
-#: src/input.c:2235
+#: src/input.c:2229
 msgid "geometry data card error: card's mnemonic code too short or missing\n"
 msgstr ""
 "geomeetria andmekaardi viga: kaardi mnemooniline kood on liiga lühike või "
 "puudub\n"
 
-#: src/input.c:2236
+#: src/input.c:2230
 msgid ""
 "Geometry data card error\n"
 "Card's mnemonic code too short or missing"
@@ -5091,37 +5078,37 @@ msgstr "väljutakse pärast fataalset viga: pipe() ebaõnnestus"
 msgid "exiting after fatal error: fork() failed"
 msgstr "väljutakse pärast fataalset viga: fork() ebaõnnestus"
 
-#: src/main.c:840
+#: src/main.c:835
 msgid "exiting via user interrupt\n"
 msgstr "väljutakse kasutaja katkestuse tõttu\n"
 
-#: src/main.c:844
+#: src/main.c:839
 msgid "segmentation fault, exiting\n"
 msgstr "segmenteerimisviga, väljutakse\n"
 
-#: src/main.c:848
+#: src/main.c:843
 msgid "floating point exception, exiting\n"
 msgstr "ujukoma erand, väljumine\n"
 
-#: src/main.c:852
+#: src/main.c:847
 msgid "abort signal received, exiting\n"
 msgstr "katkestussignaal vastu võetud, väljumine\n"
 
-#: src/main.c:856
+#: src/main.c:851
 msgid "termination request received, exiting\n"
 msgstr "lõpetamistaotlus vastu võetud, väljumine\n"
 
-#: src/main.c:866
+#: src/main.c:861
 #, c-format
 msgid "not forked, ignoring SIGCHLD from pid %d\n"
 msgstr "pole hargnenud, ignoreeritakse SIGCHLD pid-lt %d\n"
 
-#: src/main.c:874
+#: src/main.c:869
 #, c-format
 msgid "child process pid %d exited\n"
 msgstr "alamprotsess pid %d väljus\n"
 
-#: src/main.c:883
+#: src/main.c:878
 #, c-format
 msgid "default exit with signal: %d\n"
 msgstr "vaikimisi väljumine signaaliga: %d\n"
@@ -5135,7 +5122,7 @@ msgstr ""
 "MKL lõimetöötluse teegi muutmiseks taaskäivitage."
 
 # xnec2c-exempt: symbol
-#: src/mathlib.c:368 src/utils.c:729
+#: src/mathlib.c:368 src/utils.c:728
 #, c-format
 msgid "%s: %s\n"
 msgstr ""
@@ -6364,43 +6351,43 @@ msgstr "render_fit_solve: sobitamiseks pole geomeetriat\n"
 msgid "File ▸ Open to load an NEC file"
 msgstr "NEC-faili laadimiseks valige Fail ▸ Ava"
 
-#: src/render/render_message.h:30
+#: src/render/render_message.h:31
 msgid "Gain pattern requires an RP card in the NEC file"
 msgstr "Võimendusdiagramm nõuab NEC-failis RP-kaarti"
 
-#: src/render/render_message.h:31
+#: src/render/render_message.h:32
 msgid "Near field requires NE or NH cards in the NEC file"
 msgstr "Lähiväli nõuab NEC-failis NE- või NH-kaarte"
 
-#: src/render/render_message.h:32
+#: src/render/render_message.h:33
 msgid "No RP or NE/NH cards in the NEC file"
 msgstr "NEC-failis pole RP- ega NE/NH-kaarte"
 
-#: src/render/render_message.h:33
+#: src/render/render_message.h:34
 msgid "Select Near Field (no RP card for gain pattern)"
 msgstr "Valige lähiväli (võimendusdiagrammi jaoks puudub RP-kaart)"
 
-#: src/render/render_message.h:34
+#: src/render/render_message.h:35
 msgid "Select Gain Pattern (no NE/NH cards for near field)"
 msgstr "Valige võimendusdiagramm (lähivälja jaoks puuduvad NE/NH-kaardid)"
 
-#: src/render/render_message.h:35
+#: src/render/render_message.h:36
 msgid "Select Gain Pattern or Near Field"
 msgstr "Valige võimendusdiagramm või lähiväli"
 
-#: src/render/render_message.h:36
+#: src/render/render_message.h:37
 msgid "Enable E field, H field, or Poynting vector"
 msgstr "Lubage E-väli, H-väli või Poyntingi vektor"
 
-#: src/render/render_message.h:37
+#: src/render/render_message.h:38
 msgid "Press ▶ to start the frequency loop"
 msgstr "Sagedustsükli käivitamiseks vajutage ▶"
 
-#: src/render/render_message.h:38
+#: src/render/render_message.h:39
 msgid "Radiation pattern data not ready"
 msgstr "Kiirgusdiagrammi andmed pole valmis"
 
-#: src/render/render_message.h:39
+#: src/render/render_message.h:40
 msgid "Waiting for frequency data"
 msgstr "Sagedusandmete ootamine"
 
@@ -6594,33 +6581,33 @@ msgstr "Stopp: %s\n"
 msgid "Stop during freq loop, deadlock prevented: %s\n"
 msgstr "Peatamine sagedustsükli ajal, tupik välditud: %s\n"
 
-#: src/utils.c:684
+#: src/utils.c:683
 #, c-format
 msgid "applying an OpenMP budget of %d threads\n"
 msgstr "rakendatakse OpenMP eelarvet %d lõime jaoks\n"
 
-#: src/utils.c:699
+#: src/utils.c:698
 #, c-format
 msgid "%s[%d]: %f seconds\n"
 msgstr "%s[%d]: %f sekundit\n"
 
-#: src/utils.c:724
+#: src/utils.c:723
 #, c-format
 msgid "xnec2c[%d]: %s: Failed to open file: %s\n"
 msgstr "xnec2c[%d]: %s: Faili avamine ebaõnnestus: %s\n"
 
-#: src/utils.c:1090
+#: src/utils.c:1089
 msgid "  Backtrace:\n"
 msgstr "  Tagasijälitus:\n"
 
 # xnec2c-exempt: symbol
-#: src/utils.c:1092
+#: src/utils.c:1091
 #, c-format
 msgid "    %d. %s\n"
 msgstr ""
 
 # xnec2c-exempt: symbol
-#: src/utils.c:1119
+#: src/utils.c:1118
 #, c-format
 msgid "%s:\n"
 msgstr ""

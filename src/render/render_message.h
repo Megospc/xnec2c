@@ -27,6 +27,7 @@
 /* Status messages emitted when rendering preconditions are not met.
  * Single source of truth: both Cairo and OpenGL use these constants. */
 #define STATUS_MSG_OPEN_FILE        N_("File ▸ Open to load an NEC file")
+#define STATUS_MSG_ERROR_FILE       "Error found in this file"
 #define STATUS_MSG_NO_RP_CARD       N_("Gain pattern requires an RP card in the NEC file")
 #define STATUS_MSG_NO_NEAREH_CARDS  N_("Near field requires NE or NH cards in the NEC file")
 #define STATUS_MSG_NO_RP_NO_NEAREH  N_("No RP or NE/NH cards in the NEC file")

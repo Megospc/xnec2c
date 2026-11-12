@@ -747,12 +747,6 @@ datagn( void )
         continue;
 
       case GE: /* "ge" card, terminate structure geometry input. */
-        if( (data.n == 0) && (data.m == 0) )
-        {
-          Stop( ERR_OK, _("No geometry data cards") );
-          return( FALSE );
-        }
-
         /* Verify segment lengths and check for overlapping segments */
         if( !CHILD && !rc_config.skip_verify_segments )
         {
@@ -1257,7 +1251,7 @@ Read_Commands( void )
   mem_array_realloc(&save.ip, data.np2m);
 
   /* Memory allocation for symmetry array */
-  smat.nop = netcx.neq/netcx.npeq;
+  smat.nop = netcx.neq/(netcx.npeq == 0 ? 1 : netcx.npeq);
   mem_array_realloc(&smat.ssx, (smat.nop * smat.nop));
 
   /* main input section, exits at various points */

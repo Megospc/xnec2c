@@ -162,7 +162,7 @@ render_check(view_type_t view_type)
   if( isFlagSet(INPUT_PENDING) )
   {
     result.status = RENDER_NO_GEOMETRY;
-    result.message = STATUS_MSG_OPEN_FILE;
+    result.message = STATUS_MSG_ERROR_FILE;
     return result;
   }
 

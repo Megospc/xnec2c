@@ -811,23 +811,6 @@ PLEASE read the documentation in the doc/ sub-directory as xnec2c is not fully c
                 <property name="position">1</property>
               </packing>
             </child>
-            <child>
-              <object class="GtkButton" id="error_stopbutton">
-                <property name="label">gtk-stop</property>
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="can-default">True</property>
-                <property name="receives-default">False</property>
-                <property name="use-stock">True</property>
-                <property name="always-show-image">True</property>
-                <signal name="clicked" handler="on_error_stopbutton_clicked" swapped="no"/>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="position">2</property>
-              </packing>
-            </child>
           </object>
           <packing>
             <property name="expand">False</property>
@@ -887,7 +870,6 @@ PLEASE read the documentation in the doc/ sub-directory as xnec2c is not fully c
     <action-widgets>
       <action-widget response="-5">error_quitbutton</action-widget>
       <action-widget response="-5">error_okbutton</action-widget>
-      <action-widget response="0">error_stopbutton</action-widget>
     </action-widgets>
   </object>
   <object class="GtkAdjustment" id="excitation_f1_adjustment">
