@@ -11169,6 +11169,7 @@ See the "Validating a Model" section of the manual to read it beside the AGT tra
                             <property name="label" translatable="yes">A_nimate</property>
                             <property name="use-underline">True</property>
                             <signal name="activate" handler="on_animate_dialog_activate" swapped="no"/>
+                            <accelerator key="a" signal="activate"/>
                           </object>
                         </child>
                         <child>
