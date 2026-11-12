@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-08 20:33-0800\n"
+"POT-Creation-Date: 2026-11-12 16:15+0300\n"
 "PO-Revision-Date: 2025-12-28 20:37-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,19 +18,19 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 # xnec2c-exempt: name
-#: files/xnec2c.desktop.in:3 resources/xnec2c.glade:1784
+#: files/xnec2c.desktop.in:2 resources/xnec2c.glade:1784
 msgid "xnec2c"
 msgstr ""
 
-#: files/xnec2c.desktop.in:4
+#: files/xnec2c.desktop.in:3
 msgid "NEC2 Simulator"
 msgstr "NEC2 模擬器"
 
-#: files/xnec2c.desktop.in:5
+#: files/xnec2c.desktop.in:4
 msgid "Numerical Electromagnetics Code software"
 msgstr "數值電磁學程式軟體"
 
-#: files/xnec2c.desktop.in:11
+#: files/xnec2c.desktop.in:10
 msgid "nec2;em;simulator;"
 msgstr "nec2;em;模擬器;"
 
@@ -3632,8 +3632,8 @@ msgstr "求解器條件性"
 #: src/freqplots/freqplots_core.c:496
 #, c-format
 msgid ""
-"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f n="
-"%d]\n"
+"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f "
+"n=%d]\n"
 msgstr ""
 
 #: src/freqplots/freqplots_core.c:722
@@ -4560,7 +4560,6 @@ msgid "Read_Geometry: verify_segments() passed\n"
 msgstr "Read_Geometry：verify_segments() 通過\n"
 
 #: src/input.c:811
-#, c-format
 msgid "segment data error: tag=%d si=%lf, bi=%lf\n"
 msgstr "線段資料錯誤：tag=%d si=%lf, bi=%lf\n"
 
@@ -5143,8 +5142,8 @@ msgstr ""
 "+/- 元件或於頻率圖上（按右鍵）點擊而變更頻率時，會使用此函式庫\n"
 "\n"
 "* 迭代 -j N/=2：O(N*log2(J)) 時間：起初以命令列中 -j 指定的工作數平行測試每"
-"個 mathlib，然後在每次後續迭代中將工作數減半，直到只剩一個工作。這有助於在 -"
-"j 指定的平行工作數與上述環境變數修改的線性代數函式庫執行緒數之間取得平衡。\n"
+"個 mathlib，然後在每次後續迭代中將工作數減半，直到只剩一個工作。這有助於在 "
+"-j 指定的平行工作數與上述環境變數修改的線性代數函式庫執行緒數之間取得平衡。\n"
 "\n"
 "* 迭代 -j N-=2：O(N*J) 時間：與上述 -j N/=2 相同，但改為每次將工作數減少 1。"
 "這需要最長的執行時間。\n"
@@ -5204,8 +5203,8 @@ msgid ""
 "select which one you wish to benchmark before proceeding or it will choose "
 "the first in the list and skip the rest.\n"
 "\n"
-"* Thread congestion will occur for multi-threaded libraries when using the -"
-"j N option if there are not enough CPUs available to accommodate the forked "
+"* Thread congestion will occur for multi-threaded libraries when using the "
+"-j N option if there are not enough CPUs available to accommodate the forked "
 "processes in combination with library threads.  Consider reducing the value "
 "of -j N for benchmarking to find what library works best with a mix of "
 "forking and threading; you can use `top` to monitor your CPU usageand if it "
@@ -6446,8 +6445,8 @@ msgstr "驗證樹已寫入：%s\n"
 #: src/xnec2c.c:314
 #, c-format
 msgid ""
-"complex dielectric constant from file: %12.5E%+12.5Ej, requested: %12.5E"
-"%+12.5Ej\n"
+"complex dielectric constant from file: %12.5E%+12.5Ej, requested: "
+"%12.5E%+12.5Ej\n"
 msgstr "來自檔案的複數介電常數：%12.5E%+12.5Ej，請求的：%12.5E%+12.5Ej\n"
 
 #: src/xnec2c.c:317
@@ -6567,219 +6566,219 @@ msgid ""
 msgstr ""
 "掃描已完整計算。再次執行會捨棄所有已計算的步驟，並從第一步重新計算掃描。"
 
-#: resources/themes.ini:11 resources/themes.ini:41
+#: resources/themes.ini:10 resources/themes.ini:40
 msgid "Abyss color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Abyss 顏色調色盤"
 
-#: resources/themes.ini:71 resources/themes.ini:101
+#: resources/themes.ini:70 resources/themes.ini:100
 msgid "Acid color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Acid 顏色調色盤"
 
-#: resources/themes.ini:131 resources/themes.ini:161
+#: resources/themes.ini:130 resources/themes.ini:160
 msgid "Aqua color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Aqua 顏色調色盤"
 
-#: resources/themes.ini:191 resources/themes.ini:221
+#: resources/themes.ini:190 resources/themes.ini:220
 msgid "Autumn color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Autumn 顏色調色盤"
 
-#: resources/themes.ini:251 resources/themes.ini:281
+#: resources/themes.ini:250 resources/themes.ini:280
 msgid "Black color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Black 顏色調色盤"
 
-#: resources/themes.ini:311 resources/themes.ini:341
+#: resources/themes.ini:310 resources/themes.ini:340
 msgid "Bumblebee color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Bumblebee 顏色調色盤"
 
-#: resources/themes.ini:371 resources/themes.ini:401
+#: resources/themes.ini:370 resources/themes.ini:400
 msgid "Business color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Business 顏色調色盤"
 
-#: resources/themes.ini:431 resources/themes.ini:461
+#: resources/themes.ini:430 resources/themes.ini:460
 msgid "Caramellatte color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Caramellatte 顏色調色盤"
 
-#: resources/themes.ini:491 resources/themes.ini:521
+#: resources/themes.ini:490 resources/themes.ini:520
 msgid "Cmyk color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Cmyk 顏色調色盤"
 
-#: resources/themes.ini:551 resources/themes.ini:581
+#: resources/themes.ini:550 resources/themes.ini:580
 msgid "Coffee color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Coffee 顏色調色盤"
 
-#: resources/themes.ini:611 resources/themes.ini:641
+#: resources/themes.ini:610 resources/themes.ini:640
 msgid "Corporate color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Corporate 顏色調色盤"
 
-#: resources/themes.ini:671 resources/themes.ini:701
+#: resources/themes.ini:670 resources/themes.ini:700
 msgid "P3 amber as used in IBM PC XT and Hercules displays"
 msgstr "IBM PC XT 與 Hercules 顯示器所用的 P3 琥珀色"
 
-#: resources/themes.ini:731 resources/themes.ini:761
+#: resources/themes.ini:730 resources/themes.ini:760
 msgid "P31 bright green as used in Apple IIe monitors and oscilloscopes"
 msgstr "Apple IIe 顯示器與示波器所用的 P31 亮綠色"
 
-#: resources/themes.ini:791 resources/themes.ini:821
+#: resources/themes.ini:790 resources/themes.ini:820
 msgid "P39 saturated green as used in Apple III and IBM 5151 terminals"
 msgstr "Apple III 與 IBM 5151 終端機所用的 P39 飽和綠色"
 
-#: resources/themes.ini:851 resources/themes.ini:881
+#: resources/themes.ini:850 resources/themes.ini:880
 msgid "P45 cool white for monochrome camcorder viewfinders"
 msgstr "單色攝錄影機取景器用的 P45 冷白色"
 
-#: resources/themes.ini:911 resources/themes.ini:941
+#: resources/themes.ini:910 resources/themes.ini:940
 msgid "Classic cyan/magenta gaming aesthetic from early IBM PC era"
 msgstr "早期 IBM PC 時代的經典青色/洋紅色遊戲美學"
 
-#: resources/themes.ini:971 resources/themes.ini:1001
+#: resources/themes.ini:970 resources/themes.ini:1000
 msgid "Warm creative light palette with magenta foundation"
 msgstr "以洋紅為基底的暖色創意淺色調色盤"
 
-#: resources/themes.ini:1031 resources/themes.ini:1061
+#: resources/themes.ini:1030 resources/themes.ini:1060
 msgid "Green-accented CRT aesthetic for extended viewing"
 msgstr "適合長時間觀看的綠色強調 CRT 美學"
 
-#: resources/themes.ini:1091 resources/themes.ini:1121
+#: resources/themes.ini:1090 resources/themes.ini:1120
 msgid "Cool professional light palette with blue foundation"
 msgstr "以藍色為基底的冷色專業淺色調色盤"
 
-#: resources/themes.ini:1151 resources/themes.ini:1181
+#: resources/themes.ini:1150 resources/themes.ini:1180
 msgid "Professional amber/green phosphor aesthetic from IBM business era"
 msgstr "IBM 商用時代的專業琥珀色/綠色螢光美學"
 
-#: resources/themes.ini:1211 resources/themes.ini:1241
+#: resources/themes.ini:1210 resources/themes.ini:1240
 msgid "CRT Clarity: Split-complementary harmony with warm/cool tension"
 msgstr "CRT 清晰度：分裂互補和諧，冷暖張力"
 
-#: resources/themes.ini:1271 resources/themes.ini:1301
+#: resources/themes.ini:1270 resources/themes.ini:1300
 msgid "Cool analogous professional light palette"
 msgstr "冷色系鄰近色專業淺色調色盤"
 
-#: resources/themes.ini:1331 resources/themes.ini:1361
+#: resources/themes.ini:1330 resources/themes.ini:1360
 msgid "Warm content dark palette for reduced eye strain"
 msgstr "減輕眼睛疲勞的暖色內容深色調色盤"
 
-#: resources/themes.ini:1391 resources/themes.ini:1421
+#: resources/themes.ini:1390 resources/themes.ini:1420
 msgid ""
 "CRT Phosphor Glow: Triadic harmony with cool/warm balance and CRT aesthetic"
 msgstr "CRT 螢光輝光：三分色和諧，冷暖平衡與 CRT 美學"
 
-#: resources/themes.ini:1451 resources/themes.ini:1481
+#: resources/themes.ini:1450 resources/themes.ini:1480
 msgid "P1 medium-persistence green as used in early oscilloscope tubes"
 msgstr "早期示波器管所用的 P1 中餘輝綠色"
 
-#: resources/themes.ini:1511 resources/themes.ini:1541
+#: resources/themes.ini:1510 resources/themes.ini:1540
 msgid "P4 white as used in IBM 8503 VGA and broadcast television"
 msgstr "IBM 8503 VGA 與廣播電視所用的 P4 白色"
 
-#: resources/themes.ini:1571 resources/themes.ini:1601
+#: resources/themes.ini:1570 resources/themes.ini:1600
 msgid "P7 cascade phosphor as used in military radar and air traffic control"
 msgstr "軍用雷達與空中交通管制所用的 P7 串疊螢光"
 
-#: resources/themes.ini:1631 resources/themes.ini:1661
+#: resources/themes.ini:1630 resources/themes.ini:1660
 msgid "Cupcake color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Cupcake 顏色調色盤"
 
-#: resources/themes.ini:1691 resources/themes.ini:1721
+#: resources/themes.ini:1690 resources/themes.ini:1720
 msgid "Cyberpunk color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Cyberpunk 顏色調色盤"
 
-#: resources/themes.ini:1751 resources/themes.ini:1781
+#: resources/themes.ini:1750 resources/themes.ini:1780
 msgid "Dark color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Dark 顏色調色盤"
 
-#: resources/themes.ini:1811 resources/themes.ini:1841
+#: resources/themes.ini:1810 resources/themes.ini:1840
 msgid "Dim color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Dim 顏色調色盤"
 
-#: resources/themes.ini:1871 resources/themes.ini:1901
+#: resources/themes.ini:1870 resources/themes.ini:1900
 msgid "Dracula color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Dracula 顏色調色盤"
 
-#: resources/themes.ini:1931 resources/themes.ini:1961
+#: resources/themes.ini:1930 resources/themes.ini:1960
 msgid "Emerald color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Emerald 顏色調色盤"
 
-#: resources/themes.ini:1991 resources/themes.ini:2021
+#: resources/themes.ini:1990 resources/themes.ini:2020
 msgid "Fantasy color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Fantasy 顏色調色盤"
 
-#: resources/themes.ini:2051 resources/themes.ini:2081
+#: resources/themes.ini:2050 resources/themes.ini:2080
 msgid "Forest color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Forest 顏色調色盤"
 
-#: resources/themes.ini:2111 resources/themes.ini:2141
+#: resources/themes.ini:2110 resources/themes.ini:2140
 msgid "Garden color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Garden 顏色調色盤"
 
-#: resources/themes.ini:2171 resources/themes.ini:2201
+#: resources/themes.ini:2170 resources/themes.ini:2200
 msgid "Halloween color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Halloween 顏色調色盤"
 
-#: resources/themes.ini:2231 resources/themes.ini:2261
+#: resources/themes.ini:2230 resources/themes.ini:2260
 msgid "Lemonade color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Lemonade 顏色調色盤"
 
-#: resources/themes.ini:2291 resources/themes.ini:2321
+#: resources/themes.ini:2290 resources/themes.ini:2320
 msgid "Light color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Light 顏色調色盤"
 
-#: resources/themes.ini:2351 resources/themes.ini:2381
+#: resources/themes.ini:2350 resources/themes.ini:2380
 msgid "Lofi color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Lofi 顏色調色盤"
 
-#: resources/themes.ini:2411 resources/themes.ini:2441
+#: resources/themes.ini:2410 resources/themes.ini:2440
 msgid "Luxury color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Luxury 顏色調色盤"
 
-#: resources/themes.ini:2471 resources/themes.ini:2501
+#: resources/themes.ini:2470 resources/themes.ini:2500
 msgid "Night color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Night 顏色調色盤"
 
-#: resources/themes.ini:2531 resources/themes.ini:2561
+#: resources/themes.ini:2530 resources/themes.ini:2560
 msgid "Nord color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Nord 顏色調色盤"
 
-#: resources/themes.ini:2591 resources/themes.ini:2621
+#: resources/themes.ini:2590 resources/themes.ini:2620
 msgid "Pastel color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Pastel 顏色調色盤"
 
-#: resources/themes.ini:2651 resources/themes.ini:2681
+#: resources/themes.ini:2650 resources/themes.ini:2680
 msgid "Retro color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Retro 顏色調色盤"
 
-#: resources/themes.ini:2711 resources/themes.ini:2741
+#: resources/themes.ini:2710 resources/themes.ini:2740
 msgid "Silk color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Silk 顏色調色盤"
 
-#: resources/themes.ini:2771 resources/themes.ini:2801
+#: resources/themes.ini:2770 resources/themes.ini:2800
 msgid "Sunset color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Sunset 顏色調色盤"
 
-#: resources/themes.ini:2831 resources/themes.ini:2861
+#: resources/themes.ini:2830 resources/themes.ini:2860
 msgid "Synthwave color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Synthwave 顏色調色盤"
 
-#: resources/themes.ini:2891 resources/themes.ini:2921
+#: resources/themes.ini:2890 resources/themes.ini:2920
 msgid "Valentine color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Valentine 顏色調色盤"
 
-#: resources/themes.ini:2951 resources/themes.ini:2981
+#: resources/themes.ini:2950 resources/themes.ini:2980
 msgid "Winter color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Winter 顏色調色盤"
 
-#: resources/themes.ini:3011 resources/themes.ini:3041
+#: resources/themes.ini:3010 resources/themes.ini:3040
 msgid "Wireframe color palette from DaisyUI theme collection"
 msgstr "來自 DaisyUI 佈景主題集的 Wireframe 顏色調色盤"
 
-#: resources/themes.ini:3071 resources/themes.ini:3101
+#: resources/themes.ini:3070 resources/themes.ini:3100
 msgid "Classic xnec2c plot colors"
 msgstr "經典 xnec2c 繪圖顏色"
 
-#: resources/themes.ini:3131 resources/themes.ini:3161
+#: resources/themes.ini:3130 resources/themes.ini:3160
 msgid "Hand-tuned cool palette"
 msgstr "手動調校的冷色調色盤"
 
-#: resources/themes.ini:3191 resources/themes.ini:3221
+#: resources/themes.ini:3190 resources/themes.ini:3220
 msgid "Hand-tuned warm palette"
 msgstr "手動調校的暖色調色盤"

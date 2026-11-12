@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-08 20:32-0800\n"
+"POT-Creation-Date: 2026-11-12 16:15+0300\n"
 "PO-Revision-Date: 2026-05-25 01:51-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,19 +17,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # xnec2c-exempt: name
-#: files/xnec2c.desktop.in:3 resources/xnec2c.glade:1784
+#: files/xnec2c.desktop.in:2 resources/xnec2c.glade:1784
 msgid "xnec2c"
 msgstr ""
 
-#: files/xnec2c.desktop.in:4
+#: files/xnec2c.desktop.in:3
 msgid "NEC2 Simulator"
 msgstr "NEC2 Симулятору"
 
-#: files/xnec2c.desktop.in:5
+#: files/xnec2c.desktop.in:4
 msgid "Numerical Electromagnetics Code software"
 msgstr "Сандык Электромагнетика Коду программасы"
 
-#: files/xnec2c.desktop.in:11
+#: files/xnec2c.desktop.in:10
 msgid "nec2;em;simulator;"
 msgstr "nec2;эм;симулятор;"
 
@@ -2092,8 +2092,8 @@ msgstr ""
 "Көрсөткүч тандалып алынган сфера үлүшүн жана ошол үлүшкө масштабдалган "
 "орточо маанини пайыз менен кошот; энергиясын жоготпогон туура модель үчүн, "
 "анын диаграммасы нурлануучу бардык багытты камтыганда, ал 100 болот.\n"
-"Сыноону кантип иштетүү жана окуу жөнүндө колдонмонун \"Моделди валидациялоо"
-"\" бөлүмүн караңыз."
+"Сыноону кантип иштетүү жана окуу жөнүндө колдонмонун \"Моделди "
+"валидациялоо\" бөлүмүн караңыз."
 
 #: resources/xnec2c.glade:9912
 msgid "Cond"
@@ -2125,8 +2125,8 @@ msgstr ""
 "туура цифра калтырат, ал эми 15-ке жакын көрсөткүч эч бирин калтырбайт; "
 "ийрини төмөндөтүү үчүн кемчиликтүү сегменттерди кыскартыңыз же жоонойтуңуз "
 "да, сыпырууну кайра иштетиңиз.\n"
-"Аны AGT ийри сызыгы менен катар окуу үчүн колдонмонун \"Моделди валидациялоо"
-"\" бөлүмүн караңыз."
+"Аны AGT ийри сызыгы менен катар окуу үчүн колдонмонун \"Моделди "
+"валидациялоо\" бөлүмүн караңыз."
 
 # xnec2c-exempt: symbol
 #: resources/xnec2c.glade:9960 resources/xnec2c.glade:9995
@@ -3758,8 +3758,8 @@ msgstr "Чечүүчүнүн шарттуулугу"
 #: src/freqplots/freqplots_core.c:496
 #, c-format
 msgid ""
-"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f n="
-"%d]\n"
+"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f "
+"n=%d]\n"
 msgstr ""
 
 #: src/freqplots/freqplots_core.c:722
@@ -4161,8 +4161,8 @@ msgid ""
 "Segment connection count exceeds a full mesh, which is unlikely: data.n=%ld "
 "segj.maxcon=%lu\n"
 msgstr ""
-"Сегменттердин байланыш саны толук торду ашат, бул күтүлбөгөн жагдай: data.n="
-"%ld segj.maxcon=%lu\n"
+"Сегменттердин байланыш саны толук торду ашат, бул күтүлбөгөн жагдай: "
+"data.n=%ld segj.maxcon=%lu\n"
 
 #: src/geometry.c:530
 msgid ""
@@ -4711,7 +4711,6 @@ msgid "Read_Geometry: verify_segments() passed\n"
 msgstr "Read_Geometry: verify_segments() өттү\n"
 
 #: src/input.c:811
-#, c-format
 msgid "segment data error: tag=%d si=%lf, bi=%lf\n"
 msgstr "сегмент маалыматы катасы: тег=%d si=%lf, bi=%lf\n"
 
@@ -5310,8 +5309,8 @@ msgstr ""
 "масштабдаларын билдирет:\n"
 "  * N бул жерде тандалган mathlib'дердин саны:\n"
 "      File->Mathlib Benchmarks->Selected Mathlibs\n"
-"  * J бул -j менен буйрук сабында белгиленген тапшырмалардын саны (мисалы, -"
-"j 8)\n"
+"  * J бул -j менен буйрук сабында белгиленген тапшырмалардын саны (мисалы, "
+"-j 8)\n"
 "  * T бир тапшырма сызыктуу алгебра китепканасына берген жиптердин саны\n"
 "\n"
 "Татаалдыгы жогору параметрлер xnec2c аткаруу чөйрөңүздү кантип "
@@ -5397,8 +5396,8 @@ msgid ""
 "select which one you wish to benchmark before proceeding or it will choose "
 "the first in the list and skip the rest.\n"
 "\n"
-"* Thread congestion will occur for multi-threaded libraries when using the -"
-"j N option if there are not enough CPUs available to accommodate the forked "
+"* Thread congestion will occur for multi-threaded libraries when using the "
+"-j N option if there are not enough CPUs available to accommodate the forked "
 "processes in combination with library threads.  Consider reducing the value "
 "of -j N for benchmarking to find what library works best with a mix of "
 "forking and threading; you can use `top` to monitor your CPU usageand if it "
@@ -6695,8 +6694,8 @@ msgstr "текшерүү дарагы жазылды: %s\n"
 #: src/xnec2c.c:314
 #, c-format
 msgid ""
-"complex dielectric constant from file: %12.5E%+12.5Ej, requested: %12.5E"
-"%+12.5Ej\n"
+"complex dielectric constant from file: %12.5E%+12.5Ej, requested: "
+"%12.5E%+12.5Ej\n"
 msgstr ""
 "файлдан алынган комплекстүү диэлектрдик туруктуу: %12.5E%+12.5Ej, суралган: "
 "%12.5E%+12.5Ej\n"
@@ -6821,230 +6820,230 @@ msgstr ""
 "Серептөө толугу менен эсептелди. Аны кайра иштетүү бардык эсептелген "
 "кадамдарды жоготуп, серептөөнү биринчи кадамдан эсептейт."
 
-#: resources/themes.ini:11 resources/themes.ini:41
+#: resources/themes.ini:10 resources/themes.ini:40
 msgid "Abyss color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Abyss түс палитрасы"
 
-#: resources/themes.ini:71 resources/themes.ini:101
+#: resources/themes.ini:70 resources/themes.ini:100
 msgid "Acid color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Acid түс палитрасы"
 
-#: resources/themes.ini:131 resources/themes.ini:161
+#: resources/themes.ini:130 resources/themes.ini:160
 msgid "Aqua color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Aqua түс палитрасы"
 
-#: resources/themes.ini:191 resources/themes.ini:221
+#: resources/themes.ini:190 resources/themes.ini:220
 msgid "Autumn color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Autumn түс палитрасы"
 
-#: resources/themes.ini:251 resources/themes.ini:281
+#: resources/themes.ini:250 resources/themes.ini:280
 msgid "Black color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Black түс палитрасы"
 
-#: resources/themes.ini:311 resources/themes.ini:341
+#: resources/themes.ini:310 resources/themes.ini:340
 msgid "Bumblebee color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Bumblebee түс палитрасы"
 
-#: resources/themes.ini:371 resources/themes.ini:401
+#: resources/themes.ini:370 resources/themes.ini:400
 msgid "Business color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Business түс палитрасы"
 
-#: resources/themes.ini:431 resources/themes.ini:461
+#: resources/themes.ini:430 resources/themes.ini:460
 msgid "Caramellatte color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Caramellatte түс палитрасы"
 
-#: resources/themes.ini:491 resources/themes.ini:521
+#: resources/themes.ini:490 resources/themes.ini:520
 msgid "Cmyk color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Cmyk түс палитрасы"
 
-#: resources/themes.ini:551 resources/themes.ini:581
+#: resources/themes.ini:550 resources/themes.ini:580
 msgid "Coffee color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Coffee түс палитрасы"
 
-#: resources/themes.ini:611 resources/themes.ini:641
+#: resources/themes.ini:610 resources/themes.ini:640
 msgid "Corporate color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Corporate түс палитрасы"
 
-#: resources/themes.ini:671 resources/themes.ini:701
+#: resources/themes.ini:670 resources/themes.ini:700
 msgid "P3 amber as used in IBM PC XT and Hercules displays"
 msgstr "IBM PC XT жана Hercules дисплейлеринде колдонулган P3 янтарь"
 
-#: resources/themes.ini:731 resources/themes.ini:761
+#: resources/themes.ini:730 resources/themes.ini:760
 msgid "P31 bright green as used in Apple IIe monitors and oscilloscopes"
 msgstr ""
 "Apple IIe мониторлорунда жана осциллографтарында колдонулган P31 жарктуу "
 "жашыл"
 
-#: resources/themes.ini:791 resources/themes.ini:821
+#: resources/themes.ini:790 resources/themes.ini:820
 msgid "P39 saturated green as used in Apple III and IBM 5151 terminals"
 msgstr "Apple III жана IBM 5151 терминалдарында колдонулган P39 каныккан жашыл"
 
-#: resources/themes.ini:851 resources/themes.ini:881
+#: resources/themes.ini:850 resources/themes.ini:880
 msgid "P45 cool white for monochrome camcorder viewfinders"
 msgstr "монохромдук камкордер видоискательдери үчүн P45 муздак ак"
 
-#: resources/themes.ini:911 resources/themes.ini:941
+#: resources/themes.ini:910 resources/themes.ini:940
 msgid "Classic cyan/magenta gaming aesthetic from early IBM PC era"
 msgstr ""
 "IBM PC доорунун алгачкы кезинен алынган классикалык көгүлтүр/маджента оюндук "
 "эстетика"
 
-#: resources/themes.ini:971 resources/themes.ini:1001
+#: resources/themes.ini:970 resources/themes.ini:1000
 msgid "Warm creative light palette with magenta foundation"
 msgstr "Маджента негизи менен жылуу чыгармачыл жарык палитрасы"
 
-#: resources/themes.ini:1031 resources/themes.ini:1061
+#: resources/themes.ini:1030 resources/themes.ini:1060
 msgid "Green-accented CRT aesthetic for extended viewing"
 msgstr "Узак көрүү үчүн жашыл акцент менен ЭНТ эстетикасы"
 
-#: resources/themes.ini:1091 resources/themes.ini:1121
+#: resources/themes.ini:1090 resources/themes.ini:1120
 msgid "Cool professional light palette with blue foundation"
 msgstr "Көк негизи менен муздак кесиптик жарык палитрасы"
 
-#: resources/themes.ini:1151 resources/themes.ini:1181
+#: resources/themes.ini:1150 resources/themes.ini:1180
 msgid "Professional amber/green phosphor aesthetic from IBM business era"
 msgstr "IBM бизнес доорунан алынган кесиптик янтарь/жашыл фосфор эстетикасы"
 
-#: resources/themes.ini:1211 resources/themes.ini:1241
+#: resources/themes.ini:1210 resources/themes.ini:1240
 msgid "CRT Clarity: Split-complementary harmony with warm/cool tension"
 msgstr ""
 "CRT Clarity: жылуу/муздак карама-каршылыгы бар бөлүнгөн комплементардык "
 "гармония"
 
-#: resources/themes.ini:1271 resources/themes.ini:1301
+#: resources/themes.ini:1270 resources/themes.ini:1300
 msgid "Cool analogous professional light palette"
 msgstr "Муздак аналогиялуу кесиптик жарык палитрасы"
 
-#: resources/themes.ini:1331 resources/themes.ini:1361
+#: resources/themes.ini:1330 resources/themes.ini:1360
 msgid "Warm content dark palette for reduced eye strain"
 msgstr "Көздүн чарчоосун азайтуу үчүн жылуу мазмундуу караңгы палитра"
 
-#: resources/themes.ini:1391 resources/themes.ini:1421
+#: resources/themes.ini:1390 resources/themes.ini:1420
 msgid ""
 "CRT Phosphor Glow: Triadic harmony with cool/warm balance and CRT aesthetic"
 msgstr ""
 "CRT Phosphor Glow: муздак/жылуу тең салмактуулугу бар триада гармониясы жана "
 "ЭНТ эстетикасы"
 
-#: resources/themes.ini:1451 resources/themes.ini:1481
+#: resources/themes.ini:1450 resources/themes.ini:1480
 msgid "P1 medium-persistence green as used in early oscilloscope tubes"
 msgstr ""
 "алгачкы осциллограф түтүктөрүндө колдонулган P1 орточо сакталуулуу жашыл"
 
-#: resources/themes.ini:1511 resources/themes.ini:1541
+#: resources/themes.ini:1510 resources/themes.ini:1540
 msgid "P4 white as used in IBM 8503 VGA and broadcast television"
 msgstr "IBM 8503 VGA жана телекөрсөтүүдө колдонулган P4 ак"
 
-#: resources/themes.ini:1571 resources/themes.ini:1601
+#: resources/themes.ini:1570 resources/themes.ini:1600
 msgid "P7 cascade phosphor as used in military radar and air traffic control"
 msgstr ""
 "аскердик радарда жана аба кыймылын көзөмөлдөө системасында колдонулган P7 "
 "каскаддуу фосфор"
 
-#: resources/themes.ini:1631 resources/themes.ini:1661
+#: resources/themes.ini:1630 resources/themes.ini:1660
 msgid "Cupcake color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Cupcake түс палитрасы"
 
-#: resources/themes.ini:1691 resources/themes.ini:1721
+#: resources/themes.ini:1690 resources/themes.ini:1720
 msgid "Cyberpunk color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Cyberpunk түс палитрасы"
 
-#: resources/themes.ini:1751 resources/themes.ini:1781
+#: resources/themes.ini:1750 resources/themes.ini:1780
 msgid "Dark color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Dark түс палитрасы"
 
-#: resources/themes.ini:1811 resources/themes.ini:1841
+#: resources/themes.ini:1810 resources/themes.ini:1840
 msgid "Dim color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Dim түс палитрасы"
 
-#: resources/themes.ini:1871 resources/themes.ini:1901
+#: resources/themes.ini:1870 resources/themes.ini:1900
 msgid "Dracula color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Dracula түс палитрасы"
 
-#: resources/themes.ini:1931 resources/themes.ini:1961
+#: resources/themes.ini:1930 resources/themes.ini:1960
 msgid "Emerald color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Emerald түс палитрасы"
 
-#: resources/themes.ini:1991 resources/themes.ini:2021
+#: resources/themes.ini:1990 resources/themes.ini:2020
 msgid "Fantasy color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Fantasy түс палитрасы"
 
-#: resources/themes.ini:2051 resources/themes.ini:2081
+#: resources/themes.ini:2050 resources/themes.ini:2080
 msgid "Forest color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Forest түс палитрасы"
 
-#: resources/themes.ini:2111 resources/themes.ini:2141
+#: resources/themes.ini:2110 resources/themes.ini:2140
 msgid "Garden color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Garden түс палитрасы"
 
-#: resources/themes.ini:2171 resources/themes.ini:2201
+#: resources/themes.ini:2170 resources/themes.ini:2200
 msgid "Halloween color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Halloween түс палитрасы"
 
-#: resources/themes.ini:2231 resources/themes.ini:2261
+#: resources/themes.ini:2230 resources/themes.ini:2260
 msgid "Lemonade color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Lemonade түс палитрасы"
 
-#: resources/themes.ini:2291 resources/themes.ini:2321
+#: resources/themes.ini:2290 resources/themes.ini:2320
 msgid "Light color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Light түс палитрасы"
 
-#: resources/themes.ini:2351 resources/themes.ini:2381
+#: resources/themes.ini:2350 resources/themes.ini:2380
 msgid "Lofi color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Lofi түс палитрасы"
 
-#: resources/themes.ini:2411 resources/themes.ini:2441
+#: resources/themes.ini:2410 resources/themes.ini:2440
 msgid "Luxury color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Luxury түс палитрасы"
 
-#: resources/themes.ini:2471 resources/themes.ini:2501
+#: resources/themes.ini:2470 resources/themes.ini:2500
 msgid "Night color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Night түс палитрасы"
 
-#: resources/themes.ini:2531 resources/themes.ini:2561
+#: resources/themes.ini:2530 resources/themes.ini:2560
 msgid "Nord color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Nord түс палитрасы"
 
-#: resources/themes.ini:2591 resources/themes.ini:2621
+#: resources/themes.ini:2590 resources/themes.ini:2620
 msgid "Pastel color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Pastel түс палитрасы"
 
-#: resources/themes.ini:2651 resources/themes.ini:2681
+#: resources/themes.ini:2650 resources/themes.ini:2680
 msgid "Retro color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Retro түс палитрасы"
 
-#: resources/themes.ini:2711 resources/themes.ini:2741
+#: resources/themes.ini:2710 resources/themes.ini:2740
 msgid "Silk color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Silk түс палитрасы"
 
-#: resources/themes.ini:2771 resources/themes.ini:2801
+#: resources/themes.ini:2770 resources/themes.ini:2800
 msgid "Sunset color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Sunset түс палитрасы"
 
-#: resources/themes.ini:2831 resources/themes.ini:2861
+#: resources/themes.ini:2830 resources/themes.ini:2860
 msgid "Synthwave color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Synthwave түс палитрасы"
 
-#: resources/themes.ini:2891 resources/themes.ini:2921
+#: resources/themes.ini:2890 resources/themes.ini:2920
 msgid "Valentine color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Valentine түс палитрасы"
 
-#: resources/themes.ini:2951 resources/themes.ini:2981
+#: resources/themes.ini:2950 resources/themes.ini:2980
 msgid "Winter color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Winter түс палитрасы"
 
-#: resources/themes.ini:3011 resources/themes.ini:3041
+#: resources/themes.ini:3010 resources/themes.ini:3040
 msgid "Wireframe color palette from DaisyUI theme collection"
 msgstr "DaisyUI тема жыйнагынан алынган Wireframe түс палитрасы"
 
-#: resources/themes.ini:3071 resources/themes.ini:3101
+#: resources/themes.ini:3070 resources/themes.ini:3100
 msgid "Classic xnec2c plot colors"
 msgstr "Классикалык xnec2c графигинин түстөрү"
 
-#: resources/themes.ini:3131 resources/themes.ini:3161
+#: resources/themes.ini:3130 resources/themes.ini:3160
 msgid "Hand-tuned cool palette"
 msgstr "Кол менен тууралган муздак палитра"
 
-#: resources/themes.ini:3191 resources/themes.ini:3221
+#: resources/themes.ini:3190 resources/themes.ini:3220
 msgid "Hand-tuned warm palette"
 msgstr "Кол менен тууралган жылуу палитра"

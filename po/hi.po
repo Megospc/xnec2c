@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-08 20:33-0800\n"
+"POT-Creation-Date: 2026-11-12 16:15+0300\n"
 "PO-Revision-Date: 2025-12-27 16:01-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,19 +18,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # xnec2c-exempt: name
-#: files/xnec2c.desktop.in:3 resources/xnec2c.glade:1784
+#: files/xnec2c.desktop.in:2 resources/xnec2c.glade:1784
 msgid "xnec2c"
 msgstr ""
 
-#: files/xnec2c.desktop.in:4
+#: files/xnec2c.desktop.in:3
 msgid "NEC2 Simulator"
 msgstr "NEC2 सिम्युलेटर"
 
-#: files/xnec2c.desktop.in:5
+#: files/xnec2c.desktop.in:4
 msgid "Numerical Electromagnetics Code software"
 msgstr "संख्यात्मक विद्युतचुंबकीय कोड सॉफ्टवेयर"
 
-#: files/xnec2c.desktop.in:11
+#: files/xnec2c.desktop.in:10
 msgid "nec2;em;simulator;"
 msgstr "nec2;em;सिम्युलेटर;"
 
@@ -3344,8 +3344,8 @@ msgid ""
 "files for writing in \"File->Optimization Settings\"."
 msgstr ""
 "लिखने के लिए कोई फ़ाइल चयनित नहीं है। हालाँकि, inotify द्वारा ट्रिगर होने पर xnec2c "
-"संशोधन पर इनपुट फ़ाइल को पुनः लोड और पुनर्गणना करेगा। \"File->Optimization Settings"
-"\" में लिखने के लिए फ़ाइलें चुनें।"
+"संशोधन पर इनपुट फ़ाइल को पुनः लोड और पुनर्गणना करेगा। \"File->Optimization "
+"Settings\" में लिखने के लिए फ़ाइलें चुनें।"
 
 #: src/callbacks.c:972 src/callbacks.c:1289 src/callbacks.c:1871
 msgid "Are you sure you wish to close this window?"
@@ -3703,8 +3703,8 @@ msgstr "सॉल्वर कंडीशनिंग"
 #: src/freqplots/freqplots_core.c:496
 #, c-format
 msgid ""
-"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f n="
-"%d]\n"
+"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f "
+"n=%d]\n"
 msgstr ""
 
 #: src/freqplots/freqplots_core.c:722
@@ -4115,8 +4115,8 @@ msgid ""
 "Segment connection count exceeds a full mesh, which is unlikely: data.n=%ld "
 "segj.maxcon=%lu\n"
 msgstr ""
-"Segment connection गणना पूर्ण मेश से अधिक है, जो असंभव है: data.n=%ld segj.maxcon="
-"%lu\n"
+"Segment connection गणना पूर्ण मेश से अधिक है, जो असंभव है: data.n=%ld "
+"segj.maxcon=%lu\n"
 
 #: src/geometry.c:530
 msgid ""
@@ -4655,7 +4655,6 @@ msgid "Read_Geometry: verify_segments() passed\n"
 msgstr "Read_Geometry: verify_segments() पास हुआ\n"
 
 #: src/input.c:811
-#, c-format
 msgid "segment data error: tag=%d si=%lf, bi=%lf\n"
 msgstr "Segment डेटा त्रुटि: tag=%d si=%lf, bi=%lf\n"
 
@@ -5320,8 +5319,8 @@ msgid ""
 "select which one you wish to benchmark before proceeding or it will choose "
 "the first in the list and skip the rest.\n"
 "\n"
-"* Thread congestion will occur for multi-threaded libraries when using the -"
-"j N option if there are not enough CPUs available to accommodate the forked "
+"* Thread congestion will occur for multi-threaded libraries when using the "
+"-j N option if there are not enough CPUs available to accommodate the forked "
 "processes in combination with library threads.  Consider reducing the value "
 "of -j N for benchmarking to find what library works best with a mix of "
 "forking and threading; you can use `top` to monitor your CPU usageand if it "
@@ -5345,8 +5344,8 @@ msgstr ""
 "\n"
 "* -j N विकल्प का उपयोग करते समय बहु-थ्रेडेड लाइब्रेरी के लिए थ्रेड भीड़ होगी, यदि fork "
 "की गई प्रक्रियाओं और लाइब्रेरी थ्रेड्स के संयोजन के लिए पर्याप्त CPUs उपलब्ध नहीं हैं। fork "
-"और थ्रेडिंग के मिश्रण के साथ कौन-सी लाइब्रेरी सबसे उपयुक्त है यह खोजने के लिए बेंचमार्किंग में -"
-"j N का मान घटाने पर विचार करें; CPU उपयोग की निगरानी के लिए `top` का उपयोग कर "
+"और थ्रेडिंग के मिश्रण के साथ कौन-सी लाइब्रेरी सबसे उपयुक्त है यह खोजने के लिए बेंचमार्किंग में "
+"-j N का मान घटाने पर विचार करें; CPU उपयोग की निगरानी के लिए `top` का उपयोग कर "
 "सकते हैं और यदि यह 0%% निष्क्रिय तक पहुँचता है तो -j N घटाने पर विचार करें।\n"
 "\n"
 "--threads N विकल्प के साथ प्रयोग करने पर विचार करें, जो अन्यथा मिलने वाले प्रोसेसरों के "
@@ -6603,8 +6602,8 @@ msgstr "सत्यापन ट्री यहाँ लिखी गई: %s\
 #: src/xnec2c.c:314
 #, c-format
 msgid ""
-"complex dielectric constant from file: %12.5E%+12.5Ej, requested: %12.5E"
-"%+12.5Ej\n"
+"complex dielectric constant from file: %12.5E%+12.5Ej, requested: "
+"%12.5E%+12.5Ej\n"
 msgstr "फ़ाइल से जटिल परावैद्युत स्थिरांक: %12.5E%+12.5Ej, अनुरोधित: %12.5E%+12.5Ej\n"
 
 #: src/xnec2c.c:317
@@ -6725,219 +6724,219 @@ msgstr ""
 "स्वीप पूरी तरह से परिकलित है। इसे फिर से चलाने से प्रत्येक परिकलित चरण हट जाता है और "
 "स्वीप की गणना उसके पहले चरण से होती है।"
 
-#: resources/themes.ini:11 resources/themes.ini:41
+#: resources/themes.ini:10 resources/themes.ini:40
 msgid "Abyss color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Abyss रंग पैलेट"
 
-#: resources/themes.ini:71 resources/themes.ini:101
+#: resources/themes.ini:70 resources/themes.ini:100
 msgid "Acid color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Acid रंग पैलेट"
 
-#: resources/themes.ini:131 resources/themes.ini:161
+#: resources/themes.ini:130 resources/themes.ini:160
 msgid "Aqua color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Aqua रंग पैलेट"
 
-#: resources/themes.ini:191 resources/themes.ini:221
+#: resources/themes.ini:190 resources/themes.ini:220
 msgid "Autumn color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Autumn रंग पैलेट"
 
-#: resources/themes.ini:251 resources/themes.ini:281
+#: resources/themes.ini:250 resources/themes.ini:280
 msgid "Black color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Black रंग पैलेट"
 
-#: resources/themes.ini:311 resources/themes.ini:341
+#: resources/themes.ini:310 resources/themes.ini:340
 msgid "Bumblebee color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Bumblebee रंग पैलेट"
 
-#: resources/themes.ini:371 resources/themes.ini:401
+#: resources/themes.ini:370 resources/themes.ini:400
 msgid "Business color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Business रंग पैलेट"
 
-#: resources/themes.ini:431 resources/themes.ini:461
+#: resources/themes.ini:430 resources/themes.ini:460
 msgid "Caramellatte color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Caramellatte रंग पैलेट"
 
-#: resources/themes.ini:491 resources/themes.ini:521
+#: resources/themes.ini:490 resources/themes.ini:520
 msgid "Cmyk color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Cmyk रंग पैलेट"
 
-#: resources/themes.ini:551 resources/themes.ini:581
+#: resources/themes.ini:550 resources/themes.ini:580
 msgid "Coffee color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Coffee रंग पैलेट"
 
-#: resources/themes.ini:611 resources/themes.ini:641
+#: resources/themes.ini:610 resources/themes.ini:640
 msgid "Corporate color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Corporate रंग पैलेट"
 
-#: resources/themes.ini:671 resources/themes.ini:701
+#: resources/themes.ini:670 resources/themes.ini:700
 msgid "P3 amber as used in IBM PC XT and Hercules displays"
 msgstr "IBM PC XT और Hercules डिस्प्ले में प्रयुक्त P3 एम्बर"
 
-#: resources/themes.ini:731 resources/themes.ini:761
+#: resources/themes.ini:730 resources/themes.ini:760
 msgid "P31 bright green as used in Apple IIe monitors and oscilloscopes"
 msgstr "Apple IIe मॉनिटर और ऑसिलोस्कोप में प्रयुक्त P31 चमकीला हरा"
 
-#: resources/themes.ini:791 resources/themes.ini:821
+#: resources/themes.ini:790 resources/themes.ini:820
 msgid "P39 saturated green as used in Apple III and IBM 5151 terminals"
 msgstr "Apple III और IBM 5151 टर्मिनल में प्रयुक्त P39 संतृप्त हरा"
 
-#: resources/themes.ini:851 resources/themes.ini:881
+#: resources/themes.ini:850 resources/themes.ini:880
 msgid "P45 cool white for monochrome camcorder viewfinders"
 msgstr "मोनोक्रोम कैमकॉर्डर व्यूफ़ाइंडर के लिए P45 शीतल सफ़ेद"
 
-#: resources/themes.ini:911 resources/themes.ini:941
+#: resources/themes.ini:910 resources/themes.ini:940
 msgid "Classic cyan/magenta gaming aesthetic from early IBM PC era"
 msgstr "प्रारंभिक IBM PC युग की क्लासिक सियान/मेजेंटा गेमिंग सौंदर्य शैली"
 
-#: resources/themes.ini:971 resources/themes.ini:1001
+#: resources/themes.ini:970 resources/themes.ini:1000
 msgid "Warm creative light palette with magenta foundation"
 msgstr "मेजेंटा आधार वाला गर्म रचनात्मक हल्का पैलेट"
 
-#: resources/themes.ini:1031 resources/themes.ini:1061
+#: resources/themes.ini:1030 resources/themes.ini:1060
 msgid "Green-accented CRT aesthetic for extended viewing"
 msgstr "लंबे समय तक देखने के लिए हरे एक्सेंट वाली CRT सौंदर्य शैली"
 
-#: resources/themes.ini:1091 resources/themes.ini:1121
+#: resources/themes.ini:1090 resources/themes.ini:1120
 msgid "Cool professional light palette with blue foundation"
 msgstr "नीले आधार वाला शीतल पेशेवर हल्का पैलेट"
 
-#: resources/themes.ini:1151 resources/themes.ini:1181
+#: resources/themes.ini:1150 resources/themes.ini:1180
 msgid "Professional amber/green phosphor aesthetic from IBM business era"
 msgstr "IBM व्यावसायिक युग की पेशेवर एम्बर/हरे फ़ॉस्फ़र सौंदर्य शैली"
 
-#: resources/themes.ini:1211 resources/themes.ini:1241
+#: resources/themes.ini:1210 resources/themes.ini:1240
 msgid "CRT Clarity: Split-complementary harmony with warm/cool tension"
 msgstr "CRT Clarity: गर्म/शीतल तनाव वाला स्प्लिट-कॉम्प्लिमेंट्री सामंजस्य"
 
-#: resources/themes.ini:1271 resources/themes.ini:1301
+#: resources/themes.ini:1270 resources/themes.ini:1300
 msgid "Cool analogous professional light palette"
 msgstr "शीतल समीपवर्ती पेशेवर हल्का पैलेट"
 
-#: resources/themes.ini:1331 resources/themes.ini:1361
+#: resources/themes.ini:1330 resources/themes.ini:1360
 msgid "Warm content dark palette for reduced eye strain"
 msgstr "आँखों की थकान कम करने के लिए गर्म सुकूनदायक गहरा पैलेट"
 
-#: resources/themes.ini:1391 resources/themes.ini:1421
+#: resources/themes.ini:1390 resources/themes.ini:1420
 msgid ""
 "CRT Phosphor Glow: Triadic harmony with cool/warm balance and CRT aesthetic"
 msgstr "CRT Phosphor Glow: शीतल/गर्म संतुलन और CRT सौंदर्य शैली से युक्त त्रिक सामंजस्य"
 
-#: resources/themes.ini:1451 resources/themes.ini:1481
+#: resources/themes.ini:1450 resources/themes.ini:1480
 msgid "P1 medium-persistence green as used in early oscilloscope tubes"
 msgstr "प्रारंभिक ऑसिलोस्कोप ट्यूब में प्रयुक्त P1 मध्यम-स्थायित्व वाला हरा"
 
-#: resources/themes.ini:1511 resources/themes.ini:1541
+#: resources/themes.ini:1510 resources/themes.ini:1540
 msgid "P4 white as used in IBM 8503 VGA and broadcast television"
 msgstr "IBM 8503 VGA और प्रसारण टेलीविज़न में प्रयुक्त P4 सफ़ेद"
 
-#: resources/themes.ini:1571 resources/themes.ini:1601
+#: resources/themes.ini:1570 resources/themes.ini:1600
 msgid "P7 cascade phosphor as used in military radar and air traffic control"
 msgstr "सैन्य रडार और हवाई यातायात नियंत्रण में प्रयुक्त P7 कैस्केड फ़ॉस्फ़र"
 
-#: resources/themes.ini:1631 resources/themes.ini:1661
+#: resources/themes.ini:1630 resources/themes.ini:1660
 msgid "Cupcake color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Cupcake रंग पैलेट"
 
-#: resources/themes.ini:1691 resources/themes.ini:1721
+#: resources/themes.ini:1690 resources/themes.ini:1720
 msgid "Cyberpunk color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Cyberpunk रंग पैलेट"
 
-#: resources/themes.ini:1751 resources/themes.ini:1781
+#: resources/themes.ini:1750 resources/themes.ini:1780
 msgid "Dark color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Dark रंग पैलेट"
 
-#: resources/themes.ini:1811 resources/themes.ini:1841
+#: resources/themes.ini:1810 resources/themes.ini:1840
 msgid "Dim color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Dim रंग पैलेट"
 
-#: resources/themes.ini:1871 resources/themes.ini:1901
+#: resources/themes.ini:1870 resources/themes.ini:1900
 msgid "Dracula color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Dracula रंग पैलेट"
 
-#: resources/themes.ini:1931 resources/themes.ini:1961
+#: resources/themes.ini:1930 resources/themes.ini:1960
 msgid "Emerald color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Emerald रंग पैलेट"
 
-#: resources/themes.ini:1991 resources/themes.ini:2021
+#: resources/themes.ini:1990 resources/themes.ini:2020
 msgid "Fantasy color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Fantasy रंग पैलेट"
 
-#: resources/themes.ini:2051 resources/themes.ini:2081
+#: resources/themes.ini:2050 resources/themes.ini:2080
 msgid "Forest color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Forest रंग पैलेट"
 
-#: resources/themes.ini:2111 resources/themes.ini:2141
+#: resources/themes.ini:2110 resources/themes.ini:2140
 msgid "Garden color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Garden रंग पैलेट"
 
-#: resources/themes.ini:2171 resources/themes.ini:2201
+#: resources/themes.ini:2170 resources/themes.ini:2200
 msgid "Halloween color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Halloween रंग पैलेट"
 
-#: resources/themes.ini:2231 resources/themes.ini:2261
+#: resources/themes.ini:2230 resources/themes.ini:2260
 msgid "Lemonade color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Lemonade रंग पैलेट"
 
-#: resources/themes.ini:2291 resources/themes.ini:2321
+#: resources/themes.ini:2290 resources/themes.ini:2320
 msgid "Light color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Light रंग पैलेट"
 
-#: resources/themes.ini:2351 resources/themes.ini:2381
+#: resources/themes.ini:2350 resources/themes.ini:2380
 msgid "Lofi color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Lofi रंग पैलेट"
 
-#: resources/themes.ini:2411 resources/themes.ini:2441
+#: resources/themes.ini:2410 resources/themes.ini:2440
 msgid "Luxury color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Luxury रंग पैलेट"
 
-#: resources/themes.ini:2471 resources/themes.ini:2501
+#: resources/themes.ini:2470 resources/themes.ini:2500
 msgid "Night color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Night रंग पैलेट"
 
-#: resources/themes.ini:2531 resources/themes.ini:2561
+#: resources/themes.ini:2530 resources/themes.ini:2560
 msgid "Nord color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Nord रंग पैलेट"
 
-#: resources/themes.ini:2591 resources/themes.ini:2621
+#: resources/themes.ini:2590 resources/themes.ini:2620
 msgid "Pastel color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Pastel रंग पैलेट"
 
-#: resources/themes.ini:2651 resources/themes.ini:2681
+#: resources/themes.ini:2650 resources/themes.ini:2680
 msgid "Retro color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Retro रंग पैलेट"
 
-#: resources/themes.ini:2711 resources/themes.ini:2741
+#: resources/themes.ini:2710 resources/themes.ini:2740
 msgid "Silk color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Silk रंग पैलेट"
 
-#: resources/themes.ini:2771 resources/themes.ini:2801
+#: resources/themes.ini:2770 resources/themes.ini:2800
 msgid "Sunset color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Sunset रंग पैलेट"
 
-#: resources/themes.ini:2831 resources/themes.ini:2861
+#: resources/themes.ini:2830 resources/themes.ini:2860
 msgid "Synthwave color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Synthwave रंग पैलेट"
 
-#: resources/themes.ini:2891 resources/themes.ini:2921
+#: resources/themes.ini:2890 resources/themes.ini:2920
 msgid "Valentine color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Valentine रंग पैलेट"
 
-#: resources/themes.ini:2951 resources/themes.ini:2981
+#: resources/themes.ini:2950 resources/themes.ini:2980
 msgid "Winter color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Winter रंग पैलेट"
 
-#: resources/themes.ini:3011 resources/themes.ini:3041
+#: resources/themes.ini:3010 resources/themes.ini:3040
 msgid "Wireframe color palette from DaisyUI theme collection"
 msgstr "DaisyUI थीम संग्रह का Wireframe रंग पैलेट"
 
-#: resources/themes.ini:3071 resources/themes.ini:3101
+#: resources/themes.ini:3070 resources/themes.ini:3100
 msgid "Classic xnec2c plot colors"
 msgstr "xnec2c क्लासिक प्लॉट रंग"
 
-#: resources/themes.ini:3131 resources/themes.ini:3161
+#: resources/themes.ini:3130 resources/themes.ini:3160
 msgid "Hand-tuned cool palette"
 msgstr "हाथ से समायोजित शीतल पैलेट"
 
-#: resources/themes.ini:3191 resources/themes.ini:3221
+#: resources/themes.ini:3190 resources/themes.ini:3220
 msgid "Hand-tuned warm palette"
 msgstr "हाथ से समायोजित गर्म पैलेट"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-08 16:21-0800\n"
+"POT-Creation-Date: 2026-11-12 16:15+0300\n"
 "PO-Revision-Date: 2025-12-27 16:01-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -19,19 +19,19 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
 
 # xnec2c-exempt: name
-#: files/xnec2c.desktop.in:3 resources/xnec2c.glade:1784
+#: files/xnec2c.desktop.in:2 resources/xnec2c.glade:1784
 msgid "xnec2c"
 msgstr ""
 
-#: files/xnec2c.desktop.in:4
+#: files/xnec2c.desktop.in:3
 msgid "NEC2 Simulator"
 msgstr "محاكي NEC2"
 
-#: files/xnec2c.desktop.in:5
+#: files/xnec2c.desktop.in:4
 msgid "Numerical Electromagnetics Code software"
 msgstr "برنامج الشفرة الكهرومغناطيسية العددية"
 
-#: files/xnec2c.desktop.in:11
+#: files/xnec2c.desktop.in:10
 msgid "nec2;em;simulator;"
 msgstr "nec2;كهرومغناطيسي;محاكي;"
 
@@ -329,7 +329,7 @@ msgstr "حاويات العمق"
 
 #: resources/settings/cairo_settings.glade:184
 #: resources/settings/opengl_settings.glade:515
-#: resources/settings/render_settings.glade:201
+#: resources/settings/render_settings.glade:216
 msgid "Reset to _Defaults"
 msgstr "إعادة ال_ضبط الافتراضي"
 
@@ -780,15 +780,19 @@ msgstr "مرئي فقط — لا يؤثر على حسابات نموذج NEC2."
 msgid "_Color Theme"
 msgstr "_مظهر الألوان"
 
-#: resources/settings/render_settings.glade:162
+#: resources/settings/render_settings.glade:153
+msgid "_Invert"
+msgstr "_عكس"
+
+#: resources/settings/render_settings.glade:177
 msgid "_Wire Radius Scale"
 msgstr "_تحجيم نصف قطر السلك"
 
-#: resources/settings/render_settings.glade:223
+#: resources/settings/render_settings.glade:238
 msgid "Rendering Settings"
 msgstr "إعدادات التصيير"
 
-#: resources/settings/render_settings.glade:267
+#: resources/settings/render_settings.glade:282
 #: resources/sy_overrides.glade:744
 msgid "_Close"
 msgstr "إ_غلاق"
@@ -3171,8 +3175,8 @@ msgstr "الخيار --%s يتطلب <width>x<height>: %s\n"
 msgid ""
 "cairo_fit_view: no frame solved: extent=%g box=[%g,%g,%g,%g] view=%dx%d\n"
 msgstr ""
-"cairo_fit_view: لم يُحل أي إطار: الامتداد=%g الصندوق=[%g,%g,%g,%g] العرض=%dx"
-"%d\n"
+"cairo_fit_view: لم يُحل أي إطار: الامتداد=%g الصندوق=[%g,%g,%g,%g] "
+"العرض=%dx%d\n"
 
 # xnec2c-exempt: notation
 #: src/cairo/cairo_frame.c:307
@@ -3698,8 +3702,8 @@ msgstr "اشتراط الحل"
 #: src/freqplots/freqplots_core.c:496
 #, c-format
 msgid ""
-"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f n="
-"%d]\n"
+"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f "
+"n=%d]\n"
 msgstr ""
 
 #: src/freqplots/freqplots_core.c:722
@@ -3771,13 +3775,9 @@ msgstr "فشل تخصيص الذاكرة للنقاط\n"
 msgid "Draw_Graph():Memory allocation for points failed"
 msgstr "Draw_Graph(): فشل تخصيص الذاكرة للنقاط"
 
-#: src/freqplots/freqplots_theme_menu.c:42
+#: src/freqplots/freqplots_theme_menu.c:47
 msgid "This theme has no inverted variant"
 msgstr "لا يوجد لهذه السمة نسخة معكوسة"
-
-#: src/freqplots/freqplots_theme_menu.c:127
-msgid "_Invert"
-msgstr "_عكس"
 
 #: src/freqplots/graphs/agt_graph.c:67
 msgid "Average gain"
@@ -4113,8 +4113,8 @@ msgid ""
 "Segment connection count exceeds a full mesh, which is unlikely: data.n=%ld "
 "segj.maxcon=%lu\n"
 msgstr ""
-"عدد اتصالات segment يتجاوز شبكة كاملة، وهذا غير محتمل: data.n=%ld segj."
-"maxcon=%lu\n"
+"عدد اتصالات segment يتجاوز شبكة كاملة، وهذا غير محتمل: data.n=%ld "
+"segj.maxcon=%lu\n"
 
 #: src/geometry.c:530
 msgid ""
@@ -4253,8 +4253,8 @@ msgid ""
 "tag=%d/seg=%d: length=%.3e is too short (and close enough) to tag=%d/seg=%d "
 "length=%.3e that connection detection may fail or short\n"
 msgstr ""
-"tag=%d/seg=%d: الطول=%.3e قصير جداً (وقريب بما يكفي) من tag=%d/seg=%d الطول="
-"%.3e مما قد يؤدي إلى فشل أو قصر في كشف الاتصال\n"
+"tag=%d/seg=%d: الطول=%.3e قصير جداً (وقريب بما يكفي) من tag=%d/seg=%d "
+"الطول=%.3e مما قد يؤدي إلى فشل أو قصر في كشف الاتصال\n"
 
 #: src/geometry.c:1645
 #, c-format
@@ -4651,7 +4651,6 @@ msgid "Read_Geometry: verify_segments() passed\n"
 msgstr "Read_Geometry: verify_segments() نجح\n"
 
 #: src/input.c:811
-#, c-format
 msgid "segment data error: tag=%d si=%lf, bi=%lf\n"
 msgstr "خطأ في بيانات segment: tag=%d si=%lf, bi=%lf\n"
 
@@ -5315,8 +5314,8 @@ msgid ""
 "select which one you wish to benchmark before proceeding or it will choose "
 "the first in the list and skip the rest.\n"
 "\n"
-"* Thread congestion will occur for multi-threaded libraries when using the -"
-"j N option if there are not enough CPUs available to accommodate the forked "
+"* Thread congestion will occur for multi-threaded libraries when using the "
+"-j N option if there are not enough CPUs available to accommodate the forked "
 "processes in combination with library threads.  Consider reducing the value "
 "of -j N for benchmarking to find what library works best with a mix of "
 "forking and threading; you can use `top` to monitor your CPU usageand if it "
@@ -5980,39 +5979,39 @@ msgid ""
 msgstr ""
 "متوسط الكسب: %.4f (%.2f dBi)، الكفاءة: %.1f%%، الزاوية الصلبة: %.4f * pi sr\n"
 
-#: src/rc_config.c:1003
+#: src/rc_config.c:999
 #, c-format
 msgid "unable to getcwd(): %s\n"
 msgstr "تعذّر getcwd(): %s\n"
 
-#: src/rc_config.c:1007
+#: src/rc_config.c:1003
 #, c-format
 msgid "environment variable HOME is undefined, using %s\n"
 msgstr "متغير البيئة HOME غير معرّف، استخدام %s\n"
 
-#: src/rc_config.c:1092
+#: src/rc_config.c:1088
 #, c-format
 msgid ""
 "%s (locale=%s): only matchd %d of %lu chars, trying another locale: %s\n"
 msgstr ""
 "%s (locale=%s): تطابق %d فقط من %lu حرف، تجربة إعدادات محلية أخرى: %s\n"
 
-#: src/rc_config.c:1311
+#: src/rc_config.c:1307
 #, c-format
 msgid "window: x=%-5d y=%-5d w=%-5d h=%-5d  title: \"%s\"\n"
 msgstr "نافذة: x=%-5d y=%-5d w=%-5d h=%-5d  العنوان: \"%s\"\n"
 
-#: src/rc_config.c:1345
+#: src/rc_config.c:1341
 #, c-format
 msgid "%s: EOF reading application version.\n"
 msgstr "%s: نهاية ملف أثناء قراءة إصدار التطبيق.\n"
 
-#: src/rc_config.c:1351
+#: src/rc_config.c:1347
 #, c-format
 msgid "existing config file version differs: %s != %s\n"
 msgstr "إصدار ملف الإعدادات الحالي يختلف: %s != %s\n"
 
-#: src/rc_config.c:1398
+#: src/rc_config.c:1394
 #, c-format
 msgid ""
 "gain readouts are scaled to %s, restored from the previous session; select "
@@ -6021,58 +6020,58 @@ msgstr ""
 "قراءات الكسب مُحجَّمة إلى %s، مستعادة من الجلسة السابقة؛ اختر الكسب الكلي "
 "لقراءة الكسب الكلي\n"
 
-#: src/rc_config.c:1521
+#: src/rc_config.c:1517
 #, c-format
 msgid "stat failed for %s: %s\n"
 msgstr "فشل stat لـ %s: %s\n"
 
-#: src/rc_config.c:1527
+#: src/rc_config.c:1523
 #, c-format
 msgid ""
 "Fixed %s directory permissions from 0%o to 0%o from bug introduced in "
 "4e62893b.\n"
 msgstr "تم إصلاح أذونات مجلد %s من 0%o إلى 0%o من خلل أُدخل في 4e62893b.\n"
 
-#: src/rc_config.c:1560
+#: src/rc_config.c:1556
 #, c-format
 msgid "%s:%d: Line not parsed: %s\n"
 msgstr "%s:%d: لم يتم تحليل السطر: %s\n"
 
-#: src/rc_config.c:1566
+#: src/rc_config.c:1562
 #, c-format
 msgid "%s:%d: Early end of file for %s: %s \n"
 msgstr "%s:%d: نهاية ملف مبكرة لـ %s: %s \n"
 
-#: src/rc_config.c:1591
+#: src/rc_config.c:1587
 #, c-format
 msgid "%s:%d: parse error (%s): %s \n"
 msgstr "%s:%d: خطأ تحليل (%s): %s \n"
 
-#: src/rc_config.c:1605
+#: src/rc_config.c:1601
 #, c-format
 msgid "Invalid sky model index %d in config, resetting to default\n"
 msgstr "مؤشر نموذج السماء غير صالح %d في الإعداد، إعادة ضبط إلى الافتراضي\n"
 
-#: src/rc_config.c:1611
+#: src/rc_config.c:1607
 #, c-format
 msgid "Invalid earth model index %d in config, resetting to default\n"
 msgstr "مؤشر نموذج الأرض غير صالح %d في الإعداد، إعادة ضبط إلى الافتراضي\n"
 
-#: src/rc_config.c:1617
+#: src/rc_config.c:1613
 #, c-format
 msgid "Invalid interp method %d in config, resetting to default\n"
 msgstr "طريقة الاستيفاء غير صالحة %d في الإعداد، إعادة ضبط إلى الافتراضي\n"
 
-#: src/rc_config.c:1625
+#: src/rc_config.c:1621
 #, c-format
 msgid "Invalid flow visualization mode %d in config, resetting to default\n"
 msgstr "وضع تصور التدفق غير صالح %d في الإعداد، يُعاد الضبط إلى الافتراضي\n"
 
-#: src/rc_config.c:1790
+#: src/rc_config.c:1786
 msgid "batch mode: skipping configuration save\n"
 msgstr "وضع الدُفعات: تخطي حفظ الإعدادات\n"
 
-#: src/rc_config.c:1812
+#: src/rc_config.c:1808
 #, c-format
 msgid "cannot open xnec2c's config file %s: %s\n"
 msgstr "لا يمكن فتح ملف إعدادات xnec2c %s: %s\n"
@@ -6594,11 +6593,11 @@ msgstr "شجرة التحقق كُتبت إلى: %s\n"
 #: src/xnec2c.c:314
 #, c-format
 msgid ""
-"complex dielectric constant from file: %12.5E%+12.5Ej, requested: %12.5E"
-"%+12.5Ej\n"
+"complex dielectric constant from file: %12.5E%+12.5Ej, requested: "
+"%12.5E%+12.5Ej\n"
 msgstr ""
-"ثابت العزل الكهربائي المركب من الملف: %12.5E%+12.5Ej، المطلوب: %12.5E"
-"%+12.5Ej\n"
+"ثابت العزل الكهربائي المركب من الملف: %12.5E%+12.5Ej، المطلوب: "
+"%12.5E%+12.5Ej\n"
 
 #: src/xnec2c.c:317
 msgid "Ground_Parameters():Error in ground parameters"
@@ -6718,219 +6717,219 @@ msgstr ""
 "المسح محسوب بالكامل. تشغيله مجددًا يتجاهل كل خطوة محسوبة ويحسب المسح من خطوته "
 "الأولى."
 
-#: resources/themes.ini:11 resources/themes.ini:41
+#: resources/themes.ini:10 resources/themes.ini:40
 msgid "Abyss color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Abyss من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:71 resources/themes.ini:101
+#: resources/themes.ini:70 resources/themes.ini:100
 msgid "Acid color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Acid من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:131 resources/themes.ini:161
+#: resources/themes.ini:130 resources/themes.ini:160
 msgid "Aqua color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Aqua من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:191 resources/themes.ini:221
+#: resources/themes.ini:190 resources/themes.ini:220
 msgid "Autumn color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Autumn من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:251 resources/themes.ini:281
+#: resources/themes.ini:250 resources/themes.ini:280
 msgid "Black color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Black من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:311 resources/themes.ini:341
+#: resources/themes.ini:310 resources/themes.ini:340
 msgid "Bumblebee color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Bumblebee من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:371 resources/themes.ini:401
+#: resources/themes.ini:370 resources/themes.ini:400
 msgid "Business color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Business من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:431 resources/themes.ini:461
+#: resources/themes.ini:430 resources/themes.ini:460
 msgid "Caramellatte color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Caramellatte من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:491 resources/themes.ini:521
+#: resources/themes.ini:490 resources/themes.ini:520
 msgid "Cmyk color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Cmyk من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:551 resources/themes.ini:581
+#: resources/themes.ini:550 resources/themes.ini:580
 msgid "Coffee color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Coffee من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:611 resources/themes.ini:641
+#: resources/themes.ini:610 resources/themes.ini:640
 msgid "Corporate color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Corporate من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:671 resources/themes.ini:701
+#: resources/themes.ini:670 resources/themes.ini:700
 msgid "P3 amber as used in IBM PC XT and Hercules displays"
 msgstr "كهرماني P3 المستخدم في شاشات IBM PC XT و Hercules"
 
-#: resources/themes.ini:731 resources/themes.ini:761
+#: resources/themes.ini:730 resources/themes.ini:760
 msgid "P31 bright green as used in Apple IIe monitors and oscilloscopes"
 msgstr "أخضر ساطع P31 المستخدم في شاشات Apple IIe و راسمات الذبذبات"
 
-#: resources/themes.ini:791 resources/themes.ini:821
+#: resources/themes.ini:790 resources/themes.ini:820
 msgid "P39 saturated green as used in Apple III and IBM 5151 terminals"
 msgstr "أخضر مشبع P39 المستخدم في محطات Apple III و IBM 5151 الطرفية"
 
-#: resources/themes.ini:851 resources/themes.ini:881
+#: resources/themes.ini:850 resources/themes.ini:880
 msgid "P45 cool white for monochrome camcorder viewfinders"
 msgstr "أبيض بارد P45 لمناظير كاميرات الفيديو أحادية اللون"
 
-#: resources/themes.ini:911 resources/themes.ini:941
+#: resources/themes.ini:910 resources/themes.ini:940
 msgid "Classic cyan/magenta gaming aesthetic from early IBM PC era"
 msgstr "طابع جمالي كلاسيكي للألعاب بالسماوي/الأرجواني من عصر IBM PC المبكر"
 
-#: resources/themes.ini:971 resources/themes.ini:1001
+#: resources/themes.ini:970 resources/themes.ini:1000
 msgid "Warm creative light palette with magenta foundation"
 msgstr "لوحة الألوان الفاتحة الدافئة الإبداعية ذات الأساس الأرجواني"
 
-#: resources/themes.ini:1031 resources/themes.ini:1061
+#: resources/themes.ini:1030 resources/themes.ini:1060
 msgid "Green-accented CRT aesthetic for extended viewing"
 msgstr "طابع جمالي CRT بلمسة خضراء للمشاهدة الممتدة"
 
-#: resources/themes.ini:1091 resources/themes.ini:1121
+#: resources/themes.ini:1090 resources/themes.ini:1120
 msgid "Cool professional light palette with blue foundation"
 msgstr "لوحة الألوان الفاتحة الاحترافية الباردة ذات الأساس الأزرق"
 
-#: resources/themes.ini:1151 resources/themes.ini:1181
+#: resources/themes.ini:1150 resources/themes.ini:1180
 msgid "Professional amber/green phosphor aesthetic from IBM business era"
 msgstr "طابع جمالي احترافي للفوسفور الكهرماني/الأخضر من عصر IBM للأعمال"
 
-#: resources/themes.ini:1211 resources/themes.ini:1241
+#: resources/themes.ini:1210 resources/themes.ini:1240
 msgid "CRT Clarity: Split-complementary harmony with warm/cool tension"
 msgstr "CRT Clarity: تناغم متمم مُجزّأ مع توتر دافئ/بارد"
 
-#: resources/themes.ini:1271 resources/themes.ini:1301
+#: resources/themes.ini:1270 resources/themes.ini:1300
 msgid "Cool analogous professional light palette"
 msgstr "لوحة الألوان الفاتحة الاحترافية الباردة المتجاورة"
 
-#: resources/themes.ini:1331 resources/themes.ini:1361
+#: resources/themes.ini:1330 resources/themes.ini:1360
 msgid "Warm content dark palette for reduced eye strain"
 msgstr "لوحة الألوان الداكنة الدافئة للمحتوى لتقليل إجهاد العين"
 
-#: resources/themes.ini:1391 resources/themes.ini:1421
+#: resources/themes.ini:1390 resources/themes.ini:1420
 msgid ""
 "CRT Phosphor Glow: Triadic harmony with cool/warm balance and CRT aesthetic"
 msgstr "CRT Phosphor Glow: تناغم ثلاثي مع توازن بارد/دافئ وطابع جمالي CRT"
 
-#: resources/themes.ini:1451 resources/themes.ini:1481
+#: resources/themes.ini:1450 resources/themes.ini:1480
 msgid "P1 medium-persistence green as used in early oscilloscope tubes"
 msgstr "أخضر متوسط الثبات P1 المستخدم في أنابيب راسمات الذبذبات المبكرة"
 
-#: resources/themes.ini:1511 resources/themes.ini:1541
+#: resources/themes.ini:1510 resources/themes.ini:1540
 msgid "P4 white as used in IBM 8503 VGA and broadcast television"
 msgstr "أبيض P4 المستخدم في IBM 8503 VGA و البث التلفزيوني"
 
-#: resources/themes.ini:1571 resources/themes.ini:1601
+#: resources/themes.ini:1570 resources/themes.ini:1600
 msgid "P7 cascade phosphor as used in military radar and air traffic control"
 msgstr "فوسفور متعاقب P7 المستخدم في الرادار العسكري ومراقبة الحركة الجوية"
 
-#: resources/themes.ini:1631 resources/themes.ini:1661
+#: resources/themes.ini:1630 resources/themes.ini:1660
 msgid "Cupcake color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Cupcake من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:1691 resources/themes.ini:1721
+#: resources/themes.ini:1690 resources/themes.ini:1720
 msgid "Cyberpunk color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Cyberpunk من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:1751 resources/themes.ini:1781
+#: resources/themes.ini:1750 resources/themes.ini:1780
 msgid "Dark color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Dark من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:1811 resources/themes.ini:1841
+#: resources/themes.ini:1810 resources/themes.ini:1840
 msgid "Dim color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Dim من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:1871 resources/themes.ini:1901
+#: resources/themes.ini:1870 resources/themes.ini:1900
 msgid "Dracula color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Dracula من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:1931 resources/themes.ini:1961
+#: resources/themes.ini:1930 resources/themes.ini:1960
 msgid "Emerald color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Emerald من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:1991 resources/themes.ini:2021
+#: resources/themes.ini:1990 resources/themes.ini:2020
 msgid "Fantasy color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Fantasy من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2051 resources/themes.ini:2081
+#: resources/themes.ini:2050 resources/themes.ini:2080
 msgid "Forest color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Forest من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2111 resources/themes.ini:2141
+#: resources/themes.ini:2110 resources/themes.ini:2140
 msgid "Garden color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Garden من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2171 resources/themes.ini:2201
+#: resources/themes.ini:2170 resources/themes.ini:2200
 msgid "Halloween color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Halloween من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2231 resources/themes.ini:2261
+#: resources/themes.ini:2230 resources/themes.ini:2260
 msgid "Lemonade color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Lemonade من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2291 resources/themes.ini:2321
+#: resources/themes.ini:2290 resources/themes.ini:2320
 msgid "Light color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Light من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2351 resources/themes.ini:2381
+#: resources/themes.ini:2350 resources/themes.ini:2380
 msgid "Lofi color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Lofi من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2411 resources/themes.ini:2441
+#: resources/themes.ini:2410 resources/themes.ini:2440
 msgid "Luxury color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Luxury من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2471 resources/themes.ini:2501
+#: resources/themes.ini:2470 resources/themes.ini:2500
 msgid "Night color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Night من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2531 resources/themes.ini:2561
+#: resources/themes.ini:2530 resources/themes.ini:2560
 msgid "Nord color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Nord من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2591 resources/themes.ini:2621
+#: resources/themes.ini:2590 resources/themes.ini:2620
 msgid "Pastel color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Pastel من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2651 resources/themes.ini:2681
+#: resources/themes.ini:2650 resources/themes.ini:2680
 msgid "Retro color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Retro من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2711 resources/themes.ini:2741
+#: resources/themes.ini:2710 resources/themes.ini:2740
 msgid "Silk color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Silk من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2771 resources/themes.ini:2801
+#: resources/themes.ini:2770 resources/themes.ini:2800
 msgid "Sunset color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Sunset من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2831 resources/themes.ini:2861
+#: resources/themes.ini:2830 resources/themes.ini:2860
 msgid "Synthwave color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Synthwave من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2891 resources/themes.ini:2921
+#: resources/themes.ini:2890 resources/themes.ini:2920
 msgid "Valentine color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Valentine من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:2951 resources/themes.ini:2981
+#: resources/themes.ini:2950 resources/themes.ini:2980
 msgid "Winter color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Winter من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:3011 resources/themes.ini:3041
+#: resources/themes.ini:3010 resources/themes.ini:3040
 msgid "Wireframe color palette from DaisyUI theme collection"
 msgstr "لوحة الألوان Wireframe من مجموعة سمات DaisyUI"
 
-#: resources/themes.ini:3071 resources/themes.ini:3101
+#: resources/themes.ini:3070 resources/themes.ini:3100
 msgid "Classic xnec2c plot colors"
 msgstr "ألوان الرسم الكلاسيكية في xnec2c"
 
-#: resources/themes.ini:3131 resources/themes.ini:3161
+#: resources/themes.ini:3130 resources/themes.ini:3160
 msgid "Hand-tuned cool palette"
 msgstr "لوحة الألوان الباردة المضبوطة يدوياً"
 
-#: resources/themes.ini:3191 resources/themes.ini:3221
+#: resources/themes.ini:3190 resources/themes.ini:3220
 msgid "Hand-tuned warm palette"
 msgstr "لوحة الألوان الدافئة المضبوطة يدوياً"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-08 16:21-0800\n"
+"POT-Creation-Date: 2026-11-12 16:15+0300\n"
 "PO-Revision-Date: 2025-12-28 20:37-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,19 +18,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # xnec2c-exempt: name
-#: files/xnec2c.desktop.in:3 resources/xnec2c.glade:1784
+#: files/xnec2c.desktop.in:2 resources/xnec2c.glade:1784
 msgid "xnec2c"
 msgstr ""
 
-#: files/xnec2c.desktop.in:4
+#: files/xnec2c.desktop.in:3
 msgid "NEC2 Simulator"
 msgstr "NEC2-simuleerder"
 
-#: files/xnec2c.desktop.in:5
+#: files/xnec2c.desktop.in:4
 msgid "Numerical Electromagnetics Code software"
 msgstr "Numeriese Elektromagnetika Kode sagteware"
 
-#: files/xnec2c.desktop.in:11
+#: files/xnec2c.desktop.in:10
 msgid "nec2;em;simulator;"
 msgstr "nec2;em;simuleerder;"
 
@@ -331,7 +331,7 @@ msgstr "Dieptebakke"
 
 #: resources/settings/cairo_settings.glade:184
 #: resources/settings/opengl_settings.glade:515
-#: resources/settings/render_settings.glade:201
+#: resources/settings/render_settings.glade:216
 msgid "Reset to _Defaults"
 msgstr "Herstel na _Verstekwaardes"
 
@@ -797,15 +797,19 @@ msgstr "Slegs visueel — beïnvloed nie NEC2-modelberekenings nie."
 msgid "_Color Theme"
 msgstr "_Kleurskema"
 
-#: resources/settings/render_settings.glade:162
+#: resources/settings/render_settings.glade:153
+msgid "_Invert"
+msgstr "_Omkeer"
+
+#: resources/settings/render_settings.glade:177
 msgid "_Wire Radius Scale"
 msgstr "_Draadradiusskaal"
 
-#: resources/settings/render_settings.glade:223
+#: resources/settings/render_settings.glade:238
 msgid "Rendering Settings"
 msgstr "Weergawe-instellings"
 
-#: resources/settings/render_settings.glade:267
+#: resources/settings/render_settings.glade:282
 #: resources/sy_overrides.glade:744
 msgid "_Close"
 msgstr "_Sluit"
@@ -3205,8 +3209,8 @@ msgstr "--%s vereis <width>x<height>: %s\n"
 msgid ""
 "cairo_fit_view: no frame solved: extent=%g box=[%g,%g,%g,%g] view=%dx%d\n"
 msgstr ""
-"cairo_fit_view: geen raam opgelos nie: extent=%g box=[%g,%g,%g,%g] view=%dx"
-"%d\n"
+"cairo_fit_view: geen raam opgelos nie: extent=%g box=[%g,%g,%g,%g] "
+"view=%dx%d\n"
 
 # xnec2c-exempt: notation
 #: src/cairo/cairo_frame.c:307
@@ -3744,8 +3748,8 @@ msgstr "Oplosserkondisionering"
 #: src/freqplots/freqplots_core.c:496
 #, c-format
 msgid ""
-"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f n="
-"%d]\n"
+"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f "
+"n=%d]\n"
 msgstr ""
 
 #: src/freqplots/freqplots_core.c:722
@@ -3818,13 +3822,9 @@ msgstr "geheue-toewysing vir punte het misluk\n"
 msgid "Draw_Graph():Memory allocation for points failed"
 msgstr "Draw_Graph():Geheue-toewysing vir punte het misluk"
 
-#: src/freqplots/freqplots_theme_menu.c:42
+#: src/freqplots/freqplots_theme_menu.c:47
 msgid "This theme has no inverted variant"
 msgstr "Hierdie tema het geen omgekeerde variant nie"
-
-#: src/freqplots/freqplots_theme_menu.c:127
-msgid "_Invert"
-msgstr "_Omkeer"
 
 #: src/freqplots/graphs/agt_graph.c:67
 msgid "Average gain"
@@ -4159,8 +4159,8 @@ msgid ""
 "Segment connection count exceeds a full mesh, which is unlikely: data.n=%ld "
 "segj.maxcon=%lu\n"
 msgstr ""
-"Segmentverbindingstelling oorskry 'n volle maas, wat onwaarskynlik is: data."
-"n=%ld segj.maxcon=%lu\n"
+"Segmentverbindingstelling oorskry 'n volle maas, wat onwaarskynlik is: "
+"data.n=%ld segj.maxcon=%lu\n"
 
 #: src/geometry.c:530
 msgid ""
@@ -4261,8 +4261,8 @@ msgid ""
 "tag=%d/seg=%d: endpoint distance=%.3e is too close (below connection "
 "threshold=%.3e); segment will connect to itself\n"
 msgstr ""
-"tag=%d/seg=%d: eindpuntafstand=%.3e is te naby (onder verbindingsdrempel="
-"%.3e); segment sal met homself verbind\n"
+"tag=%d/seg=%d: eindpuntafstand=%.3e is te naby (onder "
+"verbindingsdrempel=%.3e); segment sal met homself verbind\n"
 
 #: src/geometry.c:1485
 #, c-format
@@ -4714,7 +4714,6 @@ msgid "Read_Geometry: verify_segments() passed\n"
 msgstr "Read_Geometry: verify_segments() geslaag\n"
 
 #: src/input.c:811
-#, c-format
 msgid "segment data error: tag=%d si=%lf, bi=%lf\n"
 msgstr "segmentdatafout: tag=%d si=%lf, bi=%lf\n"
 
@@ -5315,8 +5314,8 @@ msgstr ""
 "sal skaal en O(N*J) dat dit met N*J sal skaal:\n"
 "  * N is die aantal mathlibs wat hier gekies is:\n"
 "      File->Mathlib Benchmarks->Selected Mathlibs\n"
-"  * J is die aantal take wat op die opdragreël met -j gespesifiseer is (bv. -"
-"j 8)\n"
+"  * J is die aantal take wat op die opdragreël met -j gespesifiseer is (bv. "
+"-j 8)\n"
 "  * T is die aantal drade wat een taak aan die lineêre-algebrabiblioteek "
 "gee\n"
 "\n"
@@ -5404,8 +5403,8 @@ msgid ""
 "select which one you wish to benchmark before proceeding or it will choose "
 "the first in the list and skip the rest.\n"
 "\n"
-"* Thread congestion will occur for multi-threaded libraries when using the -"
-"j N option if there are not enough CPUs available to accommodate the forked "
+"* Thread congestion will occur for multi-threaded libraries when using the "
+"-j N option if there are not enough CPUs available to accommodate the forked "
 "processes in combination with library threads.  Consider reducing the value "
 "of -j N for benchmarking to find what library works best with a mix of "
 "forking and threading; you can use `top` to monitor your CPU usageand if it "
@@ -5878,8 +5877,8 @@ msgstr "inotify: %zd grepe gelees van inotify-lêerbeskrywer\n"
 #, c-format
 msgid "inotify: SKIP all events (flags) - INPUT_PENDING=%d sweep_state=%s\n"
 msgstr ""
-"inotify: SLAAN alle gebeurtenisse oor (vlae) - INPUT_PENDING=%d sweep_state="
-"%s\n"
+"inotify: SLAAN alle gebeurtenisse oor (vlae) - INPUT_PENDING=%d "
+"sweep_state=%s\n"
 
 #: src/optimize.c:422
 #, c-format
@@ -6086,39 +6085,39 @@ msgstr ""
 "Gemiddelde aanwins: %.4f (%.2f dBi), rendement: %.1f%%, ruimtehoek: %.4f * "
 "pi sr\n"
 
-#: src/rc_config.c:1003
+#: src/rc_config.c:999
 #, c-format
 msgid "unable to getcwd(): %s\n"
 msgstr "kan nie getcwd() uitvoer nie: %s\n"
 
-#: src/rc_config.c:1007
+#: src/rc_config.c:1003
 #, c-format
 msgid "environment variable HOME is undefined, using %s\n"
 msgstr "omgewingsveranderlike HOME is ongedefinieer, gebruik %s\n"
 
-#: src/rc_config.c:1092
+#: src/rc_config.c:1088
 #, c-format
 msgid ""
 "%s (locale=%s): only matchd %d of %lu chars, trying another locale: %s\n"
 msgstr ""
 "%s (lokaal=%s): slegs %d van %lu karakters gepas, probeer ander lokaal: %s\n"
 
-#: src/rc_config.c:1311
+#: src/rc_config.c:1307
 #, c-format
 msgid "window: x=%-5d y=%-5d w=%-5d h=%-5d  title: \"%s\"\n"
 msgstr "venster: x=%-5d y=%-5d b=%-5d h=%-5d  titel: \"%s\"\n"
 
-#: src/rc_config.c:1345
+#: src/rc_config.c:1341
 #, c-format
 msgid "%s: EOF reading application version.\n"
 msgstr "%s: EOF tydens lees van toepassingsweergawe.\n"
 
-#: src/rc_config.c:1351
+#: src/rc_config.c:1347
 #, c-format
 msgid "existing config file version differs: %s != %s\n"
 msgstr "bestaande konfigurasielêerweergawe verskil: %s != %s\n"
 
-#: src/rc_config.c:1398
+#: src/rc_config.c:1394
 #, c-format
 msgid ""
 "gain readouts are scaled to %s, restored from the previous session; select "
@@ -6127,12 +6126,12 @@ msgstr ""
 "aanwinslesings is geskaleer na %s, herstel vanaf die vorige sessie; kies "
 "Totale Aanwins om totale aanwins te lees\n"
 
-#: src/rc_config.c:1521
+#: src/rc_config.c:1517
 #, c-format
 msgid "stat failed for %s: %s\n"
 msgstr "stat het misluk vir %s: %s\n"
 
-#: src/rc_config.c:1527
+#: src/rc_config.c:1523
 #, c-format
 msgid ""
 "Fixed %s directory permissions from 0%o to 0%o from bug introduced in "
@@ -6141,47 +6140,47 @@ msgstr ""
 "%s gidstoestemmings reggemaak van 0%o na 0%o weens fout ingebring in "
 "4e62893b.\n"
 
-#: src/rc_config.c:1560
+#: src/rc_config.c:1556
 #, c-format
 msgid "%s:%d: Line not parsed: %s\n"
 msgstr "%s:%d: Reël nie ontleed nie: %s\n"
 
-#: src/rc_config.c:1566
+#: src/rc_config.c:1562
 #, c-format
 msgid "%s:%d: Early end of file for %s: %s \n"
 msgstr "%s:%d: Vroeë einde van lêer vir %s: %s \n"
 
-#: src/rc_config.c:1591
+#: src/rc_config.c:1587
 #, c-format
 msgid "%s:%d: parse error (%s): %s \n"
 msgstr "%s:%d: ontledingsfout (%s): %s \n"
 
-#: src/rc_config.c:1605
+#: src/rc_config.c:1601
 #, c-format
 msgid "Invalid sky model index %d in config, resetting to default\n"
 msgstr "Ongeldige hemelmodel-indeks %d in konfigurasie, herstel na verstek\n"
 
-#: src/rc_config.c:1611
+#: src/rc_config.c:1607
 #, c-format
 msgid "Invalid earth model index %d in config, resetting to default\n"
 msgstr "Ongeldige aardemodel-indeks %d in konfigurasie, herstel na verstek\n"
 
-#: src/rc_config.c:1617
+#: src/rc_config.c:1613
 #, c-format
 msgid "Invalid interp method %d in config, resetting to default\n"
 msgstr "Ongeldige interpolasiemetode %d in konfigurasie, herstel na verstek\n"
 
-#: src/rc_config.c:1625
+#: src/rc_config.c:1621
 #, c-format
 msgid "Invalid flow visualization mode %d in config, resetting to default\n"
 msgstr ""
 "Ongeldige vloeivisualiseringsmodus %d in konfigurasie, herstel na verstek\n"
 
-#: src/rc_config.c:1790
+#: src/rc_config.c:1786
 msgid "batch mode: skipping configuration save\n"
 msgstr "bondelmodus: slaan konfigurasiestoor oor\n"
 
-#: src/rc_config.c:1812
+#: src/rc_config.c:1808
 #, c-format
 msgid "cannot open xnec2c's config file %s: %s\n"
 msgstr "kan nie xnec2c se konfigurasielêer %s oopmaak nie: %s\n"
@@ -6706,11 +6705,11 @@ msgstr "validasieboom geskryf na: %s\n"
 #: src/xnec2c.c:314
 #, c-format
 msgid ""
-"complex dielectric constant from file: %12.5E%+12.5Ej, requested: %12.5E"
-"%+12.5Ej\n"
+"complex dielectric constant from file: %12.5E%+12.5Ej, requested: "
+"%12.5E%+12.5Ej\n"
 msgstr ""
-"komplekse diëlektriese konstante vanaf lêer: %12.5E%+12.5Ej, versoek: %12.5E"
-"%+12.5Ej\n"
+"komplekse diëlektriese konstante vanaf lêer: %12.5E%+12.5Ej, versoek: "
+"%12.5E%+12.5Ej\n"
 
 #: src/xnec2c.c:317
 msgid "Ground_Parameters():Error in ground parameters"
@@ -6830,220 +6829,220 @@ msgstr ""
 "Die sweep is ten volle bereken. As dit weer laat loop word, word elke "
 "berekende stap verwerp en word die sweep vanaf sy eerste stap bereken."
 
-#: resources/themes.ini:11 resources/themes.ini:41
+#: resources/themes.ini:10 resources/themes.ini:40
 msgid "Abyss color palette from DaisyUI theme collection"
 msgstr "Abyss-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:71 resources/themes.ini:101
+#: resources/themes.ini:70 resources/themes.ini:100
 msgid "Acid color palette from DaisyUI theme collection"
 msgstr "Acid-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:131 resources/themes.ini:161
+#: resources/themes.ini:130 resources/themes.ini:160
 msgid "Aqua color palette from DaisyUI theme collection"
 msgstr "Aqua-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:191 resources/themes.ini:221
+#: resources/themes.ini:190 resources/themes.ini:220
 msgid "Autumn color palette from DaisyUI theme collection"
 msgstr "Autumn-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:251 resources/themes.ini:281
+#: resources/themes.ini:250 resources/themes.ini:280
 msgid "Black color palette from DaisyUI theme collection"
 msgstr "Black-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:311 resources/themes.ini:341
+#: resources/themes.ini:310 resources/themes.ini:340
 msgid "Bumblebee color palette from DaisyUI theme collection"
 msgstr "Bumblebee-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:371 resources/themes.ini:401
+#: resources/themes.ini:370 resources/themes.ini:400
 msgid "Business color palette from DaisyUI theme collection"
 msgstr "Business-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:431 resources/themes.ini:461
+#: resources/themes.ini:430 resources/themes.ini:460
 msgid "Caramellatte color palette from DaisyUI theme collection"
 msgstr "Caramellatte-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:491 resources/themes.ini:521
+#: resources/themes.ini:490 resources/themes.ini:520
 msgid "Cmyk color palette from DaisyUI theme collection"
 msgstr "Cmyk-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:551 resources/themes.ini:581
+#: resources/themes.ini:550 resources/themes.ini:580
 msgid "Coffee color palette from DaisyUI theme collection"
 msgstr "Coffee-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:611 resources/themes.ini:641
+#: resources/themes.ini:610 resources/themes.ini:640
 msgid "Corporate color palette from DaisyUI theme collection"
 msgstr "Corporate-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:671 resources/themes.ini:701
+#: resources/themes.ini:670 resources/themes.ini:700
 msgid "P3 amber as used in IBM PC XT and Hercules displays"
 msgstr "P3 amber soos gebruik in IBM PC XT- en Hercules-skerms"
 
-#: resources/themes.ini:731 resources/themes.ini:761
+#: resources/themes.ini:730 resources/themes.ini:760
 msgid "P31 bright green as used in Apple IIe monitors and oscilloscopes"
 msgstr "P31 helder groen soos gebruik in Apple IIe-monitors en ossilloskope"
 
-#: resources/themes.ini:791 resources/themes.ini:821
+#: resources/themes.ini:790 resources/themes.ini:820
 msgid "P39 saturated green as used in Apple III and IBM 5151 terminals"
 msgstr "P39 versadigde groen soos gebruik in Apple III- en IBM 5151-terminale"
 
-#: resources/themes.ini:851 resources/themes.ini:881
+#: resources/themes.ini:850 resources/themes.ini:880
 msgid "P45 cool white for monochrome camcorder viewfinders"
 msgstr "P45 koel wit vir monochroom kamkorder-soekers"
 
-#: resources/themes.ini:911 resources/themes.ini:941
+#: resources/themes.ini:910 resources/themes.ini:940
 msgid "Classic cyan/magenta gaming aesthetic from early IBM PC era"
 msgstr "Klassieke siaan/magenta-speletjie-estetika uit die vroeë IBM PC-era"
 
-#: resources/themes.ini:971 resources/themes.ini:1001
+#: resources/themes.ini:970 resources/themes.ini:1000
 msgid "Warm creative light palette with magenta foundation"
 msgstr "Warm kreatiewe ligpalet met magenta-fondament"
 
-#: resources/themes.ini:1031 resources/themes.ini:1061
+#: resources/themes.ini:1030 resources/themes.ini:1060
 msgid "Green-accented CRT aesthetic for extended viewing"
 msgstr "Groen-akkent CRT-estetika vir langdurige kyk"
 
-#: resources/themes.ini:1091 resources/themes.ini:1121
+#: resources/themes.ini:1090 resources/themes.ini:1120
 msgid "Cool professional light palette with blue foundation"
 msgstr "Koel professionele ligpalet met blou fondament"
 
-#: resources/themes.ini:1151 resources/themes.ini:1181
+#: resources/themes.ini:1150 resources/themes.ini:1180
 msgid "Professional amber/green phosphor aesthetic from IBM business era"
 msgstr "Professionele amber/groen-fosforestetika uit die IBM-besigheidsera"
 
-#: resources/themes.ini:1211 resources/themes.ini:1241
+#: resources/themes.ini:1210 resources/themes.ini:1240
 msgid "CRT Clarity: Split-complementary harmony with warm/cool tension"
 msgstr "CRT Clarity: Gesplete komplementêre harmonie met warm/koel spanning"
 
-#: resources/themes.ini:1271 resources/themes.ini:1301
+#: resources/themes.ini:1270 resources/themes.ini:1300
 msgid "Cool analogous professional light palette"
 msgstr "Koel analoë professionele ligpalet"
 
-#: resources/themes.ini:1331 resources/themes.ini:1361
+#: resources/themes.ini:1330 resources/themes.ini:1360
 msgid "Warm content dark palette for reduced eye strain"
 msgstr "Warm inhoud-donkerpalet vir verminderde oogspanning"
 
-#: resources/themes.ini:1391 resources/themes.ini:1421
+#: resources/themes.ini:1390 resources/themes.ini:1420
 msgid ""
 "CRT Phosphor Glow: Triadic harmony with cool/warm balance and CRT aesthetic"
 msgstr ""
 "CRT Phosphor Glow: Triadiese harmonie met koel/warm balans en CRT-estetika"
 
-#: resources/themes.ini:1451 resources/themes.ini:1481
+#: resources/themes.ini:1450 resources/themes.ini:1480
 msgid "P1 medium-persistence green as used in early oscilloscope tubes"
 msgstr "P1 medium-nagloeityd groen soos gebruik in vroeë ossilloskoopbuise"
 
-#: resources/themes.ini:1511 resources/themes.ini:1541
+#: resources/themes.ini:1510 resources/themes.ini:1540
 msgid "P4 white as used in IBM 8503 VGA and broadcast television"
 msgstr "P4 wit soos gebruik in IBM 8503 VGA en uitsaaitelevisie"
 
-#: resources/themes.ini:1571 resources/themes.ini:1601
+#: resources/themes.ini:1570 resources/themes.ini:1600
 msgid "P7 cascade phosphor as used in military radar and air traffic control"
 msgstr "P7 kaskadefosfor soos gebruik in militêre radar en lugverkeersbeheer"
 
-#: resources/themes.ini:1631 resources/themes.ini:1661
+#: resources/themes.ini:1630 resources/themes.ini:1660
 msgid "Cupcake color palette from DaisyUI theme collection"
 msgstr "Cupcake-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:1691 resources/themes.ini:1721
+#: resources/themes.ini:1690 resources/themes.ini:1720
 msgid "Cyberpunk color palette from DaisyUI theme collection"
 msgstr "Cyberpunk-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:1751 resources/themes.ini:1781
+#: resources/themes.ini:1750 resources/themes.ini:1780
 msgid "Dark color palette from DaisyUI theme collection"
 msgstr "Dark-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:1811 resources/themes.ini:1841
+#: resources/themes.ini:1810 resources/themes.ini:1840
 msgid "Dim color palette from DaisyUI theme collection"
 msgstr "Dim-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:1871 resources/themes.ini:1901
+#: resources/themes.ini:1870 resources/themes.ini:1900
 msgid "Dracula color palette from DaisyUI theme collection"
 msgstr "Dracula-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:1931 resources/themes.ini:1961
+#: resources/themes.ini:1930 resources/themes.ini:1960
 msgid "Emerald color palette from DaisyUI theme collection"
 msgstr "Emerald-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:1991 resources/themes.ini:2021
+#: resources/themes.ini:1990 resources/themes.ini:2020
 msgid "Fantasy color palette from DaisyUI theme collection"
 msgstr "Fantasy-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2051 resources/themes.ini:2081
+#: resources/themes.ini:2050 resources/themes.ini:2080
 msgid "Forest color palette from DaisyUI theme collection"
 msgstr "Forest-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2111 resources/themes.ini:2141
+#: resources/themes.ini:2110 resources/themes.ini:2140
 msgid "Garden color palette from DaisyUI theme collection"
 msgstr "Garden-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2171 resources/themes.ini:2201
+#: resources/themes.ini:2170 resources/themes.ini:2200
 msgid "Halloween color palette from DaisyUI theme collection"
 msgstr "Halloween-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2231 resources/themes.ini:2261
+#: resources/themes.ini:2230 resources/themes.ini:2260
 msgid "Lemonade color palette from DaisyUI theme collection"
 msgstr "Lemonade-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2291 resources/themes.ini:2321
+#: resources/themes.ini:2290 resources/themes.ini:2320
 msgid "Light color palette from DaisyUI theme collection"
 msgstr "Light-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2351 resources/themes.ini:2381
+#: resources/themes.ini:2350 resources/themes.ini:2380
 msgid "Lofi color palette from DaisyUI theme collection"
 msgstr "Lofi-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2411 resources/themes.ini:2441
+#: resources/themes.ini:2410 resources/themes.ini:2440
 msgid "Luxury color palette from DaisyUI theme collection"
 msgstr "Luxury-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2471 resources/themes.ini:2501
+#: resources/themes.ini:2470 resources/themes.ini:2500
 msgid "Night color palette from DaisyUI theme collection"
 msgstr "Night-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2531 resources/themes.ini:2561
+#: resources/themes.ini:2530 resources/themes.ini:2560
 msgid "Nord color palette from DaisyUI theme collection"
 msgstr "Nord-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2591 resources/themes.ini:2621
+#: resources/themes.ini:2590 resources/themes.ini:2620
 msgid "Pastel color palette from DaisyUI theme collection"
 msgstr "Pastel-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2651 resources/themes.ini:2681
+#: resources/themes.ini:2650 resources/themes.ini:2680
 msgid "Retro color palette from DaisyUI theme collection"
 msgstr "Retro-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2711 resources/themes.ini:2741
+#: resources/themes.ini:2710 resources/themes.ini:2740
 msgid "Silk color palette from DaisyUI theme collection"
 msgstr "Silk-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2771 resources/themes.ini:2801
+#: resources/themes.ini:2770 resources/themes.ini:2800
 msgid "Sunset color palette from DaisyUI theme collection"
 msgstr "Sunset-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2831 resources/themes.ini:2861
+#: resources/themes.ini:2830 resources/themes.ini:2860
 msgid "Synthwave color palette from DaisyUI theme collection"
 msgstr "Synthwave-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2891 resources/themes.ini:2921
+#: resources/themes.ini:2890 resources/themes.ini:2920
 msgid "Valentine color palette from DaisyUI theme collection"
 msgstr "Valentine-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:2951 resources/themes.ini:2981
+#: resources/themes.ini:2950 resources/themes.ini:2980
 msgid "Winter color palette from DaisyUI theme collection"
 msgstr "Winter-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:3011 resources/themes.ini:3041
+#: resources/themes.ini:3010 resources/themes.ini:3040
 msgid "Wireframe color palette from DaisyUI theme collection"
 msgstr "Wireframe-kleurpalet uit die DaisyUI-temaversameling"
 
-#: resources/themes.ini:3071 resources/themes.ini:3101
+#: resources/themes.ini:3070 resources/themes.ini:3100
 msgid "Classic xnec2c plot colors"
 msgstr "Klassieke xnec2c-plotkleure"
 
-#: resources/themes.ini:3131 resources/themes.ini:3161
+#: resources/themes.ini:3130 resources/themes.ini:3160
 msgid "Hand-tuned cool palette"
 msgstr "Handmatig ingestelde koel palet"
 
-#: resources/themes.ini:3191 resources/themes.ini:3221
+#: resources/themes.ini:3190 resources/themes.ini:3220
 msgid "Hand-tuned warm palette"
 msgstr "Handmatig ingestelde warm palet"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-08 20:33-0800\n"
+"POT-Creation-Date: 2026-11-12 16:15+0300\n"
 "PO-Revision-Date: 2026-07-11 10:31-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,19 +17,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # xnec2c-exempt: name
-#: files/xnec2c.desktop.in:3 resources/xnec2c.glade:1784
+#: files/xnec2c.desktop.in:2 resources/xnec2c.glade:1784
 msgid "xnec2c"
 msgstr ""
 
-#: files/xnec2c.desktop.in:4
+#: files/xnec2c.desktop.in:3
 msgid "NEC2 Simulator"
 msgstr "NEC2 சிமுலேட்டர்"
 
-#: files/xnec2c.desktop.in:5
+#: files/xnec2c.desktop.in:4
 msgid "Numerical Electromagnetics Code software"
 msgstr "எண் மின்காந்தவியல் குறியீடு மென்பொருள்"
 
-#: files/xnec2c.desktop.in:11
+#: files/xnec2c.desktop.in:10
 msgid "nec2;em;simulator;"
 msgstr "nec2;மின்காந்தவியல்;சிமுலேட்டர்;"
 
@@ -3202,8 +3202,8 @@ msgstr "--%s விருப்பத்திற்கு <width>x<height> த�
 msgid ""
 "cairo_fit_view: no frame solved: extent=%g box=[%g,%g,%g,%g] view=%dx%d\n"
 msgstr ""
-"cairo_fit_view: எந்த சட்டமும் தீர்க்கப்படவில்லை: extent=%g box=[%g,%g,%g,%g] view=%dx"
-"%d\n"
+"cairo_fit_view: எந்த சட்டமும் தீர்க்கப்படவில்லை: extent=%g box=[%g,%g,%g,%g] "
+"view=%dx%d\n"
 
 # xnec2c-exempt: notation
 #: src/cairo/cairo_frame.c:307
@@ -3736,8 +3736,8 @@ msgstr "தீர்வி கண்டிஷனிங்"
 #: src/freqplots/freqplots_core.c:496
 #, c-format
 msgid ""
-"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f n="
-"%d]\n"
+"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f "
+"n=%d]\n"
 msgstr ""
 
 #: src/freqplots/freqplots_core.c:722
@@ -4693,7 +4693,6 @@ msgid "Read_Geometry: verify_segments() passed\n"
 msgstr "Read_Geometry: verify_segments() தேர்ச்சியடைந்தது\n"
 
 #: src/input.c:811
-#, c-format
 msgid "segment data error: tag=%d si=%lf, bi=%lf\n"
 msgstr "பிரிவுத் தரவுப் பிழை: tag=%d si=%lf, bi=%lf\n"
 
@@ -5372,8 +5371,8 @@ msgid ""
 "select which one you wish to benchmark before proceeding or it will choose "
 "the first in the list and skip the rest.\n"
 "\n"
-"* Thread congestion will occur for multi-threaded libraries when using the -"
-"j N option if there are not enough CPUs available to accommodate the forked "
+"* Thread congestion will occur for multi-threaded libraries when using the "
+"-j N option if there are not enough CPUs available to accommodate the forked "
 "processes in combination with library threads.  Consider reducing the value "
 "of -j N for benchmarking to find what library works best with a mix of "
 "forking and threading; you can use `top` to monitor your CPU usageand if it "
@@ -5552,8 +5551,8 @@ msgstr ""
 #, c-format
 msgid "mem-report %s: live_blocks=%llu live_bytes=%llu distinct_sites=%llu\n"
 msgstr ""
-"mem-report %s: செயலில் உள்ள தொகுதிகள்=%llu செயலில் உள்ள பைட்டுகள்=%llu தனித்த இடங்கள்="
-"%llu\n"
+"mem-report %s: செயலில் உள்ள தொகுதிகள்=%llu செயலில் உள்ள பைட்டுகள்=%llu தனித்த "
+"இடங்கள்=%llu\n"
 
 #: src/mem/mem_track.c:219
 #, c-format
@@ -5899,8 +5898,8 @@ msgstr ""
 #, c-format
 msgid "inotify: SKIP event (not MODIFY/CLOSE_WRITE/MOVED_TO, mask=0x%08x)\n"
 msgstr ""
-"inotify: நிகழ்வு தவிர்க்கப்படுகிறது (MODIFY/CLOSE_WRITE/MOVED_TO அல்ல, mask=0x"
-"%08x)\n"
+"inotify: நிகழ்வு தவிர்க்கப்படுகிறது (MODIFY/CLOSE_WRITE/MOVED_TO அல்ல, "
+"mask=0x%08x)\n"
 
 #: src/optimize.c:525
 msgid "failed to create optimizer wake eventfd\n"
@@ -6675,11 +6674,11 @@ msgstr "சரிபார்ப்பு மரம் எழுதப்பட�
 #: src/xnec2c.c:314
 #, c-format
 msgid ""
-"complex dielectric constant from file: %12.5E%+12.5Ej, requested: %12.5E"
-"%+12.5Ej\n"
+"complex dielectric constant from file: %12.5E%+12.5Ej, requested: "
+"%12.5E%+12.5Ej\n"
 msgstr ""
-"கோப்பிலிருந்து சிக்கலான டையிலெக்ட்ரிக் மாறிலி: %12.5E%+12.5Ej, கோரப்பட்டது: %12.5E"
-"%+12.5Ej\n"
+"கோப்பிலிருந்து சிக்கலான டையிலெக்ட்ரிக் மாறிலி: %12.5E%+12.5Ej, கோரப்பட்டது: "
+"%12.5E%+12.5Ej\n"
 
 #: src/xnec2c.c:317
 msgid "Ground_Parameters():Error in ground parameters"
@@ -6800,222 +6799,222 @@ msgstr ""
 "ஸ்வீப் முழுமையாகக் கணிக்கப்பட்டுள்ளது. அதை மீண்டும் இயக்கினால் கணிக்கப்பட்ட ஒவ்வொரு படியும் "
 "நீக்கப்பட்டு, ஸ்வீப் அதன் முதல் படியிலிருந்து கணக்கிடப்படும்."
 
-#: resources/themes.ini:11 resources/themes.ini:41
+#: resources/themes.ini:10 resources/themes.ini:40
 msgid "Abyss color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Abyss நிறப் பாலெட்"
 
-#: resources/themes.ini:71 resources/themes.ini:101
+#: resources/themes.ini:70 resources/themes.ini:100
 msgid "Acid color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Acid நிறப் பாலெட்"
 
-#: resources/themes.ini:131 resources/themes.ini:161
+#: resources/themes.ini:130 resources/themes.ini:160
 msgid "Aqua color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Aqua நிறப் பாலெட்"
 
-#: resources/themes.ini:191 resources/themes.ini:221
+#: resources/themes.ini:190 resources/themes.ini:220
 msgid "Autumn color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Autumn நிறப் பாலெட்"
 
-#: resources/themes.ini:251 resources/themes.ini:281
+#: resources/themes.ini:250 resources/themes.ini:280
 msgid "Black color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Black நிறப் பாலெட்"
 
-#: resources/themes.ini:311 resources/themes.ini:341
+#: resources/themes.ini:310 resources/themes.ini:340
 msgid "Bumblebee color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Bumblebee நிறப் பாலெட்"
 
-#: resources/themes.ini:371 resources/themes.ini:401
+#: resources/themes.ini:370 resources/themes.ini:400
 msgid "Business color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Business நிறப் பாலெட்"
 
-#: resources/themes.ini:431 resources/themes.ini:461
+#: resources/themes.ini:430 resources/themes.ini:460
 msgid "Caramellatte color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Caramellatte நிறப் பாலெட்"
 
-#: resources/themes.ini:491 resources/themes.ini:521
+#: resources/themes.ini:490 resources/themes.ini:520
 msgid "Cmyk color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Cmyk நிறப் பாலெட்"
 
-#: resources/themes.ini:551 resources/themes.ini:581
+#: resources/themes.ini:550 resources/themes.ini:580
 msgid "Coffee color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Coffee நிறப் பாலெட்"
 
-#: resources/themes.ini:611 resources/themes.ini:641
+#: resources/themes.ini:610 resources/themes.ini:640
 msgid "Corporate color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Corporate நிறப் பாலெட்"
 
-#: resources/themes.ini:671 resources/themes.ini:701
+#: resources/themes.ini:670 resources/themes.ini:700
 msgid "P3 amber as used in IBM PC XT and Hercules displays"
 msgstr "IBM PC XT மற்றும் Hercules காட்சிகளில் பயன்படுத்தப்பட்ட P3 அம்பர்"
 
-#: resources/themes.ini:731 resources/themes.ini:761
+#: resources/themes.ini:730 resources/themes.ini:760
 msgid "P31 bright green as used in Apple IIe monitors and oscilloscopes"
 msgstr "Apple IIe கண்காணிப்பான்களிலும் அலைக்காட்டிகளிலும் பயன்படுத்தப்பட்ட P31 ஒளிர் பச்சை"
 
-#: resources/themes.ini:791 resources/themes.ini:821
+#: resources/themes.ini:790 resources/themes.ini:820
 msgid "P39 saturated green as used in Apple III and IBM 5151 terminals"
 msgstr "Apple III மற்றும் IBM 5151 முனையங்களில் பயன்படுத்தப்பட்ட P39 செறிவான பச்சை"
 
-#: resources/themes.ini:851 resources/themes.ini:881
+#: resources/themes.ini:850 resources/themes.ini:880
 msgid "P45 cool white for monochrome camcorder viewfinders"
 msgstr "ஒற்றை நிற கேம்கார்டர் வியூஃபைண்டர்களுக்கான P45 குளிர் வெள்ளை"
 
-#: resources/themes.ini:911 resources/themes.ini:941
+#: resources/themes.ini:910 resources/themes.ini:940
 msgid "Classic cyan/magenta gaming aesthetic from early IBM PC era"
 msgstr "ஆரம்பகால IBM PC காலத்திலிருந்து வந்த மரபார்ந்த சியான்/மெஜந்தா விளையாட்டு அழகியல்"
 
-#: resources/themes.ini:971 resources/themes.ini:1001
+#: resources/themes.ini:970 resources/themes.ini:1000
 msgid "Warm creative light palette with magenta foundation"
 msgstr "மெஜந்தா அடித்தளத்துடன் கூடிய சூடான ஆக்கப்பூர்வ வெளிர் பாலெட்"
 
-#: resources/themes.ini:1031 resources/themes.ini:1061
+#: resources/themes.ini:1030 resources/themes.ini:1060
 msgid "Green-accented CRT aesthetic for extended viewing"
 msgstr "நீடித்த பார்வைக்கான பச்சை உச்சரிப்புடைய சிஆர்டி அழகியல்"
 
-#: resources/themes.ini:1091 resources/themes.ini:1121
+#: resources/themes.ini:1090 resources/themes.ini:1120
 msgid "Cool professional light palette with blue foundation"
 msgstr "நீல அடித்தளத்துடன் கூடிய குளிர் தொழில்முறை வெளிர் பாலெட்"
 
-#: resources/themes.ini:1151 resources/themes.ini:1181
+#: resources/themes.ini:1150 resources/themes.ini:1180
 msgid "Professional amber/green phosphor aesthetic from IBM business era"
 msgstr "IBM வணிக காலத்திலிருந்து வந்த தொழில்முறை அம்பர்/பச்சை பாஸ்பர் அழகியல்"
 
-#: resources/themes.ini:1211 resources/themes.ini:1241
+#: resources/themes.ini:1210 resources/themes.ini:1240
 msgid "CRT Clarity: Split-complementary harmony with warm/cool tension"
 msgstr "சிஆர்டி தெளிவு: சூடு/குளிர் பதற்றத்துடன் கூடிய பிரிந்த நிரப்பு இசைவு"
 
-#: resources/themes.ini:1271 resources/themes.ini:1301
+#: resources/themes.ini:1270 resources/themes.ini:1300
 msgid "Cool analogous professional light palette"
 msgstr "குளிர் ஒத்த தொழில்முறை வெளிர் பாலெட்"
 
-#: resources/themes.ini:1331 resources/themes.ini:1361
+#: resources/themes.ini:1330 resources/themes.ini:1360
 msgid "Warm content dark palette for reduced eye strain"
 msgstr "கண் சோர்வைக் குறைப்பதற்கான சூடான உள்ளடக்க இருண்ட பாலெட்"
 
-#: resources/themes.ini:1391 resources/themes.ini:1421
+#: resources/themes.ini:1390 resources/themes.ini:1420
 msgid ""
 "CRT Phosphor Glow: Triadic harmony with cool/warm balance and CRT aesthetic"
 msgstr ""
 "சிஆர்டி பாஸ்பர் பளபளப்பு: குளிர்/சூடு சமநிலையுடன் கூடிய முக்கோண இசைவு மற்றும் சிஆர்டி "
 "அழகியல்"
 
-#: resources/themes.ini:1451 resources/themes.ini:1481
+#: resources/themes.ini:1450 resources/themes.ini:1480
 msgid "P1 medium-persistence green as used in early oscilloscope tubes"
 msgstr "ஆரம்பகால அலைக்காட்டிக் குழாய்களில் பயன்படுத்தப்பட்ட P1 நடுத்தர நீடிப்பு பச்சை"
 
-#: resources/themes.ini:1511 resources/themes.ini:1541
+#: resources/themes.ini:1510 resources/themes.ini:1540
 msgid "P4 white as used in IBM 8503 VGA and broadcast television"
 msgstr "IBM 8503 VGA மற்றும் ஒலிபரப்புத் தொலைக்காட்சியில் பயன்படுத்தப்பட்ட P4 வெள்ளை"
 
-#: resources/themes.ini:1571 resources/themes.ini:1601
+#: resources/themes.ini:1570 resources/themes.ini:1600
 msgid "P7 cascade phosphor as used in military radar and air traffic control"
 msgstr ""
 "இராணுவ ரேடார் மற்றும் வான்போக்குவரத்துக் கட்டுப்பாட்டில் பயன்படுத்தப்பட்ட P7 அடுக்கு பாஸ்பர்"
 
-#: resources/themes.ini:1631 resources/themes.ini:1661
+#: resources/themes.ini:1630 resources/themes.ini:1660
 msgid "Cupcake color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Cupcake நிறப் பாலெட்"
 
-#: resources/themes.ini:1691 resources/themes.ini:1721
+#: resources/themes.ini:1690 resources/themes.ini:1720
 msgid "Cyberpunk color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Cyberpunk நிறப் பாலெட்"
 
-#: resources/themes.ini:1751 resources/themes.ini:1781
+#: resources/themes.ini:1750 resources/themes.ini:1780
 msgid "Dark color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Dark நிறப் பாலெட்"
 
-#: resources/themes.ini:1811 resources/themes.ini:1841
+#: resources/themes.ini:1810 resources/themes.ini:1840
 msgid "Dim color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Dim நிறப் பாலெட்"
 
-#: resources/themes.ini:1871 resources/themes.ini:1901
+#: resources/themes.ini:1870 resources/themes.ini:1900
 msgid "Dracula color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Dracula நிறப் பாலெட்"
 
-#: resources/themes.ini:1931 resources/themes.ini:1961
+#: resources/themes.ini:1930 resources/themes.ini:1960
 msgid "Emerald color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Emerald நிறப் பாலெட்"
 
-#: resources/themes.ini:1991 resources/themes.ini:2021
+#: resources/themes.ini:1990 resources/themes.ini:2020
 msgid "Fantasy color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Fantasy நிறப் பாலெட்"
 
-#: resources/themes.ini:2051 resources/themes.ini:2081
+#: resources/themes.ini:2050 resources/themes.ini:2080
 msgid "Forest color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Forest நிறப் பாலெட்"
 
-#: resources/themes.ini:2111 resources/themes.ini:2141
+#: resources/themes.ini:2110 resources/themes.ini:2140
 msgid "Garden color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Garden நிறப் பாலெட்"
 
-#: resources/themes.ini:2171 resources/themes.ini:2201
+#: resources/themes.ini:2170 resources/themes.ini:2200
 msgid "Halloween color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Halloween நிறப் பாலெட்"
 
-#: resources/themes.ini:2231 resources/themes.ini:2261
+#: resources/themes.ini:2230 resources/themes.ini:2260
 msgid "Lemonade color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Lemonade நிறப் பாலெட்"
 
-#: resources/themes.ini:2291 resources/themes.ini:2321
+#: resources/themes.ini:2290 resources/themes.ini:2320
 msgid "Light color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Light நிறப் பாலெட்"
 
-#: resources/themes.ini:2351 resources/themes.ini:2381
+#: resources/themes.ini:2350 resources/themes.ini:2380
 msgid "Lofi color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Lofi நிறப் பாலெட்"
 
-#: resources/themes.ini:2411 resources/themes.ini:2441
+#: resources/themes.ini:2410 resources/themes.ini:2440
 msgid "Luxury color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Luxury நிறப் பாலெட்"
 
-#: resources/themes.ini:2471 resources/themes.ini:2501
+#: resources/themes.ini:2470 resources/themes.ini:2500
 msgid "Night color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Night நிறப் பாலெட்"
 
-#: resources/themes.ini:2531 resources/themes.ini:2561
+#: resources/themes.ini:2530 resources/themes.ini:2560
 msgid "Nord color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Nord நிறப் பாலெட்"
 
-#: resources/themes.ini:2591 resources/themes.ini:2621
+#: resources/themes.ini:2590 resources/themes.ini:2620
 msgid "Pastel color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Pastel நிறப் பாலெட்"
 
-#: resources/themes.ini:2651 resources/themes.ini:2681
+#: resources/themes.ini:2650 resources/themes.ini:2680
 msgid "Retro color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Retro நிறப் பாலெட்"
 
-#: resources/themes.ini:2711 resources/themes.ini:2741
+#: resources/themes.ini:2710 resources/themes.ini:2740
 msgid "Silk color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Silk நிறப் பாலெட்"
 
-#: resources/themes.ini:2771 resources/themes.ini:2801
+#: resources/themes.ini:2770 resources/themes.ini:2800
 msgid "Sunset color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Sunset நிறப் பாலெட்"
 
-#: resources/themes.ini:2831 resources/themes.ini:2861
+#: resources/themes.ini:2830 resources/themes.ini:2860
 msgid "Synthwave color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Synthwave நிறப் பாலெட்"
 
-#: resources/themes.ini:2891 resources/themes.ini:2921
+#: resources/themes.ini:2890 resources/themes.ini:2920
 msgid "Valentine color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Valentine நிறப் பாலெட்"
 
-#: resources/themes.ini:2951 resources/themes.ini:2981
+#: resources/themes.ini:2950 resources/themes.ini:2980
 msgid "Winter color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Winter நிறப் பாலெட்"
 
-#: resources/themes.ini:3011 resources/themes.ini:3041
+#: resources/themes.ini:3010 resources/themes.ini:3040
 msgid "Wireframe color palette from DaisyUI theme collection"
 msgstr "DaisyUI தீம் தொகுப்பிலிருந்து வந்த Wireframe நிறப் பாலெட்"
 
-#: resources/themes.ini:3071 resources/themes.ini:3101
+#: resources/themes.ini:3070 resources/themes.ini:3100
 msgid "Classic xnec2c plot colors"
 msgstr "மரபார்ந்த xnec2c வரைபட நிறங்கள்"
 
-#: resources/themes.ini:3131 resources/themes.ini:3161
+#: resources/themes.ini:3130 resources/themes.ini:3160
 msgid "Hand-tuned cool palette"
 msgstr "கையால் சீர்செய்யப்பட்ட குளிர் பாலெட்"
 
-#: resources/themes.ini:3191 resources/themes.ini:3221
+#: resources/themes.ini:3190 resources/themes.ini:3220
 msgid "Hand-tuned warm palette"
 msgstr "கையால் சீர்செய்யப்பட்ட சூடான பாலெட்"

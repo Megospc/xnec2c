@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-08 16:21-0800\n"
+"POT-Creation-Date: 2026-11-12 16:15+0300\n"
 "PO-Revision-Date: 2025-12-27 16:01-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,19 +18,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # xnec2c-exempt: name
-#: files/xnec2c.desktop.in:3 resources/xnec2c.glade:1784
+#: files/xnec2c.desktop.in:2 resources/xnec2c.glade:1784
 msgid "xnec2c"
 msgstr ""
 
-#: files/xnec2c.desktop.in:4
+#: files/xnec2c.desktop.in:3
 msgid "NEC2 Simulator"
 msgstr "NEC2 সিমুলেটর"
 
-#: files/xnec2c.desktop.in:5
+#: files/xnec2c.desktop.in:4
 msgid "Numerical Electromagnetics Code software"
 msgstr "সংখ্যাসূচক ইলেক্ট্রোম্যাগনেটিক্স কোড সফটওয়্যার"
 
-#: files/xnec2c.desktop.in:11
+#: files/xnec2c.desktop.in:10
 msgid "nec2;em;simulator;"
 msgstr "nec2;ইলেকট্রোম্যাগনেটিক;সিমুলেটর;"
 
@@ -329,7 +329,7 @@ msgstr "গভীরতা বিন"
 
 #: resources/settings/cairo_settings.glade:184
 #: resources/settings/opengl_settings.glade:515
-#: resources/settings/render_settings.glade:201
+#: resources/settings/render_settings.glade:216
 msgid "Reset to _Defaults"
 msgstr "ডিফল্টে _পুনরায় সেট করুন"
 
@@ -785,15 +785,19 @@ msgstr "শুধু দৃশ্যমান — NEC2 মডেল গণনা
 msgid "_Color Theme"
 msgstr "_রঙের থিম"
 
-#: resources/settings/render_settings.glade:162
+#: resources/settings/render_settings.glade:153
+msgid "_Invert"
+msgstr "_ইনভার্ট"
+
+#: resources/settings/render_settings.glade:177
 msgid "_Wire Radius Scale"
 msgstr "তার ব্যাসার্ধ স্কেল (_W)"
 
-#: resources/settings/render_settings.glade:223
+#: resources/settings/render_settings.glade:238
 msgid "Rendering Settings"
 msgstr "রেন্ডারিং সেটিংস"
 
-#: resources/settings/render_settings.glade:267
+#: resources/settings/render_settings.glade:282
 #: resources/sy_overrides.glade:744
 msgid "_Close"
 msgstr "_বন্ধ করুন"
@@ -841,8 +845,8 @@ msgid ""
 "PLEASE read the documentation in the doc/ sub-directory as xnec2c is not "
 "fully compatible with NEC2 input files and it works in different ways!"
 msgstr ""
-"xnec2c হল nec2c-এর একটি পরিবর্তিত সংস্করণের চারপাশে একটি ইন্টারেক্টিভ গ্রাফিক্যাল র‍্"
-"যাপার, যা নিজেই মূল FORTRAN NEC2 সংখ্যাসূচক ইলেক্ট্রোম্যাগনেটিক্স কোডের C-তে "
+"xnec2c হল nec2c-এর একটি পরিবর্তিত সংস্করণের চারপাশে একটি ইন্টারেক্টিভ গ্রাফিক্যাল "
+"র‍্যাপার, যা নিজেই মূল FORTRAN NEC2 সংখ্যাসূচক ইলেক্ট্রোম্যাগনেটিক্স কোডের C-তে "
 "অনুবাদ।\n"
 "\n"
 "xnec2c ফ্রিকোয়েন্সি-নির্ভর ডেটা (গেইন, ইনপুট ইম্পিড্যান্স, vswr ইত্যাদি) গ্রাফিক্যাল "
@@ -3178,8 +3182,8 @@ msgstr "--%s-এর জন্য <width>x<height> প্রয়োজন: %s\n
 msgid ""
 "cairo_fit_view: no frame solved: extent=%g box=[%g,%g,%g,%g] view=%dx%d\n"
 msgstr ""
-"cairo_fit_view: কোনো ফ্রেম সমাধান করা হয়নি: extent=%g box=[%g,%g,%g,%g] view="
-"%dx%d\n"
+"cairo_fit_view: কোনো ফ্রেম সমাধান করা হয়নি: extent=%g box=[%g,%g,%g,%g] "
+"view=%dx%d\n"
 
 # xnec2c-exempt: notation
 #: src/cairo/cairo_frame.c:307
@@ -3709,8 +3713,8 @@ msgstr "সলভার কন্ডিশনিং"
 #: src/freqplots/freqplots_core.c:496
 #, c-format
 msgid ""
-"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f n="
-"%d]\n"
+"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f "
+"n=%d]\n"
 msgstr ""
 
 #: src/freqplots/freqplots_core.c:722
@@ -3783,13 +3787,9 @@ msgstr "পয়েন্টগুলির জন্য মেমরি বর
 msgid "Draw_Graph():Memory allocation for points failed"
 msgstr "Draw_Graph():পয়েন্টগুলির জন্য মেমরি বরাদ্দ ব্যর্থ"
 
-#: src/freqplots/freqplots_theme_menu.c:42
+#: src/freqplots/freqplots_theme_menu.c:47
 msgid "This theme has no inverted variant"
 msgstr "এই থিমের কোনো ইনভার্টেড রূপ নেই"
-
-#: src/freqplots/freqplots_theme_menu.c:127
-msgid "_Invert"
-msgstr "_ইনভার্ট"
 
 #: src/freqplots/graphs/agt_graph.c:67
 msgid "Average gain"
@@ -4124,8 +4124,8 @@ msgid ""
 "Segment connection count exceeds a full mesh, which is unlikely: data.n=%ld "
 "segj.maxcon=%lu\n"
 msgstr ""
-"সেগমেন্ট সংযোগ গণনা একটি সম্পূর্ণ মেশ অতিক্রম করেছে, যা অসম্ভাব্য: data.n=%ld segj."
-"maxcon=%lu\n"
+"সেগমেন্ট সংযোগ গণনা একটি সম্পূর্ণ মেশ অতিক্রম করেছে, যা অসম্ভাব্য: data.n=%ld "
+"segj.maxcon=%lu\n"
 
 #: src/geometry.c:530
 msgid ""
@@ -4251,8 +4251,9 @@ msgid ""
 "tag=%d/seg=%d: end gap=%.3e to tag=%d/seg=%d lies beyond connection "
 "threshold=%.3e but within %gx of it; NEC2 leaves these ends unconnected\n"
 msgstr ""
-"tag=%d/seg=%d: শেষ প্রান্তের gap=%.3e, tag=%d/seg=%d পর্যন্ত, সংযোগ threshold="
-"%.3e সীমার বাইরে কিন্তু তার %gx-এর মধ্যে; NEC2 এই প্রান্তগুলো অসংযুক্ত রাখে\n"
+"tag=%d/seg=%d: শেষ প্রান্তের gap=%.3e, tag=%d/seg=%d পর্যন্ত, সংযোগ "
+"threshold=%.3e সীমার বাইরে কিন্তু তার %gx-এর মধ্যে; NEC2 এই প্রান্তগুলো অসংযুক্ত "
+"রাখে\n"
 
 #: src/geometry.c:1586
 #, c-format
@@ -4265,8 +4266,8 @@ msgid ""
 "tag=%d/seg=%d: length=%.3e is too short (and close enough) to tag=%d/seg=%d "
 "length=%.3e that connection detection may fail or short\n"
 msgstr ""
-"tag=%d/seg=%d: দৈর্ঘ্য=%.3e অত্যন্ত ছোট (এবং যথেষ্ট কাছে) tag=%d/seg=%d দৈর্ঘ্য="
-"%.3e যাতে সংযোগ সনাক্তকরণ ব্যর্থ বা শর্ট হতে পারে\n"
+"tag=%d/seg=%d: দৈর্ঘ্য=%.3e অত্যন্ত ছোট (এবং যথেষ্ট কাছে) tag=%d/seg=%d "
+"দৈর্ঘ্য=%.3e যাতে সংযোগ সনাক্তকরণ ব্যর্থ বা শর্ট হতে পারে\n"
 
 #: src/geometry.c:1645
 #, c-format
@@ -4665,7 +4666,6 @@ msgid "Read_Geometry: verify_segments() passed\n"
 msgstr "Read_Geometry: verify_segments() পাস হয়েছে\n"
 
 #: src/input.c:811
-#, c-format
 msgid "segment data error: tag=%d si=%lf, bi=%lf\n"
 msgstr "সেগমেন্ট ডেটা ত্রুটি: tag=%d si=%lf, bi=%lf\n"
 
@@ -5336,8 +5336,8 @@ msgid ""
 "select which one you wish to benchmark before proceeding or it will choose "
 "the first in the list and skip the rest.\n"
 "\n"
-"* Thread congestion will occur for multi-threaded libraries when using the -"
-"j N option if there are not enough CPUs available to accommodate the forked "
+"* Thread congestion will occur for multi-threaded libraries when using the "
+"-j N option if there are not enough CPUs available to accommodate the forked "
 "processes in combination with library threads.  Consider reducing the value "
 "of -j N for benchmarking to find what library works best with a mix of "
 "forking and threading; you can use `top` to monitor your CPU usageand if it "
@@ -5362,8 +5362,8 @@ msgstr ""
 "\n"
 "* -j N বিকল্প ব্যবহারের সময় ফর্ক করা প্রসেস এবং লাইব্রেরি থ্রেডের সমন্বয় মেটাতে "
 "যথেষ্ট CPU না থাকলে মাল্টি-থ্রেডেড লাইব্রেরির ক্ষেত্রে থ্রেড জট সৃষ্টি হবে। ফর্কিং ও "
-"থ্রেডিংয়ের মিশ্রণের সঙ্গে কোন লাইব্রেরি সর্বোত্তম কাজ করে তা খুঁজতে বেঞ্চমার্কের জন্য -"
-"j N-এর মান কমানোর কথা বিবেচনা করুন; CPU ব্যবহার পর্যবেক্ষণে `top` ব্যবহার করতে "
+"থ্রেডিংয়ের মিশ্রণের সঙ্গে কোন লাইব্রেরি সর্বোত্তম কাজ করে তা খুঁজতে বেঞ্চমার্কের জন্য "
+"-j N-এর মান কমানোর কথা বিবেচনা করুন; CPU ব্যবহার পর্যবেক্ষণে `top` ব্যবহার করতে "
 "পারেন এবং এটি 0%% নিষ্ক্রিয়তায় পৌঁছালে -j N কমানোর কথা বিবেচনা করতে পারেন।\n"
 "\n"
 "--threads N বিকল্পটি নিয়ে পরীক্ষা করার কথা বিবেচনা করুন, যা অন্যথায় প্রাপ্ত "
@@ -6006,38 +6006,38 @@ msgid ""
 "sr\n"
 msgstr "গড় গেইন: %.4f (%.2f dBi), দক্ষতা: %.1f%%, সলিড অ্যাঙ্গেল: %.4f * pi sr\n"
 
-#: src/rc_config.c:1003
+#: src/rc_config.c:999
 #, c-format
 msgid "unable to getcwd(): %s\n"
 msgstr "getcwd() করতে অক্ষম: %s\n"
 
-#: src/rc_config.c:1007
+#: src/rc_config.c:1003
 #, c-format
 msgid "environment variable HOME is undefined, using %s\n"
 msgstr "পরিবেশ চলক HOME অনির্ধারিত, %s ব্যবহার করা হচ্ছে\n"
 
-#: src/rc_config.c:1092
+#: src/rc_config.c:1088
 #, c-format
 msgid ""
 "%s (locale=%s): only matchd %d of %lu chars, trying another locale: %s\n"
 msgstr "%s (locale=%s): মাত্র %d/%lu অক্ষর মিলেছে, অন্য locale চেষ্টা হচ্ছে: %s\n"
 
-#: src/rc_config.c:1311
+#: src/rc_config.c:1307
 #, c-format
 msgid "window: x=%-5d y=%-5d w=%-5d h=%-5d  title: \"%s\"\n"
 msgstr "উইন্ডো: x=%-5d y=%-5d w=%-5d h=%-5d  শিরোনাম: \"%s\"\n"
 
-#: src/rc_config.c:1345
+#: src/rc_config.c:1341
 #, c-format
 msgid "%s: EOF reading application version.\n"
 msgstr "%s: অ্যাপ্লিকেশন ভার্সন পড়তে EOF\n"
 
-#: src/rc_config.c:1351
+#: src/rc_config.c:1347
 #, c-format
 msgid "existing config file version differs: %s != %s\n"
 msgstr "বিদ্যমান কনফিগ ফাইল ভার্সন ভিন্ন: %s != %s\n"
 
-#: src/rc_config.c:1398
+#: src/rc_config.c:1394
 #, c-format
 msgid ""
 "gain readouts are scaled to %s, restored from the previous session; select "
@@ -6046,12 +6046,12 @@ msgstr ""
 "গেইন রিডআউট %s-এ স্কেল করা হয়েছে, পূর্ববর্তী সেশন থেকে পুনরুদ্ধার করা হয়েছে; মোট "
 "গেইন পড়তে মোট গেইন নির্বাচন করুন\n"
 
-#: src/rc_config.c:1521
+#: src/rc_config.c:1517
 #, c-format
 msgid "stat failed for %s: %s\n"
 msgstr "%s-এর জন্য stat ব্যর্থ: %s\n"
 
-#: src/rc_config.c:1527
+#: src/rc_config.c:1523
 #, c-format
 msgid ""
 "Fixed %s directory permissions from 0%o to 0%o from bug introduced in "
@@ -6060,46 +6060,46 @@ msgstr ""
 "%s ডিরেক্টরির অনুমতি 4e62893b-এ প্রবর্তিত বাগ থেকে 0%o থেকে 0%o-তে ঠিক করা "
 "হয়েছে।\n"
 
-#: src/rc_config.c:1560
+#: src/rc_config.c:1556
 #, c-format
 msgid "%s:%d: Line not parsed: %s\n"
 msgstr "%s:%d: লাইন পার্স করা হয়নি: %s\n"
 
-#: src/rc_config.c:1566
+#: src/rc_config.c:1562
 #, c-format
 msgid "%s:%d: Early end of file for %s: %s \n"
 msgstr "%s:%d: %s-এর জন্য ফাইলের অকালীন শেষ: %s \n"
 
-#: src/rc_config.c:1591
+#: src/rc_config.c:1587
 #, c-format
 msgid "%s:%d: parse error (%s): %s \n"
 msgstr "%s:%d: পার্স ত্রুটি (%s): %s \n"
 
-#: src/rc_config.c:1605
+#: src/rc_config.c:1601
 #, c-format
 msgid "Invalid sky model index %d in config, resetting to default\n"
 msgstr "কনফিগে অবৈধ sky মডেল সূচক %d, ডিফল্টে পুনরায় সেট করা হচ্ছে\n"
 
-#: src/rc_config.c:1611
+#: src/rc_config.c:1607
 #, c-format
 msgid "Invalid earth model index %d in config, resetting to default\n"
 msgstr "কনফিগে অবৈধ earth মডেল সূচক %d, ডিফল্টে পুনরায় সেট করা হচ্ছে\n"
 
-#: src/rc_config.c:1617
+#: src/rc_config.c:1613
 #, c-format
 msgid "Invalid interp method %d in config, resetting to default\n"
 msgstr "কনফিগে অবৈধ interp পদ্ধতি %d, ডিফল্টে পুনরায় সেট করা হচ্ছে\n"
 
-#: src/rc_config.c:1625
+#: src/rc_config.c:1621
 #, c-format
 msgid "Invalid flow visualization mode %d in config, resetting to default\n"
 msgstr "কনফিগে অবৈধ প্রবাহ ভিজ্যুয়ালাইজেশন মোড %d, ডিফল্টে রিসেট করা হচ্ছে\n"
 
-#: src/rc_config.c:1790
+#: src/rc_config.c:1786
 msgid "batch mode: skipping configuration save\n"
 msgstr "ব্যাচ মোড: কনফিগারেশন সংরক্ষণ এড়িয়ে যাওয়া হচ্ছে\n"
 
-#: src/rc_config.c:1812
+#: src/rc_config.c:1808
 #, c-format
 msgid "cannot open xnec2c's config file %s: %s\n"
 msgstr "xnec2c-এর কনফিগ ফাইল %s খোলা যাচ্ছে না: %s\n"
@@ -6619,8 +6619,8 @@ msgstr "ভ্যালিডেশন ট্রি লেখা হয়েছ
 #: src/xnec2c.c:314
 #, c-format
 msgid ""
-"complex dielectric constant from file: %12.5E%+12.5Ej, requested: %12.5E"
-"%+12.5Ej\n"
+"complex dielectric constant from file: %12.5E%+12.5Ej, requested: "
+"%12.5E%+12.5Ej\n"
 msgstr ""
 "ফাইল থেকে জটিল পরাবৈদ্যুতিক ধ্রুবক: %12.5E%+12.5Ej, অনুরোধকৃত: %12.5E%+12.5Ej\n"
 
@@ -6744,219 +6744,219 @@ msgstr ""
 "সুইপটি সম্পূর্ণরূপে গণনা করা হয়েছে।  এটি পুনরায় চালালে প্রতিটি গণনাকৃত ধাপ বাতিল হয়ে "
 "যায় এবং সুইপটি তার প্রথম ধাপ থেকে গণনা করা হয়।"
 
-#: resources/themes.ini:11 resources/themes.ini:41
+#: resources/themes.ini:10 resources/themes.ini:40
 msgid "Abyss color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Abyss রং প্যালেট"
 
-#: resources/themes.ini:71 resources/themes.ini:101
+#: resources/themes.ini:70 resources/themes.ini:100
 msgid "Acid color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Acid রং প্যালেট"
 
-#: resources/themes.ini:131 resources/themes.ini:161
+#: resources/themes.ini:130 resources/themes.ini:160
 msgid "Aqua color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Aqua রং প্যালেট"
 
-#: resources/themes.ini:191 resources/themes.ini:221
+#: resources/themes.ini:190 resources/themes.ini:220
 msgid "Autumn color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Autumn রং প্যালেট"
 
-#: resources/themes.ini:251 resources/themes.ini:281
+#: resources/themes.ini:250 resources/themes.ini:280
 msgid "Black color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Black রং প্যালেট"
 
-#: resources/themes.ini:311 resources/themes.ini:341
+#: resources/themes.ini:310 resources/themes.ini:340
 msgid "Bumblebee color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Bumblebee রং প্যালেট"
 
-#: resources/themes.ini:371 resources/themes.ini:401
+#: resources/themes.ini:370 resources/themes.ini:400
 msgid "Business color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Business রং প্যালেট"
 
-#: resources/themes.ini:431 resources/themes.ini:461
+#: resources/themes.ini:430 resources/themes.ini:460
 msgid "Caramellatte color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Caramellatte রং প্যালেট"
 
-#: resources/themes.ini:491 resources/themes.ini:521
+#: resources/themes.ini:490 resources/themes.ini:520
 msgid "Cmyk color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Cmyk রং প্যালেট"
 
-#: resources/themes.ini:551 resources/themes.ini:581
+#: resources/themes.ini:550 resources/themes.ini:580
 msgid "Coffee color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Coffee রং প্যালেট"
 
-#: resources/themes.ini:611 resources/themes.ini:641
+#: resources/themes.ini:610 resources/themes.ini:640
 msgid "Corporate color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Corporate রং প্যালেট"
 
-#: resources/themes.ini:671 resources/themes.ini:701
+#: resources/themes.ini:670 resources/themes.ini:700
 msgid "P3 amber as used in IBM PC XT and Hercules displays"
 msgstr "IBM PC XT ও Hercules ডিসপ্লে ব্যবহৃত P3 অ্যাম্বার"
 
-#: resources/themes.ini:731 resources/themes.ini:761
+#: resources/themes.ini:730 resources/themes.ini:760
 msgid "P31 bright green as used in Apple IIe monitors and oscilloscopes"
 msgstr "Apple IIe মনিটর ও অসিলোস্কোপ ব্যবহৃত P31 উজ্জ্বল সবুজ"
 
-#: resources/themes.ini:791 resources/themes.ini:821
+#: resources/themes.ini:790 resources/themes.ini:820
 msgid "P39 saturated green as used in Apple III and IBM 5151 terminals"
 msgstr "Apple III ও IBM 5151 টার্মিনাল ব্যবহৃত P39 সম্পৃক্ত সবুজ"
 
-#: resources/themes.ini:851 resources/themes.ini:881
+#: resources/themes.ini:850 resources/themes.ini:880
 msgid "P45 cool white for monochrome camcorder viewfinders"
 msgstr "P45 মনোক্রোম ক্যামকর্ডার ভিউফাইন্ডারের জন্য শীতল সাদা"
 
-#: resources/themes.ini:911 resources/themes.ini:941
+#: resources/themes.ini:910 resources/themes.ini:940
 msgid "Classic cyan/magenta gaming aesthetic from early IBM PC era"
 msgstr "প্রথম IBM PC যুগের ক্লাসিক সায়ান/ম্যাজেন্টা গেমিং নান্দনিকতা"
 
-#: resources/themes.ini:971 resources/themes.ini:1001
+#: resources/themes.ini:970 resources/themes.ini:1000
 msgid "Warm creative light palette with magenta foundation"
 msgstr "ম্যাজেন্টা ভিত্তিসহ উষ্ণ সৃজনশীল হালকা প্যালেট"
 
-#: resources/themes.ini:1031 resources/themes.ini:1061
+#: resources/themes.ini:1030 resources/themes.ini:1060
 msgid "Green-accented CRT aesthetic for extended viewing"
 msgstr "দীর্ঘ সময় দেখার জন্য সবুজ-জোরদার CRT নান্দনিকতা"
 
-#: resources/themes.ini:1091 resources/themes.ini:1121
+#: resources/themes.ini:1090 resources/themes.ini:1120
 msgid "Cool professional light palette with blue foundation"
 msgstr "নীল ভিত্তিসহ শীতল পেশাদার হালকা প্যালেট"
 
-#: resources/themes.ini:1151 resources/themes.ini:1181
+#: resources/themes.ini:1150 resources/themes.ini:1180
 msgid "Professional amber/green phosphor aesthetic from IBM business era"
 msgstr "IBM ব্যবসায়িক যুগের পেশাদার অ্যাম্বার/সবুজ ফসফর নান্দনিকতা"
 
-#: resources/themes.ini:1211 resources/themes.ini:1241
+#: resources/themes.ini:1210 resources/themes.ini:1240
 msgid "CRT Clarity: Split-complementary harmony with warm/cool tension"
 msgstr "CRT Clarity: উষ্ণ/শীতল টানাপোড়েনসহ বিভক্ত-পরিপূরক সমন্বয়"
 
-#: resources/themes.ini:1271 resources/themes.ini:1301
+#: resources/themes.ini:1270 resources/themes.ini:1300
 msgid "Cool analogous professional light palette"
 msgstr "শীতল সদৃশ-বর্ণ পেশাদার হালকা প্যালেট"
 
-#: resources/themes.ini:1331 resources/themes.ini:1361
+#: resources/themes.ini:1330 resources/themes.ini:1360
 msgid "Warm content dark palette for reduced eye strain"
 msgstr "চোখের চাপ কমানোর জন্য স্বস্তিকর উষ্ণ গাঢ় প্যালেট"
 
-#: resources/themes.ini:1391 resources/themes.ini:1421
+#: resources/themes.ini:1390 resources/themes.ini:1420
 msgid ""
 "CRT Phosphor Glow: Triadic harmony with cool/warm balance and CRT aesthetic"
 msgstr "CRT Phosphor Glow: শীতল/উষ্ণ ভারসাম্য ও CRT নান্দনিকতাসহ ত্রয়ী সমন্বয়"
 
-#: resources/themes.ini:1451 resources/themes.ini:1481
+#: resources/themes.ini:1450 resources/themes.ini:1480
 msgid "P1 medium-persistence green as used in early oscilloscope tubes"
 msgstr "প্রাথমিক অসিলোস্কোপ টিউব ব্যবহৃত P1 মাঝারি-স্থায়িত্ব সবুজ"
 
-#: resources/themes.ini:1511 resources/themes.ini:1541
+#: resources/themes.ini:1510 resources/themes.ini:1540
 msgid "P4 white as used in IBM 8503 VGA and broadcast television"
 msgstr "IBM 8503 VGA ও সম্প্রচার টেলিভিশন ব্যবহৃত P4 সাদা"
 
-#: resources/themes.ini:1571 resources/themes.ini:1601
+#: resources/themes.ini:1570 resources/themes.ini:1600
 msgid "P7 cascade phosphor as used in military radar and air traffic control"
 msgstr "সামরিক রাডার ও বিমান চলাচল নিয়ন্ত্রণ ব্যবহৃত P7 ক্যাসকেড ফসফর"
 
-#: resources/themes.ini:1631 resources/themes.ini:1661
+#: resources/themes.ini:1630 resources/themes.ini:1660
 msgid "Cupcake color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Cupcake রং প্যালেট"
 
-#: resources/themes.ini:1691 resources/themes.ini:1721
+#: resources/themes.ini:1690 resources/themes.ini:1720
 msgid "Cyberpunk color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Cyberpunk রং প্যালেট"
 
-#: resources/themes.ini:1751 resources/themes.ini:1781
+#: resources/themes.ini:1750 resources/themes.ini:1780
 msgid "Dark color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Dark রং প্যালেট"
 
-#: resources/themes.ini:1811 resources/themes.ini:1841
+#: resources/themes.ini:1810 resources/themes.ini:1840
 msgid "Dim color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Dim রং প্যালেট"
 
-#: resources/themes.ini:1871 resources/themes.ini:1901
+#: resources/themes.ini:1870 resources/themes.ini:1900
 msgid "Dracula color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Dracula রং প্যালেট"
 
-#: resources/themes.ini:1931 resources/themes.ini:1961
+#: resources/themes.ini:1930 resources/themes.ini:1960
 msgid "Emerald color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Emerald রং প্যালেট"
 
-#: resources/themes.ini:1991 resources/themes.ini:2021
+#: resources/themes.ini:1990 resources/themes.ini:2020
 msgid "Fantasy color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Fantasy রং প্যালেট"
 
-#: resources/themes.ini:2051 resources/themes.ini:2081
+#: resources/themes.ini:2050 resources/themes.ini:2080
 msgid "Forest color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Forest রং প্যালেট"
 
-#: resources/themes.ini:2111 resources/themes.ini:2141
+#: resources/themes.ini:2110 resources/themes.ini:2140
 msgid "Garden color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Garden রং প্যালেট"
 
-#: resources/themes.ini:2171 resources/themes.ini:2201
+#: resources/themes.ini:2170 resources/themes.ini:2200
 msgid "Halloween color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Halloween রং প্যালেট"
 
-#: resources/themes.ini:2231 resources/themes.ini:2261
+#: resources/themes.ini:2230 resources/themes.ini:2260
 msgid "Lemonade color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Lemonade রং প্যালেট"
 
-#: resources/themes.ini:2291 resources/themes.ini:2321
+#: resources/themes.ini:2290 resources/themes.ini:2320
 msgid "Light color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Light রং প্যালেট"
 
-#: resources/themes.ini:2351 resources/themes.ini:2381
+#: resources/themes.ini:2350 resources/themes.ini:2380
 msgid "Lofi color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Lofi রং প্যালেট"
 
-#: resources/themes.ini:2411 resources/themes.ini:2441
+#: resources/themes.ini:2410 resources/themes.ini:2440
 msgid "Luxury color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Luxury রং প্যালেট"
 
-#: resources/themes.ini:2471 resources/themes.ini:2501
+#: resources/themes.ini:2470 resources/themes.ini:2500
 msgid "Night color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Night রং প্যালেট"
 
-#: resources/themes.ini:2531 resources/themes.ini:2561
+#: resources/themes.ini:2530 resources/themes.ini:2560
 msgid "Nord color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Nord রং প্যালেট"
 
-#: resources/themes.ini:2591 resources/themes.ini:2621
+#: resources/themes.ini:2590 resources/themes.ini:2620
 msgid "Pastel color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Pastel রং প্যালেট"
 
-#: resources/themes.ini:2651 resources/themes.ini:2681
+#: resources/themes.ini:2650 resources/themes.ini:2680
 msgid "Retro color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Retro রং প্যালেট"
 
-#: resources/themes.ini:2711 resources/themes.ini:2741
+#: resources/themes.ini:2710 resources/themes.ini:2740
 msgid "Silk color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Silk রং প্যালেট"
 
-#: resources/themes.ini:2771 resources/themes.ini:2801
+#: resources/themes.ini:2770 resources/themes.ini:2800
 msgid "Sunset color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Sunset রং প্যালেট"
 
-#: resources/themes.ini:2831 resources/themes.ini:2861
+#: resources/themes.ini:2830 resources/themes.ini:2860
 msgid "Synthwave color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Synthwave রং প্যালেট"
 
-#: resources/themes.ini:2891 resources/themes.ini:2921
+#: resources/themes.ini:2890 resources/themes.ini:2920
 msgid "Valentine color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Valentine রং প্যালেট"
 
-#: resources/themes.ini:2951 resources/themes.ini:2981
+#: resources/themes.ini:2950 resources/themes.ini:2980
 msgid "Winter color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Winter রং প্যালেট"
 
-#: resources/themes.ini:3011 resources/themes.ini:3041
+#: resources/themes.ini:3010 resources/themes.ini:3040
 msgid "Wireframe color palette from DaisyUI theme collection"
 msgstr "DaisyUI থিম সংগ্রহ থেকে Wireframe রং প্যালেট"
 
-#: resources/themes.ini:3071 resources/themes.ini:3101
+#: resources/themes.ini:3070 resources/themes.ini:3100
 msgid "Classic xnec2c plot colors"
 msgstr "ক্লাসিক xnec2c প্লট রং"
 
-#: resources/themes.ini:3131 resources/themes.ini:3161
+#: resources/themes.ini:3130 resources/themes.ini:3160
 msgid "Hand-tuned cool palette"
 msgstr "হাতে-সমন্বিত শীতল প্যালেট"
 
-#: resources/themes.ini:3191 resources/themes.ini:3221
+#: resources/themes.ini:3190 resources/themes.ini:3220
 msgid "Hand-tuned warm palette"
 msgstr "হাতে-সমন্বিত উষ্ণ প্যালেট"

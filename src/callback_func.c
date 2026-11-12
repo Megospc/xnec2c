@@ -174,7 +174,7 @@ Open_Editor( GtkTreeView *view )
   /* Send a "clicked" signal to the appropriate editor button */
   card[0] = (gchar)tolower((int)card[0]);
   card[1] = (gchar)tolower((int)card[1]);
-  button = Builder_Get_Object( nec2_editor_builder, card );
+  button = GTK_WIDGET( gtk_builder_get_object( nec2_editor_builder, card ) );
   g_free(card);
   if( button != NULL )
     g_signal_emit_by_name( button, "clicked" );

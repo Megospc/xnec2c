@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-08 20:33-0800\n"
+"POT-Creation-Date: 2026-11-12 16:15+0300\n"
 "PO-Revision-Date: 2025-12-28 20:37-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -15,23 +15,23 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 # xnec2c-exempt: name
-#: files/xnec2c.desktop.in:3 resources/xnec2c.glade:1784
+#: files/xnec2c.desktop.in:2 resources/xnec2c.glade:1784
 msgid "xnec2c"
 msgstr ""
 
-#: files/xnec2c.desktop.in:4
+#: files/xnec2c.desktop.in:3
 msgid "NEC2 Simulator"
 msgstr "NEC2 симулатор"
 
-#: files/xnec2c.desktop.in:5
+#: files/xnec2c.desktop.in:4
 msgid "Numerical Electromagnetics Code software"
 msgstr "Софтвер за нумеричку електромагнетику"
 
-#: files/xnec2c.desktop.in:11
+#: files/xnec2c.desktop.in:10
 msgid "nec2;em;simulator;"
 msgstr "nec2;em;симулатор;"
 
@@ -3215,8 +3215,8 @@ msgid ""
 "cairo: segs=%d groups=%d batch=%.1fx bins=%d deposit=%.2fms sort=%.2fms "
 "stroke=%.2fms flush=%.2fms total=%.2fms cap=%d\n"
 msgstr ""
-"cairo: сег=%d груп=%d пакет=%.1fx бин=%d депоз=%.2fms сорт=%.2fms потез="
-"%.2fms испир=%.2fms укупно=%.2fms кап=%d\n"
+"cairo: сег=%d груп=%d пакет=%.1fx бин=%d депоз=%.2fms сорт=%.2fms "
+"потез=%.2fms испир=%.2fms укупно=%.2fms кап=%d\n"
 
 #: src/calculations.c:117 src/calculations.c:1290
 #, c-format
@@ -3379,8 +3379,8 @@ msgid ""
 "files for writing in \"File->Optimization Settings\"."
 msgstr ""
 "Нису изабране датотеке за писање. Међутим, xnec2c ће и даље поново учитати и "
-"прерачунати улазну датотеку при измени када је покренуто од стране inotify."
-"Изаберите датотеке за писање у \"Датотека->Подешавања оптимизације\"."
+"прерачунати улазну датотеку при измени када је покренуто од стране "
+"inotify.Изаберите датотеке за писање у \"Датотека->Подешавања оптимизације\"."
 
 #: src/callbacks.c:972 src/callbacks.c:1289 src/callbacks.c:1871
 msgid "Are you sure you wish to close this window?"
@@ -3742,8 +3742,8 @@ msgstr "Условљеност решавача"
 #: src/freqplots/freqplots_core.c:496
 #, c-format
 msgid ""
-"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f n="
-"%d]\n"
+"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f "
+"n=%d]\n"
 msgstr ""
 
 #: src/freqplots/freqplots_core.c:722
@@ -4533,8 +4533,8 @@ msgid ""
 "You must enable current data by clicking \"Currents\" or \"Charges\"in the "
 "main xnec2c window."
 msgstr ""
-"Морате омогућити податке о струјама кликом на \"Струје\" или \"Наелектрисања"
-"\" у главном xnec2c прозору."
+"Морате омогућити податке о струјама кликом на \"Струје\" или "
+"\"Наелектрисања\" у главном xnec2c прозору."
 
 #: src/gnuplot.c:649 src/gnuplot.c:659
 msgid "Save Patch Currents to CSV"
@@ -4545,8 +4545,8 @@ msgid ""
 "You must enable current data by clicking \"Currents\" or \"Charges\" in the "
 "main xnec2c window."
 msgstr ""
-"Морате омогућити податке о струјама кликом на \"Струје\" или \"Наелектрисања"
-"\" у главном xnec2c прозору."
+"Морате омогућити податке о струјама кликом на \"Струје\" или "
+"\"Наелектрисања\" у главном xnec2c прозору."
 
 #: src/gnuplot.c:660
 msgid "No surface patches in this model."
@@ -4704,7 +4704,6 @@ msgid "Read_Geometry: verify_segments() passed\n"
 msgstr "Read_Geometry: verify_segments() прошла\n"
 
 #: src/input.c:811
-#, c-format
 msgid "segment data error: tag=%d si=%lf, bi=%lf\n"
 msgstr "грешка података сегмента: tag=%d si=%lf, bi=%lf\n"
 
@@ -5393,8 +5392,8 @@ msgid ""
 "select which one you wish to benchmark before proceeding or it will choose "
 "the first in the list and skip the rest.\n"
 "\n"
-"* Thread congestion will occur for multi-threaded libraries when using the -"
-"j N option if there are not enough CPUs available to accommodate the forked "
+"* Thread congestion will occur for multi-threaded libraries when using the "
+"-j N option if there are not enough CPUs available to accommodate the forked "
 "processes in combination with library threads.  Consider reducing the value "
 "of -j N for benchmarking to find what library works best with a mix of "
 "forking and threading; you can use `top` to monitor your CPU usageand if it "
@@ -5864,8 +5863,8 @@ msgstr "inotify: прочитано %zd бајтова са inotify fd\n"
 #, c-format
 msgid "inotify: SKIP all events (flags) - INPUT_PENDING=%d sweep_state=%s\n"
 msgstr ""
-"inotify: ПРЕСКОЧИ све догађаје (заставице) - INPUT_PENDING=%d sweep_state="
-"%s\n"
+"inotify: ПРЕСКОЧИ све догађаје (заставице) - INPUT_PENDING=%d "
+"sweep_state=%s\n"
 
 #: src/optimize.c:422
 #, c-format
@@ -5878,8 +5877,8 @@ msgid ""
 "inotify: EVENT flags: IN_CLOSE_WRITE=%d IN_MOVED_TO=%d IN_MOVED_FROM=%d "
 "IN_CREATE=%d IN_DELETE=%d IN_MODIFY=%d\n"
 msgstr ""
-"inotify: заставице ДОГАЂАЈА: IN_CLOSE_WRITE=%d IN_MOVED_TO=%d IN_MOVED_FROM="
-"%d IN_CREATE=%d IN_DELETE=%d IN_MODIFY=%d\n"
+"inotify: заставице ДОГАЂАЈА: IN_CLOSE_WRITE=%d IN_MOVED_TO=%d "
+"IN_MOVED_FROM=%d IN_CREATE=%d IN_DELETE=%d IN_MODIFY=%d\n"
 
 # xnec2c-exempt: notation
 #: src/optimize.c:434
@@ -5907,16 +5906,16 @@ msgid ""
 "inotify: IN_CLOSE_WRITE after modify_seen=TRUE (direct write complete), "
 "triggering reload\n"
 msgstr ""
-"inotify: IN_CLOSE_WRITE након modify_seen=TRUE (директно писање завршено),"
-"покрећем поновно учитавање\n"
+"inotify: IN_CLOSE_WRITE након modify_seen=TRUE (директно писање "
+"завршено),покрећем поновно учитавање\n"
 
 #: src/optimize.c:485
 msgid ""
 "inotify: IN_CLOSE_WRITE without modify_seen (spurious close, old inode), "
 "skipping\n"
 msgstr ""
-"inotify: IN_CLOSE_WRITE без modify_seen (лажно затварање, стари inode),"
-"прескачем\n"
+"inotify: IN_CLOSE_WRITE без modify_seen (лажно затварање, стари "
+"inode),прескачем\n"
 
 #: src/optimize.c:492
 #, c-format
@@ -6700,8 +6699,8 @@ msgstr "дрво верификације уписано у: %s\n"
 #: src/xnec2c.c:314
 #, c-format
 msgid ""
-"complex dielectric constant from file: %12.5E%+12.5Ej, requested: %12.5E"
-"%+12.5Ej\n"
+"complex dielectric constant from file: %12.5E%+12.5Ej, requested: "
+"%12.5E%+12.5Ej\n"
 msgstr ""
 "комплексна диелектрична константа из датотеке: %12.5E%+12.5Ej, захтевана: "
 "%12.5E%+12.5Ej\n"
@@ -6827,227 +6826,227 @@ msgstr ""
 "Претраживање је у потпуности израчунато.  Поновно покретање одбацује сваки "
 "израчунати корак и израчунава претраживање од првог корака."
 
-#: resources/themes.ini:11 resources/themes.ini:41
+#: resources/themes.ini:10 resources/themes.ini:40
 msgid "Abyss color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Abyss из DaisyUI колекције"
 
-#: resources/themes.ini:71 resources/themes.ini:101
+#: resources/themes.ini:70 resources/themes.ini:100
 msgid "Acid color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Acid из DaisyUI колекције"
 
-#: resources/themes.ini:131 resources/themes.ini:161
+#: resources/themes.ini:130 resources/themes.ini:160
 msgid "Aqua color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Aqua из DaisyUI колекције"
 
-#: resources/themes.ini:191 resources/themes.ini:221
+#: resources/themes.ini:190 resources/themes.ini:220
 msgid "Autumn color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Autumn из DaisyUI колекције"
 
-#: resources/themes.ini:251 resources/themes.ini:281
+#: resources/themes.ini:250 resources/themes.ini:280
 msgid "Black color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Black из DaisyUI колекције"
 
-#: resources/themes.ini:311 resources/themes.ini:341
+#: resources/themes.ini:310 resources/themes.ini:340
 msgid "Bumblebee color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Bumblebee из DaisyUI колекције"
 
-#: resources/themes.ini:371 resources/themes.ini:401
+#: resources/themes.ini:370 resources/themes.ini:400
 msgid "Business color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Business из DaisyUI колекције"
 
-#: resources/themes.ini:431 resources/themes.ini:461
+#: resources/themes.ini:430 resources/themes.ini:460
 msgid "Caramellatte color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Caramellatte из DaisyUI колекције"
 
-#: resources/themes.ini:491 resources/themes.ini:521
+#: resources/themes.ini:490 resources/themes.ini:520
 msgid "Cmyk color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Cmyk из DaisyUI колекције"
 
-#: resources/themes.ini:551 resources/themes.ini:581
+#: resources/themes.ini:550 resources/themes.ini:580
 msgid "Coffee color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Coffee из DaisyUI колекције"
 
-#: resources/themes.ini:611 resources/themes.ini:641
+#: resources/themes.ini:610 resources/themes.ini:640
 msgid "Corporate color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Corporate из DaisyUI колекције"
 
-#: resources/themes.ini:671 resources/themes.ini:701
+#: resources/themes.ini:670 resources/themes.ini:700
 msgid "P3 amber as used in IBM PC XT and Hercules displays"
 msgstr "P3 јантарни фосфор коришћен у IBM PC XT и Hercules екранима"
 
-#: resources/themes.ini:731 resources/themes.ini:761
+#: resources/themes.ini:730 resources/themes.ini:760
 msgid "P31 bright green as used in Apple IIe monitors and oscilloscopes"
 msgstr ""
 "P31 светлозелени фосфор коришћен у Apple IIe мониторима и осцилоскопима"
 
-#: resources/themes.ini:791 resources/themes.ini:821
+#: resources/themes.ini:790 resources/themes.ini:820
 msgid "P39 saturated green as used in Apple III and IBM 5151 terminals"
 msgstr "P39 засићени зелени фосфор коришћен у Apple III и IBM 5151 терминалима"
 
-#: resources/themes.ini:851 resources/themes.ini:881
+#: resources/themes.ini:850 resources/themes.ini:880
 msgid "P45 cool white for monochrome camcorder viewfinders"
 msgstr "P45 хладно бели фосфор за монохромна камкордерска тражила"
 
-#: resources/themes.ini:911 resources/themes.ini:941
+#: resources/themes.ini:910 resources/themes.ini:940
 msgid "Classic cyan/magenta gaming aesthetic from early IBM PC era"
 msgstr "Класична цијан/магента естетика игара из раног доба IBM PC рачунара"
 
-#: resources/themes.ini:971 resources/themes.ini:1001
+#: resources/themes.ini:970 resources/themes.ini:1000
 msgid "Warm creative light palette with magenta foundation"
 msgstr "Топла креативна светла палета с магента основом"
 
-#: resources/themes.ini:1031 resources/themes.ini:1061
+#: resources/themes.ini:1030 resources/themes.ini:1060
 msgid "Green-accented CRT aesthetic for extended viewing"
 msgstr "CRT естетика с зеленим нагласком за дуготрајно гледање"
 
-#: resources/themes.ini:1091 resources/themes.ini:1121
+#: resources/themes.ini:1090 resources/themes.ini:1120
 msgid "Cool professional light palette with blue foundation"
 msgstr "Хладна професионална светла палета с плавом основом"
 
-#: resources/themes.ini:1151 resources/themes.ini:1181
+#: resources/themes.ini:1150 resources/themes.ini:1180
 msgid "Professional amber/green phosphor aesthetic from IBM business era"
 msgstr ""
 "Професионална јантарна/зелена фосфорна естетика из пословне ере IBM рачунара"
 
-#: resources/themes.ini:1211 resources/themes.ini:1241
+#: resources/themes.ini:1210 resources/themes.ini:1240
 msgid "CRT Clarity: Split-complementary harmony with warm/cool tension"
 msgstr ""
 "CRT јасноћа: раздвојена комплементарна хармонија с топлом/хладном напетошћу"
 
-#: resources/themes.ini:1271 resources/themes.ini:1301
+#: resources/themes.ini:1270 resources/themes.ini:1300
 msgid "Cool analogous professional light palette"
 msgstr "Хладна аналогна професионална светла палета"
 
-#: resources/themes.ini:1331 resources/themes.ini:1361
+#: resources/themes.ini:1330 resources/themes.ini:1360
 msgid "Warm content dark palette for reduced eye strain"
 msgstr "Топла угодна тамна палета за смањен напор очију"
 
-#: resources/themes.ini:1391 resources/themes.ini:1421
+#: resources/themes.ini:1390 resources/themes.ini:1420
 msgid ""
 "CRT Phosphor Glow: Triadic harmony with cool/warm balance and CRT aesthetic"
 msgstr ""
 "CRT сјај фосфора: тријадна хармонија с равнотежом хладних и топлих тонова и "
 "CRT естетиком"
 
-#: resources/themes.ini:1451 resources/themes.ini:1481
+#: resources/themes.ini:1450 resources/themes.ini:1480
 msgid "P1 medium-persistence green as used in early oscilloscope tubes"
 msgstr ""
 "P1 зелени фосфор средње постојаности коришћен у раним катодним цевима "
 "осцилоскопа"
 
-#: resources/themes.ini:1511 resources/themes.ini:1541
+#: resources/themes.ini:1510 resources/themes.ini:1540
 msgid "P4 white as used in IBM 8503 VGA and broadcast television"
 msgstr "P4 бели фосфор коришћен у IBM 8503 VGA и телевизијском емитовању"
 
-#: resources/themes.ini:1571 resources/themes.ini:1601
+#: resources/themes.ini:1570 resources/themes.ini:1600
 msgid "P7 cascade phosphor as used in military radar and air traffic control"
 msgstr ""
 "P7 каскадни фосфор коришћен у војним радарима и контроли ваздушног саобраћаја"
 
-#: resources/themes.ini:1631 resources/themes.ini:1661
+#: resources/themes.ini:1630 resources/themes.ini:1660
 msgid "Cupcake color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Cupcake из DaisyUI колекције"
 
-#: resources/themes.ini:1691 resources/themes.ini:1721
+#: resources/themes.ini:1690 resources/themes.ini:1720
 msgid "Cyberpunk color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Cyberpunk из DaisyUI колекције"
 
-#: resources/themes.ini:1751 resources/themes.ini:1781
+#: resources/themes.ini:1750 resources/themes.ini:1780
 msgid "Dark color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Dark из DaisyUI колекције"
 
-#: resources/themes.ini:1811 resources/themes.ini:1841
+#: resources/themes.ini:1810 resources/themes.ini:1840
 msgid "Dim color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Dim из DaisyUI колекције"
 
-#: resources/themes.ini:1871 resources/themes.ini:1901
+#: resources/themes.ini:1870 resources/themes.ini:1900
 msgid "Dracula color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Dracula из DaisyUI колекције"
 
-#: resources/themes.ini:1931 resources/themes.ini:1961
+#: resources/themes.ini:1930 resources/themes.ini:1960
 msgid "Emerald color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Emerald из DaisyUI колекције"
 
-#: resources/themes.ini:1991 resources/themes.ini:2021
+#: resources/themes.ini:1990 resources/themes.ini:2020
 msgid "Fantasy color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Fantasy из DaisyUI колекције"
 
-#: resources/themes.ini:2051 resources/themes.ini:2081
+#: resources/themes.ini:2050 resources/themes.ini:2080
 msgid "Forest color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Forest из DaisyUI колекције"
 
-#: resources/themes.ini:2111 resources/themes.ini:2141
+#: resources/themes.ini:2110 resources/themes.ini:2140
 msgid "Garden color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Garden из DaisyUI колекције"
 
-#: resources/themes.ini:2171 resources/themes.ini:2201
+#: resources/themes.ini:2170 resources/themes.ini:2200
 msgid "Halloween color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Halloween из DaisyUI колекције"
 
-#: resources/themes.ini:2231 resources/themes.ini:2261
+#: resources/themes.ini:2230 resources/themes.ini:2260
 msgid "Lemonade color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Lemonade из DaisyUI колекције"
 
-#: resources/themes.ini:2291 resources/themes.ini:2321
+#: resources/themes.ini:2290 resources/themes.ini:2320
 msgid "Light color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Light из DaisyUI колекције"
 
-#: resources/themes.ini:2351 resources/themes.ini:2381
+#: resources/themes.ini:2350 resources/themes.ini:2380
 msgid "Lofi color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Lofi из DaisyUI колекције"
 
-#: resources/themes.ini:2411 resources/themes.ini:2441
+#: resources/themes.ini:2410 resources/themes.ini:2440
 msgid "Luxury color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Luxury из DaisyUI колекције"
 
-#: resources/themes.ini:2471 resources/themes.ini:2501
+#: resources/themes.ini:2470 resources/themes.ini:2500
 msgid "Night color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Night из DaisyUI колекције"
 
-#: resources/themes.ini:2531 resources/themes.ini:2561
+#: resources/themes.ini:2530 resources/themes.ini:2560
 msgid "Nord color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Nord из DaisyUI колекције"
 
-#: resources/themes.ini:2591 resources/themes.ini:2621
+#: resources/themes.ini:2590 resources/themes.ini:2620
 msgid "Pastel color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Pastel из DaisyUI колекције"
 
-#: resources/themes.ini:2651 resources/themes.ini:2681
+#: resources/themes.ini:2650 resources/themes.ini:2680
 msgid "Retro color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Retro из DaisyUI колекције"
 
-#: resources/themes.ini:2711 resources/themes.ini:2741
+#: resources/themes.ini:2710 resources/themes.ini:2740
 msgid "Silk color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Silk из DaisyUI колекције"
 
-#: resources/themes.ini:2771 resources/themes.ini:2801
+#: resources/themes.ini:2770 resources/themes.ini:2800
 msgid "Sunset color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Sunset из DaisyUI колекције"
 
-#: resources/themes.ini:2831 resources/themes.ini:2861
+#: resources/themes.ini:2830 resources/themes.ini:2860
 msgid "Synthwave color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Synthwave из DaisyUI колекције"
 
-#: resources/themes.ini:2891 resources/themes.ini:2921
+#: resources/themes.ini:2890 resources/themes.ini:2920
 msgid "Valentine color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Valentine из DaisyUI колекције"
 
-#: resources/themes.ini:2951 resources/themes.ini:2981
+#: resources/themes.ini:2950 resources/themes.ini:2980
 msgid "Winter color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Winter из DaisyUI колекције"
 
-#: resources/themes.ini:3011 resources/themes.ini:3041
+#: resources/themes.ini:3010 resources/themes.ini:3040
 msgid "Wireframe color palette from DaisyUI theme collection"
 msgstr "Палета боја теме Wireframe из DaisyUI колекције"
 
-#: resources/themes.ini:3071 resources/themes.ini:3101
+#: resources/themes.ini:3070 resources/themes.ini:3100
 msgid "Classic xnec2c plot colors"
 msgstr "Класичне боје xnec2c графикона"
 
-#: resources/themes.ini:3131 resources/themes.ini:3161
+#: resources/themes.ini:3130 resources/themes.ini:3160
 msgid "Hand-tuned cool palette"
 msgstr "Ручно подешена хладна палета"
 
-#: resources/themes.ini:3191 resources/themes.ini:3221
+#: resources/themes.ini:3190 resources/themes.ini:3220
 msgid "Hand-tuned warm palette"
 msgstr "Ручно подешена топла палета"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xnec2c 4.4.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-08 20:33-0800\n"
+"POT-Creation-Date: 2026-11-12 16:15+0300\n"
 "PO-Revision-Date: 2025-12-28 20:37-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,19 +18,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # xnec2c-exempt: name
-#: files/xnec2c.desktop.in:3 resources/xnec2c.glade:1784
+#: files/xnec2c.desktop.in:2 resources/xnec2c.glade:1784
 msgid "xnec2c"
 msgstr ""
 
-#: files/xnec2c.desktop.in:4
+#: files/xnec2c.desktop.in:3
 msgid "NEC2 Simulator"
 msgstr "NEC2 simulaator"
 
-#: files/xnec2c.desktop.in:5
+#: files/xnec2c.desktop.in:4
 msgid "Numerical Electromagnetics Code software"
 msgstr "Numbrilise elektromagnetika koodi tarkvara"
 
-#: files/xnec2c.desktop.in:11
+#: files/xnec2c.desktop.in:10
 msgid "nec2;em;simulator;"
 msgstr "nec2;em;simulaator;"
 
@@ -2130,8 +2130,8 @@ msgstr ""
 "Topelttäpsus annab umbes 15 kohta, nii et näit 3 jätab 12 usaldusväärset "
 "kohta ja näit ligikaudu 15 ei jäta ühtegi; lühendage või jämendage vastavaid "
 "segmente ja käivitage skaneering uuesti, et kõverat alandada.\n"
-"AGT kõvera kõrval lugemise kohta vaadake juhendi jaotist \"Validating a Model"
-"\"."
+"AGT kõvera kõrval lugemise kohta vaadake juhendi jaotist \"Validating a "
+"Model\"."
 
 # xnec2c-exempt: symbol
 #: resources/xnec2c.glade:9960 resources/xnec2c.glade:9995
@@ -3755,8 +3755,8 @@ msgstr "Lahendi tinglikkus"
 #: src/freqplots/freqplots_core.c:496
 #, c-format
 msgid ""
-"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f n="
-"%d]\n"
+"fr_plot[posn=%d fr=%d] rect[x=%d y=%d, w=%d h=%d] freq[min=%4.2f max=%4.2f "
+"n=%d]\n"
 msgstr ""
 
 #: src/freqplots/freqplots_core.c:722
@@ -4268,8 +4268,8 @@ msgid ""
 "tag=%d/seg=%d: endpoint distance=%.3e is too close (below connection "
 "threshold=%.3e); segment will connect to itself\n"
 msgstr ""
-"tag=%d/seg=%d: otspunkti kaugus=%.3e on liiga lähedal (alla ühendusläve="
-"%.3e); segment ühendub iseendaga\n"
+"tag=%d/seg=%d: otspunkti kaugus=%.3e on liiga lähedal (alla "
+"ühendusläve=%.3e); segment ühendub iseendaga\n"
 
 #: src/geometry.c:1485
 #, c-format
@@ -4296,8 +4296,9 @@ msgid ""
 "tag=%d/seg=%d: end gap=%.3e to tag=%d/seg=%d lies beyond connection "
 "threshold=%.3e but within %gx of it; NEC2 leaves these ends unconnected\n"
 msgstr ""
-"tag=%d/seg=%d: otsa gap=%.3e kuni tag=%d/seg=%d asub ühendusläve threshold="
-"%.3e taga, kuid %gx piires sellest; NEC2 jätab need otsad ühendamata\n"
+"tag=%d/seg=%d: otsa gap=%.3e kuni tag=%d/seg=%d asub ühendusläve "
+"threshold=%.3e taga, kuid %gx piires sellest; NEC2 jätab need otsad "
+"ühendamata\n"
 
 #: src/geometry.c:1586
 #, c-format
@@ -4311,8 +4312,9 @@ msgid ""
 "tag=%d/seg=%d: length=%.3e is too short (and close enough) to tag=%d/seg=%d "
 "length=%.3e that connection detection may fail or short\n"
 msgstr ""
-"tag=%d/seg=%d: pikkus=%.3e on liiga lühike (ja piisavalt lähedal) tag=%d/seg="
-"%d pikkusele=%.3e, et ühenduse tuvastamine võib ebaõnnestuda või lühistuda\n"
+"tag=%d/seg=%d: pikkus=%.3e on liiga lühike (ja piisavalt lähedal) tag=%d/"
+"seg=%d pikkusele=%.3e, et ühenduse tuvastamine võib ebaõnnestuda või "
+"lühistuda\n"
 
 #: src/geometry.c:1645
 #, c-format
@@ -4545,8 +4547,8 @@ msgid ""
 "You must enable current data by clicking \"Currents\" or \"Charges\"in the "
 "main xnec2c window."
 msgstr ""
-"Peate lubama vooluandmed, klõpsates xnec2c peaaknas \"Voolud\" või \"Laengud"
-"\"."
+"Peate lubama vooluandmed, klõpsates xnec2c peaaknas \"Voolud\" või "
+"\"Laengud\"."
 
 #: src/gnuplot.c:649 src/gnuplot.c:659
 msgid "Save Patch Currents to CSV"
@@ -4557,8 +4559,8 @@ msgid ""
 "You must enable current data by clicking \"Currents\" or \"Charges\" in the "
 "main xnec2c window."
 msgstr ""
-"Peate lubama vooluandmed, klõpsates xnec2c peaaknas \"Voolud\" või \"Laengud"
-"\"."
+"Peate lubama vooluandmed, klõpsates xnec2c peaaknas \"Voolud\" või "
+"\"Laengud\"."
 
 #: src/gnuplot.c:660
 msgid "No surface patches in this model."
@@ -4717,7 +4719,6 @@ msgid "Read_Geometry: verify_segments() passed\n"
 msgstr "Read_Geometry: verify_segments() läbitud\n"
 
 #: src/input.c:811
-#, c-format
 msgid "segment data error: tag=%d si=%lf, bi=%lf\n"
 msgstr "segmendi andmete viga: tag=%d si=%lf, bi=%lf\n"
 
@@ -5400,8 +5401,8 @@ msgid ""
 "select which one you wish to benchmark before proceeding or it will choose "
 "the first in the list and skip the rest.\n"
 "\n"
-"* Thread congestion will occur for multi-threaded libraries when using the -"
-"j N option if there are not enough CPUs available to accommodate the forked "
+"* Thread congestion will occur for multi-threaded libraries when using the "
+"-j N option if there are not enough CPUs available to accommodate the forked "
 "processes in combination with library threads.  Consider reducing the value "
 "of -j N for benchmarking to find what library works best with a mix of "
 "forking and threading; you can use `top` to monitor your CPU usageand if it "
@@ -5580,8 +5581,8 @@ msgstr "mem-report %s: sait=%s arv=%llu baiti=%llu seerial=[%llu..%llu]\n"
 #, c-format
 msgid "mem-report %s: live_blocks=%llu live_bytes=%llu distinct_sites=%llu\n"
 msgstr ""
-"mem-report %s: elusaid_plokke=%llu elusaid_baite=%llu unikaalseid_saite="
-"%llu\n"
+"mem-report %s: elusaid_plokke=%llu elusaid_baite=%llu "
+"unikaalseid_saite=%llu\n"
 
 #: src/mem/mem_track.c:219
 #, c-format
@@ -5872,8 +5873,8 @@ msgstr "inotify: loeti %zd baiti inotify fd-st\n"
 #, c-format
 msgid "inotify: SKIP all events (flags) - INPUT_PENDING=%d sweep_state=%s\n"
 msgstr ""
-"inotify: JÄTA VAHELE kõik sündmused (lipud) - INPUT_PENDING=%d sweep_state="
-"%s\n"
+"inotify: JÄTA VAHELE kõik sündmused (lipud) - INPUT_PENDING=%d "
+"sweep_state=%s\n"
 
 #: src/optimize.c:422
 #, c-format
@@ -5929,8 +5930,8 @@ msgstr ""
 #, c-format
 msgid "inotify: SKIP event (not MODIFY/CLOSE_WRITE/MOVED_TO, mask=0x%08x)\n"
 msgstr ""
-"inotify: JÄTAN sündmuse vahele (mitte MODIFY/CLOSE_WRITE/MOVED_TO, mask=0x"
-"%08x)\n"
+"inotify: JÄTAN sündmuse vahele (mitte MODIFY/CLOSE_WRITE/MOVED_TO, "
+"mask=0x%08x)\n"
 
 #: src/optimize.c:525
 msgid "failed to create optimizer wake eventfd\n"
@@ -6702,11 +6703,11 @@ msgstr "valideerimispuu kirjutatud asukohta: %s\n"
 #: src/xnec2c.c:314
 #, c-format
 msgid ""
-"complex dielectric constant from file: %12.5E%+12.5Ej, requested: %12.5E"
-"%+12.5Ej\n"
+"complex dielectric constant from file: %12.5E%+12.5Ej, requested: "
+"%12.5E%+12.5Ej\n"
 msgstr ""
-"kompleksne dielektriline konstant failist: %12.5E%+12.5Ej, soovitud: %12.5E"
-"%+12.5Ej\n"
+"kompleksne dielektriline konstant failist: %12.5E%+12.5Ej, soovitud: "
+"%12.5E%+12.5Ej\n"
 
 #: src/xnec2c.c:317
 msgid "Ground_Parameters():Error in ground parameters"
@@ -6829,229 +6830,229 @@ msgstr ""
 "Pühkimine on täielikult arvutatud. Selle uuesti käivitamine kustutab kõik "
 "arvutatud sammud ja arvutab pühkimise alates esimesest sammust."
 
-#: resources/themes.ini:11 resources/themes.ini:41
+#: resources/themes.ini:10 resources/themes.ini:40
 msgid "Abyss color palette from DaisyUI theme collection"
 msgstr "Abyss värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:71 resources/themes.ini:101
+#: resources/themes.ini:70 resources/themes.ini:100
 msgid "Acid color palette from DaisyUI theme collection"
 msgstr "Acid värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:131 resources/themes.ini:161
+#: resources/themes.ini:130 resources/themes.ini:160
 msgid "Aqua color palette from DaisyUI theme collection"
 msgstr "Aqua värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:191 resources/themes.ini:221
+#: resources/themes.ini:190 resources/themes.ini:220
 msgid "Autumn color palette from DaisyUI theme collection"
 msgstr "Autumn värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:251 resources/themes.ini:281
+#: resources/themes.ini:250 resources/themes.ini:280
 msgid "Black color palette from DaisyUI theme collection"
 msgstr "Black värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:311 resources/themes.ini:341
+#: resources/themes.ini:310 resources/themes.ini:340
 msgid "Bumblebee color palette from DaisyUI theme collection"
 msgstr "Bumblebee värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:371 resources/themes.ini:401
+#: resources/themes.ini:370 resources/themes.ini:400
 msgid "Business color palette from DaisyUI theme collection"
 msgstr "Business värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:431 resources/themes.ini:461
+#: resources/themes.ini:430 resources/themes.ini:460
 msgid "Caramellatte color palette from DaisyUI theme collection"
 msgstr "Caramellatte värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:491 resources/themes.ini:521
+#: resources/themes.ini:490 resources/themes.ini:520
 msgid "Cmyk color palette from DaisyUI theme collection"
 msgstr "Cmyk värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:551 resources/themes.ini:581
+#: resources/themes.ini:550 resources/themes.ini:580
 msgid "Coffee color palette from DaisyUI theme collection"
 msgstr "Coffee värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:611 resources/themes.ini:641
+#: resources/themes.ini:610 resources/themes.ini:640
 msgid "Corporate color palette from DaisyUI theme collection"
 msgstr "Corporate värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:671 resources/themes.ini:701
+#: resources/themes.ini:670 resources/themes.ini:700
 msgid "P3 amber as used in IBM PC XT and Hercules displays"
 msgstr "P3 merevaigukollane, mida kasutati IBM PC XT ja Hercules ekraanidel"
 
-#: resources/themes.ini:731 resources/themes.ini:761
+#: resources/themes.ini:730 resources/themes.ini:760
 msgid "P31 bright green as used in Apple IIe monitors and oscilloscopes"
 msgstr ""
 "P31 erkroheline, mida kasutati Apple IIe monitorites ja ostsilloskoopides"
 
-#: resources/themes.ini:791 resources/themes.ini:821
+#: resources/themes.ini:790 resources/themes.ini:820
 msgid "P39 saturated green as used in Apple III and IBM 5151 terminals"
 msgstr ""
 "P39 küllastunud roheline, mida kasutati Apple III ja IBM 5151 terminalides"
 
-#: resources/themes.ini:851 resources/themes.ini:881
+#: resources/themes.ini:850 resources/themes.ini:880
 msgid "P45 cool white for monochrome camcorder viewfinders"
 msgstr "P45 jahe valge, mõeldud monokroomsete videokaamerate vaateakendele"
 
-#: resources/themes.ini:911 resources/themes.ini:941
+#: resources/themes.ini:910 resources/themes.ini:940
 msgid "Classic cyan/magenta gaming aesthetic from early IBM PC era"
 msgstr "IBM PC varajase ajastu klassikaline tsüaan/magenta mänguesteetika"
 
-#: resources/themes.ini:971 resources/themes.ini:1001
+#: resources/themes.ini:970 resources/themes.ini:1000
 msgid "Warm creative light palette with magenta foundation"
 msgstr "Soe loov hele värvipalett magenta alusega"
 
-#: resources/themes.ini:1031 resources/themes.ini:1061
+#: resources/themes.ini:1030 resources/themes.ini:1060
 msgid "Green-accented CRT aesthetic for extended viewing"
 msgstr "Rohelise rõhuga CRT-esteetika pikaajaliseks vaatamiseks"
 
-#: resources/themes.ini:1091 resources/themes.ini:1121
+#: resources/themes.ini:1090 resources/themes.ini:1120
 msgid "Cool professional light palette with blue foundation"
 msgstr "Jahe professionaalne hele värvipalett sinise alusega"
 
-#: resources/themes.ini:1151 resources/themes.ini:1181
+#: resources/themes.ini:1150 resources/themes.ini:1180
 msgid "Professional amber/green phosphor aesthetic from IBM business era"
 msgstr ""
 "Professionaalne merevaigukollase/rohelise fosfori esteetika IBM-i äriajastu"
 
-#: resources/themes.ini:1211 resources/themes.ini:1241
+#: resources/themes.ini:1210 resources/themes.ini:1240
 msgid "CRT Clarity: Split-complementary harmony with warm/cool tension"
 msgstr "CRT selgus: lõhestatud komplementaarne harmoonia sooja/jaheda pingega"
 
-#: resources/themes.ini:1271 resources/themes.ini:1301
+#: resources/themes.ini:1270 resources/themes.ini:1300
 msgid "Cool analogous professional light palette"
 msgstr "Jahe analoogne professionaalne hele värvipalett"
 
-#: resources/themes.ini:1331 resources/themes.ini:1361
+#: resources/themes.ini:1330 resources/themes.ini:1360
 msgid "Warm content dark palette for reduced eye strain"
 msgstr "Soe rahulik tume värvipalett silmade väsimuse vähendamiseks"
 
-#: resources/themes.ini:1391 resources/themes.ini:1421
+#: resources/themes.ini:1390 resources/themes.ini:1420
 msgid ""
 "CRT Phosphor Glow: Triadic harmony with cool/warm balance and CRT aesthetic"
 msgstr ""
 "CRT fosfori hõõg: triaadiline harmoonia jaheda/sooja tasakaaluga ja CRT-"
 "esteetikaga"
 
-#: resources/themes.ini:1451 resources/themes.ini:1481
+#: resources/themes.ini:1450 resources/themes.ini:1480
 msgid "P1 medium-persistence green as used in early oscilloscope tubes"
 msgstr ""
 "P1 keskmise järelhelgusega roheline, mida kasutati varajastes "
 "ostsilloskoobitorudes"
 
-#: resources/themes.ini:1511 resources/themes.ini:1541
+#: resources/themes.ini:1510 resources/themes.ini:1540
 msgid "P4 white as used in IBM 8503 VGA and broadcast television"
 msgstr ""
 "P4 valge, mida kasutati IBM 8503 VGA-monitorites ja ringhäälingutelevisioonis"
 
-#: resources/themes.ini:1571 resources/themes.ini:1601
+#: resources/themes.ini:1570 resources/themes.ini:1600
 msgid "P7 cascade phosphor as used in military radar and air traffic control"
 msgstr ""
 "P7 kaskaadfosfor, mida kasutati sõjalistes radarites ja lennuliikluse "
 "juhtimises"
 
-#: resources/themes.ini:1631 resources/themes.ini:1661
+#: resources/themes.ini:1630 resources/themes.ini:1660
 msgid "Cupcake color palette from DaisyUI theme collection"
 msgstr "Cupcake värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:1691 resources/themes.ini:1721
+#: resources/themes.ini:1690 resources/themes.ini:1720
 msgid "Cyberpunk color palette from DaisyUI theme collection"
 msgstr "Cyberpunk värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:1751 resources/themes.ini:1781
+#: resources/themes.ini:1750 resources/themes.ini:1780
 msgid "Dark color palette from DaisyUI theme collection"
 msgstr "Dark värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:1811 resources/themes.ini:1841
+#: resources/themes.ini:1810 resources/themes.ini:1840
 msgid "Dim color palette from DaisyUI theme collection"
 msgstr "Dim värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:1871 resources/themes.ini:1901
+#: resources/themes.ini:1870 resources/themes.ini:1900
 msgid "Dracula color palette from DaisyUI theme collection"
 msgstr "Dracula värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:1931 resources/themes.ini:1961
+#: resources/themes.ini:1930 resources/themes.ini:1960
 msgid "Emerald color palette from DaisyUI theme collection"
 msgstr "Emerald värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:1991 resources/themes.ini:2021
+#: resources/themes.ini:1990 resources/themes.ini:2020
 msgid "Fantasy color palette from DaisyUI theme collection"
 msgstr "Fantasy värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2051 resources/themes.ini:2081
+#: resources/themes.ini:2050 resources/themes.ini:2080
 msgid "Forest color palette from DaisyUI theme collection"
 msgstr "Forest värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2111 resources/themes.ini:2141
+#: resources/themes.ini:2110 resources/themes.ini:2140
 msgid "Garden color palette from DaisyUI theme collection"
 msgstr "Garden värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2171 resources/themes.ini:2201
+#: resources/themes.ini:2170 resources/themes.ini:2200
 msgid "Halloween color palette from DaisyUI theme collection"
 msgstr "Halloween värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2231 resources/themes.ini:2261
+#: resources/themes.ini:2230 resources/themes.ini:2260
 msgid "Lemonade color palette from DaisyUI theme collection"
 msgstr "Lemonade värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2291 resources/themes.ini:2321
+#: resources/themes.ini:2290 resources/themes.ini:2320
 msgid "Light color palette from DaisyUI theme collection"
 msgstr "Light värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2351 resources/themes.ini:2381
+#: resources/themes.ini:2350 resources/themes.ini:2380
 msgid "Lofi color palette from DaisyUI theme collection"
 msgstr "Lofi värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2411 resources/themes.ini:2441
+#: resources/themes.ini:2410 resources/themes.ini:2440
 msgid "Luxury color palette from DaisyUI theme collection"
 msgstr "Luxury värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2471 resources/themes.ini:2501
+#: resources/themes.ini:2470 resources/themes.ini:2500
 msgid "Night color palette from DaisyUI theme collection"
 msgstr "Night värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2531 resources/themes.ini:2561
+#: resources/themes.ini:2530 resources/themes.ini:2560
 msgid "Nord color palette from DaisyUI theme collection"
 msgstr "Nord värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2591 resources/themes.ini:2621
+#: resources/themes.ini:2590 resources/themes.ini:2620
 msgid "Pastel color palette from DaisyUI theme collection"
 msgstr "Pastel värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2651 resources/themes.ini:2681
+#: resources/themes.ini:2650 resources/themes.ini:2680
 msgid "Retro color palette from DaisyUI theme collection"
 msgstr "Retro värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2711 resources/themes.ini:2741
+#: resources/themes.ini:2710 resources/themes.ini:2740
 msgid "Silk color palette from DaisyUI theme collection"
 msgstr "Silk värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2771 resources/themes.ini:2801
+#: resources/themes.ini:2770 resources/themes.ini:2800
 msgid "Sunset color palette from DaisyUI theme collection"
 msgstr "Sunset värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2831 resources/themes.ini:2861
+#: resources/themes.ini:2830 resources/themes.ini:2860
 msgid "Synthwave color palette from DaisyUI theme collection"
 msgstr "Synthwave värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2891 resources/themes.ini:2921
+#: resources/themes.ini:2890 resources/themes.ini:2920
 msgid "Valentine color palette from DaisyUI theme collection"
 msgstr "Valentine värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:2951 resources/themes.ini:2981
+#: resources/themes.ini:2950 resources/themes.ini:2980
 msgid "Winter color palette from DaisyUI theme collection"
 msgstr "Winter värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:3011 resources/themes.ini:3041
+#: resources/themes.ini:3010 resources/themes.ini:3040
 msgid "Wireframe color palette from DaisyUI theme collection"
 msgstr "Wireframe värvipalett DaisyUI teemakogust"
 
-#: resources/themes.ini:3071 resources/themes.ini:3101
+#: resources/themes.ini:3070 resources/themes.ini:3100
 msgid "Classic xnec2c plot colors"
 msgstr "Klassikalised xnec2c graafiku värvid"
 
-#: resources/themes.ini:3131 resources/themes.ini:3161
+#: resources/themes.ini:3130 resources/themes.ini:3160
 msgid "Hand-tuned cool palette"
 msgstr "Käsitsi häälestatud jahe palett"
 
-#: resources/themes.ini:3191 resources/themes.ini:3221
+#: resources/themes.ini:3190 resources/themes.ini:3220
 msgid "Hand-tuned warm palette"
 msgstr "Käsitsi häälestatud soe palett"
